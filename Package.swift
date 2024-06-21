@@ -3,6 +3,29 @@
 
 import PackageDescription
 
+//let package = Package(
+//    name: "IndoorsSDK",
+//    products: [
+//        
+//        .library(
+//            name: "IndoorsSDK",
+//            targets: ["IndoorsSDK"]),
+//    ],
+//    dependencies: [
+//        .package(url: "https://github.com/maplibre/maplibre-gl-native-distribution", .exactItem("5.13.0"))
+//    ],
+//	targets: [
+//        .binaryTarget(
+//                    name: "IndoorsSDK",
+//                    url: "https://software.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoorssdk/indoorssdk-3.6.2.zip",
+//                    checksum: "7c13d917e97cafb560dc0776dae11b4b5f5c29425206c66ee8528f255cbac9be"
+//                )
+//	]
+//)
+
+
+import PackageDescription
+
 let package = Package(
     name: "IndoorsSDK",
     products: [
@@ -12,13 +35,17 @@ let package = Package(
             targets: ["IndoorsSDK"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/maplibre/maplibre-gl-native-distribution", .exactItem("5.13.0"))
     ],
-	targets: [
+ targets: [
         .binaryTarget(
                     name: "IndoorsSDK",
                     url: "https://software.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoorssdk/indoorssdk-3.6.2.zip",
                     checksum: "7c13d917e97cafb560dc0776dae11b4b5f5c29425206c66ee8528f255cbac9be"
-                )
-	]
+                ),
+        
+        .binaryTarget(
+                   name: "Mapbox",
+                   url: "https://github.com/maplibre/maplibre-gl-native/releases/download/ios-v5.13.0/Mapbox-5.13.0.zip",
+                   checksum: "6f52b877c639c022f59984b346d0758cc7e34ac19d8b2110d0444df32bfe140f")
+ ]
 )

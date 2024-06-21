@@ -25,7 +25,7 @@ With our SDK you should install maplibre, also using Swift Package Manager. Pick
 
 1 | 2 | 3 | 4 | 5
 --- | --- | --- | --- | ---
-![alt text](https://i.ibb.co/MBGt6Wb/2023-01-23-11-19-53.png "Adding dependecy to project in XCode") | ![alt text](https://i.ibb.co/JRzBXSB/2023-01-23-11-13-54.png "Searching for SDK") | ![alt text](https://i.ibb.co/TKhpS89/2023-01-23-11-20-49.png "") | ![alt text](https://i.ibb.co/QCv9L3r/2023-01-23-11-21-07.png "Need to add maplibre") | ![alt text](https://i.ibb.co/yk1nMkx/maplibre.png "Final result")
+![alt text](https://platform.indoorsnavi.pro/media/3baf8a096e9e49bca6e36c9662f69df4.png "Adding dependecy to project in XCode") | ![alt text](https://platform.indoorsnavi.pro/media/272f47d768b3419f87ab22e04f133d6d.png "Searching for SDK") | ![alt text](https://platform.indoorsnavi.pro/media/f3b0f8fe678443018287fb61c5eeea42.png "") | ![alt text](https://platform.indoorsnavi.pro/media/2d05e5c6f05e424e8d2eae77ef2ace6d.png "Need to add maplibre") | ![alt text](https://platform.indoorsnavi.pro/media/1fba87ae1e3e4f919276746358241a6f.png "Final result")
 
 ---
 
