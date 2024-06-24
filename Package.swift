@@ -3,7 +3,7 @@
   import PackageDescription
 
   let package = Package(
-      name: "YourPackageName",
+      name: "IndoorsSDK",
       products: [
           .library(
               name: "IndoorsSDK",
@@ -16,7 +16,7 @@
           .binaryTarget(
                       name: "IndoorsSDK",
                       url: "https://software.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoorssdk/indoorssdk-3.6.2.zip",
-                      checksum: "a8384381c392d026311ea3f1e25aabddc3918d08fceb3124fb1ce2f2efac6fcc"
+                      checksum: "7a2a2d6f2581ae6ff229d92c3b09931a1bdc2cc2b15db97ade05f39038c34dea"
                   )
       ]
   )
