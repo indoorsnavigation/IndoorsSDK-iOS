@@ -16,7 +16,7 @@
           .binaryTarget(
                       name: "IndoorsSDK",
                       url: "https://software.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoorssdk/indoorssdk-3.6.2.zip",
-                      checksum: "b9270b6ed3975edcc2ee172ad26b141247f5d15e2f6ad83ee19a769e122de4b2"
+                      checksum: "94e987f35d8396bfef734bc935f9cba48f720ccf66ecc1aeb94b021672ec5d59"
                   )
       ]
   )
