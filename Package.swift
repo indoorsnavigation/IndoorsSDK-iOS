@@ -18,5 +18,5 @@ let package = Package(
                     url: "https://software.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoorssdk/indoorssdk-3.6.4.zip",
                     checksum: "210abb7215f3c8aa787b1c33117b2fe7924dcabd1a63689889f60bdb88851d87"
                 )
-    ]
+     ]
 )
