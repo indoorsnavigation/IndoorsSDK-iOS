@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   DESC
 
   s.homepage         = 'https://gitlab.indoorsnavi.pro/sdk/ios'
-  s.license          =  s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
+  s.license = { :type => 'MIT', :file => 'LICENSE.md' }
   s.author           = { "Indoors Navigation" => "developer@indoorsnavi.pro" }
   s.source           = { :git => 'https://gitlab.indoorsnavi.pro/sdk/ios.git', :tag => s.version }
   s.vendored_frameworks = 'XCFramework/IndoorsCoreSDK.xcframework'
