@@ -1,0 +1,11 @@
+framework module IndoorsCoreSDK {
+  umbrella header "IndoorsCoreSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module IndoorsCoreSDK.Swift {
+  header "IndoorsCoreSDK-Swift.h"
+  requires objc
+}

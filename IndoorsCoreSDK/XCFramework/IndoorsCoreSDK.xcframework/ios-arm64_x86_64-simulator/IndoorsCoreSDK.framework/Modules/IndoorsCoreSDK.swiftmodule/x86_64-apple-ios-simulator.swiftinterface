@@ -1,0 +1,277 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-bare-slash-regex -module-name IndoorsCoreSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
+@_exported import IndoorsCoreSDK
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc final public class INTagService : ObjectiveC.NSObject {
+  @objc public init(configuration: IndoorsCoreSDK.INCoreConfiguration, authService: IndoorsCoreSDK.INAuthService, database: IndoorsCoreSDK.INAppDatabase, reachability: IndoorsCoreSDK.INReachability, building: IndoorsCoreSDK.INBuilding? = nil)
+  final public func setBuilding(_ building: IndoorsCoreSDK.INBuilding)
+  final public func getTagsFromApi() async throws -> ([IndoorsCoreSDK.INTagMapModel], [Swift.String : IndoorsCoreSDK.INTagModelName])
+  final public func fetchObjectWithFilter<T>(objType: T.Type, filter: Foundation.NSMutableDictionary, completion: @escaping ([T], (any Swift.Error)?) -> Swift.Void) where T : IndoorsCoreSDK.INBaseObject
+  @objc deinit
+}
+@objc final public class INUsersService : ObjectiveC.NSObject {
+  @objc public init(configuration: IndoorsCoreSDK.INCoreConfiguration, authService: IndoorsCoreSDK.INAuthService, database: IndoorsCoreSDK.INAppDatabase, reachability: IndoorsCoreSDK.INReachability, building: IndoorsCoreSDK.INBuilding)
+  final public func fetchUser(uuid: Swift.String, completion: @escaping (Swift.Result<IndoorsCoreSDK.INGhostProfile?, any Swift.Error>) -> Swift.Void)
+  final public func fetchUser(uuid: Swift.String) async throws -> IndoorsCoreSDK.INGhostProfile?
+  final public func fetchUsers(with ids: [Foundation.NSNumber], completion: @escaping (Swift.Result<[Foundation.NSNumber : IndoorsCoreSDK.INGhostProfile], any Swift.Error>) -> Swift.Void)
+  final public func fetchUsers(with ids: [Foundation.NSNumber]) async throws -> [Foundation.NSNumber : IndoorsCoreSDK.INGhostProfile]
+  final public func fetchUsers(ids: [Foundation.NSNumber]?, uuid: Swift.String?, byId: Swift.Bool, applicationId: Foundation.NSNumber, completion: @escaping ([IndoorsCoreSDK.INGhostProfile], (any Swift.Error)?) -> Swift.Void)
+  @objc deinit
+}
+@objc public protocol INTrackingObjectsManagerDelegate {
+  @objc func isCurrentFloor(floorId: Foundation.NSNumber?) -> Swift.Bool
+  @objc func trackingObjectsManagerDidUpdate(object: any IndoorsCoreSDK.INTrackedMapObject)
+  @objc func trackingObjectsManagerDidAdd(object: any IndoorsCoreSDK.INTrackedMapObject)
+  @objc func trackingObjectsManagerDidAddForAnotherFloor(object: any IndoorsCoreSDK.INTrackedMapObject)
+  @objc func trackingObjectsManagerDidDelete(object: any IndoorsCoreSDK.INTrackedMapObject)
+}
+@objc public class INTagMapModel : ObjectiveC.NSObject, IndoorsCoreSDK.INTrackedMapObject {
+  @objc final public let uuid: Swift.String
+  @objc final public let x: Foundation.NSNumber?
+  @objc final public let y: Foundation.NSNumber?
+  @objc final public let floor: Foundation.NSNumber?
+  @objc public var image: UIKit.UIImage?
+  @objc public var isActive: Foundation.NSNumber
+  @objc public var name: Swift.String
+  @objc public var unixTimestamp: Foundation.NSNumber
+  @objc public var tagName: Swift.String?
+  @objc public var company: Swift.String?
+  @objc public var email: Swift.String?
+  @objc public var objectDescription: Swift.String?
+  final public let user: IndoorsCoreSDK.INTrackingUser?
+  public init(uuid: Swift.String, name: Swift.String, x: Swift.Double?, y: Swift.Double?, floor: Swift.Int?, image: UIKit.UIImage?, isActive: Foundation.NSNumber, timestamp: Foundation.NSNumber, user: IndoorsCoreSDK.INTrackingUser?)
+  @objc deinit
+}
+@objc public enum INTagModelName : Swift.Int {
+  case pnevent
+  case aoaTagLocation
+  case uwbTagLocation
+  case bleTagLocation
+  case laserLocation
+  case trackpoint
+  case undefinedDevice
+  public static func modelWithString(strName: Swift.String) -> IndoorsCoreSDK.INTagModelName
+  public static func humanReadableStringWithModel(model: IndoorsCoreSDK.INTagModelName) -> Swift.String
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum INTrackingMapViewEvent {
+  case mapViewDidLayoutSubviews
+  case mapViewDidDisappear
+  case mapViewDidAppear
+  public static func == (a: IndoorsCoreSDK.INTrackingMapViewEvent, b: IndoorsCoreSDK.INTrackingMapViewEvent) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct INTrackingSetting {
+  public let type: IndoorsCoreSDK.INTrackingSettingType
+  public let title: Swift.String
+  public let isOn: Swift.Bool
+  public init(type: IndoorsCoreSDK.INTrackingSettingType, title: Swift.String, isOn: Swift.Bool)
+}
+public struct INTrackingSettings {
+  public init()
+  public var allObjects: Swift.Bool
+  public var users: Swift.Bool
+  public var undefinedDevices: Swift.Bool
+  public var tagBLE: Swift.Bool
+  public var tagAoA: Swift.Bool
+  public var tagUWB: Swift.Bool
+  public var videoObjects: Swift.Bool
+  public var lidarObjects: Swift.Bool
+  public var pc: Swift.Bool
+  public var globalNotifications: Swift.Bool
+  public var showNotificationsForAllUsers: Swift.Bool
+  public var showNoActiveDevices: Swift.Bool
+  public var showOtherFloorsDevices: Swift.Bool
+}
+@objc public enum INTrackingSettingType : Swift.Int {
+  case allObjects, users, undefinedDevices
+  case tagBLE, tagAoA, tagUWB
+  case videoObjects, lidarObjects, pc
+  case globalNotifications
+  case showNotificationsForAllUsers
+  case showNoActiveDevices
+  case showOtherFloorsDevices
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct INTrackingUser {
+}
+@objc public protocol INTrackingWebSocketObject : IndoorsCoreSDK.INTrackedMapObject {
+  @objc var type: Swift.String? { get set }
+  @objc var timestamp: Swift.Int { get }
+}
+@objc public class INTrackedSocketPNEvent : ObjectiveC.NSObject, Swift.Decodable, IndoorsCoreSDK.INTrackingWebSocketObject {
+  @objc public var image: UIKit.UIImage?
+  @objc final public let id: Swift.Int
+  @objc final public let createdAt: Swift.Int
+  @objc final public let updatedAt: Swift.Int
+  @objc final public let deleted: Swift.Int
+  @objc final public let uuid: Swift.String
+  @objc final public let x: Foundation.NSNumber?
+  @objc final public let y: Foundation.NSNumber?
+  @objc final public let timestamp: Swift.Int
+  @objc final public let processed: Swift.Int
+  @objc final public let application: Swift.Int
+  @objc final public let editor: Swift.String?
+  @objc final public let tagZone: Foundation.NSNumber?
+  @objc final public let floor: Foundation.NSNumber?
+  @objc final public let tag: Foundation.NSNumber?
+  @objc public var type: Swift.String?
+  @objc public var isActive: Foundation.NSNumber
+  @objc public var name: Swift.String
+  @objc public var unixTimestamp: Foundation.NSNumber
+  @objc public var tagName: Swift.String?
+  @objc public var company: Swift.String?
+  @objc public var email: Swift.String?
+  @objc public var objectDescription: Swift.String?
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+}
+@objc public class INTrackedSocketTrackpoint : ObjectiveC.NSObject, Swift.Decodable, IndoorsCoreSDK.INTrackingWebSocketObject {
+  @objc final public let device: Swift.String?
+  @objc final public let user: Swift.String?
+  @objc final public let uuid: Swift.String
+  @objc public var image: UIKit.UIImage?
+  @objc final public let floor: Foundation.NSNumber?
+  @objc final public let x: Foundation.NSNumber?
+  @objc final public let y: Foundation.NSNumber?
+  @objc public var isActive: Foundation.NSNumber
+  @objc public var name: Swift.String
+  @objc public var unixTimestamp: Foundation.NSNumber
+  @objc public var tagName: Swift.String?
+  @objc public var company: Swift.String?
+  @objc public var email: Swift.String?
+  @objc public var objectDescription: Swift.String?
+  @objc public var type: Swift.String?
+  @objc public var timestamp: Swift.Int
+  @objc final public let clientTimestamp: Foundation.NSNumber?
+  @objc final public let serverTimestamp: Foundation.NSNumber?
+  @objc final public let deviceModel: Foundation.NSNumber?
+  @objc final public let deviceVendor: Foundation.NSNumber?
+  @objc final public let zoneChanged: Foundation.NSNumber?
+  @objc final public let source: Foundation.NSNumber?
+  @objc final public let zoneId: Foundation.NSNumber?
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class INTrackingWSTrackpointMessage : ObjectiveC.NSObject, Swift.Decodable {
+  @objc final public let appLabel: Swift.String
+  @objc final public let modelName: Swift.String
+  @objc final public let method: Swift.String
+  @objc final public let trackedObject: IndoorsCoreSDK.INTrackedSocketTrackpoint
+  @objc deinit
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers @objc public class INTrackingWebSocketMessage : ObjectiveC.NSObject, Swift.Decodable {
+  @objc final public let appLabel: Swift.String
+  @objc final public let modelName: Swift.String
+  @objc final public let method: Swift.String
+  @objc final public let trackedObject: IndoorsCoreSDK.INTrackedSocketPNEvent
+  @objc deinit
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc public protocol INTrackingListObjectsManagerDelegate {
+  @objc func trackingObjectsManagerDidUpdate(object: any IndoorsCoreSDK.INTrackedMapObject)
+  @objc func trackingObjectsManagerDidAdd(object: any IndoorsCoreSDK.INTrackedMapObject, andType type: IndoorsCoreSDK.INTagModelName)
+  @objc func trackingObjectsManagerDidDelete(object: any IndoorsCoreSDK.INTrackedMapObject)
+}
+@objc public protocol INTrackingMapViewInput {
+  @objc func show3DMap(with buildings: [IndoorsCoreSDK.INBuilding], andFocusedBuilding building: IndoorsCoreSDK.INBuilding)
+  @objc func restartMapBuildingNavigation()
+  @objc func setCurrentBuilding(_ building: IndoorsCoreSDK.INBuilding)
+}
+@objc public protocol INTrackingObserverDelegate {
+  @objc var delegate: (any IndoorsCoreSDK.INTrackingObjectsManagerDelegate)? { get set }
+  @objc var listDelegate: (any IndoorsCoreSDK.INTrackingListObjectsManagerDelegate)? { get set }
+  @objc func trackingObserverGet(object: any IndoorsCoreSDK.INTrackingWebSocketObject, with tagModelName: IndoorsCoreSDK.INTagModelName)
+  @objc func trackingObserverGet(apiObjects: [any IndoorsCoreSDK.INTrackedMapObject], tagModels: Foundation.NSDictionary)
+  @objc func setTagsTypes(_ tagsTypes: Foundation.NSDictionary?)
+  @objc func handleFloorChanging(_ floorId: Swift.Int)
+  @objc func redrawObject(_ object: any IndoorsCoreSDK.INTrackingWebSocketObject)
+  @objc func objectHasImage(object: any IndoorsCoreSDK.INTrackedMapObject) -> Swift.Bool
+  @objc func startObjectObsolescenceTimer()
+  @objc func stopObjectObsolescenceTimer()
+}
+@objc public protocol INTrackingScreenDelegateProtocol {
+  @objc func disconnectSocket()
+  @objc func connectSocket()
+}
+@objc public protocol INTrackingServiceDelegate {
+}
+final public class INTrackingObjectsManager : IndoorsCoreSDK.INTrackingObserverDelegate {
+  @objc weak final public var delegate: (any IndoorsCoreSDK.INTrackingObjectsManagerDelegate)?
+  @objc weak final public var listDelegate: (any IndoorsCoreSDK.INTrackingListObjectsManagerDelegate)?
+  public init(settingsManager: IndoorsCoreSDK.INTrackingSettingsManager)
+  @objc final public func setTagsTypes(_ tagsTypes: Foundation.NSDictionary?)
+  @objc final public func trackingObserverGet(object: any IndoorsCoreSDK.INTrackingWebSocketObject, with tagModelName: IndoorsCoreSDK.INTagModelName)
+  @objc final public func trackingObserverGet(apiObjects: [any IndoorsCoreSDK.INTrackedMapObject], tagModels: Foundation.NSDictionary)
+  @objc final public func redrawObject(_ object: any IndoorsCoreSDK.INTrackingWebSocketObject)
+  @objc final public func objectHasImage(object: any IndoorsCoreSDK.INTrackedMapObject) -> Swift.Bool
+  @objc final public func handleFloorChanging(_ floorId: Swift.Int)
+  @objc final public func startObjectObsolescenceTimer()
+  @objc final public func stopObjectObsolescenceTimer()
+  @objc deinit
+}
+extension IndoorsCoreSDK.INTrackingObjectsManager : IndoorsCoreSDK.INTrackingSettingsManagerDelegate {
+  final public func settingsManagerDidChangeSetting(_ setting: IndoorsCoreSDK.INTrackingSetting)
+}
+@objc final public class INTrackingService : ObjectiveC.NSObject {
+  weak final public var delegate: (any IndoorsCoreSDK.INTrackingServiceDelegate)?
+  weak final public var mapObjectsDelegate: (any IndoorsCoreSDK.INTrackingObjectsManagerDelegate)? {
+    get
+    set
+  }
+  weak final public var listObjectsDelegate: (any IndoorsCoreSDK.INTrackingListObjectsManagerDelegate)? {
+    get
+    set
+  }
+  @objc public init(configuration: IndoorsCoreSDK.INCoreConfiguration, authService: IndoorsCoreSDK.INAuthService, database: IndoorsCoreSDK.INAppDatabase, reachability: IndoorsCoreSDK.INReachability)
+  final public func setBuilding(_ building: IndoorsCoreSDK.INBuilding)
+  final public func setObjectsManager(_ objectsManager: any IndoorsCoreSDK.INTrackingObserverDelegate)
+  final public func stopTracking()
+  final public func addTags()
+  final public func floorOnMapChanged(floor: Swift.Int)
+  @objc deinit
+}
+extension IndoorsCoreSDK.INTrackingService : IndoorsCoreSDK.INTrackingScreenDelegateProtocol {
+  @objc final public func connectSocket()
+  @objc final public func disconnectSocket()
+}
+public protocol INTrackingSettingsManagerDelegate : AnyObject {
+  func settingsManagerDidChangeSetting(_ type: IndoorsCoreSDK.INTrackingSetting)
+}
+@_inheritsConvenienceInitializers @objc final public class INTrackingSettingsManager : ObjectiveC.NSObject {
+  final public var settings: IndoorsCoreSDK.INTrackingSettings
+  weak final public var delegate: (any IndoorsCoreSDK.INTrackingSettingsManagerDelegate)?
+  @objc override dynamic public init()
+  public init(with settings: IndoorsCoreSDK.INTrackingSettings)
+  final public func changeStateFor(setting: IndoorsCoreSDK.INTrackingSetting)
+  final public func settingForTagModelIsEnabled(tagModelName: IndoorsCoreSDK.INTagModelName) -> Swift.Bool
+  final public func additionalSettingIsEnabled(settingType: IndoorsCoreSDK.INTrackingSettingType) -> Swift.Bool
+  @objc deinit
+}
+extension IndoorsCoreSDK.INTagModelName : Swift.Equatable {}
+extension IndoorsCoreSDK.INTagModelName : Swift.Hashable {}
+extension IndoorsCoreSDK.INTagModelName : Swift.RawRepresentable {}
+extension IndoorsCoreSDK.INTrackingMapViewEvent : Swift.Equatable {}
+extension IndoorsCoreSDK.INTrackingMapViewEvent : Swift.Hashable {}
+extension IndoorsCoreSDK.INTrackingSettingType : Swift.Equatable {}
+extension IndoorsCoreSDK.INTrackingSettingType : Swift.Hashable {}
+extension IndoorsCoreSDK.INTrackingSettingType : Swift.RawRepresentable {}
