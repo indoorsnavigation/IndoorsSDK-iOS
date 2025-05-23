@@ -1,0 +1,56 @@
+//
+//  INARControllerNew + Scene.swift
+//  IndoorsSDK
+//
+//  Created by Georgy on 16.02.2024.
+//  Copyright © 2024 Indoors Navigation LLC. All rights reserved.
+//
+
+import ARKit
+//MARK: - Scene methods
+extension INARControllerNew{
+    @objc func setupARSCN() {
+        focusSquare.viewDelegate = sceneView
+        focusSquare.hide()
+        
+        let rotationRecognizer = UIPanGestureRecognizer(target: self,
+                                                         action: #selector(rotateNode))
+        rotationRecognizer.delegate = self
+        sceneView.addGestureRecognizer(rotationRecognizer)
+        
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleTap))
+        tapGestureRecognizer.delegate = self
+        sceneView.addGestureRecognizer(tapGestureRecognizer)
+        
+        let pinchGestureRecognizer = UIPinchGestureRecognizer(target: self, action: #selector(handlePinch))
+        pinchGestureRecognizer.delegate = self
+        sceneView.addGestureRecognizer(pinchGestureRecognizer)
+        
+        let config = ARWorldTrackingConfiguration()
+        config.planeDetection = .horizontal
+        config.detectionImages = referenceImages
+        config.maximumNumberOfTrackedImages = 0
+        
+        coachingOverlay.session = sceneView.session
+        
+<<<<<<< HEAD
+        
+=======
+>>>>>>> 8da7798d4fbd85c759edd5bcc2f264a1adbbaa5f
+        sceneView.autoenablesDefaultLighting = true
+        sceneView.automaticallyUpdatesLighting = true
+        sceneView.overlaySKScene = skSceneView
+        sceneView.session.run(config)
+    }
+
+    func resetScene(){
+        let configuration = ARWorldTrackingConfiguration()
+        configuration.planeDetection = .horizontal
+        configuration.detectionImages = referenceImages
+        configuration.maximumNumberOfTrackedImages = 0
+        sceneView.autoenablesDefaultLighting = true
+        sceneView.automaticallyUpdatesLighting = true
+        sceneView.session.run(configuration, options:[.removeExistingAnchors])
+    }
+}
+

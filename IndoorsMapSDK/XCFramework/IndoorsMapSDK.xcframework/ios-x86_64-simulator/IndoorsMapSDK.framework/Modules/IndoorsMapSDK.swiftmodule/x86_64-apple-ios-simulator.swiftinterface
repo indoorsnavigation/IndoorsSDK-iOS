@@ -1,0 +1,337 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-bare-slash-regex -module-name IndoorsMapSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import ARKit
+import AVFoundation
+import CoreMotion
+import Foundation
+import GLKit
+import ImageIO
+import IndoorsCoreSDK
+@_exported import IndoorsMapSDK
+import ModelIO
+import SceneKit.ModelIO
+import QuartzCore
+import SceneKit
+import SpriteKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.log
+import os
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class FocusNode : SceneKit.SCNNode {
+  @_Concurrency.MainActor @preconcurrency weak public var viewDelegate: (any IndoorsMapSDK.ARSmartHitTest)?
+  public enum State : Swift.Equatable {
+    case initializing
+    case detecting(hitTestResult: ARKit.ARHitTestResult, camera: ARKit.ARCamera?)
+    public static func == (a: IndoorsMapSDK.FocusNode.State, b: IndoorsMapSDK.FocusNode.State) -> Swift.Bool
+  }
+  @_Concurrency.MainActor @preconcurrency public var state: IndoorsMapSDK.FocusNode.State {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var onPlane: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public var isAnimating: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency final public let positioningNode: SceneKit.SCNNode
+  @_Concurrency.MainActor @preconcurrency public var scaleNodeBasedOnDistance: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init()
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency public func stateChanged(newPlane: Swift.Bool = false)
+  @_Concurrency.MainActor @preconcurrency public func updateFocusNode()
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class FocusPlane : IndoorsMapSDK.FocusNode {
+  @_Concurrency.MainActor @preconcurrency public init(size: Swift.Float = 0.17)
+  @_Concurrency.MainActor @preconcurrency override public func stateChanged(newPlane: Swift.Bool)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class FocusSquare : IndoorsMapSDK.FocusNode {
+  public enum State : Swift.Equatable {
+    case initializing
+    case detecting(hitTestResult: ARKit.ARHitTestResult, camera: ARKit.ARCamera?)
+    public static func == (a: IndoorsMapSDK.FocusSquare.State, b: IndoorsMapSDK.FocusSquare.State) -> Swift.Bool
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init()
+  @_Concurrency.MainActor @preconcurrency override public func stateChanged(newPlane: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency public func offPlaneAniation()
+  @_Concurrency.MainActor @preconcurrency public func onPlaneAnimation(newPlane: Swift.Bool = false)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class SCNPathNode : SceneKit.SCNNode {
+  @_Concurrency.MainActor @preconcurrency public var path: [SceneKit.SCNVector3] {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var pathLength: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var width: Swift.Float {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var curvePoints: Swift.Float {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var materials: [SceneKit.SCNMaterial] {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var textureRepeats: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class Earcut {
+  public static func tesselate(data: [Swift.Double], holeIndices: [Swift.Int] = [], dim: Swift.Int = 2) -> [Swift.Int]
+  public static func flatten(data: [[[Swift.Double]]]) -> (vertices: [Swift.Double], holes: [Swift.Int], dim: Swift.Int)
+  public static func deviation(data: [Swift.Double], holeIndices: [Swift.Int] = [], dim: Swift.Int = 2, indices: [Swift.Int]) -> Swift.Double
+  @objc deinit
+}
+public protocol ARSmartHitTest : UIKit.UIView {
+  func hitTest(_ point: CoreFoundation.CGPoint, types: ARKit.ARHitTestResult.ResultType) -> [ARKit.ARHitTestResult]
+}
+extension IndoorsMapSDK.ARSmartHitTest {
+  public func smartHitTest(_ point: CoreFoundation.CGPoint? = nil, infinitePlane: Swift.Bool = false, objectPosition: Swift.SIMD3<Swift.Float>? = nil, allowedAlignments: [ARKit.ARPlaneAnchor.Alignment] = []) -> ARKit.ARHitTestResult?
+  public func smartHitTestFallback(allowedAlignments: [ARKit.ARPlaneAnchor.Alignment], results: [ARKit.ARHitTestResult]) -> ARKit.ARHitTestResult?
+}
+extension IndoorsMapSDK.INARControllerNew : UIKit.UIGestureRecognizerDelegate {
+}
+extension IndoorsMapSDK.INARControllerNew : ARKit.ARSCNViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func renderer(_ renderer: any SceneKit.SCNSceneRenderer, didAdd node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+  @_Concurrency.MainActor @preconcurrency @objc final public func renderer(_ renderer: any SceneKit.SCNSceneRenderer, updateAtTime time: Foundation.TimeInterval)
+}
+extension ARKit.ARSCNView : IndoorsMapSDK.ARSmartHitTest {
+}
+@objc public protocol ARControllerDelegate {
+  @objc func didCalculatePath(path: [IndoorsCoreSDK.INGraphPoint])
+  @objc func didARCloseRouteButtonTapped()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency final public class INARControllerNew : UIKit.UIViewController {
+  @objc @_Concurrency.MainActor @preconcurrency final public var initialTargetFromGlobalMap: IndoorsCoreSDK.INMapARPointTarget? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency weak final public var delegate: (any IndoorsMapSDK.ARControllerDelegate)?
+  @objc @_Concurrency.MainActor @preconcurrency final public var globalMapPathFinder: IndoorsCoreSDK.INPathfinder?
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension IndoorsMapSDK.INARControllerNew {
+  @objc @_Concurrency.MainActor @preconcurrency final public func setCurrentBuilding(building: IndoorsCoreSDK.INBuilding)
+}
+extension IndoorsMapSDK.INARControllerNew : ARKit.ARCoachingOverlayViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func coachingOverlayViewWillActivate(_ coachingOverlayView: ARKit.ARCoachingOverlayView)
+  @_Concurrency.MainActor @preconcurrency @objc final public func coachingOverlayViewDidDeactivate(_ coachingOverlayView: ARKit.ARCoachingOverlayView)
+}
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency final public class OnboardingViewController : UIKit.UIPageViewController {
+  @objc public enum ViewType : Swift.Int {
+    case panorama = 1
+    case ar = 2
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc @_Concurrency.MainActor @preconcurrency final public let viewType: IndoorsMapSDK.OnboardingViewController.ViewType
+  @objc @_Concurrency.MainActor @preconcurrency final public var completionHandler: (() -> Swift.Void)?
+  @objc @_Concurrency.MainActor @preconcurrency public init(viewType: IndoorsMapSDK.OnboardingViewController.ViewType)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
+  @objc deinit
+}
+extension IndoorsMapSDK.OnboardingViewController : UIKit.UIPageViewControllerDataSource {
+  @_Concurrency.MainActor @preconcurrency @objc final public func pageViewController(_ pageViewController: UIKit.UIPageViewController, viewControllerBefore viewController: UIKit.UIViewController) -> UIKit.UIViewController?
+  @_Concurrency.MainActor @preconcurrency @objc final public func pageViewController(_ pageViewController: UIKit.UIPageViewController, viewControllerAfter viewController: UIKit.UIViewController) -> UIKit.UIViewController?
+}
+extension IndoorsMapSDK.OnboardingViewController : UIKit.UIPageViewControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func pageViewController(_ pageViewController: UIKit.UIPageViewController, didFinishAnimating finished: Swift.Bool, previousViewControllers: [UIKit.UIViewController], transitionCompleted completed: Swift.Bool)
+}
+extension IndoorsMapSDK.OnboardingViewController : UIKit.UIScrollViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class INButton : UIKit.UIButton {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var isHighlighted: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var isEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var isSelected: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func touchesCancelled(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @objc @_Concurrency.MainActor @preconcurrency public func setBackgroundColor(color: UIKit.UIColor, forState state: UIKit.UIControl.State)
+  @objc @_Concurrency.MainActor @preconcurrency public func setTintColor(color: UIKit.UIColor, for state: UIKit.UIControl.State)
+  @objc deinit
+}
+public protocol ScrollablePresentedController : AnyObject {
+  var scrollView: UIKit.UIScrollView { get }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class INInfoView : UIKit.UIViewController, IndoorsMapSDK.ScrollablePresentedController {
+  @_Concurrency.MainActor @preconcurrency final public var scrollView: UIKit.UIScrollView
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc final public class INLoadingOverlay : ObjectiveC.NSObject {
+  @objc final public class var shared: IndoorsMapSDK.INLoadingOverlay {
+    @objc get
+  }
+  @objc final public func showOverlay(view: UIKit.UIView)
+  @objc final public func hideOverlayView()
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Swift.BinaryFloatingPoint {
+  public func isAlmostEqual(to other: Self) -> Swift.Bool
+  public func isAlmostEqual(to other: Self, accuracy: Self) -> Swift.Bool
+  public func isAlmostEqual(to other: Self, error: Self) -> Swift.Bool
+}
+extension CoreFoundation.CGPoint {
+  public func isAlmostEqual(to other: CoreFoundation.CGPoint) -> Swift.Bool
+  public func isAlmostEqual(to other: CoreFoundation.CGPoint, error: CoreFoundation.CGFloat) -> Swift.Bool
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public func fillWithAnotherView(_ otherView: UIKit.UIView)
+}
+@objc extension UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func toImage() -> UIKit.UIImage?
+}
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency final public class INTrackedObjectView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency public init(image: UIKit.UIImage?)
+  @objc @_Concurrency.MainActor @preconcurrency final public func setOpacity(_ opacity: Foundation.NSNumber?)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func layoutSubviews()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency final public class INPanoramaViewNew : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency final public var firstError: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency weak final public var panoramaViewDelegate: (any IndoorsMapSDK.INPanoramaViewNewDelegate)?
+  @objc deinit
+}
+extension IndoorsMapSDK.INPanoramaViewNew {
+  @objc @_Concurrency.MainActor @preconcurrency final public func setPanoramaAsset(_ panoramaAsset: IndoorsCoreSDK.INPanoramaAsset)
+  @objc @_Concurrency.MainActor @preconcurrency final public func setPanoramaTours(with panoramaTours: [IndoorsCoreSDK.INPanoramaTour])
+  @objc @_Concurrency.MainActor @preconcurrency final public func shouldOpenFullScreen()
+  @objc @_Concurrency.MainActor @preconcurrency final public func shouldOpenHalfScreen()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tintColorDidChange()
+}
+extension IndoorsMapSDK.INPanoramaViewNew : IndoorsMapSDK.INPanoramaWatcherViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func arrowTouched(with identifier: Swift.Int)
+}
+extension IndoorsMapSDK.INPanoramaViewNew {
+  @objc @_Concurrency.MainActor @preconcurrency final public func changePageControlValue(to value: Swift.Int)
+}
+@objc public protocol INPanoramaViewNewDelegate {
+  @objc optional func didClosePanoramaView(_ panoramaView: IndoorsMapSDK.INPanoramaViewNew)
+  @objc optional func didSelectPanoramaPoint(_ point: IndoorsCoreSDK.INPanoramaPoint)
+  @objc optional func didChangeHeightOfPanoramaView(_ height: CoreFoundation.CGFloat)
+  @objc optional func presentViewController(_ viewController: UIKit.UIViewController)
+  @objc func showAllertWith(title: Swift.String, text: Swift.String)
+  @objc optional func drawPanoramaTourPath(_ tour: IndoorsCoreSDK.INPanoramaTour)
+  @objc optional func didPanoramaTourSelected(_ panoramaTour: IndoorsCoreSDK.INPanoramaTour)
+  @objc optional func didSelectPanoramaTourPoint(_ panoramaTourPoint: IndoorsCoreSDK.INPanoramaTourPoint)
+  @objc optional func didTourDeselected()
+}
+@objc public enum INPanoramaControlMethod : Swift.Int {
+  case motion
+  case touch
+  case both
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum INPanoramaType : Swift.Int {
+  case cylindrical
+  case spherical
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol INPanoramaCompass {
+  @objc func updateUI(rotationAngle: CoreFoundation.CGFloat, fieldOfViewAngle: CoreFoundation.CGFloat)
+}
+@objc public protocol INPanoramaWatcherViewDelegate {
+  @objc func arrowTouched(with id: Swift.Int)
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency final public class INPanoramaWatcherView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency weak final public var delegate: (any IndoorsMapSDK.INPanoramaWatcherViewDelegate)?
+  @objc @_Concurrency.MainActor @preconcurrency final public var compass: (any IndoorsMapSDK.INPanoramaCompass)?
+  @objc @_Concurrency.MainActor @preconcurrency final public var movementHandler: ((_ rotationAngle: CoreFoundation.CGFloat, _ fieldOfViewAngle: CoreFoundation.CGFloat) -> Swift.Void)?
+  @objc @_Concurrency.MainActor @preconcurrency final public var panSpeed: CoreFoundation.CGPoint
+  @objc @_Concurrency.MainActor @preconcurrency final public var startAngle: Swift.Float
+  @objc @_Concurrency.MainActor @preconcurrency final public var angleOffset: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency final public var video: AVFoundation.AVPlayerItem? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency final public var minFoV: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor @preconcurrency final public var maxFoV: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor @preconcurrency final public var image: UIKit.UIImage? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency final public var overlayView: UIKit.UIView? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency final public var panoramaType: IndoorsMapSDK.INPanoramaType {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency final public var controlMethod: IndoorsMapSDK.INPanoramaControlMethod {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override final public var backgroundColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency convenience public init(frame: CoreFoundation.CGRect, image: UIKit.UIImage)
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override final public func layoutSubviews()
+}
+extension IndoorsMapSDK.INPanoramaWatcherView {
+  @objc @_Concurrency.MainActor @preconcurrency final public func addArrows(with position: CoreFoundation.CGPoint, points: [IndoorsCoreSDK.INPanoramaPoint])
+  @_Concurrency.MainActor @preconcurrency final public func resetCameraAngles()
+}
+extension IndoorsMapSDK.INPanoramaWatcherView : UIKit.UIGestureRecognizerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+}
+extension IndoorsMapSDK.OnboardingViewController.ViewType : Swift.Equatable {}
+extension IndoorsMapSDK.OnboardingViewController.ViewType : Swift.Hashable {}
+extension IndoorsMapSDK.OnboardingViewController.ViewType : Swift.RawRepresentable {}
+extension IndoorsMapSDK.INPanoramaControlMethod : Swift.Equatable {}
+extension IndoorsMapSDK.INPanoramaControlMethod : Swift.Hashable {}
+extension IndoorsMapSDK.INPanoramaControlMethod : Swift.RawRepresentable {}
+extension IndoorsMapSDK.INPanoramaType : Swift.Equatable {}
+extension IndoorsMapSDK.INPanoramaType : Swift.Hashable {}
+extension IndoorsMapSDK.INPanoramaType : Swift.RawRepresentable {}
