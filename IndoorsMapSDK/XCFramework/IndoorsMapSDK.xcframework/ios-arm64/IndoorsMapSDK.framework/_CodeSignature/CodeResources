@@ -1486,11 +1486,11 @@
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/IndoorsCoreSDK</key>
 		<data>
-		G/9QsvDgBD80xrfbOesuvdoI/H8=
+		Xb73lmzBNxs2LRKag/xiKqzIbZQ=
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/Info.plist</key>
 		<data>
-		eH2Yv8qUF4Cyj4hi72fL3waROLc=
+		fuJ+giBA0DzaKHi2fbjAnWOM5TQ=
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/PkgInfo</key>
 		<data>
@@ -1498,7 +1498,7 @@
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		dmFuTcXz71cpYx2kOHk9Crr2WJQ=
+		eTgYtSX0WBz0jMq8BKO82Zz+bkM=
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/en.lproj/Localizable.strings</key>
 		<dict>
@@ -1546,7 +1546,7 @@
 		</data>
 		<key>Frameworks/Mapbox.framework/Mapbox</key>
 		<data>
-		cuAkBCiET+Mun93CjdWNszMGVNs=
+		D+Oat+q4H6VHenPc6FlTidlrxSQ=
 		</data>
 		<key>Frameworks/Mapbox.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -2380,7 +2380,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZfR89jl3pBBMkmXaBViPkbxZunE=
+		AwzwC8LQ4c8gj1paZNAYNKta9Y0=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -5083,14 +5083,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wzUdMS+WWU7fydXBAYSRmqa5ILxnnhpE8iAmoYQoGxI=
+			OBkH652ftIih8xzh2hAyYv2cjWgafKG6lGgd08riVlw=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsCoreSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ptn2ProitWjfnY4aR82/q315ccpJlzHUOQ00ne3w8qg=
+			OVmyCVMNOuaCfScJRdm6Ffx8CLUfFw1mwdwtRn9fG4k=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsCoreSDK.framework/PkgInfo</key>
@@ -5104,7 +5104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			An4kX0lEQPxeBDM2GMTBwivX1cMH5aNjEc2ADtgGGqc=
+			CJxp5NqZ/cNPqpX1p0mLX6cfbG9o5815OjHBHIvA/RU=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsCoreSDK.framework/en.lproj/Localizable.strings</key>
@@ -5161,7 +5161,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CWGSR6RAQkpmyhnyhlINiTInHb9d5g6NtAn0zbwdAJw=
+			ra9QjYjptR2IJ1nyaeHN+alcRE3S4NSkBeeXrbGixcw=
 			</data>
 		</dict>
 		<key>Frameworks/Mapbox.framework/_CodeSignature/CodeResources</key>

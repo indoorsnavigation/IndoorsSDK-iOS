@@ -31,11 +31,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (float)getDistanceFromRSSI:(float)rssi A:(float)a andB:(float)b;
 
 
-//- (NSMutableArray*)convertLocalPointsToPolygons:(INBuilding*)building
-//                                               :(NSArray*)points;
-//
-//- (MGLMultiPolygon*)convertStringToMultiPolygon:(NSString*)string;
-
 - (CLLocationCoordinate2D)convertLocalPointToLocation:(INBuilding*)building
                                        :(CGPoint)point;
 
@@ -45,8 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSArray*)getCoordinateBoundsForLocationCoordinate:(CLLocationCoordinate2D)coordinate
                                             forRange:(double)range;
 
-//+ (RTCSessionDescription *)descriptionForDescription:(RTCSessionDescription *)description
-//                                 preferredVideoCodec:(NSString *)codec;
+
 
 @end
 
