@@ -1486,11 +1486,11 @@
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/IndoorsCoreSDK</key>
 		<data>
-		LF46mlMcTQT3KRYvJkR09GlfiG4=
+		4O7I0g4jDe9YavVoiGQGs2QFTzc=
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/Info.plist</key>
 		<data>
-		qzZWW7sHqzSJq9XB7mgyFMsHOJk=
+		QN6bZJyWo8TQTmyqh3cD/nMRZsE=
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/PkgInfo</key>
 		<data>
@@ -1498,7 +1498,7 @@
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		X2TtDvFNkKJ5H/JnG6G4kiPJVwM=
+		2YC+sEDDFkLpwzaJqqXXSyU/sxo=
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/en.lproj/Localizable.strings</key>
 		<dict>
@@ -2380,7 +2380,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PWcteYekQKcT1KocFclJUpakNR8=
+		TVBdEL/+juCmEvlCPVOIdQYO/zk=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -5083,14 +5083,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cDHZ4zM4kq3hCcgbbX43aYjZHxwLF2Jj6yRbwlepkGM=
+			mXtCSeLTRJsJo9KqUiJhBPiMawKgf3fkPLZW6wx1GwA=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsCoreSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pRZtnz4bO6pJYZPXamNL+wsaWcFGUs6eNj67/X4EE5s=
+			D22JGSfkX5Y5E0feecJxMrq6dX1iVqk5nM/ehq+GSyE=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsCoreSDK.framework/PkgInfo</key>
@@ -5104,7 +5104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j+F2lB78kaO6buldozorf1z8xHKxlr9sVjIZHaCbsi0=
+			29QyfX47EeM6elhmNtxlFeb0+Cg+r+Zk9aqgnvGmol8=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsCoreSDK.framework/en.lproj/Localizable.strings</key>

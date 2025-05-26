@@ -1486,11 +1486,11 @@
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/IndoorsCoreSDK</key>
 		<data>
-		Xb73lmzBNxs2LRKag/xiKqzIbZQ=
+		z1lAQj1tghiTEddBX+9W9hWkXZs=
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/Info.plist</key>
 		<data>
-		fuJ+giBA0DzaKHi2fbjAnWOM5TQ=
+		mYzB3iLxGsf3KgrbGNPgS7vebSM=
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/PkgInfo</key>
 		<data>
@@ -1498,7 +1498,7 @@
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		eTgYtSX0WBz0jMq8BKO82Zz+bkM=
+		/1to2JhpRrrMHMW/zhv2WzbVtws=
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/en.lproj/Localizable.strings</key>
 		<dict>
@@ -1546,7 +1546,7 @@
 		</data>
 		<key>Frameworks/Mapbox.framework/Mapbox</key>
 		<data>
-		D+Oat+q4H6VHenPc6FlTidlrxSQ=
+		/q33Xs7PV8dB0VQQYeKbdG4FGJY=
 		</data>
 		<key>Frameworks/Mapbox.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -2380,7 +2380,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AwzwC8LQ4c8gj1paZNAYNKta9Y0=
+		NHQduc0c3WMrRyDnuKZbnCMuRX8=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -5083,14 +5083,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OBkH652ftIih8xzh2hAyYv2cjWgafKG6lGgd08riVlw=
+			DJFWnh58ooBTlikRNUygt1ENqMobOUvMbeAibKr57dI=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsCoreSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OVmyCVMNOuaCfScJRdm6Ffx8CLUfFw1mwdwtRn9fG4k=
+			gFVaaKgJl8cDEs+z2wI0Rugog/DWvrlxmQ84jAIITns=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsCoreSDK.framework/PkgInfo</key>
@@ -5104,7 +5104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CJxp5NqZ/cNPqpX1p0mLX6cfbG9o5815OjHBHIvA/RU=
+			8aNKN858p7Nv9R3B9KWF9AlDu7kWRA+rr16F55sbslE=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsCoreSDK.framework/en.lproj/Localizable.strings</key>
@@ -5161,7 +5161,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ra9QjYjptR2IJ1nyaeHN+alcRE3S4NSkBeeXrbGixcw=
+			qr8XxjGjZFon+FZt/zPF5OQ5hBV+d6R6sp6koHovqg0=
 			</data>
 		</dict>
 		<key>Frameworks/Mapbox.framework/_CodeSignature/CodeResources</key>

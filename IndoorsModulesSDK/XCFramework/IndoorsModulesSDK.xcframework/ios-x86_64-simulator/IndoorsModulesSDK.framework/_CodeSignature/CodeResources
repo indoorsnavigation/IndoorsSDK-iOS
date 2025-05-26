@@ -362,11 +362,11 @@
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/IndoorsCoreSDK</key>
 		<data>
-		LF46mlMcTQT3KRYvJkR09GlfiG4=
+		4O7I0g4jDe9YavVoiGQGs2QFTzc=
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/Info.plist</key>
 		<data>
-		qzZWW7sHqzSJq9XB7mgyFMsHOJk=
+		QN6bZJyWo8TQTmyqh3cD/nMRZsE=
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/PkgInfo</key>
 		<data>
@@ -374,7 +374,7 @@
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		X2TtDvFNkKJ5H/JnG6G4kiPJVwM=
+		2YC+sEDDFkLpwzaJqqXXSyU/sxo=
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/en.lproj/Localizable.strings</key>
 		<dict>
@@ -1876,11 +1876,11 @@
 		</data>
 		<key>Frameworks/IndoorsMapSDK.framework/Frameworks/IndoorsCoreSDK.framework/IndoorsCoreSDK</key>
 		<data>
-		LF46mlMcTQT3KRYvJkR09GlfiG4=
+		4O7I0g4jDe9YavVoiGQGs2QFTzc=
 		</data>
 		<key>Frameworks/IndoorsMapSDK.framework/Frameworks/IndoorsCoreSDK.framework/Info.plist</key>
 		<data>
-		qzZWW7sHqzSJq9XB7mgyFMsHOJk=
+		QN6bZJyWo8TQTmyqh3cD/nMRZsE=
 		</data>
 		<key>Frameworks/IndoorsMapSDK.framework/Frameworks/IndoorsCoreSDK.framework/PkgInfo</key>
 		<data>
@@ -1888,7 +1888,7 @@
 		</data>
 		<key>Frameworks/IndoorsMapSDK.framework/Frameworks/IndoorsCoreSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		X2TtDvFNkKJ5H/JnG6G4kiPJVwM=
+		2YC+sEDDFkLpwzaJqqXXSyU/sxo=
 		</data>
 		<key>Frameworks/IndoorsMapSDK.framework/Frameworks/IndoorsCoreSDK.framework/en.lproj/Localizable.strings</key>
 		<dict>
@@ -2762,15 +2762,15 @@
 		</data>
 		<key>Frameworks/IndoorsMapSDK.framework/IndoorsMapSDK</key>
 		<data>
-		smQuAflpe1WGSjUBEZ+anrZDVJs=
+		ecMZKG4Dfe+6Yb3JgvELzvwchoQ=
 		</data>
 		<key>Frameworks/IndoorsMapSDK.framework/Info.plist</key>
 		<data>
-		PWcteYekQKcT1KocFclJUpakNR8=
+		TVBdEL/+juCmEvlCPVOIdQYO/zk=
 		</data>
 		<key>Frameworks/IndoorsMapSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		vwzEUaNdVec8knT1qwT4k3BwOA8=
+		BW8GE+dUaKKKeD6tS817QVWsoGk=
 		</data>
 		<key>Frameworks/IndoorsMapSDK.framework/default.metallib</key>
 		<data>
@@ -2922,7 +2922,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vtqLHzbZgqvPM20VMBQ1nX8Eqoc=
+		Oo7sJOiW6hgIaN4qN63BaNyyLqc=
 		</data>
 		<key>JSQMessagesCollectionViewCellIncoming.nib</key>
 		<data>
@@ -3834,14 +3834,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cDHZ4zM4kq3hCcgbbX43aYjZHxwLF2Jj6yRbwlepkGM=
+			mXtCSeLTRJsJo9KqUiJhBPiMawKgf3fkPLZW6wx1GwA=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsCoreSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pRZtnz4bO6pJYZPXamNL+wsaWcFGUs6eNj67/X4EE5s=
+			D22JGSfkX5Y5E0feecJxMrq6dX1iVqk5nM/ehq+GSyE=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsCoreSDK.framework/PkgInfo</key>
@@ -3855,7 +3855,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j+F2lB78kaO6buldozorf1z8xHKxlr9sVjIZHaCbsi0=
+			29QyfX47EeM6elhmNtxlFeb0+Cg+r+Zk9aqgnvGmol8=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsCoreSDK.framework/en.lproj/Localizable.strings</key>
@@ -6470,14 +6470,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cDHZ4zM4kq3hCcgbbX43aYjZHxwLF2Jj6yRbwlepkGM=
+			mXtCSeLTRJsJo9KqUiJhBPiMawKgf3fkPLZW6wx1GwA=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsMapSDK.framework/Frameworks/IndoorsCoreSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pRZtnz4bO6pJYZPXamNL+wsaWcFGUs6eNj67/X4EE5s=
+			D22JGSfkX5Y5E0feecJxMrq6dX1iVqk5nM/ehq+GSyE=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsMapSDK.framework/Frameworks/IndoorsCoreSDK.framework/PkgInfo</key>
@@ -6491,7 +6491,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j+F2lB78kaO6buldozorf1z8xHKxlr9sVjIZHaCbsi0=
+			29QyfX47EeM6elhmNtxlFeb0+Cg+r+Zk9aqgnvGmol8=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsMapSDK.framework/Frameworks/IndoorsCoreSDK.framework/en.lproj/Localizable.strings</key>
@@ -7467,21 +7467,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tJ7JBS7BFinFrpgn00xVPur9gT81SJXFJSqh7vtT71I=
+			bVgRMOb+QgmjdItz4n8PoxZbAu1nSKzXSpGTK0mSRO0=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsMapSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TyoQNnsj/pxF2EQcM6UMx3vzpTolc/+6Pkyhh4L6wnw=
+			z7TYWbWkhcqiIBOkMfbGGpmek/oCpYfkuhD6xx7YIgc=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsMapSDK.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AqW38fPr7R37I8zTxy+WjsY1hSPgkbQaW2TA6tSdg64=
+			ytprGJZ5EjT0HKmMTA4tL4rZYbiyZv8P7qepyzfYEe8=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsMapSDK.framework/default.metallib</key>
