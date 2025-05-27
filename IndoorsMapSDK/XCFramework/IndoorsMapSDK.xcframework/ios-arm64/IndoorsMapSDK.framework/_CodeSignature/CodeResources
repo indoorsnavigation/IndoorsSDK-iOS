@@ -1486,11 +1486,11 @@
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/IndoorsCoreSDK</key>
 		<data>
-		z1lAQj1tghiTEddBX+9W9hWkXZs=
+		ELskUNKWIdRqWjv5d1DfcvoQ2b8=
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/Info.plist</key>
 		<data>
-		mYzB3iLxGsf3KgrbGNPgS7vebSM=
+		f0Uit41lm5zqTpjxTMDtN37ykVc=
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/PkgInfo</key>
 		<data>
@@ -1498,7 +1498,7 @@
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		/1to2JhpRrrMHMW/zhv2WzbVtws=
+		GqSNL0EV176wGbPR2gN3Yq1Suy0=
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/en.lproj/Localizable.strings</key>
 		<dict>
@@ -1546,7 +1546,7 @@
 		</data>
 		<key>Frameworks/Mapbox.framework/Mapbox</key>
 		<data>
-		/q33Xs7PV8dB0VQQYeKbdG4FGJY=
+		jCxI5IO2lvk7QkLroXXvB8dZKto=
 		</data>
 		<key>Frameworks/Mapbox.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -2380,7 +2380,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		NHQduc0c3WMrRyDnuKZbnCMuRX8=
+		9pTUgt+YdWigI9uHJQzdRp4ZSVM=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -5083,14 +5083,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DJFWnh58ooBTlikRNUygt1ENqMobOUvMbeAibKr57dI=
+			/c7v+CN7U6T7P4sZIP0UjtBTCOeuXJJzAlz/AACkiYQ=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsCoreSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gFVaaKgJl8cDEs+z2wI0Rugog/DWvrlxmQ84jAIITns=
+			AYogtBF6AwNW+L4nxQvrpLJ4J/tMLDao8/n3rHdtQJ8=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsCoreSDK.framework/PkgInfo</key>
@@ -5104,7 +5104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8aNKN858p7Nv9R3B9KWF9AlDu7kWRA+rr16F55sbslE=
+			TxGszIucqcGWXgECOBV/TnTmuochrwr6lDewAc/nylA=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsCoreSDK.framework/en.lproj/Localizable.strings</key>
@@ -5161,7 +5161,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qr8XxjGjZFon+FZt/zPF5OQ5hBV+d6R6sp6koHovqg0=
+			fyJ2zlie3/D47wfEYqUvj9je/4hQT4jOg+ekoLJD/hI=
 			</data>
 		</dict>
 		<key>Frameworks/Mapbox.framework/_CodeSignature/CodeResources</key>
