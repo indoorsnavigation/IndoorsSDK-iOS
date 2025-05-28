@@ -29,6 +29,18 @@ With our SDK you should install maplibre, also using Swift Package Manager. Pick
 
 ---
 
+### Cocoapods 
+
+[CocoaPods](https://cocoapods.org/) is a dependency manager for Swift and Objective-C Cocoa projects.
+
+To integrate IndoorsCoreSDK into your Xcode project using Cocoapods, add Podfile link  ```pod 'IndoorsCoreSDK'```. 
+To integrate IndoorsMapSDK into your Xcode project using Cocoapods, add Podfile link  ```pod 'IndoorsMapSDK'```. 
+To integrate IndoorsModulesSDK into your Xcode project using Cocoapods, add Podfile link  ```pod 'IndoorsModulesSDK'```. 
+
+![Add pods](https://platform.indoorsnavi.pro/media/68609abbb6ce48eb9f3e65a4e2c6db4b.png)
+
+
+
 ## Usage
 
 ### Before using SDK u need to change some settings in your project.
