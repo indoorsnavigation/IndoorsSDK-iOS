@@ -1,0 +1,15 @@
+{
+  "originHash" : "12978a0ff12aa8f44ccf8b3a5ecd10942244c51fed18e94e1edb77ad0d26db60",
+  "pins" : [
+    {
+      "identity" : "ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://gitlab.indoorsnavi.pro/sdk/ios",
+      "state" : {
+        "revision" : "e76f5421b26445393026df112657cf1b3bbc306d",
+        "version" : "3.3.8"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -1486,11 +1486,11 @@
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/IndoorsCoreSDK</key>
 		<data>
-		oP8RjnJjm3H/qLe4a+h9AogdBTc=
+		7eYFU8P2/7a6Y8Pb/s0XDFmnvMg=
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/Info.plist</key>
 		<data>
-		PrZOtweRPO/IR/8F6E+BXkyzf8M=
+		Jct1efMR73ZsKu9OCLLZJRkuAi4=
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/PkgInfo</key>
 		<data>
@@ -1498,7 +1498,7 @@
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		kTGM7xSuD3CZen2ZfOcXEiomvtk=
+		sZVsZHN3t7eryDJ5qHvYFmvIeWY=
 		</data>
 		<key>Frameworks/IndoorsCoreSDK.framework/en.lproj/Localizable.strings</key>
 		<dict>
@@ -2372,7 +2372,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hKf0iXuQ83Itc3p3Z1EwfXKWY6A=
+		Y64VMG8BoUVuGcH1jU1oU36m8Qs=
 		</data>
 		<key>default.metallib</key>
 		<data>
@@ -4975,14 +4975,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			78PPJo+jxWHvAFhlqDoDnT68+Z4sfRBK6ftGoQBJRKM=
+			tmtxKhpUmXkSAfi9L8+j5AtqlkVgqapyZaWlF9yF52g=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsCoreSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NH/ii786ZZSjV6Vrx54kmXTo+91Cf19FLaIlGHh17ZE=
+			uwPn+mqHArlwS+c//rjWkKoFji5tmeopxp7k2JPQCRk=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsCoreSDK.framework/PkgInfo</key>
@@ -4996,7 +4996,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W+29lsXSj26/duV+TjWKYPG4jvr1dGxn0rV84nlBYa0=
+			20+EQwFNQ8VUAGhcv2+i0aM+GwX5CqhsLCW+zC3ihxo=
 			</data>
 		</dict>
 		<key>Frameworks/IndoorsCoreSDK.framework/en.lproj/Localizable.strings</key>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>MGLMapboxMetricsEnabledSettingShownInApp</key>
+	<string>YES</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>This application uses Bluetooth for scaning beacons.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>This application uses Bluetooth for scaning beacons.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This application uses camera for augmented reality feature and barcode scan.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This application uses beacon monitoring even in background for testing beacon notifications and indoor positioning in building.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This application uses beacon monitoring even in background for testing beacon notifications and indoor positioning in building.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This application uses beacon monitoring even in background for testing beacon notifications and indoor positioning in building.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>This application uses motion sensors for indoor positioning in building.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This application uses photo library for augmented reality feature.</string>
+</dict>
+</plist>
