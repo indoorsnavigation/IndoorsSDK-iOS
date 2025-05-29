@@ -131,7 +131,7 @@ class MyViewController: UIViewController {
 
 ### Resources
 
-- [Documentation](https://inservice.indoorsnavi.pro/main/docs/chapter/54)
+- [Documentation](https://platform.indoorsnavi.pro/main/docs/chapter/54)
 
 ## Troubleshooting
 
