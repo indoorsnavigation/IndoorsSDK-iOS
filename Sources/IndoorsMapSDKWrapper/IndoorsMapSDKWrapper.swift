@@ -2,7 +2,6 @@
 
 import IndoorsCoreSDK
 import IndoorsMapSDK
-import MapLibre
 
 public struct IndoorsMapSDKWrapper {
     public static func setup() {
