@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/indoorsnavigation/IndoorsSDK-iOS",
       "state" : {
-        "revision" : "0fe6f5fb76068d7889d36f85c16d0c4ae78b312f",
-        "version" : "3.3.91"
+        "revision" : "5c0977e0ee18fd5cfcc3cd46aacf9ca7d0d4a2e7",
+        "version" : "4.0.0"
       }
     },
     {
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/maplibre/maplibre-gl-native-distribution",
       "state" : {
-        "revision" : "ffda61e298c1490d4860d5184e80d618aaadc089",
-        "version" : "5.13.0"
+        "revision" : "5653176ee412d4fc6b9acba3953ccccf7d86a6b6",
+        "version" : "6.16.0"
       }
     }
   ],

@@ -10,9 +10,9 @@
 		E44AB1CB2F3B7DEC0062E1BA /* IndoorsCoreSDK in Frameworks */ = {isa = PBXBuildFile; productRef = E44AB1CA2F3B7DEC0062E1BA /* IndoorsCoreSDK */; };
 		E44AB1CD2F3B7DEC0062E1BA /* IndoorsMapSDK in Frameworks */ = {isa = PBXBuildFile; productRef = E44AB1CC2F3B7DEC0062E1BA /* IndoorsMapSDK */; };
 		E44AB1CF2F3B7DEC0062E1BA /* IndoorsModulesSDK in Frameworks */ = {isa = PBXBuildFile; productRef = E44AB1CE2F3B7DEC0062E1BA /* IndoorsModulesSDK */; };
-		E4F723A02F3B7E620043C45B /* IndoorsCoreSDK in Frameworks */ = {isa = PBXBuildFile; productRef = E4F7239F2F3B7E620043C45B /* IndoorsCoreSDK */; };
-		E4F723A22F3B7E620043C45B /* IndoorsMapSDK in Frameworks */ = {isa = PBXBuildFile; productRef = E4F723A12F3B7E620043C45B /* IndoorsMapSDK */; };
-		E4F723A42F3B7E620043C45B /* IndoorsModulesSDK in Frameworks */ = {isa = PBXBuildFile; productRef = E4F723A32F3B7E620043C45B /* IndoorsModulesSDK */; };
+		E4F723BC2F3B89310043C45B /* IndoorsCoreSDK in Frameworks */ = {isa = PBXBuildFile; productRef = E4F723BB2F3B89310043C45B /* IndoorsCoreSDK */; };
+		E4F723BE2F3B89310043C45B /* IndoorsMapSDK in Frameworks */ = {isa = PBXBuildFile; productRef = E4F723BD2F3B89310043C45B /* IndoorsMapSDK */; };
+		E4F723C02F3B89310043C45B /* IndoorsModulesSDK in Frameworks */ = {isa = PBXBuildFile; productRef = E4F723BF2F3B89310043C45B /* IndoorsModulesSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,9 +48,9 @@
 				E44AB1CB2F3B7DEC0062E1BA /* IndoorsCoreSDK in Frameworks */,
 				E44AB1CF2F3B7DEC0062E1BA /* IndoorsModulesSDK in Frameworks */,
 				E44AB1CD2F3B7DEC0062E1BA /* IndoorsMapSDK in Frameworks */,
-				E4F723A22F3B7E620043C45B /* IndoorsMapSDK in Frameworks */,
-				E4F723A42F3B7E620043C45B /* IndoorsModulesSDK in Frameworks */,
-				E4F723A02F3B7E620043C45B /* IndoorsCoreSDK in Frameworks */,
+				E4F723BE2F3B89310043C45B /* IndoorsMapSDK in Frameworks */,
+				E4F723C02F3B89310043C45B /* IndoorsModulesSDK in Frameworks */,
+				E4F723BC2F3B89310043C45B /* IndoorsCoreSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,9 +96,9 @@
 				E44AB1CA2F3B7DEC0062E1BA /* IndoorsCoreSDK */,
 				E44AB1CC2F3B7DEC0062E1BA /* IndoorsMapSDK */,
 				E44AB1CE2F3B7DEC0062E1BA /* IndoorsModulesSDK */,
-				E4F7239F2F3B7E620043C45B /* IndoorsCoreSDK */,
-				E4F723A12F3B7E620043C45B /* IndoorsMapSDK */,
-				E4F723A32F3B7E620043C45B /* IndoorsModulesSDK */,
+				E4F723BB2F3B89310043C45B /* IndoorsCoreSDK */,
+				E4F723BD2F3B89310043C45B /* IndoorsMapSDK */,
+				E4F723BF2F3B89310043C45B /* IndoorsModulesSDK */,
 			);
 			productName = SPMExample;
 			productReference = E4389B8E2DE855A90012E0CF /* SPMExample.app */;
@@ -128,7 +128,7 @@
 			mainGroup = E4389B852DE855A90012E0CF;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				E4F7239E2F3B7E620043C45B /* XCRemoteSwiftPackageReference "IndoorsSDK-iOS" */,
+				E4F723BA2F3B89310043C45B /* XCRemoteSwiftPackageReference "IndoorsSDK-iOS" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E4389B8F2DE855A90012E0CF /* Products */;
@@ -359,12 +359,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E4F7239E2F3B7E620043C45B /* XCRemoteSwiftPackageReference "IndoorsSDK-iOS" */ = {
+		E4F723BA2F3B89310043C45B /* XCRemoteSwiftPackageReference "IndoorsSDK-iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/indoorsnavigation/IndoorsSDK-iOS";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.3.91;
+				minimumVersion = 4.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -382,19 +382,19 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = IndoorsModulesSDK;
 		};
-		E4F7239F2F3B7E620043C45B /* IndoorsCoreSDK */ = {
+		E4F723BB2F3B89310043C45B /* IndoorsCoreSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E4F7239E2F3B7E620043C45B /* XCRemoteSwiftPackageReference "IndoorsSDK-iOS" */;
+			package = E4F723BA2F3B89310043C45B /* XCRemoteSwiftPackageReference "IndoorsSDK-iOS" */;
 			productName = IndoorsCoreSDK;
 		};
-		E4F723A12F3B7E620043C45B /* IndoorsMapSDK */ = {
+		E4F723BD2F3B89310043C45B /* IndoorsMapSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E4F7239E2F3B7E620043C45B /* XCRemoteSwiftPackageReference "IndoorsSDK-iOS" */;
+			package = E4F723BA2F3B89310043C45B /* XCRemoteSwiftPackageReference "IndoorsSDK-iOS" */;
 			productName = IndoorsMapSDK;
 		};
-		E4F723A32F3B7E620043C45B /* IndoorsModulesSDK */ = {
+		E4F723BF2F3B89310043C45B /* IndoorsModulesSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E4F7239E2F3B7E620043C45B /* XCRemoteSwiftPackageReference "IndoorsSDK-iOS" */;
+			package = E4F723BA2F3B89310043C45B /* XCRemoteSwiftPackageReference "IndoorsSDK-iOS" */;
 			productName = IndoorsModulesSDK;
 		};
 /* End XCSwiftPackageProductDependency section */

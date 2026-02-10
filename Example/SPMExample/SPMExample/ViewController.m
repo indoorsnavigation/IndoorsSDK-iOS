@@ -8,57 +8,130 @@
 #import "ViewController.h"
 #import <IndoorsCoreSDK/IndoorsCoreSDK.h>
 #import <IndoorsMapSDK/IndoorsMapSDK.h>
+#import <IndoorsModulesSDK/IndoorsModulesSDK.h>
 
-@interface ViewController ()
+
+@interface ViewController () <INNavigationDelegate>
 {
-    INApplication *_inApplication;
+    
+    NSString *ClientId;
+    NSString *ClientSecret;
 }
-@property (strong, nonatomic) INGlobalMapView *map;
-@end
+@property (strong, nonatomic) INBuilding *building;
+//
+@property (strong, nonatomic) UIView *mapView;
+@property (strong, nonatomic) INGlobalMapView *globalMapView;
 
+
+
+
+@end
 
 @implementation ViewController
 
-- (INGlobalMapView *)map
+-(UIView *)mapView
 {
-    if (!_map)
-        _map = [[INGlobalMapView alloc] initWithFrame:self.view.bounds];
-    return _map;
+    if(!_mapView)
+    {
+        _mapView = [[UIView alloc] init];
+        _mapView.backgroundColor = UIColor.clearColor;
+        _mapView.translatesAutoresizingMaskIntoConstraints = false;
+    }
+    return _mapView;
 }
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-    [INCore initializeWithConfiguration:[INCoreConfiguration defaultConfiguration]];
-    [self loadApplication];
-    [self.view addSubview:self.map];
     
+    [self.view addSubview:self.mapView];
+    [self updateConstraints];
+
+    [INCore initializeWithConfiguration:[INCoreConfiguration defaultConfiguration]];
+
+    [self login];
 }
 
--(void)loadApplication
+- (void) login {
+    
+    ClientId = @"your ClientId";
+    ClientSecret = @"your ClientSecret";
+       
+    [[[INCore sharedInstance] service] authorizeApplicationWithClientId:ClientId andClientSecret:ClientSecret withCompletionBlock:^(NSError * _Nullable error) {
+        [self loadMap];
+    }];
+   
+}
+
+-(void) loadMap
 {
-    [INCore.sharedInstance.service
-     authorizeApplicationWithClientId:@"YOUR_APP_CLIENT_ID"
-     andClientSecret:@"YOUR_APP_CLIENT_SECRET"
-     withCompletionBlock:^(NSError * _Nonnull error)
-     {
-        [INCore.sharedInstance.service loadApplicationsWithCompletionBlock:^(NSMutableArray * _Nonnull applications, NSError * _Nonnull error)
+    
+
+        [[[INCore sharedInstance] service] loadApplicationsWithCompletionBlock:^(NSMutableArray *applications, NSError *error)
          {
-            self->_inApplication = applications.firstObject;
-            [self loadBuildings];
+            if (error != nil)
+            {
+                NSLog(@"error = %@", error);
+                return;
+            }
+
+                
+            [[[INCore sharedInstance] service] loadBuildingsOfApplication:applications[0]
+                                                      withCompletionBlock:^(NSMutableArray *buildings, NSError *error)
+             {
+                
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    
+                    self->_globalMapView = [[INGlobalMapView alloc] initWithFrame:[self.mapView bounds]];
+                    [self.mapView addSubview:self->_globalMapView];
+                    [self->_globalMapView setBuildings:buildings];
+                    //     [self->_globalMapView setCurrentBuilding:buildings[0]];
+                    
+                });
+
+            }];
         }];
-    }];
+
+
 }
 
--(void)loadBuildings
+- (void)updateConstraints
 {
-    [INCore.sharedInstance.service
-     loadBuildingsOfApplication:_inApplication
-     withCompletionBlock:^(NSMutableArray * _Nonnull buildings, NSError * _Nonnull error)
-     {
-        self.map.buildings = buildings;
-        [self.map setCurrentBuilding:buildings[0]];
-    }];
+    [super.view updateConstraints];
+    
+    [self.view addConstraint:[NSLayoutConstraint
+                         constraintWithItem:self.mapView
+                         attribute:NSLayoutAttributeTop
+                         relatedBy:NSLayoutRelationEqual
+                         toItem:self.view.safeAreaLayoutGuide
+                         attribute:NSLayoutAttributeTop
+                         multiplier:1.0
+                         constant:0.0]];
+    
+    [self.view addConstraint:[NSLayoutConstraint
+                         constraintWithItem:self.mapView
+                         attribute:NSLayoutAttributeLeft
+                         relatedBy:NSLayoutRelationEqual
+                         toItem:self.view
+                         attribute:NSLayoutAttributeLeft
+                         multiplier:1.0
+                         constant:0.0]];
+    [self.view addConstraint:[NSLayoutConstraint
+                         constraintWithItem:self.mapView
+                         attribute:NSLayoutAttributeRight
+                         relatedBy:NSLayoutRelationEqual
+                         toItem:self.view
+                         attribute:NSLayoutAttributeRight
+                         multiplier:1.0
+                         constant:0.0]];
+    [self.view addConstraint:[NSLayoutConstraint
+                         constraintWithItem:self.mapView
+                              attribute:NSLayoutAttributeBottom
+                         relatedBy:NSLayoutRelationEqual
+                         toItem:self.view.safeAreaLayoutGuide
+                         attribute:NSLayoutAttributeBottom
+                         multiplier:1.0
+                         constant:0.0]];
 }
+
 
 @end
