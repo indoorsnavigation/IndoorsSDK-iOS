@@ -12,12 +12,12 @@
 @protocol INTrackingMapInternalView <NSObject>
 
 /// It's necessary to add an received object from the internal map layer
-- (void)addTrackedObject:(nonnull id<INTrackedMapObject>)object andOpacity:(nullable NSNumber *)opacity;
+- (void)addTrackedObject:(nonnull id<INTrackedMapObject>)object andOpacity:(nullable NSNumber *)opacity building:(INBuilding *)building;
 
 /// It's necessary to update some data of received object from the internal map layer
-- (void)updateTrackingPoint:(nonnull id<INTrackedMapObject>)object;
+- (void)updateTrackingPoint:(nonnull id<INTrackedMapObject>)object building:(INBuilding *)building;
 
 /// It's necessary to remove an object that has not been tracked for 5 seconds from the internal map.
-- (void)removeTrackingPointWithUUID:(nonnull NSString *)uuid;
+- (void)removeTrackingPointWithUUID:(nonnull NSString *)uuid building:(INBuilding *)building;
 
 @end

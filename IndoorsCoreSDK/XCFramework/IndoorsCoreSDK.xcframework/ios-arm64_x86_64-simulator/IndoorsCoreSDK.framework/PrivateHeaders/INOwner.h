@@ -168,6 +168,9 @@ An array of the `INRoomBusinessHours` objects.
 */
 @property (nonatomic, strong) NSMutableArray *OwnerBusinessHours;
 
+
+@property (nonatomic, strong) NSString *NameForAr;
+
 @end
 
 NS_ASSUME_NONNULL_END

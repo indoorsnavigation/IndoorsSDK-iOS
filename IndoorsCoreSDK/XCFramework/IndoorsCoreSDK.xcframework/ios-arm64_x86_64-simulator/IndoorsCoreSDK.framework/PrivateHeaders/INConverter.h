@@ -40,7 +40,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSArray*)getCoordinateBoundsForLocationCoordinate:(CLLocationCoordinate2D)coordinate
                                             forRange:(double)range;
 
+- (double)convertZoomToLengthCameraToTargetWithZoom:(double)zoom latitude:(double)latitude heightViewPortDP:(double)heightViewPortDP;
 
+- (double)convertLengthCameraToTargetToZoomWithLength:(double)length latitude:(double)latitude heightViewPortDP:(double)heightViewPortDP;
 
 @end
 

@@ -43,6 +43,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// Tint color for control buttons on a map.
 @property (nonatomic,strong) UIColor *buttonsTintColor;
 
+@property (nonatomic,strong) UIColor *buttonsBackgroundColor;
+
+@property (nonatomic,strong) UIColor *buttonsBorderColor;
+
 /// Flag that tells is pathfinder ready.
 @property BOOL isPathfinderReady;
 

@@ -25,24 +25,24 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/maplibre/maplibre-gl-native-distribution",
-            .exact("5.13.0")
+            .exact("6.16.0")
         )
     ],
     targets: [
         .binaryTarget(
             name: "IndoorsCoreSDK",
-            url: "https://software.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoors-core/IndoorsCoreSDK-3.3.9.zip",
-            checksum: "b524373c0da3bc800cec44eb904751aec643afca5d7b3499d0a16d3a8d3f4a3f"
+            url: "https://software.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoors-core/IndoorsCoreSDK-4.0.0.zip",
+            checksum: "499d0b10734e64f23299c24ea1609ebe8c999cb3753289334bdf1997705d258a"
         ),
         .binaryTarget(
             name: "IndoorsMapSDK",
-            url: "https://software.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoors-map/IndoorsMapSDK-3.3.9.zip",
-            checksum: "0753b1a4b3868ba87e516e882b0c224ba20ce5b640ca4bdc02b3106b5aad8934"
+            url: "https://software.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoors-map/IndoorsMapSDK-4.0.0.zip",
+            checksum: "b116dd73397115b6a659b99f3ef83fb68d8c59b467da8ac99c4c0da1157b3e7e"
         ),
         .binaryTarget(
             name: "IndoorsModulesSDK",
-            url: "https://software.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoors-modules/IndoorsModulesSDK-3.3.9.zip",
-            checksum: "d05154faba5d0a2212f44b2c509b9dd8f1ffa39d1df555cdf6bd5195f7b70eff"
+            url: "https://software.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoors-modules/IndoorsModulesSDK-4.0.0.zip",
+            checksum: "e8a613c1e64ce1934371553162ffb09ae6011b4bdc532b4892ea9323584faf27"
         ),
 
         .target(
@@ -50,7 +50,7 @@ let package = Package(
             dependencies: [
                 "IndoorsCoreSDK",
                 "IndoorsMapSDK",
-                .product(name: "Mapbox", package: "maplibre-gl-native-distribution")
+                .product(name: "MapLibre", package: "maplibre-gl-native-distribution")
             ],
             path: "Sources/IndoorsMapSDKWrapper"
         ),
@@ -60,7 +60,7 @@ let package = Package(
                 "IndoorsCoreSDK",
                 "IndoorsMapSDK",
                 "IndoorsModulesSDK",
-                .product(name: "Mapbox", package: "maplibre-gl-native-distribution")
+                .product(name: "MapLibre", package: "maplibre-gl-native-distribution")
             ],
             path: "Sources/IndoorsModulesSDKWrapper"
         )

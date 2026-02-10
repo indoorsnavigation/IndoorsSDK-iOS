@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jCsojJc4ICmfCiWJ3lgJhgcd9oE=
+		n6EZrgZUWyDdiN5XdgYDwuehnP8=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>PrivateHeaders/INARAsset.h</key>
 		<data>
-		XUIPKd0LYtIudx76T/BuGdsZq3M=
+		TVM3cVWyfHJWiUIfDse7wpUXchg=
 		</data>
 		<key>PrivateHeaders/INAccountPersonalData.h</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>PrivateHeaders/INBaseObject.h</key>
 		<data>
-		eUawlWl3WPOQb+k4tCQ2t2Zdrbo=
+		uBOu6EETD3txmpdXvZgLbR2IjZI=
 		</data>
 		<key>PrivateHeaders/INBaseTag.h</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>PrivateHeaders/INBuilding.h</key>
 		<data>
-		xx/P8GCw3uB1pywjB/Jl7GG3W4s=
+		gDwPSrRfpqVSVPqtZn0MaPIm4e4=
 		</data>
 		<key>PrivateHeaders/INBuildingBusinessHours.h</key>
 		<data>
@@ -234,7 +234,7 @@
 		</data>
 		<key>PrivateHeaders/INColorScheme.h</key>
 		<data>
-		iCmSYmU2rvJy4NbXCRgEXrRwbnI=
+		yXd7nV6n4UO1VO/veOAtlFU94Xs=
 		</data>
 		<key>PrivateHeaders/INCompletedQuizzes.h</key>
 		<data>
@@ -250,7 +250,7 @@
 		</data>
 		<key>PrivateHeaders/INConversation.h</key>
 		<data>
-		tMRcH9DbSjuBzI+AhZeO4dvoVeg=
+		Ls5DvzBV9n3joPdckwid5qjsTWQ=
 		</data>
 		<key>PrivateHeaders/INConversationMember.h</key>
 		<data>
@@ -258,7 +258,7 @@
 		</data>
 		<key>PrivateHeaders/INConverter.h</key>
 		<data>
-		2H0WuIPRdcV+eTpcgsRH3i5frVE=
+		gWzmqq8ppYQAqFyiCmzFFw6Pxhs=
 		</data>
 		<key>PrivateHeaders/INCoordinateBounds.h</key>
 		<data>
@@ -316,6 +316,10 @@
 		<data>
 		fHTVDMztibhZS9ZN5sMDheBnj+4=
 		</data>
+		<key>PrivateHeaders/INEmptyModelForNavigation.h</key>
+		<data>
+		R2C3AcoEfGUcZfjUVxbLFU6Rm3E=
+		</data>
 		<key>PrivateHeaders/INEntrance.h</key>
 		<data>
 		UGR1LuYzyKPySUYEoBcRpm0JMNE=
@@ -352,6 +356,10 @@
 		<data>
 		VEdehtL6XfoMmFuOKy+vkJbDga4=
 		</data>
+		<key>PrivateHeaders/INFileObjectService.h</key>
+		<data>
+		g90g4Gx1uxpK6UOt7GsczC7mtNs=
+		</data>
 		<key>PrivateHeaders/INFingerprint.h</key>
 		<data>
 		RYFPPlqGJESYqVxWaJARMMqIaBc=
@@ -366,7 +374,7 @@
 		</data>
 		<key>PrivateHeaders/INFloor.h</key>
 		<data>
-		bO56UKUqXra0ozylN9xXDIZLmJQ=
+		2pw75D71i3LM8qUK8fXQi/4qHHs=
 		</data>
 		<key>PrivateHeaders/INGPSZone.h</key>
 		<data>
@@ -402,7 +410,7 @@
 		</data>
 		<key>PrivateHeaders/INGraphPoint.h</key>
 		<data>
-		GSPZKhM/O5KT6uo07S0GSmILcpg=
+		Jf4EDXhbAjb977u2GYN60cFUcac=
 		</data>
 		<key>PrivateHeaders/INIceCandidate.h</key>
 		<data>
@@ -476,13 +484,29 @@
 		<data>
 		YC3V0rAzDS/JhVjkXYJPQAcmLus=
 		</data>
+		<key>PrivateHeaders/INMap3dMobileModel.h</key>
+		<data>
+		TtMCtpyNHse/m+AkSeeLCQYB8NE=
+		</data>
+		<key>PrivateHeaders/INMap3dModel.h</key>
+		<data>
+		Gm+Z4oVbkAwGE3MfsJmtwVmkLIY=
+		</data>
+		<key>PrivateHeaders/INMap3dModelService.h</key>
+		<data>
+		q693AK975ZKk5yvvzfGrnwG/XUI=
+		</data>
 		<key>PrivateHeaders/INMapARPoint.h</key>
 		<data>
-		pQWZhMLimmVN/wiBFKHydA4Q7VY=
+		pdB0PmuOPX4B7e6SgUdl3kBsRa0=
 		</data>
 		<key>PrivateHeaders/INMapARPointTarget.h</key>
 		<data>
 		fa+1BJheqSveZYWM/da2tK9NpnM=
+		</data>
+		<key>PrivateHeaders/INMapButtonsColors.h</key>
+		<data>
+		KhfVATQzTe5HqxW8khnPJP0r5qo=
 		</data>
 		<key>PrivateHeaders/INMapStyle.h</key>
 		<data>
@@ -502,7 +526,11 @@
 		</data>
 		<key>PrivateHeaders/INMessage.h</key>
 		<data>
-		johsF4zy1oXLlcK6sUc92MMLkYw=
+		LKUYuEoIL08DL2sAWvqT1FIGt9U=
+		</data>
+		<key>PrivateHeaders/INMessageFiles.h</key>
+		<data>
+		G4gBTBx5Jl5TowaZYAREs8Z+BKc=
 		</data>
 		<key>PrivateHeaders/INMessengerButton.h</key>
 		<data>
@@ -520,9 +548,13 @@
 		<data>
 		TP1Q+9Drh/GETi4x8K8AwrbkXcU=
 		</data>
+		<key>PrivateHeaders/INModel3DData.h</key>
+		<data>
+		9TB5LiEb2lZ7v6zuHPIfkMq4n/g=
+		</data>
 		<key>PrivateHeaders/INNavigation.h</key>
 		<data>
-		v56NXrIIF+ZVlqzsLskejBUkd98=
+		ine7pKAY4NY8YSJzK7fx+r1v6fc=
 		</data>
 		<key>PrivateHeaders/INNavigationSettingsNew.h</key>
 		<data>
@@ -542,11 +574,11 @@
 		</data>
 		<key>PrivateHeaders/INObjectService.h</key>
 		<data>
-		xj2PCirmk5280Mp5Gv/hnaWjShM=
+		fBRJ8WDsXDzlJiiJDJ5kiP/2OqI=
 		</data>
 		<key>PrivateHeaders/INOwner.h</key>
 		<data>
-		BMrgm0mWQtnr7Ul627TWNe2anGQ=
+		ZKKEEOYmGmjnnBcqHQcO16elv5I=
 		</data>
 		<key>PrivateHeaders/INOwnerBusinessHours.h</key>
 		<data>
@@ -602,7 +634,7 @@
 		</data>
 		<key>PrivateHeaders/INPathfinder.h</key>
 		<data>
-		Ghe6KcU3eIX03ouOJNUg7R6RLq4=
+		/clkjkKSL+8GlAECbCxOJsiVD54=
 		</data>
 		<key>PrivateHeaders/INPolygon.h</key>
 		<data>
@@ -718,7 +750,7 @@
 		</data>
 		<key>PrivateHeaders/INService.h</key>
 		<data>
-		q9mzJWIpLe0BBB6WB7M/oxKtnRY=
+		P8LkyakXQE5c1qPpA7BDUp7TunQ=
 		</data>
 		<key>PrivateHeaders/INServiceMessage.h</key>
 		<data>
@@ -818,7 +850,7 @@
 		</data>
 		<key>PrivateHeaders/INTrackingMapInternalView.h</key>
 		<data>
-		KgA2HqIwIJFYH/JRIZZb/nuDuHQ=
+		TZQMI+A52bzZQsPPbF9aQr1Gsuk=
 		</data>
 		<key>PrivateHeaders/INUWBLocation.h</key>
 		<data>
@@ -1117,7 +1149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U80M0jM8J9DViDCYDzLGXv7+r1cd29bJk/HFxzODJu8=
+			Exu2zMrLz6UQJ0kWx+Z+Ocrof0RZ+PAv1CMJT2R3oME=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INAccountPersonalData.h</key>
@@ -1215,7 +1247,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0SJZ+6l7FY/IWzK6n6pjARZ0xl/tcaMlhwRb1lJxkCU=
+			SE0uCFUqWpEnAMgrCSwVG/BPywnou6fFrYBt280D98k=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INBaseTag.h</key>
@@ -1292,7 +1324,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SJmV5fm5G1+3Not/SxjcebEEGr1QRUfg0ifeRTzWYwc=
+			EwmWODqu96+qln7Ka/oUR/eE9OesR4yk433RnFEC4og=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INBuildingBusinessHours.h</key>
@@ -1390,7 +1422,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VGjFAKTuYUm0rVJrl2VBQBO2r5wZpR+n+Dpdcnmb6RA=
+			zRR3VdO/q1NLTnJ+WhlfdDK1SNDjxghaMKgv3zk7zxU=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INCompletedQuizzes.h</key>
@@ -1418,7 +1450,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ir6NZwWNgE3CO2zFtrzUp2vpQW02kaCJUNjrYjywTsw=
+			GEci+2O1p+XKcrF6O/QmXzioNHgLirBMYreiamnmPfQ=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INConversationMember.h</key>
@@ -1432,7 +1464,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JRqCGK++iDC9320HRVn0ZuEMjum0QV0uCH5budKd8Yg=
+			6mnSF2ihDIBAxkFwjtk0JGcfB6M/XxxpCWv3wNbuPhc=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INCoordinateBounds.h</key>
@@ -1533,6 +1565,13 @@
 			6JI03ZuTm/jC3kcgV18v5GW03f6qNS5h16Y2j+MoiFY=
 			</data>
 		</dict>
+		<key>PrivateHeaders/INEmptyModelForNavigation.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			m9KlasEm9OSVZDq58uGXF7nSKEtPZ5gCuUvXiJ7DhEA=
+			</data>
+		</dict>
 		<key>PrivateHeaders/INEntrance.h</key>
 		<dict>
 			<key>hash2</key>
@@ -1596,6 +1635,13 @@
 			WVRjoFALEnQk4mSPs3q9rjyfHUI5WbxmCsN4ffAb75U=
 			</data>
 		</dict>
+		<key>PrivateHeaders/INFileObjectService.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			b0qP4AAvYi6efORZW2RWZkVZC7rzQwk2azx80YALL1I=
+			</data>
+		</dict>
 		<key>PrivateHeaders/INFingerprint.h</key>
 		<dict>
 			<key>hash2</key>
@@ -1621,7 +1667,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			97FzZ6ziB9ZxJ2J2VBFIWHm0PBRhVdkxz2JQQ4e088c=
+			IzKx+vOIpx1h4B4AhBmtQAYL4Tehk7pwOcFYO4WuXno=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INGPSZone.h</key>
@@ -1684,7 +1730,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fu8bwj9FkYdOuhGFToa+vvJGJPyiULywrhoXl4wPxGc=
+			/98vV0ipj/vd+FVdKV6kP/7yH5FLFkXpghXLbZdj0dc=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INIceCandidate.h</key>
@@ -1813,11 +1859,32 @@
 			k9DcbSZMYRmpnqilmxBjiAT1WMUuJTFZa54I0KaZyLU=
 			</data>
 		</dict>
+		<key>PrivateHeaders/INMap3dMobileModel.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rpOSQrADAj7pGqClq0sD+NdEUdUNL/YPPBZWk3yeklc=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INMap3dModel.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ES4wpg8e2yn5En9hDumv9pd8x2cbiY96WaqWJviuYlE=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INMap3dModelService.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GDP2qakfy/CdTQmM2cnjm4LvCArpfWLN0znA1x731i0=
+			</data>
+		</dict>
 		<key>PrivateHeaders/INMapARPoint.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FtCY04/DBmVwT3HduiEBa2fiYpKgUyHIeeqi3w3bSrE=
+			L4anwHrgT3CbDjCDK4UR+C7rl6h04tu9aUYmyeFG1Jw=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INMapARPointTarget.h</key>
@@ -1825,6 +1892,13 @@
 			<key>hash2</key>
 			<data>
 			f44Vk/d7ecds4/cgc7a3JKJlrB37nCZDjlEHBstZf80=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INMapButtonsColors.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Bf5/4ZchWRKPeUwAT+Ht1LMRV184ZDsEsqjA50MDPJ8=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INMapStyle.h</key>
@@ -1859,7 +1933,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XPQzGbQnUr4sEJuc6+cqeNPpsTPlZ6UFMSLkvByD99g=
+			522y1/VZY6hUxPPEexdHqF043D6dTjSNdr4fUKeYQhY=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INMessageFiles.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			r14aVKLsnxdX3QtPJ/E042fym2opI3SqAZhYDSZDnvI=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INMessengerButton.h</key>
@@ -1890,11 +1971,18 @@
 			7vbO2nI8ZY7saD5yc7KvcPEbOyQhId8krd+9ZKOoRKA=
 			</data>
 		</dict>
+		<key>PrivateHeaders/INModel3DData.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CUhWwRoxd8VsodsV3PTSAPNZQ1CHBbkEr+KDwPkniH4=
+			</data>
+		</dict>
 		<key>PrivateHeaders/INNavigation.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AZpoSkm572Fqmq0VvLj+7siezcUCEwwmEe+fv+pVTj8=
+			a0+BK63xZ1Lcgljqy8GFPM+vUWeGS2548Ml0wGlhiTI=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INNavigationSettingsNew.h</key>
@@ -1929,14 +2017,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+UneX/mdg4u0OSJmpzr9A6uy78PN0G3DqGoPSFdKZjY=
+			tDnxMlzcaHgc9Q67wvBsjGP9mPp3Bc6ElrIdl1NVsrM=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INOwner.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xcTjikIHEqxbCb9lKDJ9jtDMXqWQ5QK/RHxdgB713v8=
+			S8kdB0Nx6iTS10SInRIioR6/C1AD94J12u25gWMCqd4=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INOwnerBusinessHours.h</key>
@@ -2034,7 +2122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Orp8q688L4mjFTw8jLw2wXhh5Ec/LO6Bwh55pCaZb8o=
+			N2EvxEWvmeyFO/+b5vSDPgCe/kche9LdlQXQ58A2wZc=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INPolygon.h</key>
@@ -2237,7 +2325,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q44icY29XAdPT+BroNOekAhtqCFjiG262R/hnfci+fA=
+			96rtmHiFfdpecerHK9Ayhp6W/Y0xKk/4CBvZ4x1Zbkc=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INServiceMessage.h</key>
@@ -2412,7 +2500,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wm3Ek4nPfiB8j7PsZNrtdpKgUKf88PQ2U7IyzamlYNM=
+			v2SWW8CBTYKKN0ZkI/5boubi1blKACMsr0pTuDwKoPE=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INUWBLocation.h</key>

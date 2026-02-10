@@ -283,6 +283,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import ARKit;
 @import CoreFoundation;
 @import Foundation;
+@import MapLibre;
 @import ObjectiveC;
 @import SceneKit;
 @import UIKit;
@@ -363,20 +364,12 @@ SWIFT_CLASS("_TtC13IndoorsMapSDK17INARControllerNew")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
 @class INBuilding;
 
 @interface INARControllerNew (SWIFT_EXTENSION(IndoorsMapSDK))
 - (void)setCurrentBuildingWithBuilding:(INBuilding * _Nonnull)building;
 @end
 
-@protocol SCNSceneRenderer;
-@class ARAnchor;
-
-@interface INARControllerNew (SWIFT_EXTENSION(IndoorsMapSDK)) <ARSCNViewDelegate>
-- (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer didAddNode:(SCNNode * _Nonnull)node forAnchor:(ARAnchor * _Nonnull)anchor;
-- (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer updateAtTime:(NSTimeInterval)time;
-@end
 
 
 
@@ -384,6 +377,16 @@ SWIFT_CLASS("_TtC13IndoorsMapSDK17INARControllerNew")
 
 @interface INARControllerNew (SWIFT_EXTENSION(IndoorsMapSDK)) <UIGestureRecognizerDelegate>
 @end
+
+@protocol SCNSceneRenderer;
+@class ARAnchor;
+
+@interface INARControllerNew (SWIFT_EXTENSION(IndoorsMapSDK)) <ARSCNViewDelegate>
+- (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer didUpdateNode:(SCNNode * _Nonnull)node forAnchor:(ARAnchor * _Nonnull)anchor;
+- (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer didAddNode:(SCNNode * _Nonnull)node forAnchor:(ARAnchor * _Nonnull)anchor;
+- (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer updateAtTime:(NSTimeInterval)time;
+@end
+
 
 @class ARCoachingOverlayView;
 
@@ -393,6 +396,133 @@ SWIFT_CLASS("_TtC13IndoorsMapSDK17INARControllerNew")
 @end
 
 
+
+
+@protocol INBuildingLayerRendererDelegate;
+@protocol INBuildingLayerRendererTerritoryDelegate;
+@protocol INBuildingLayerRendererAnnotationViewDelegate;
+@class MLNMapView;
+
+SWIFT_CLASS("_TtC13IndoorsMapSDK23INBuildingLayerRenderer")
+@interface INBuildingLayerRenderer : MLNCustomStyleLayer
+@property (nonatomic, weak) id <INBuildingLayerRendererDelegate> _Nullable delegate;
+@property (nonatomic, weak) id <INBuildingLayerRendererTerritoryDelegate> _Nullable delegateTerritory;
+@property (nonatomic, weak) id <INBuildingLayerRendererAnnotationViewDelegate> _Nullable delegateAnnotationView;
+- (nonnull instancetype)initWithIdentifier:(NSString * _Nonnull)identifier OBJC_DESIGNATED_INITIALIZER;
+- (void)didMoveToMapView:(MLNMapView * _Nonnull)mapView;
+- (void)willMoveFromMapView:(MLNMapView * _Nonnull)_;
+- (void)drawInMapView:(MLNMapView * _Nonnull)mapView withContext:(MLNStyleLayerDrawingContext)context;
+@end
+
+
+@interface INBuildingLayerRenderer (SWIFT_EXTENSION(IndoorsMapSDK))
+- (void)addTapEventWithPoint:(CGPoint)point;
+@end
+
+
+@interface INBuildingLayerRenderer (SWIFT_EXTENSION(IndoorsMapSDK))
+- (void)setLocationPointWithPoint:(CGPoint)point heading:(float)heading z:(float)z buildingId:(double)buildingId isNeedHide:(BOOL)isNeedHide userInBuildingWithId:(double)userInBuildingWithId;
+- (void)setHideLocationPoint;
+@end
+
+
+
+@interface INBuildingLayerRenderer (SWIFT_EXTENSION(IndoorsMapSDK))
+- (void)addLayerObjPickingWithName:(NSString * _Nonnull)name buildingId:(double)buildingId;
+- (void)addObjOfLayerObjPickingWithNameObj:(NSString * _Nonnull)nameObj polygon:(NSArray<NSNumber *> * _Nonnull)polygon base:(float)base height:(float)height layerName:(NSString * _Nonnull)layerName buildingId:(double)buildingId;
+- (void)setLayerObjPickingVisibleWithLayerName:(NSString * _Nonnull)layerName isVisible:(BOOL)isVisible buildingId:(double)buildingId;
+@end
+
+
+@interface INBuildingLayerRenderer (SWIFT_EXTENSION(IndoorsMapSDK))
+- (void)showFloorWithFloorIdWithId:(double)id buildingId:(NSInteger)buildingId;
+- (void)needUpdateShadow;
+- (void)removeCurrentBuilding;
+@end
+
+@class NSData;
+
+@interface INBuildingLayerRenderer (SWIFT_EXTENSION(IndoorsMapSDK))
+- (float)add3DModelWithName:(NSString * _Nonnull)name objContent:(NSString * _Nonnull)objContent mtlContent:(NSString * _Nonnull)mtlContent textureData:(NSDictionary<NSString *, NSData *> * _Nonnull)textureData SWIFT_WARN_UNUSED_RESULT;
+- (void)addLayer3DModelPointWithName:(NSString * _Nonnull)name buildingId:(double)buildingId;
+- (void)add3DModelPointOfLayerWithNameModel:(NSString * _Nonnull)nameModel x:(float)x y:(float)y z:(float)z scale:(float)scale rotateX:(float)rotateX rotateY:(float)rotateY rotateZ:(float)rotateZ isRenderShadow:(BOOL)isRenderShadow layerName:(NSString * _Nonnull)layerName buildingId:(double)buildingId;
+- (void)setLayer3DModelPointVisibleWithLayerName:(NSString * _Nonnull)layerName isVisible:(BOOL)isVisible buildingId:(double)buildingId;
+@end
+
+
+
+
+@interface INBuildingLayerRenderer (SWIFT_EXTENSION(IndoorsMapSDK))
+- (void)addLayerRouteWithName:(NSString * _Nonnull)name buildingId:(double)buildingId;
+- (void)addRouteOfLayerWithPath:(NSArray<NSNumber *> * _Nonnull)path z:(float)z isVisible:(BOOL)isVisible layerName:(NSString * _Nonnull)layerName width:(float)width buildingId:(double)buildingId;
+- (void)redrawColorRouteOpacityWithLayerWithLayerName:(NSString * _Nonnull)layerName buildingId:(double)buildingId opacity:(float)opacity;
+- (void)setLayerRouteVisibleWithLayerName:(NSString * _Nonnull)layerName isVisible:(BOOL)isVisible buildingId:(double)buildingId;
+- (void)updateOpacityRoutsOfLayerWithOpacity:(float)opacity layerName:(NSString * _Nonnull)layerName buildingId:(double)buildingId;
+- (void)removeRoutesWithLayerName:(NSString * _Nonnull)layerName buildingId:(double)buildingId;
+@end
+
+
+@interface INBuildingLayerRenderer (SWIFT_EXTENSION(IndoorsMapSDK))
+- (void)addLayerFillExtrusionWithName:(NSString * _Nonnull)name buildingId:(double)buildingId;
+- (void)clearLayers;
+- (void)setLayerFillExtrusionVisibleWithLayerName:(NSString * _Nonnull)layerName isVisible:(BOOL)isVisible buildingId:(double)buildingId;
+- (void)setLayerFillExtrusionPickingWithLayerName:(NSString * _Nonnull)layerName isPicking:(BOOL)isPicking;
+- (void)addFillExtrusionOfLayerWithNameObj:(NSString * _Nonnull)nameObj polygon:(NSArray<NSNumber *> * _Nonnull)polygon base:(float)base height:(float)height isRenderShadow:(BOOL)isRenderShadow isPicking:(BOOL)isPicking layerName:(NSString * _Nonnull)layerName buildingId:(double)buildingId;
+- (void)addFillExtrusionOfLayerWithNameObj:(NSString * _Nonnull)nameObj polygon:(NSArray<NSNumber *> * _Nonnull)polygon color:(NSArray<NSNumber *> * _Nonnull)color base:(float)base height:(float)height isRenderShadow:(BOOL)isRenderShadow isPicking:(BOOL)isPicking layerName:(NSString * _Nonnull)layerName buildingId:(double)buildingId;
+- (void)updateColorFillExtrusionOfLayerWithName:(NSString * _Nonnull)name color:(NSArray<NSNumber *> * _Nonnull)color layerName:(NSString * _Nonnull)layerName buildingId:(double)buildingId;
+@end
+
+@class INTerritory;
+
+@interface INBuildingLayerRenderer (SWIFT_EXTENSION(IndoorsMapSDK))
+- (void)migrateStateFrom:(INBuildingLayerRenderer * _Nonnull)oldRenderer;
+- (void)setTerritoriesWithTerritories:(NSArray<INTerritory *> * _Nonnull)territories;
+- (void)selectCurrentTerritoryWithNewVisibleTerritory:(INTerritory * _Nullable)newVisibleTerritory;
+- (void)cleanBuildingsInTerritoriesWithoutTerritoryWithTerritoryId:(NSString * _Nonnull)territoryId;
+- (void)removeAllTerritoriesFromMemory;
+@end
+
+@class UIImage;
+@class INSymbolObjC;
+
+@interface INBuildingLayerRenderer (SWIFT_EXTENSION(IndoorsMapSDK))
+- (void)addImageWithName:(NSString * _Nonnull)name image:(UIImage * _Nonnull)image;
+- (void)addLayerSymbolWithName:(NSString * _Nonnull)name buildingId:(double)buildingId;
+- (void)addSymbolOfLayerWithSymbolObjC:(INSymbolObjC * _Nonnull)symbolObjC buildingId:(double)buildingId;
+- (void)addSymboOrUpdatelOfLayerWithSymbolObjC:(INSymbolObjC * _Nonnull)symbolObjC buildingId:(double)buildingId isUpdateNeeded:(BOOL)isUpdateNeeded;
+- (void)updateSymbolOfLayerWithSymbolObjC:(INSymbolObjC * _Nonnull)symbolObjC buildingId:(double)buildingId;
+- (void)updateCoordinateAndVisibleOfSymbolOfLayerWithSymbolObjC:(INSymbolObjC * _Nonnull)symbolObjC buildingId:(double)buildingId;
+- (void)setSymbolLayerVisibleWithLayerName:(NSString * _Nonnull)layerName isVisible:(BOOL)isVisible buildingId:(double)buildingId;
+- (void)removeSymbolsInLayerSymbolWithName:(NSString * _Nonnull)name buildingId:(double)buildingId;
+- (void)removeCurrentSymbolInLayerSymbolWithLayerName:(NSString * _Nonnull)layerName symbolName:(NSString * _Nonnull)symbolName buildingId:(double)buildingId;
+@end
+
+
+SWIFT_PROTOCOL("_TtP13IndoorsMapSDK45INBuildingLayerRendererAnnotationViewDelegate_")
+@protocol INBuildingLayerRendererAnnotationViewDelegate <NSObject>
+- (void)onPickingObjectAnnotationViewWithObjName:(NSString * _Nonnull)objName itemId:(NSString * _Nonnull)itemId;
+- (void)onDeselectAnnotationView;
+@end
+
+
+SWIFT_PROTOCOL("_TtP13IndoorsMapSDK31INBuildingLayerRendererDelegate_")
+@protocol INBuildingLayerRendererDelegate <NSObject>
+- (void)onPickingObjectWithObjName:(NSString * _Nonnull)objName itemId:(NSString * _Nonnull)itemId;
+- (void)onDeselect;
+@end
+
+
+SWIFT_PROTOCOL("_TtP13IndoorsMapSDK40INBuildingLayerRendererTerritoryDelegate_")
+@protocol INBuildingLayerRendererTerritoryDelegate <NSObject>
+- (void)onPickingObjectInTerritoryWithObjName:(NSString * _Nonnull)objName itemId:(NSString * _Nonnull)itemId;
+- (void)onDeselectInTerritory;
+@end
+
+
+SWIFT_CLASS("_TtC13IndoorsMapSDK18INBuildingRenderer")
+@interface INBuildingRenderer : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
 
 @class UITouch;
 @class UIEvent;
@@ -540,7 +670,6 @@ SWIFT_PROTOCOL("_TtP13IndoorsMapSDK25INPanoramaViewNewDelegate_")
 @end
 
 @class AVPlayerItem;
-@class UIImage;
 
 SWIFT_CLASS("_TtC13IndoorsMapSDK21INPanoramaWatcherView")
 @interface INPanoramaWatcherView : UIView
@@ -564,10 +693,10 @@ SWIFT_CLASS("_TtC13IndoorsMapSDK21INPanoramaWatcherView")
 @end
 
 
-
 @interface INPanoramaWatcherView (SWIFT_EXTENSION(IndoorsMapSDK))
 - (void)addArrowsWith:(CGPoint)position points:(NSArray<INPanoramaPoint *> * _Nonnull)points;
 @end
+
 
 
 
@@ -580,6 +709,12 @@ SWIFT_CLASS("_TtC13IndoorsMapSDK21INPanoramaWatcherView")
 
 
 
+
+SWIFT_CLASS("_TtC13IndoorsMapSDK19INTerritoryRenderer")
+@interface INTerritoryRenderer : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class NSNumber;
 
 SWIFT_CLASS("_TtC13IndoorsMapSDK19INTrackedObjectView")
@@ -589,6 +724,16 @@ SWIFT_CLASS("_TtC13IndoorsMapSDK19INTrackedObjectView")
 - (void)setOpacity:(NSNumber * _Nullable)opacity;
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC13IndoorsMapSDK6INVec3")
+@interface INVec3 : NSObject
+@property (nonatomic) float x;
+@property (nonatomic) float y;
+@property (nonatomic) float z;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init:(float)x :(float)y :(float)z OBJC_DESIGNATED_INITIALIZER;
 @end
 
 enum ViewType : NSInteger;
@@ -608,15 +753,15 @@ typedef SWIFT_ENUM(NSInteger, ViewType, open) {
   ViewTypeAr = 2,
 };
 
-
-@interface OnboardingViewController (SWIFT_EXTENSION(IndoorsMapSDK)) <UIPageViewControllerDelegate>
-- (void)pageViewController:(UIPageViewController * _Nonnull)pageViewController didFinishAnimating:(BOOL)finished previousViewControllers:(NSArray<UIViewController *> * _Nonnull)previousViewControllers transitionCompleted:(BOOL)completed;
-@end
-
 @class UIScrollView;
 
 @interface OnboardingViewController (SWIFT_EXTENSION(IndoorsMapSDK)) <UIScrollViewDelegate>
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
+@end
+
+
+@interface OnboardingViewController (SWIFT_EXTENSION(IndoorsMapSDK)) <UIPageViewControllerDelegate>
+- (void)pageViewController:(UIPageViewController * _Nonnull)pageViewController didFinishAnimating:(BOOL)finished previousViewControllers:(NSArray<UIViewController *> * _Nonnull)previousViewControllers transitionCompleted:(BOOL)completed;
 @end
 
 

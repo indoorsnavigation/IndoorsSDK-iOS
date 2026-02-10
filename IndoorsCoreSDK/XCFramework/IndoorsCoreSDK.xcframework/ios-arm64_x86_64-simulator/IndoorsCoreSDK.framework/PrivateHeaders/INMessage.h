@@ -13,6 +13,7 @@
 #import "INBaseObject.h"
 #import "INProfiles.h"
 #import "INConversation.h"
+#import "INMessageFiles.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -43,6 +44,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  Message status.
+ CREATED = 0
+ SENDED = 1
+ RECEIVED = 2
+ READED = 3
+ PENDING = 4
  */
 @property (nonatomic, strong) NSNumber *Status;
 
@@ -52,6 +58,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// Associated `INProfile` recipient object.
 @property (nonatomic, weak) INProfiles        *Recipient;
+
+
+@property (nonatomic, strong, nullable) NSString *FileToSendName;
+@property (nonatomic, strong, nullable) NSString *FileToSend;
+
+@property (nonatomic, strong, nullable) NSMutableArray<INMessageFiles *> *files;
+
+
+
+@property (nonatomic, strong, nullable) NSString *extension;
 
 @end
 

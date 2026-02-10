@@ -19,7 +19,7 @@
 #import "INBeaconNotification.h"
 #import "INBuildingType.h"
 #import "INCity.h"
-
+#import "INMap3dModel.h"
 
 @class INFloor;
 @class INBuildingType;
@@ -35,6 +35,13 @@ NS_ASSUME_NONNULL_BEGIN
  Building name.
  */
 @property (nonatomic, strong) NSString *Name;
+
+
+/**
+ Paren tId
+ */
+@property (nonatomic, strong) NSNumber *ParentId;
+
 
 /**
  Building type.
@@ -245,7 +252,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *MeasurementsFile;
 
 /**
-
+ Snap User To Graph
  */
 @property (nonatomic, strong) NSNumber *SnapUserToGraph;
 
@@ -476,7 +483,7 @@ Machine learning Y filename.
  */
 @property (nonatomic, strong) NSMutableArray *BeaconPoints;
 
-/*
+/**
 An array of the 'INBookingModel' objects.
 @see 'INBookingModel'
 */
@@ -648,7 +655,14 @@ An array of the 'INFireSafetyImagePoints' objects.
 
 @property (nonatomic, strong) NSNumber *EnableRouting;
 
+@property (nonatomic, strong) NSMutableArray<INMap3dModel *> *Models;
 
+/**
+ Model 3D Mobile url.
+ */
+@property (nonatomic, strong) NSString *Model3DMobile;
+
+@property (nonatomic, strong) INMap3dModel *Model3DOfBuilding;
 
 /**
  Method returns array of the floors ids.
@@ -680,6 +694,37 @@ An array of the 'INFireSafetyImagePoints' objects.
 - (NSMutableDictionary *)toNSDictionary;
 
 - (void)addRoutableObjects:(NSMutableArray*)routableObjects;
+
+- (BOOL)isLocationInsideBuilding:(CLLocation *)location;
+
+
+@property (nonatomic, strong, nullable)  id<INRoutableProtocol> StartObjectRoute;
+@property (nonatomic, strong, nullable)  id<INRoutableProtocol> FinishObjectRoute;
+
+
+@property (nonatomic, strong, nullable)  NSNumber * BuildingForStartDrawRouteFromGlobalRouteId;
+@property (nonatomic, strong, nullable)  NSNumber * BuildingForFinishDrawRouteFromGlobalRouteId;
+@property (nonatomic, strong, nullable)  id<INRoutableProtocol> PointForStartDrawRouteFromGlobalRoute;
+@property (nonatomic, strong, nullable)  id<INRoutableProtocol> PointForFinishDrawRouteFromGlobalRoute;
+
+
+@property (nonatomic) BOOL IsDrawStartPoint;
+@property (nonatomic) BOOL IsDrawEndPoint;
+
+@property (nonatomic, strong, nullable) NSMutableArray *GraphPointsPath;
+
+
+
+
+// new for new map
+@property (nonatomic, strong) NSNumber *CurrentFloorId;
+@property (nonatomic, strong) NSNumber *CurrentFloorIndex;
+@property (nonatomic) int               CurrentGraphIndex;
+@property (nonatomic, strong) INGraph  *CurrentGraph;
+@property (nonatomic, strong) id  CurrentPathfinder;
+@property (nonatomic, strong) id  PathFinderForSort;
+@property (nonatomic, strong) NSMutableArray *CurrentPath;
+
 
 @end
 

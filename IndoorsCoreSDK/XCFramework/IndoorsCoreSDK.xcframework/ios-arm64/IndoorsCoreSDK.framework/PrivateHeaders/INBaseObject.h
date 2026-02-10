@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @class INFloor;
 @class INPosition2;
 @class INCategory;
+@class INBuilding;
 
 /**
  Category Protocol.
@@ -40,9 +41,14 @@ NS_ASSUME_NONNULL_BEGIN
 - (nullable NSString*)getName;
 - (nullable NSString*)getImage;
 - (nullable INFloor*)getFloor;
+- (nullable INBuilding*)getBuilding;
 - (INGraphPoint*)getGraphPointWithGraph:(INGraph *)graph fromPosition:(nullable INPosition2*)position;
 - (float)getDistanceFromPoint:(INGraphPoint*)graphPoint;
+- (float)getDistanceFromX:(float)pointX Y:(float)pointY floorId:(int)pointFloorId;
 - (float)getDistance;
+- (CGPoint)getPointInBuilding;
+
+- (nullable NSString*)getKeyWords;
 
 @end
 

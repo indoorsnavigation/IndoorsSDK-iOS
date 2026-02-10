@@ -87,6 +87,16 @@ Boolean flag specifies if floot is active.
 @property (nonatomic, strong) NSNumber *Base;
 
 /**
+ Elevation of the floor in meters.
+ */
+@property (nonatomic, strong, nullable) NSNumber *Elevation;
+
+/**
+ Floor Thickness of the floor in meters.
+ */
+@property (nonatomic, strong, nullable) NSNumber *FloorThickness;
+
+/**
  SVG-path of the floor.
  */
 @property (nonatomic, strong) NSString *SvgBackground;
@@ -107,6 +117,7 @@ Boolean flag specifies if floot is active.
 @property (nonatomic, strong) NSString *AssetBundleIOS;
 @property (nonatomic, strong) NSString *AssetBundleIOSPath;
 
+@property (nonatomic, strong) NSNumber *ShowElementsAlways;
 
 /**
  An array of the 'INPolygon' objects.

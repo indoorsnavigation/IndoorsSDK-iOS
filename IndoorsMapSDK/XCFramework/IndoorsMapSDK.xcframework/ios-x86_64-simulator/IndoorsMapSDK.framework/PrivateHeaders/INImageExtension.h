@@ -25,6 +25,7 @@
 + (UIImage*)listImage;
 
 + (UIImage*)floorsImage;
++ (UIImage*)iconFloorNew;
 + (UIImage*)navigationImage;
 + (UIImage*)navigationImageNew;
 + (UIImage*)navigationSelectedImage;
@@ -35,13 +36,16 @@
 + (UIImage*)microphoneOnImage;
 + (UIImage*)microphoneOffImage;
 + (UIImage*)microphoneOnImageNew;
++ (UIImage*)microphoneOnImageNewWith:(CGSize)size;
 + (UIImage*)routeImage;
 + (UIImage*)d2Image;
 + (UIImage*)d3Image;
 + (UIImage*)arImage;
 + (UIImage*)arImageNew;
++ (UIImage*)arImageNewWith:(CGSize)size;
 + (UIImage*)arEnabledImage;
 + (UIImage*)tourEnabledImage;
++ (UIImage*)tourEnabledImageNew;
 + (UIImage*)tourDisabledImage;
 + (UIImage*)rightImage;
 + (UIImage*)leftImage;
@@ -61,15 +65,24 @@
 //+ (UIImage*)mediaButtonImage;
 
 + (UIImage*)playImage;
++ (UIImage*)playButtonIconNew;
 + (UIImage*)pauseImage;
++ (UIImage*)pauseButtonIconNew;
++ (UIImage*)pauseButtonNew;
++ (UIImage*)playButtonNew;
 + (UIImage*)mpRightImage;
 + (UIImage*)mpLeftImage;
 
 + (UIImage*)sliderThumbImage;
++ (UIImage*)sliderThumbImageWith:(CGSize)size;
 
 + (UIImage*)gradientGray;
 
 + (UIImage*)bluetoothIconImage;
++ (UIImage*)bluetoothIconWithoutPaddingImageWith:(CGSize)size;
+
++ (UIImage*)enableTrackingButtonIconWith:(CGSize)size;
++ (UIImage*)infoIconWithCircleWithoutPaddingWith:(CGSize)size;
 
 + (UIImage*)searchbarLetterBImage;
 + (UIImage*)searchbarLetterAImage;
@@ -84,12 +97,19 @@
 
 + (UIImage*)iconFinish;
 + (UIImage*)iconFinish_2;
++ (UIImage*)iconFinish_3;
 + (UIImage*)iconShare;
++ (UIImage*)iconShareWithoutPadding;
++ (UIImage*)iconInfoButtonOnMap;
 
 + (UIImage*)PanoranaIconOnMap;
++ (UIImage*)PanoranaIconOnMap2;
 + (UIImage*)ARIconOnMap;
++ (UIImage*)ARIconOnMap2;
 + (UIImage*)InfomatIconOnMap;
++ (UIImage*)InfomatIconOnMap2;
 + (UIImage*)MediaIconOnMap;
++ (UIImage*)MediaIconOnMap2;
 
 //+ (UIImage*)iconAnonimous;
 
@@ -117,6 +137,8 @@
 + (UIImage*)iconMarker;
 + (UIImage*)iconMarkerCircle;
 
++ (UIImage*)iconMarkerNew;
+
 //+ (UIImage*)iconCallAnswer;
 //+ (UIImage*)iconCallHangup;
 
@@ -125,6 +147,7 @@
 
 + (UIImage*)iconSearch;
 + (UIImage*)iconSearchNew;
++ (UIImage*)iconSearchNewWith:(CGSize)size;
 
 + (UIImage*)iconWalking;
 
@@ -138,12 +161,16 @@
 + (UIImage*)startIcon;
 + (UIImage*)finishIcon;
 
-+ (UIImage*)startIconNew;
-+ (UIImage*)finishIconNew;
++ (UIImage*)startIconNewWith:(CGSize)size;
++ (UIImage *)finishIconNewWith:(CGSize)size;
+
+
++ (UIImage *)restartingNavigationIconWith:(CGSize)size;
 
 
 + (UIImage*)routeImageOld;
 + (UIImage*)routeImageNew;
++ (UIImage*)routeImageNewWith:(CGSize)size;
 + (UIImage*)iconRouteSimple;
 + (UIImage*)iconHelpSimple;
 + (UIImage*)iconOptionsSimple;
@@ -256,7 +283,9 @@
 + (UIImage*)upFloorSelectImageNew;
 
 + (UIImage*)iconStartNew;
++ (UIImage*)iconStartNew2;
 + (UIImage*)iconInfomatInfo;
++ (UIImage*)listOfToursIcon;
 
 + (UIImage *)trackedObjectImage;
 
@@ -291,6 +320,32 @@
 + (UIImage*)RequestsAndTasksSliderIcon;
 
 
++ (UIImage*)tearFillIcon;
++ (UIImage*)tearIcon;
+
++ (UIImage*)inIcUserLocation;
++ (UIImage*)inIcMapPlaceMarker;
+
+
+
++ (UIImage*)AoAImage;
++ (UIImage*)BLEImage;
++ (UIImage*)UWBImage;
+
+
++ (UIImage*)settingButton;
++ (UIImage*)sortingButton;
+
+
++ (UIImage*)resizeImageWithImage:(UIImage*) image size:(CGSize)size;
++ (UIImage*)resizeImageWithImageWithColor:(UIImage*) image size:(CGSize)size;
+
++ (UIImage *)createTextImageWithText:(NSString *)text
+                           maxWidth:(CGFloat)maxWidth
+                               font:(UIFont *)font
+                          lineCount:(NSInteger)lineCount
+                          textColor:(UIColor *)textColor
+                     backgroundColor:(UIColor *)backgroundColor;
 @end
 
 

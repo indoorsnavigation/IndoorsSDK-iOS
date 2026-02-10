@@ -129,9 +129,20 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)deleteObject:(id)object withCompletionBlock:(void (^)(NSError *error))completionBlock;
 
 
-
+/// Set new password for your accaunt.
+///
+/// - Parameter newPasswordModel: model with old and new pass.
+/// - Parameter completionBlock: Completion block
 - (void)setNewPassword:(INCreateNewPassword *)newPasswordModel
     andCompletionBlock:(void (^)(INProfile * _Nullable responseObject, NSError  * _Nullable error))completionBlock;
+
+
+/// Load file with url string.
+///
+/// - Parameter urlString: url string for load.
+/// - Parameter completionBlock: Completion block.
+- (void)fetchFileWithUrl:(NSString*)urlString
+      andCompletionBlock:(void (^)(NSData *fileData, NSString *extension, NSError * error))completionBlock;
 
 NS_ASSUME_NONNULL_END
 

@@ -11,6 +11,8 @@
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 #import <UIKit/UIKit.h>
+#import "INMessageFiles.h"
+#import "INProfiles.h"
 
 #import "INServiceMessage.h"
 #import "INVideoCallViewControllerDelegate.h"
@@ -291,7 +293,15 @@
 #import "AcceleromenrGraphModel.h"
 #import "UIImage + Scaled.h"
 #import "INTrackingMapInternalView.h"
+#import "INMapButtonsColors.h"
 //#import "INMessengerViewControllerNew.h"
+
+#import "INMap3dModel.h"
+#import "INMap3dMobileModel.h"
+
+#import "INEmptyModelForNavigation.h"
+
+
 
 @class INRawBeacon;
 
@@ -603,6 +613,15 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)loadBuilding:(INBuilding*)building
    withProgressBlock:(void (^)(Class layerClass, NSMutableArray *objects))progressBlock
   andCompletionBlock:(void (^)(INBuilding *building, NSError *_Nullable error))completionBlock;
+
+
+/// Loads buildings with all objects required for rendering maps in `INMapView`, navigation, notifications, and so on.
+///
+/// - Parameter building `INBuildings` objects.
+/// - Parameter completionBlock Completion block.
+- (void)loadBuildings:(NSMutableArray<INBuilding*>*)buildings
+    withProgressBlock:(void (^)(Class layerClass, NSMutableArray *buildings))progressBlock
+  WithCompletionBlock:(void (^)(NSMutableArray<INBuilding*>* buildings, NSError *_Nullable error))completionBlock;
  
 /// Loads building with all objects required for navigation and pathfinding only.
 ///
@@ -1275,8 +1294,13 @@ withCompletionBlock:(void (^)(NSError *_Nullable error))completionBlock;
 /// - Parameter completionBlock: Completion block that returns an array of `INMessage` objects or error else.
 - (void)loadMessages:(INConversation*)conversation
         withPageSize:(NSNumber*)pageSize
-               page :(NSString*)page
-  andCompletionBlock:(void (^)(NSMutableArray *objects,int remoteCount, int localCount, NSError *_Nullable error))completionBlock;
+                page:(NSString*)page
+  andCompletionBlock:(void (^)(NSMutableArray<INMessage *> *objects, int remoteCount, int localCount, NSError *_Nullable error))completionBlock;
+
+- (void)loadNewMessagesWithStatus:(NSNumber*)status
+                    applicationId:(NSNumber*)applicationId
+                            limit:(NSNumber*)limit
+               andCompletionBlock:(void (^)(NSMutableArray<INMessage *> *objects, int remoteCount, int localCount, NSError *_Nullable error))completionBlock;
 
 /// Creates `INMessage` object and push it.
 ///
@@ -1293,7 +1317,7 @@ withCompletionBlock:(void (^)(NSError *_Nullable error))completionBlock;
 /// - Parameter text: Edited message text.
 /// - Parameter completionBlock: ComplCompletion block.
 - (void)editMessage:(INMessage*)message
-           withText:(NSString*)text
+           withText:(NSString * _Nullable)text
  andCompletionBlock:(void (^)(INMessage *_Nullable message, NSError *_Nullable error))completionBlock;
 
 /// Deletes messages.
@@ -1301,6 +1325,25 @@ withCompletionBlock:(void (^)(NSError *_Nullable error))completionBlock;
 /// - Parameter message: Message to delete.
 /// - Parameter completionBlock: Completion block.
 - (void)deleteMessage:(INMessage*) message withCompletionBlock:(void (^)(NSError *_Nullable error))completionBlock;
+
+
+- (void)loadMessageFilesWithId:(NSArray<NSNumber *>*)messageIds
+            andCompletionBlock:(void (^)(NSMutableArray<INMessageFiles *> *_Nullable objects, int remoteCount, NSError *_Nullable error))completionBlock;
+
+/// Load file with url string.
+///
+/// - Parameter urlString: url string for load.
+/// - Parameter completionBlock: Completion block.
+- (void)fetchFileWithUrl:(NSString*)urlString
+      andCompletionBlock:(void (^)(NSData *fileData, NSString *extension, NSError * error))completionBlock;
+
+
+- (void)sendMessageFilesWith:(NSString*)text
+             forConversation:(INConversation * _Nullable)conversation
+                     andFile:(NSMutableArray< NSData *> * _Nullable)filesData
+                 andFileName:(NSString * _Nullable)fileName
+            andFileExtension:(NSString * _Nullable)fileExtension
+          andCompletionBlock:(void (^)( INMessage  *_Nullable message, NSError *_Nullable error))completionBlock;
 
 #pragma mark - Conversation member
 
@@ -1737,6 +1780,9 @@ withCompletionBlock:(void (^)(INTasksModel *task, NSError * _Nullable error))com
                   andCompletionBlock:(void (^)(INBuilding* building, NSError *_Nullable error))completionBlock;
 
 
+- (void)loadRoomsOAndOwnersAndFloorsAndGraphs:(NSMutableArray<INBuilding*> *)buildings
+                           andCompletionBlock:(void (^)(NSMutableArray<INBuilding*>* buildings, NSError *_Nullable error))completionBlock;
+
 
 - (void)loadAllCitysWithCompletionBlock:(void (^)(NSMutableArray<INCity *>* _Nullable model, NSError * _Nullable error))completionBlock;
 - (void)searchCityWith:(NSString *)cityName
@@ -1765,6 +1811,11 @@ withCompletionBlock:(void (^)(INTasksModel *task, NSError * _Nullable error))com
 
 - (void)loadArticlesOfApplication:(NSNumber *)applicationId
               withCompletionBlock:(void (^)(NSArray<INArticles *>* _Nullable articles,  NSError*  _Nullable errors))completionBlock;
+
+
+
+- (void)fetchMap3dModelOfBuilding:(INBuilding *)building
+              withCompletionBlock:(void (^)( INMap3dModel *model))completionBlock;
 
 #pragma mark - Cancelation and deletion
 

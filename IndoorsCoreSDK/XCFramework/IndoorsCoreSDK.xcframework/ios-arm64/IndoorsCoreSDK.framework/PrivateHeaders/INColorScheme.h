@@ -51,6 +51,34 @@
 @property (strong, nonatomic) UIColor *BookingSubBG;
 @property (strong, nonatomic) UIColor *BookingRedCellColor;
 
+
+
+
+//Map Buttons Colors
+@property (strong, nonatomic) UIColor *MapPrimaryColor;
+@property (strong, nonatomic) UIColor *MapAccentColor;
+@property (strong, nonatomic) UIColor *MapButtonColor1;
+@property (strong, nonatomic) UIColor *MapButtonColor2;
+@property (strong, nonatomic) UIColor *MapButtonTextColor1;
+@property (strong, nonatomic) UIColor *MapButtonTextColor2;
+
+
+@property (strong, nonatomic) UIColor *MapButtonsTintColor;
+@property (strong, nonatomic) UIColor *MapButtonsBackgroundColor;
+@property (strong, nonatomic) UIColor *MapButtonsBorderColor;
+
+
+@property (strong, nonatomic) UIColor *MapCellBackgroundColor;
+@property (strong, nonatomic) UIColor *MapCellTextColorColor;
+
+
+@property (strong, nonatomic) UIColor *MapSubviewTitleTextColor;
+@property (strong, nonatomic) UIColor *MapSubviewSubtitleTextColor;
+@property (strong, nonatomic) UIColor *MapSubviewTextColor;
+@property (strong, nonatomic) UIColor *MapSubviewSubtextColor;
+
+-(void)setStandartMapButtonsColors;
+
 @end
 
 #endif /* MessengerStyle_h */

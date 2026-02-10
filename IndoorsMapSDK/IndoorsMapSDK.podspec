@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'IndoorsMapSDK'
-    s.version          = '3.3.9'
+    s.version          = '4.0.0'
     s.summary          = 'IndoorsMapSDK - SDK для внутренней навигации с поддержкой карт, AR, и MapLibre.'
     s.description      = <<-DESC
         IndoorsMapSDK предоставляет функционал для внутренней навигации, включая    поддержку карт и AR, с использованием MapLibre GL для отображения карт.
@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
   
   
     s.frameworks       = 'MapKit', 'CoreGraphics', 'CoreLocation', 'ARKit'
-    s.dependency       'MapLibre', '~> 5.13.0'
-    s.dependency       'IndoorsCoreSDK', '3.3.9'
+    s.dependency       'MapLibre', '~> 6.16.0'
+    s.dependency       'IndoorsCoreSDK', '4.0.0'
     
     
     # Использование ARC

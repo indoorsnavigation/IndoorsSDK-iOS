@@ -40,8 +40,11 @@
 
 @property (nonatomic, assign) BOOL allowSelectRooms;
 @property (nonatomic, assign) BOOL allowSelectIcons;
+@property (nonatomic, assign) BOOL allowSelectTour;
 
 @property (nonatomic, assign) BOOL isNavigationEnabled;
+
+@property (nonatomic, assign) BOOL isBookingApplication;
 
 @end
 

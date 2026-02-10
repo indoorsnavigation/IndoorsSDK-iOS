@@ -4,24 +4,32 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import ARKit
 import AVFoundation
+import CoreLocation
 import CoreMotion
+import Darwin
 import Foundation
 import GLKit
 import ImageIO
 import IndoorsCoreSDK
 @_exported import IndoorsMapSDK
+import MapLibre
+import Metal
+import MetalKit
 import ModelIO
 import SceneKit.ModelIO
 import QuartzCore
 import SceneKit
 import SpriteKit
 import Swift
+import SwiftUI
 import UIKit
+import Vision
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
+import simd
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class FocusNode : SceneKit.SCNNode {
   @_Concurrency.MainActor @preconcurrency weak public var viewDelegate: (any IndoorsMapSDK.ARSmartHitTest)?
   public enum State : Swift.Equatable {
@@ -106,6 +114,7 @@ extension IndoorsMapSDK.ARSmartHitTest {
 extension IndoorsMapSDK.INARControllerNew : UIKit.UIGestureRecognizerDelegate {
 }
 extension IndoorsMapSDK.INARControllerNew : ARKit.ARSCNViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func renderer(_ renderer: any SceneKit.SCNSceneRenderer, didUpdate node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
   @_Concurrency.MainActor @preconcurrency @objc final public func renderer(_ renderer: any SceneKit.SCNSceneRenderer, didAdd node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
   @_Concurrency.MainActor @preconcurrency @objc final public func renderer(_ renderer: any SceneKit.SCNSceneRenderer, updateAtTime time: Foundation.TimeInterval)
 }
@@ -216,6 +225,105 @@ extension UIKit.UIView {
 }
 @objc extension UIKit.UIView {
   @objc @_Concurrency.MainActor @preconcurrency dynamic public func toImage() -> UIKit.UIImage?
+}
+@_inheritsConvenienceInitializers @objc public class INBuildingRenderer : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class INTerritoryRenderer : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class INVec3 : ObjectiveC.NSObject {
+  @objc public var x: Swift.Float
+  @objc public var y: Swift.Float
+  @objc public var z: Swift.Float
+  @objc override dynamic public init()
+  @objc public init(_ x: Swift.Float, _ y: Swift.Float, _ z: Swift.Float)
+  public static func + (lhs: IndoorsMapSDK.INVec3, rhs: IndoorsMapSDK.INVec3) -> IndoorsMapSDK.INVec3
+  public static func - (lhs: IndoorsMapSDK.INVec3, rhs: IndoorsMapSDK.INVec3) -> IndoorsMapSDK.INVec3
+  public static func * (lhs: IndoorsMapSDK.INVec3, scalar: Swift.Float) -> IndoorsMapSDK.INVec3
+  @objc deinit
+}
+@objc public protocol INBuildingLayerRendererDelegate : ObjectiveC.NSObjectProtocol {
+  @objc func onPickingObject(objName: Foundation.NSString, itemId: Swift.String)
+  @objc func onDeselect()
+}
+@objc public protocol INBuildingLayerRendererTerritoryDelegate : ObjectiveC.NSObjectProtocol {
+  @objc func onPickingObjectInTerritory(objName: Foundation.NSString, itemId: Swift.String)
+  @objc func onDeselectInTerritory()
+}
+@objc public protocol INBuildingLayerRendererAnnotationViewDelegate : ObjectiveC.NSObjectProtocol {
+  @objc func onPickingObjectAnnotationView(objName: Foundation.NSString, itemId: Swift.String)
+  @objc func onDeselectAnnotationView()
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class INBuildingLayerRenderer : MapLibre.MLNCustomStyleLayer {
+  @objc weak final public var delegate: (any IndoorsMapSDK.INBuildingLayerRendererDelegate)?
+  @objc weak final public var delegateTerritory: (any IndoorsMapSDK.INBuildingLayerRendererTerritoryDelegate)?
+  @objc weak final public var delegateAnnotationView: (any IndoorsMapSDK.INBuildingLayerRendererAnnotationViewDelegate)?
+  @objc override dynamic public init(identifier: Swift.String)
+  @objc override final public func didMove(to mapView: MapLibre.MLNMapView)
+  @objc override final public func willMove(from _: MapLibre.MLNMapView)
+  @objc override final public func draw(in mapView: MapLibre.MLNMapView, with context: MapLibre.MLNStyleLayerDrawingContext)
+  @objc deinit
+}
+extension IndoorsMapSDK.INBuildingLayerRenderer {
+  @objc final public func addTapEvent(point: CoreFoundation.CGPoint)
+}
+extension IndoorsMapSDK.INBuildingLayerRenderer {
+  @objc final public func showFloorWithFloorId(id: Swift.Double, buildingId: Swift.Int)
+  @objc final public func needUpdateShadow()
+  @objc final public func removeCurrentBuilding()
+}
+extension IndoorsMapSDK.INBuildingLayerRenderer {
+  @objc final public func migrateState(from oldRenderer: IndoorsMapSDK.INBuildingLayerRenderer)
+  @objc final public func setTerritories(territories: [IndoorsMapSDK.INTerritory])
+  @objc final public func selectCurrentTerritory(newVisibleTerritory: IndoorsMapSDK.INTerritory?)
+  @objc final public func cleanBuildingsInTerritoriesWithoutTerritory(territoryId: Swift.String)
+  @objc final public func removeAllTerritoriesFromMemory()
+}
+extension IndoorsMapSDK.INBuildingLayerRenderer {
+  @objc final public func setLocationPoint(point: CoreFoundation.CGPoint, heading: Swift.Float, z: Swift.Float, buildingId: Swift.Double, isNeedHide: Swift.Bool, userInBuildingWithId: Swift.Double)
+  @objc final public func setHideLocationPoint()
+}
+extension IndoorsMapSDK.INBuildingLayerRenderer {
+  @objc final public func addImage(name: Swift.String, image: UIKit.UIImage)
+  @objc final public func addLayerSymbol(name: Swift.String, buildingId: Swift.Double)
+  @objc final public func addSymbolOfLayer(symbolObjC: IndoorsMapSDK.INSymbolObjC, buildingId: Swift.Double)
+  @objc final public func addSymboOrUpdatelOfLayer(symbolObjC: IndoorsMapSDK.INSymbolObjC, buildingId: Swift.Double, isUpdateNeeded: Swift.Bool)
+  @objc final public func updateSymbolOfLayer(symbolObjC: IndoorsMapSDK.INSymbolObjC, buildingId: Swift.Double)
+  @objc final public func updateCoordinateAndVisibleOfSymbolOfLayer(symbolObjC: IndoorsMapSDK.INSymbolObjC, buildingId: Swift.Double)
+  @objc final public func setSymbolLayerVisible(layerName: Swift.String, isVisible: Swift.Bool, buildingId: Swift.Double)
+  @objc final public func removeSymbolsInLayerSymbol(name: Swift.String, buildingId: Swift.Double)
+  @objc final public func removeCurrentSymbolInLayerSymbol(layerName: Swift.String, symbolName: Swift.String, buildingId: Swift.Double)
+}
+extension IndoorsMapSDK.INBuildingLayerRenderer {
+  @objc final public func addLayerFillExtrusion(name: Swift.String, buildingId: Swift.Double)
+  @objc final public func clearLayers()
+  @objc final public func setLayerFillExtrusionVisible(layerName: Swift.String, isVisible: Swift.Bool, buildingId: Swift.Double)
+  @objc final public func setLayerFillExtrusionPicking(layerName: Swift.String, isPicking: Swift.Bool)
+  @objc final public func addFillExtrusionOfLayer(nameObj: Swift.String, polygon: [Swift.Float], base: Swift.Float, height: Swift.Float, isRenderShadow: Swift.Bool, isPicking: Swift.Bool, layerName: Swift.String, buildingId: Swift.Double)
+  @objc final public func addFillExtrusionOfLayer(nameObj: Swift.String, polygon: [Swift.Float], color: [Swift.Float], base: Swift.Float, height: Swift.Float, isRenderShadow: Swift.Bool, isPicking: Swift.Bool, layerName: Swift.String, buildingId: Swift.Double)
+  @objc final public func updateColorFillExtrusionOfLayer(name: Swift.String, color: [Swift.Float], layerName: Swift.String, buildingId: Swift.Double)
+}
+extension IndoorsMapSDK.INBuildingLayerRenderer {
+  @objc final public func add3DModel(name: Swift.String, objContent: Swift.String, mtlContent: Swift.String, textureData: [Swift.String : Foundation.Data]) -> Swift.Float
+  @objc final public func addLayer3DModelPoint(name: Swift.String, buildingId: Swift.Double)
+  @objc final public func add3DModelPointOfLayer(nameModel: Swift.String, x: Swift.Float, y: Swift.Float, z: Swift.Float, scale: Swift.Float, rotateX: Swift.Float, rotateY: Swift.Float, rotateZ: Swift.Float, isRenderShadow: Swift.Bool, layerName: Swift.String, buildingId: Swift.Double)
+  @objc final public func setLayer3DModelPointVisible(layerName: Swift.String, isVisible: Swift.Bool, buildingId: Swift.Double)
+}
+extension IndoorsMapSDK.INBuildingLayerRenderer {
+  @objc final public func addLayerObjPicking(name: Swift.String, buildingId: Swift.Double)
+  @objc final public func addObjOfLayerObjPicking(nameObj: Swift.String, polygon: [Swift.Float], base: Swift.Float, height: Swift.Float, layerName: Swift.String, buildingId: Swift.Double)
+  @objc final public func setLayerObjPickingVisible(layerName: Swift.String, isVisible: Swift.Bool, buildingId: Swift.Double)
+}
+extension IndoorsMapSDK.INBuildingLayerRenderer {
+  @objc final public func addLayerRoute(name: Swift.String, buildingId: Swift.Double)
+  @objc final public func addRouteOfLayer(path: [Swift.Float], z: Swift.Float, isVisible: Swift.Bool, layerName: Swift.String, width: Swift.Float, buildingId: Swift.Double)
+  @objc final public func redrawColorRouteOpacityWithLayer(layerName: Swift.String, buildingId: Swift.Double, opacity: Swift.Float)
+  @objc final public func setLayerRouteVisible(layerName: Swift.String, isVisible: Swift.Bool, buildingId: Swift.Double)
+  @objc final public func updateOpacityRoutsOfLayer(opacity: Swift.Float, layerName: Swift.String, buildingId: Swift.Double)
+  @objc final public func removeRoutes(layerName: Swift.String, buildingId: Swift.Double)
 }
 @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency final public class INTrackedObjectView : UIKit.UIView {
   @objc @_Concurrency.MainActor @preconcurrency public init(image: UIKit.UIImage?)

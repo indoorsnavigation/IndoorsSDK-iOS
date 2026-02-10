@@ -20,7 +20,11 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Stores data about route point.
  */
-@interface INGraphPoint : INBaseObject
+@interface INGraphPoint : INBaseObject<INRoutableProtocol, NSMutableCopying>
+
+
+
+- (instancetype)initWithFloor:(INFloor *)floor floorId:(NSNumber *)floorId x:(NSNumber *)x y:(NSNumber *)y distance:(NSNumber *)distance buildingId:(NSNumber *)buildingId applicationId:(NSNumber *)applicationId;
 
 /**
  Floor identifier in the database.

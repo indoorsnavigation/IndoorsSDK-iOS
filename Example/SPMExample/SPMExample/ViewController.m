@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-
+#import <IndoorsCoreSDK/IndoorsCoreSDK.h>
 #import <IndoorsMapSDK/IndoorsMapSDK.h>
 
 @interface ViewController ()

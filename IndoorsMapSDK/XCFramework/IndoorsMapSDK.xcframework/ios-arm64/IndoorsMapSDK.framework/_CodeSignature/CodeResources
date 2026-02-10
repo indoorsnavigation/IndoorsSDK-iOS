@@ -8,6 +8,18 @@
 		<data>
 		/HRvgQzikU4Ca9VUCCbjUIcfgVY=
 		</data>
+		<key>Assets/Icons/AR_Icon_On_Map_2.png</key>
+		<data>
+		7H71ispw8XiLPTKE496gZODJ7ds=
+		</data>
+		<key>Assets/Icons/AoA_image.png</key>
+		<data>
+		EQjvYKYh/JsvQFwnh7DWeqqjxYY=
+		</data>
+		<key>Assets/Icons/BLE_image.png</key>
+		<data>
+		SOkRR3psVJjyTeX+rhACMbpfBUM=
+		</data>
 		<key>Assets/Icons/BookingBackButton.svg</key>
 		<data>
 		fZG1M8033NvSFugEUeaH7wNDK5M=
@@ -68,6 +80,10 @@
 		<data>
 		s2A5kL1RDPSowrgWXmpenXOIwWI=
 		</data>
+		<key>Assets/Icons/Infomat_Icon_On_Map_2.png</key>
+		<data>
+		0aYySietUQOCPGUL9hD6EKS42uc=
+		</data>
 		<key>Assets/Icons/MeIconNew.png</key>
 		<data>
 		rBmyVOdT1RbXmpnLTJXLAGRH/k0=
@@ -76,6 +92,10 @@
 		<data>
 		mldasz98vjQ125jNq41OxHEyeko=
 		</data>
+		<key>Assets/Icons/Media_Icon_On_Map_2.png</key>
+		<data>
+		EPoWlUBuGkazPHkh9rsNkf54Dco=
+		</data>
 		<key>Assets/Icons/MessagesIconNew.png</key>
 		<data>
 		jWA9Jw2Q/+2NgSZ8+W/uetyLFBI=
@@ -83,6 +103,10 @@
 		<key>Assets/Icons/Panorana_Icon_On_Map.png</key>
 		<data>
 		sZ9ZftD3DfCQcFaLfzJIRG3/8IY=
+		</data>
+		<key>Assets/Icons/Panorana_Icon_On_Map_2.png</key>
+		<data>
+		dlPySdxTCXHmt5XrAQZIot6UuHI=
 		</data>
 		<key>Assets/Icons/QRIcon.png</key>
 		<data>
@@ -135,6 +159,10 @@
 		<key>Assets/Icons/RequestsAndTasksSliderIcon.png</key>
 		<data>
 		mfJOJQ7gngjFnP3Z0HAkSX+QENE=
+		</data>
+		<key>Assets/Icons/UWB_image.jpeg</key>
+		<data>
+		ZgjVd4oTAlN7cHlNkwCHZE8VXKU=
 		</data>
 		<key>Assets/Icons/arPathIcon.png</key>
 		<data>
@@ -256,6 +284,18 @@
 		<data>
 		tcxZEJDaS8Dx5r3fJlbNQGzqalk=
 		</data>
+		<key>Assets/Icons/enable_tracking_button.png</key>
+		<data>
+		qfGed2c18fTojMlG7DUlFZcxLXM=
+		</data>
+		<key>Assets/Icons/enable_tracking_button@2x.png</key>
+		<data>
+		+8txerS4eiJhe+eke6yP0/corsc=
+		</data>
+		<key>Assets/Icons/enable_tracking_button@3x.png</key>
+		<data>
+		Z/wZhj/U6MUXyK4IAZTtzL4NUQI=
+		</data>
 		<key>Assets/Icons/finishIcon.png</key>
 		<data>
 		4HyYxAdsedos8rDdde58dCGU87s=
@@ -268,9 +308,17 @@
 		<data>
 		GoeJyQ1aVuCJVWJHnlTEtYhvgj4=
 		</data>
+		<key>Assets/Icons/finishIconNew.png</key>
+		<data>
+		y8ubb6dFzJUBfMlOJ9VFvsaBLFk=
+		</data>
 		<key>Assets/Icons/hotel-service2.png</key>
 		<data>
 		2yAl8CLnkMF8/O7/HvbONjIoszQ=
+		</data>
+		<key>Assets/Icons/iconFinish_3.png</key>
+		<data>
+		7PyAiI13EpYuT0tbkc9kGekgif0=
 		</data>
 		<key>Assets/Icons/icon_2d.png</key>
 		<data>
@@ -379,6 +427,18 @@
 		<key>Assets/Icons/icon_bluetooth.png</key>
 		<data>
 		zOVFCndRYNlviJtIXuq4nSaRTbQ=
+		</data>
+		<key>Assets/Icons/icon_bluetooth_without_padding.png</key>
+		<data>
+		xjyff69y/FVP6BfBufzXHDL30lk=
+		</data>
+		<key>Assets/Icons/icon_bluetooth_without_padding@2x.png</key>
+		<data>
+		TEZU81EYpxwU/JWLCjteTcof7cg=
+		</data>
+		<key>Assets/Icons/icon_bluetooth_without_padding@3x.png</key>
+		<data>
+		QStChB7Goam/ducOgdyGV8QTnp4=
 		</data>
 		<key>Assets/Icons/icon_build_for_tabBar.png</key>
 		<data>
@@ -528,6 +588,10 @@
 		<data>
 		jlGaQ0fzgxNRVRUMPFDcpbKuFrY=
 		</data>
+		<key>Assets/Icons/icon_floor_new.png</key>
+		<data>
+		ayydX5c+jSNKT7mmVbuR93U/Smc=
+		</data>
 		<key>Assets/Icons/icon_floors.png</key>
 		<data>
 		mM3FBLYsOPWM2pBkjt0H6t+BYOc=
@@ -564,9 +628,25 @@
 		<data>
 		dxV1FqJxnbMbexC4jiZ1Z3+fkwA=
 		</data>
+		<key>Assets/Icons/icon_i_with_circle_without_padding.png</key>
+		<data>
+		B7nDarhiMPlW654YuTDXqQlBpU4=
+		</data>
+		<key>Assets/Icons/icon_i_with_circle_without_padding@2x.png</key>
+		<data>
+		T0cvX7Ce/ayblrEDw9z679FiXWs=
+		</data>
+		<key>Assets/Icons/icon_i_with_circle_without_padding@3x.png</key>
+		<data>
+		9h1jd41ayhkImxBUzYuqiWigHok=
+		</data>
 		<key>Assets/Icons/icon_info.png</key>
 		<data>
 		gZ6+nZ2lnpRKQWZg4k2fC0IUA90=
+		</data>
+		<key>Assets/Icons/icon_info_button_on_map.png</key>
+		<data>
+		94OtUs5eVOgXUpCNjs+vTl+Mm2g=
 		</data>
 		<key>Assets/Icons/icon_infomat.png</key>
 		<data>
@@ -619,6 +699,10 @@
 		<key>Assets/Icons/icon_marker_circle.png</key>
 		<data>
 		kFuoCeYy9ID4rjVGJLiWIbDu3Zo=
+		</data>
+		<key>Assets/Icons/icon_marker_new.png</key>
+		<data>
+		pbDEm5VABlYxdEXj07vJURM2UlA=
 		</data>
 		<key>Assets/Icons/icon_measuring.png</key>
 		<data>
@@ -800,6 +884,10 @@
 		<data>
 		Hea5LIvPVkl177WsAaFlozv6YCc=
 		</data>
+		<key>Assets/Icons/icon_share_without_padding.png</key>
+		<data>
+		MB0G/BaBnhoeH9sNlXMfUHXpvLg=
+		</data>
 		<key>Assets/Icons/icon_signal_simple.png</key>
 		<data>
 		kQkCC5HMYdwejloJAW304sAajGk=
@@ -807,6 +895,10 @@
 		<key>Assets/Icons/icon_start_new.png</key>
 		<data>
 		LvtdU7+mxhiiXm/IBh6pPoyNJfA=
+		</data>
+		<key>Assets/Icons/icon_start_new_2.png</key>
+		<data>
+		kgr4qwVumc0EMCqIMJnpJ8Ej5L8=
 		</data>
 		<key>Assets/Icons/icon_stop_simple.png</key>
 		<data>
@@ -843,6 +935,10 @@
 		<key>Assets/Icons/icon_tour_enabled.png</key>
 		<data>
 		14GLQ4TnI7zra0HyTGGQUi9w+0g=
+		</data>
+		<key>Assets/Icons/icon_tour_enabled_new.png</key>
+		<data>
+		HHmHMeJWlhVL2DdqE1BHz9Lzo6Q=
 		</data>
 		<key>Assets/Icons/icon_triangle_small.png</key>
 		<data>
@@ -883,6 +979,14 @@
 		<key>Assets/Icons/icon_walking.png</key>
 		<data>
 		0x6t0rBk10GHgwOuYMRPNMhb2bU=
+		</data>
+		<key>Assets/Icons/in__ic_map_place_marker.png</key>
+		<data>
+		UbpqK9yGs81xlRM0tg2HtzXhG1c=
+		</data>
+		<key>Assets/Icons/in__ic_user_location.png</key>
+		<data>
+		mkkq8wjtGvjPM5xWlMpbDFP0acE=
 		</data>
 		<key>Assets/Icons/infoIconProfile.png</key>
 		<data>
@@ -948,6 +1052,10 @@
 		<data>
 		D4DdzXlnf8qK+CDbA1CYRqNSTYE=
 		</data>
+		<key>Assets/Icons/list_of_tours_icon.png</key>
+		<data>
+		lLJuLmLZbCqxNxCt+Il/Q/lq02s=
+		</data>
 		<key>Assets/Icons/loacitionIconProfile.png</key>
 		<data>
 		3PB64//S2NX/C0OHvP037ErhJqI=
@@ -1000,9 +1108,53 @@
 		<data>
 		uU+jPAdrJ1TpRW4xC+pT+GpifyE=
 		</data>
+		<key>Assets/Icons/pauseButtonNew.png</key>
+		<data>
+		NtI+PbfruiiodQRwjUq5WtVSnCQ=
+		</data>
+		<key>Assets/Icons/pauseButtonNew@2x.png</key>
+		<data>
+		FUZollML6TXNzLKBjdgrb9AT3Zw=
+		</data>
+		<key>Assets/Icons/pauseButtonNew@3x.png</key>
+		<data>
+		fAZMifcP3urij3jdbW21m5Kaz+I=
+		</data>
+		<key>Assets/Icons/pause_button_icon.png</key>
+		<data>
+		Q9TVimvKtuDhPaOXQDADJhcadzo=
+		</data>
 		<key>Assets/Icons/personIconProfile.png</key>
 		<data>
 		umbO08UIc8b2rtl/pv6cWEfDVaw=
+		</data>
+		<key>Assets/Icons/playButtonNew.png</key>
+		<data>
+		Ad42UuxfltYeZp6RpkMpPUzAwTY=
+		</data>
+		<key>Assets/Icons/playButtonNew@2x.png</key>
+		<data>
+		cfWgay4ytVXadolthbSdMVKsgBI=
+		</data>
+		<key>Assets/Icons/playButtonNew@3x.png</key>
+		<data>
+		tUpkTz25uTylOhO3N2IjBR2ortw=
+		</data>
+		<key>Assets/Icons/play_button_icon_new.png</key>
+		<data>
+		64mLyEh02jNjtX4Ylt7L+TjgvV4=
+		</data>
+		<key>Assets/Icons/restarting_navigation_button.png</key>
+		<data>
+		kJ0RvC4wCzr2Fgqbgm2UITxehX8=
+		</data>
+		<key>Assets/Icons/restarting_navigation_button@2x.png</key>
+		<data>
+		qPSYuPkUZEliCMLMN4p6ka0/v6A=
+		</data>
+		<key>Assets/Icons/restarting_navigation_button@3x.png</key>
+		<data>
+		yTaYzcw7NvDEA3nddwZlWBmQp+I=
 		</data>
 		<key>Assets/Icons/rotatePhone.png</key>
 		<data>
@@ -1015,6 +1167,10 @@
 		<key>Assets/Icons/rotatePhone@3x.png</key>
 		<data>
 		X9M+mnZNwR4oADR56lcuDeSyjDI=
+		</data>
+		<key>Assets/Icons/setting_button.png</key>
+		<data>
+		bhsAcYfFgWDSXfimOJ0FVrkk7aI=
 		</data>
 		<key>Assets/Icons/simple_microphone_icon.png</key>
 		<data>
@@ -1031,6 +1187,10 @@
 		<key>Assets/Icons/sliders-horiz-2.png</key>
 		<data>
 		Uyz8TdmMffttokoDN5EufEmerHU=
+		</data>
+		<key>Assets/Icons/sorting_button.png</key>
+		<data>
+		uK+Mfp0TQ6mj92XPUvJ3LTpz0YU=
 		</data>
 		<key>Assets/Icons/soundIconProfile.png</key>
 		<data>
@@ -1056,9 +1216,21 @@
 		<data>
 		au3sOlx6vmAiq8Px7c00VUric3s=
 		</data>
+		<key>Assets/Icons/startIconNew.png</key>
+		<data>
+		HkWKCfy8n3OTUAtFTJDrF5A1Oa4=
+		</data>
 		<key>Assets/Icons/statisticIconProfile.png</key>
 		<data>
 		fuR0vUDv9o57ZRVDSuojbM/i1eQ=
+		</data>
+		<key>Assets/Icons/tear_fill_icon.png</key>
+		<data>
+		oNIF+s4Ql2wcMG+E6GdfX/sXmPs=
+		</data>
+		<key>Assets/Icons/tear_icon.png</key>
+		<data>
+		sUSqvclVUXmIraz0ywaySErTR0k=
 		</data>
 		<key>Assets/Icons/text_bubble_.png</key>
 		<data>
@@ -1480,791 +1652,13 @@
 		<data>
 		3yBHdhgUhcBRF70yxBx3/vIkDv8=
 		</data>
-		<key>Frameworks/IndoorsCoreSDK.framework/Assets/Icons/icon_default.png</key>
-		<data>
-		PEaCnTzQQGO+sYMonEXN0+cngBE=
-		</data>
-		<key>Frameworks/IndoorsCoreSDK.framework/IndoorsCoreSDK</key>
-		<data>
-		0QxQRSI1zjJeGTAnu0vpBoDmOgw=
-		</data>
-		<key>Frameworks/IndoorsCoreSDK.framework/Info.plist</key>
-		<data>
-		jCsojJc4ICmfCiWJ3lgJhgcd9oE=
-		</data>
-		<key>Frameworks/IndoorsCoreSDK.framework/PkgInfo</key>
-		<data>
-		3P3Nhb8UxXzmheJAvnPi/sWiGW0=
-		</data>
-		<key>Frameworks/IndoorsCoreSDK.framework/_CodeSignature/CodeResources</key>
-		<data>
-		aOP+qwmBQpeg34kR4I/0N4LJ+Tk=
-		</data>
-		<key>Frameworks/IndoorsCoreSDK.framework/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			k8cu4Qhh0PLhKafKpm+mkFr1UU8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/IndoorsCoreSDK.framework/ru.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			eVQoJXQzzFvHuyQaHBgqOk9bLt8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/Assets.car</key>
-		<data>
-		mZXo/NRNm20+BRp7lQ6blBa+6mE=
-		</data>
-		<key>Frameworks/Mapbox.framework/Base.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bT/9SAk7O/eXEF/FMKRGAGLwG2I=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/Base.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			eG6NQAtP/4fQCOgZowguFT/VnXI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/Info.plist</key>
-		<data>
-		wc4Ykrpq9VmZu/Zh7u6WfZH7e+o=
-		</data>
-		<key>Frameworks/Mapbox.framework/Mapbox</key>
-		<data>
-		YuwgLVKTl0lXiCJJFSI4bNKs1Hs=
-		</data>
-		<key>Frameworks/Mapbox.framework/_CodeSignature/CodeResources</key>
-		<data>
-		73cSUzIwJfCLSflOCGLQq0As5gA=
-		</data>
-		<key>Frameworks/Mapbox.framework/ar.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			w2owO8W64ord6dkSRsz+jj5KQM0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ar.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kW98u4187ZUQuuwf0tCCDiomn7M=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/bg.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0skffxe+OJWH3iegj3plf86fhKY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/bg.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mO4rHPWihItlEWLAQNcDgw9VyeI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/bg.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pJ5cnKSQw1AWE5J03zlafvRJpaY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/bg.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			myUb1d4kXntpUVL7NDM9Ci0LOrM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ca.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ltqU4xuNlu1mxgH7qvKwoiUCwfQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ca.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5bOCdOQS/Y4G0DQ8eKW3anu00xQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ca.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vmez3VHS/QP1ncezx8xk0jqGgIo=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ca.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nOUVYgHkOUWYXAto8n9keW00drw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/cs.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bT/9SAk7O/eXEF/FMKRGAGLwG2I=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/cs.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UggkBZ0M9SvLZK8JaIKfDbeAU0Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/cs.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			tpKXvf44Oid5ei+joxsHdV2Jqvk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/cs.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NhLLb39TzJMmR9FzH2UzX0+K4Ww=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/da.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pprRhiy3Sto35FXFA1VV2+j4Rtg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/da.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Xxesjvq+fsVuu67UIeqJs1AMJR4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/da.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			e7uxiOmy3fLQTb9WkUngTTceVLk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/da.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			a/lro8C8SUk3RQjlYG5YsSIvybQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/de.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/2wetdeGtRjWLLCDu4gfy1llnCY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/de.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			tktu2+2IZHnRISxOGrAIOmbPnuc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/de.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gyKHJRzk9CFEEr2vko9kkO18p40=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/de.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			iWMdhs7S7FHqpC0Nb6OLkxVMa+c=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/en.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UggkBZ0M9SvLZK8JaIKfDbeAU0Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/en.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NhLLb39TzJMmR9FzH2UzX0+K4Ww=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/es.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			iE8TaW/WI5k7nzJveans4k99rYw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/es.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			iJisCu8wrPEjo2ORnpbI3l7efJU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bziKiqpsUykoFmdf6ZDKk7qOsjk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/es.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			j6kdzJp16cVluqCSgSv823P6SvE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/fr.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TR5bMB15ZAY9AWcHZmDtkwgachM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WjGgD0VU8uQuYPPGJlBcCAOokAc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/fr.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			n5YsW5SwxEweEj2sJuJHPNj8y84=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/gl.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lJw45dexaNqwJUhG3Dfqx7xQcfA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/gl.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4ko9vwyzqR/83BKqHZG8gb/aTmk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/gl.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NCTtNREw0TCV8PipXMD6rFulbWA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/gl.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pqMIcrzbu65aIsaCR9SDmgwcdbY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/he.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JCM89jstaV/S5vFMsi1y/qi7bV0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/he.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			P+2XqWn4rQv8PfRM3makM409+qY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/hu.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mNjrKTD1DZqZdoLmBv86MO6d0uI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/hu.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UCXxJKKbJmfjjY/6orNcbX2jHtE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ja.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vAiNWq2BcGz7AEBD2Jh1HR27qjg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ja.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			f99GGmHvpn0cLYXVAse4Rvi750s=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ko.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8s/5xCL8hnxCRcWQNI9RzH1XBsc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ko.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Y6SJz9NyXXSS2xdF9m+QFgedaSQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ko.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fehjQLFosdSlHJug6mgzb1Rse+I=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ko.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PXmjpPiljSyiR2Zp8RNVGyxX1FM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/lt.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			d4/zVa4luLnhyfCySjAsowpFA+A=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/lt.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZU3WKeWpQGXQ6ZON6cf7i+3xrxQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/lt.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			m/KgNR/tJo+erM/CUfOK9K/FTAM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/lt.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MkQCwb4SIplPqg/dtSmsZpegWdg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/pl.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fAYGWjHDELgXZpm/ERFRZHQP33M=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/pt-BR.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uFuQEAbUMPTH8uNOtAxVIUgqAvE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/pt-BR.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mbAh58N/m8fNgzfZKGmUg+TNdmc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/pt-BR.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			C6E2snj9Ge3LVmPj2rEyUJ9nUPk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/pt-BR.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mFylSdfn9q2rpGNUtyGqvdKas9Q=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/pt-PT.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mbAh58N/m8fNgzfZKGmUg+TNdmc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/pt-PT.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			b5xL/gvzY55hYBYZgh6LcQp9fBY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/pt-PT.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			toHXSOIQjFmLVL+W/Y+wNl69VAg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ru.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TNWScZwvPxZ+YO9DfpBgKrF9vBs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ru.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			su0odedJFj9qn9xAjWYrcbXKetk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ru.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pp0a4gCmvdRT79gNST2nt9C1znc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ru.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			280g/DT1iIbPBm14BrpLXsCgvYI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/strip-frameworks.sh</key>
-		<data>
-		jg9lELZIVgXE6YTsmv0+v2AHIKI=
-		</data>
-		<key>Frameworks/Mapbox.framework/sv.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uEqljTkfbqUsNcHE73+KEapeN38=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/sv.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RNVqMHUAUdKeov3lNT2xhyQ5OkU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/sv.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			m55cABUMLHObqAtXF108CH1dt64=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/sv.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fmitVprBdpDMIvRfYA/1VcBEOl4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/uk.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			73L1NO4doj2CYznogeqC5hKXnGQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/uk.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6pXyqS4nHPrBaDY9hsRxd+//sUY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/uk.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mbrj7Osa8Y6oAwJYciKZslA8BbQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/uk.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+8n3X/0CWmXIlJj2so7HPQy0l68=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/vi.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oYvsaM+DdMo4vSvKop0tNo1RiXA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/vi.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ldC8M8Z/iWm7wWvJdqvSllJgOYU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/vi.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OYu75Ic82vJHTU+Zc2ZHl1eh350=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/vi.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ccy9ZTQnXdvnAfd/SNUjNH9uL8Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/zh-Hans.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6QMpBO6GdxLC2czT4U6mVYkn+qs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/zh-Hans.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			E9i0FhZZFYF39J4/8uqoAnDtOnE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/zh-Hant.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6rI1z315Zh5tPee57DsO6Gx6p7A=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/zh-Hant.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zRK2BLsnLfzv4jySnPq1biyKdrM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/zh-Hant.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3pq+lHQBKwh0+ppqVNeq6TELd9E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Headers/IndoorsMapSDK-Swift.h</key>
 		<data>
-		f9CB771bvGHJwt7dUpbDOj1JW4A=
+		bua1fChXENHXpqaQtym+hsyYxnc=
 		</data>
 		<key>Headers/IndoorsMapSDK.h</key>
 		<data>
-		/G7Nk/4Mnl/nTha+Rl2vxLj1SW8=
+		//wtac447cUw1S7YEkjy/Fyql8s=
 		</data>
 		<key>INARControllerNew + Scene.swift.orig</key>
 		<data>
@@ -2380,27 +1774,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		16dvGbpet28fX/s2MMSD1xG454U=
+		qxuv9wLElkvtaDBysM8cf3gSS2Q=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		zbXjt/2a+j6wrCFLQDsCBIxmhgo=
+		jdISv2zvZtk+kmzj8TZ00EoXEVQ=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		7S2BdvGVU3GB38ppvUf+njCa+1E=
+		KqmWYQmJfW0Zd4O6gISEK7WE8Os=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		d4I08XmuZmQpP30RQULkiI+iNwE=
+		JkxZPSBQP4FPCyhd71NHSgZuZhk=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		7S2BdvGVU3GB38ppvUf+njCa+1E=
+		KqmWYQmJfW0Zd4O6gISEK7WE8Os=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		GzTDDUBbmDMDtlvPNr+d6bYIdZY=
+		7pMtPVvPjGz91kIYzWnEUyOn+tc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2410,17 +1804,29 @@
 		<data>
 		Vn4H2B8rkrLziqnPYK7U1gjVFq4=
 		</data>
+		<key>PrivateHeaders/INBaseMapInternalView.h</key>
+		<data>
+		eu8Wo0FEgAPP8oxxgyIpMtVXeW8=
+		</data>
+		<key>PrivateHeaders/INBaseMapInternalViewDelegate.h</key>
+		<data>
+		AswlQnkc+fMtlgHmDxWuWLbxZA0=
+		</data>
 		<key>PrivateHeaders/INBaseMapView.h</key>
 		<data>
-		z+ZD9bR3CKuHQ3KU3M4NEslVOEo=
+		ZC2u/aDpwD8/rGDguC5zsv0w4jw=
 		</data>
 		<key>PrivateHeaders/INBaseMapViewDelegate.h</key>
 		<data>
 		JGuhsF0mTc+om7XxOgFAhKnEDko=
 		</data>
+		<key>PrivateHeaders/INBuildingLayer.h</key>
+		<data>
+		5dq02+5WaXa9kLuxSfT/E6tuQqg=
+		</data>
 		<key>PrivateHeaders/INConverterForMap.h</key>
 		<data>
-		+an3CDo2m2Ovc7GngJSL1UVRwlY=
+		WwnoEOBYR8xAK8ZM7GF28MURUJc=
 		</data>
 		<key>PrivateHeaders/INDateFormatter.h</key>
 		<data>
@@ -2430,13 +1836,25 @@
 		<data>
 		b6A4mOhqKlTThjZEJY+CpOkowD0=
 		</data>
+		<key>PrivateHeaders/INEarcut.hpp</key>
+		<data>
+		/YY54Z68Gnqk6cxS8xVkifRmyrM=
+		</data>
+		<key>PrivateHeaders/INEarcutWrapper.h</key>
+		<data>
+		DqFHl8CaGK3LuuYAP+kf1YrDGMI=
+		</data>
 		<key>PrivateHeaders/INGlobalInternalMapTapDelegate.h</key>
 		<data>
 		L8Vag3CVuaoO0apW9VthCByt+A0=
 		</data>
+		<key>PrivateHeaders/INGlobalMapInternalView.h</key>
+		<data>
+		Nb4kB4VDJ0aeaueRQ3X0xfrr/jk=
+		</data>
 		<key>PrivateHeaders/INGlobalMapView.h</key>
 		<data>
-		8PvCMqXOyp6EoWI9MagAKwkwTcQ=
+		XgcLYcLDkQt5z0Byj+70GHjHppY=
 		</data>
 		<key>PrivateHeaders/INGlobalRadioMapView.h</key>
 		<data>
@@ -2448,7 +1866,7 @@
 		</data>
 		<key>PrivateHeaders/INImageExtension.h</key>
 		<data>
-		fRzt4EPIuuYWwkPf1ArfqopcG3A=
+		nUBQogBCZF4lJAl57NqN9YgdLa8=
 		</data>
 		<key>PrivateHeaders/INMapView.h</key>
 		<data>
@@ -2456,7 +1874,7 @@
 		</data>
 		<key>PrivateHeaders/INMapViewsConfiguration.h</key>
 		<data>
-		UOFIxHEVnRZ1Kv3zy+IDgcG3exc=
+		Z8o1ZdDJxzIFhI3nmTDCCqRF3Q0=
 		</data>
 		<key>PrivateHeaders/INMinewBeaconAdminDelegate.h</key>
 		<data>
@@ -2474,6 +1892,18 @@
 		<data>
 		DfI+CAmpB2uqLbqPQmQq70YYkpA=
 		</data>
+		<key>PrivateHeaders/INRouteSearchViewV2.h</key>
+		<data>
+		2pXPy1dEhWefFmFYoPbTUov2jww=
+		</data>
+		<key>PrivateHeaders/INSymbolObjC.h</key>
+		<data>
+		HU3XWYNwLo9KNCOX6mmCsIB2KA4=
+		</data>
+		<key>PrivateHeaders/INTerritory.h</key>
+		<data>
+		JnFL2ZZ7E77eerbh23SXLMXL5Tc=
+		</data>
 		<key>PrivateHeaders/INTourPickerView.h</key>
 		<data>
 		Y3A7DmTSczOjlHDPsVDDiulX3Ho=
@@ -2484,7 +1914,7 @@
 		</data>
 		<key>default.metallib</key>
 		<data>
-		qsGvudQgOTHFK9sApezKa5tgk5o=
+		7r/DujNdsFc23EX10VuazTomj+0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -2494,6 +1924,27 @@
 			<key>hash2</key>
 			<data>
 			1Gd3UJJl7XCRaVochTAw8t3sIjDJdqQArDbXUFR6Mt8=
+			</data>
+		</dict>
+		<key>Assets/Icons/AR_Icon_On_Map_2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WBEfdqHxcWo14WLjPm4wX1GAbp6xg9wy4W+0LjfrwSc=
+			</data>
+		</dict>
+		<key>Assets/Icons/AoA_image.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Gx/MTXJtVCIMNFsLYP01yL+TakIsO0Oxmy9MPUCqcyA=
+			</data>
+		</dict>
+		<key>Assets/Icons/BLE_image.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1OqA6pbBiPOQ94MBRWxAADeoDAUE11GsQbLGEvl//0M=
 			</data>
 		</dict>
 		<key>Assets/Icons/BookingBackButton.svg</key>
@@ -2601,6 +2052,13 @@
 			9akEfLrQ5ibu1/aOn5bTdyIRgecp/3NqBrxLjjoup2A=
 			</data>
 		</dict>
+		<key>Assets/Icons/Infomat_Icon_On_Map_2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qDByG3DGCxOi6BXo3HX7LJ3lfgFoxlDUcQrKEndC3Y8=
+			</data>
+		</dict>
 		<key>Assets/Icons/MeIconNew.png</key>
 		<dict>
 			<key>hash2</key>
@@ -2615,6 +2073,13 @@
 			VTVIrSDzTJ9dIsmM26xsLLJJxy0lSPNSklMm8lAWVaY=
 			</data>
 		</dict>
+		<key>Assets/Icons/Media_Icon_On_Map_2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yJGG0czc+fP8dt38EpDrwJWB1kgqMGe41XCP3Aqb6Yw=
+			</data>
+		</dict>
 		<key>Assets/Icons/MessagesIconNew.png</key>
 		<dict>
 			<key>hash2</key>
@@ -2627,6 +2092,13 @@
 			<key>hash2</key>
 			<data>
 			DWv3ET7kEdtdE3BxTDOCSQ+gTI1qmDhtkwt6euWjcq8=
+			</data>
+		</dict>
+		<key>Assets/Icons/Panorana_Icon_On_Map_2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pC5n7uH6/hz2JcwkwdlihQyDH8hyVNNXIvFPC919UUk=
 			</data>
 		</dict>
 		<key>Assets/Icons/QRIcon.png</key>
@@ -2718,6 +2190,13 @@
 			<key>hash2</key>
 			<data>
 			HZDYfPFeiNDUlvAePJtK5vEu9k/0Oh9pPjo4TSIuwdo=
+			</data>
+		</dict>
+		<key>Assets/Icons/UWB_image.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			R1tht6hsa6s7/qmJKGw+XN0Ug03+dST5VnQM7Sk39P0=
 			</data>
 		</dict>
 		<key>Assets/Icons/arPathIcon.png</key>
@@ -2930,6 +2409,27 @@
 			z7jag4YkVwF4x3M89qpcbrVQMqAqXgnNt+c9xE0hY4A=
 			</data>
 		</dict>
+		<key>Assets/Icons/enable_tracking_button.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1flJxVZ9s5ZIUcp80uk0m99J6wMrHgpEEy4/OnLhYpM=
+			</data>
+		</dict>
+		<key>Assets/Icons/enable_tracking_button@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			w+hfaRhiU0lM5YBOxnXyAslT7xwP5K59IQ2szIi1y1A=
+			</data>
+		</dict>
+		<key>Assets/Icons/enable_tracking_button@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QBE1Q9L0evM+WsCc1JWI99/JIe62ribGEQRljcGNTeY=
+			</data>
+		</dict>
 		<key>Assets/Icons/finishIcon.png</key>
 		<dict>
 			<key>hash2</key>
@@ -2951,11 +2451,25 @@
 			qs9nJvu8WBq4L/KbrftkLm8Jb9bpR4a/d6XRgoRHNkQ=
 			</data>
 		</dict>
+		<key>Assets/Icons/finishIconNew.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+iT6zmC9pyDJynPW3nduheLxukSh2ji3uJJlYYEnqhc=
+			</data>
+		</dict>
 		<key>Assets/Icons/hotel-service2.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			QxOVvgEzv28sTa6ibbpxDUQILyooiVx4k5xVchl4shc=
+			</data>
+		</dict>
+		<key>Assets/Icons/iconFinish_3.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Km3cs0niq3f0j/scRhpFc7ZB8DWyyd0KGSSF2RCHG6o=
 			</data>
 		</dict>
 		<key>Assets/Icons/icon_2d.png</key>
@@ -3145,6 +2659,27 @@
 			<key>hash2</key>
 			<data>
 			BKX54a6I4286FLW5hCBR/melnwie0gqvpurOSWvU+NA=
+			</data>
+		</dict>
+		<key>Assets/Icons/icon_bluetooth_without_padding.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Bcu/leKohbBUn7AYSFlJJ+NGOXwui0yFr+LIFKCtlso=
+			</data>
+		</dict>
+		<key>Assets/Icons/icon_bluetooth_without_padding@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			u4zm8lMhipqYNTwAZjwMoeD+2z//HUib80NKunfELCU=
+			</data>
+		</dict>
+		<key>Assets/Icons/icon_bluetooth_without_padding@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WoP4qUyiRWWAMPrP6IeKOBVk2OdyHjjCJ9LxgVA5ug0=
 			</data>
 		</dict>
 		<key>Assets/Icons/icon_build_for_tabBar.png</key>
@@ -3406,6 +2941,13 @@
 			sxBIJUJcOCXGlKSuy5VYofTODl+UEQ1I02ZcNXyIxtI=
 			</data>
 		</dict>
+		<key>Assets/Icons/icon_floor_new.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h4L7W+UH596TsupN1KnLgi/Vfl8u3l9uxNoYPAaRxOM=
+			</data>
+		</dict>
 		<key>Assets/Icons/icon_floors.png</key>
 		<dict>
 			<key>hash2</key>
@@ -3469,11 +3011,39 @@
 			+sxUySPvYyaNQ1QuBCjCcFuNKaoD98u3H7JTsvD4HxM=
 			</data>
 		</dict>
+		<key>Assets/Icons/icon_i_with_circle_without_padding.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AFyAvfFu1oJLIdToOOILggcx0/3yuySnGxnH7XKr9Mk=
+			</data>
+		</dict>
+		<key>Assets/Icons/icon_i_with_circle_without_padding@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FJQmXzZ92KfexBnrSC/KyNEbtQsvyBEyKjVgrBimMVs=
+			</data>
+		</dict>
+		<key>Assets/Icons/icon_i_with_circle_without_padding@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BqRr5wJTj7c3DG8tBtDTRxu7LSz/Wu6+yNTthiUsRXU=
+			</data>
+		</dict>
 		<key>Assets/Icons/icon_info.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			o0bokTj9yMqDI08eS7oQ6XPvZnVFe0x0m0x6HHGullU=
+			</data>
+		</dict>
+		<key>Assets/Icons/icon_info_button_on_map.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2zoM5wfPrXDJWDhShK3IQP14bVql2LmqVtdEn14qYrM=
 			</data>
 		</dict>
 		<key>Assets/Icons/icon_infomat.png</key>
@@ -3565,6 +3135,13 @@
 			<key>hash2</key>
 			<data>
 			blVXyTP4gzhvRodifGUpIJslwvVx1NntdWd8nAB96c0=
+			</data>
+		</dict>
+		<key>Assets/Icons/icon_marker_new.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			n2fE8sqCGu7uLrPm8scDnOA2xzdulHAvMv8AOWavtL0=
 			</data>
 		</dict>
 		<key>Assets/Icons/icon_measuring.png</key>
@@ -3882,6 +3459,13 @@
 			hwwdrDEgSbL5ViiBvJ++aiJl2iKCGXQ81upAM7/1eAc=
 			</data>
 		</dict>
+		<key>Assets/Icons/icon_share_without_padding.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EBp8ZIXoi9h3cAoGdS5bvlbDpdYX/b4YfZ3xIk3vlV4=
+			</data>
+		</dict>
 		<key>Assets/Icons/icon_signal_simple.png</key>
 		<dict>
 			<key>hash2</key>
@@ -3894,6 +3478,13 @@
 			<key>hash2</key>
 			<data>
 			R64XG+MOaLmBr14EgwFCjM9oSpP6Jw1EhmC7PGAQ/VE=
+			</data>
+		</dict>
+		<key>Assets/Icons/icon_start_new_2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JlkD5jlcYGz1akAIjbUpmMPn9jt+9lvPPqcq6hhAXAs=
 			</data>
 		</dict>
 		<key>Assets/Icons/icon_stop_simple.png</key>
@@ -3957,6 +3548,13 @@
 			<key>hash2</key>
 			<data>
 			Ab+0VHrm0QHR7484IF5ue/Uo/Zqle15pfaYOdQHLDDE=
+			</data>
+		</dict>
+		<key>Assets/Icons/icon_tour_enabled_new.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Y77500LI+/YtScIFp7+AI552ju7hYuwYREa59Gg3zoM=
 			</data>
 		</dict>
 		<key>Assets/Icons/icon_triangle_small.png</key>
@@ -4027,6 +3625,20 @@
 			<key>hash2</key>
 			<data>
 			uXEKzTu1Cdtx5IkXn1BPVUs4VQGd3qH2YGIRu99Z5pg=
+			</data>
+		</dict>
+		<key>Assets/Icons/in__ic_map_place_marker.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h2WI1wAayGxYm7P1bvX4DhXQlEkdkN9MgmTmgk8zWFw=
+			</data>
+		</dict>
+		<key>Assets/Icons/in__ic_user_location.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KS+6bFrYI4mwWS4rXT3TRsKNLqnd9J9QEVohaGmGU4M=
 			</data>
 		</dict>
 		<key>Assets/Icons/infoIconProfile.png</key>
@@ -4141,6 +3753,13 @@
 			UW2hxCDUK6LkHSg+TheUTeBV469xFPX4HX+anfBVTR8=
 			</data>
 		</dict>
+		<key>Assets/Icons/list_of_tours_icon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YAN3a2eFXHuvDA1uCjRzu6NTAvEFDnnfbxqV2l/9mT4=
+			</data>
+		</dict>
 		<key>Assets/Icons/loacitionIconProfile.png</key>
 		<dict>
 			<key>hash2</key>
@@ -4232,11 +3851,88 @@
 			5wfW6Umz7/dDUXZqbWjY8S/I5tC0Nq4WpRF80xwd0SE=
 			</data>
 		</dict>
+		<key>Assets/Icons/pauseButtonNew.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F+M97zz05xf7a0dm/TzxCD8ch+n/kM1B2Wc0C/QKRrg=
+			</data>
+		</dict>
+		<key>Assets/Icons/pauseButtonNew@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			y6Q0mYb/LiicDugWMnsQWh18EKkaUoUG470LOCdmyXw=
+			</data>
+		</dict>
+		<key>Assets/Icons/pauseButtonNew@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DAAnuMuoZk8LrwbyhBBAWk+oHaRe+08E6b8MAfaWuTg=
+			</data>
+		</dict>
+		<key>Assets/Icons/pause_button_icon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+RkEu+eIjZj/4gRwBtEK/StzJE8eky7NfJv59VvfAQU=
+			</data>
+		</dict>
 		<key>Assets/Icons/personIconProfile.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			IY86W8kiXr7icfRakZ9Fxc2k4Q2yXxD8/jj9AKKXcbk=
+			</data>
+		</dict>
+		<key>Assets/Icons/playButtonNew.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			O6P7/8Kimq9IHe+cCB3st0IXvkLvBGm5HLN/r8UJYe8=
+			</data>
+		</dict>
+		<key>Assets/Icons/playButtonNew@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			99wG15xjQRj9SnaGcWedqN8whZpNohISKEOQB+7Fcz8=
+			</data>
+		</dict>
+		<key>Assets/Icons/playButtonNew@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ke9ZxXMwhEfA/0vSaXm8v2631xvxeN49JARAO2fV3ew=
+			</data>
+		</dict>
+		<key>Assets/Icons/play_button_icon_new.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+tkW2JkkGsl/z/WXIhok6G0o0w+Nv+7P1yHqaNhwS2Y=
+			</data>
+		</dict>
+		<key>Assets/Icons/restarting_navigation_button.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			u+ia5PJwyIPXJaoSPXiNdfCBE0KJIPbvr1rUqUIGVoA=
+			</data>
+		</dict>
+		<key>Assets/Icons/restarting_navigation_button@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gzE5xQ7NyYJ4YhJv0xR04APHQ2Yg7ETeyTQvX2c2ni4=
+			</data>
+		</dict>
+		<key>Assets/Icons/restarting_navigation_button@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4AA32fouXE8PHCEbs9vDl8Egbc6Ez+RiC5GC7448Io8=
 			</data>
 		</dict>
 		<key>Assets/Icons/rotatePhone.png</key>
@@ -4258,6 +3954,13 @@
 			<key>hash2</key>
 			<data>
 			ZNGCdDxkT7CNCgtVm7BbR/hh6Oq6lGpsGc2uVDeHoaY=
+			</data>
+		</dict>
+		<key>Assets/Icons/setting_button.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sVmTRWHCw+duqw1CxqLaXt/8WBOx+PQPZK5RyFR4VY8=
 			</data>
 		</dict>
 		<key>Assets/Icons/simple_microphone_icon.png</key>
@@ -4286,6 +3989,13 @@
 			<key>hash2</key>
 			<data>
 			9nF35TKookEmk95azboWqBAh7aeImHuhKm1vzaLTQb0=
+			</data>
+		</dict>
+		<key>Assets/Icons/sorting_button.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VYsmfrs8gKnCI7Nsq3B2WB1+Pfe2CXfGF3ngcK0tMvo=
 			</data>
 		</dict>
 		<key>Assets/Icons/soundIconProfile.png</key>
@@ -4330,11 +4040,32 @@
 			5W0dlbqdx7Ivcn5IfEcD7u3h/HmgrA3Gq0kkPnN0jtU=
 			</data>
 		</dict>
+		<key>Assets/Icons/startIconNew.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vBV6R9Bg2gT2YFA7/XvOA8Rgi/F+WSndBkiAFhgC+b8=
+			</data>
+		</dict>
 		<key>Assets/Icons/statisticIconProfile.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			SNg6HzS4WkoHOxANWEumE9Pfagr14Gwhn4zrq9mLhi8=
+			</data>
+		</dict>
+		<key>Assets/Icons/tear_fill_icon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HayiPF0YXG4mBdER6EqtxPqcOLyTjznLuqjhELfBpCo=
+			</data>
+		</dict>
+		<key>Assets/Icons/tear_icon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FZC48GeRGHaNtk03l6Vk+rJIQ7tXo8hRt+yjuxRolyE=
 			</data>
 		</dict>
 		<key>Assets/Icons/text_bubble_.png</key>
@@ -5072,826 +4803,18 @@
 			cPLDKnxAdzBP4dLunBI1N2PFnu8SGzpEzx4OV2wnIH8=
 			</data>
 		</dict>
-		<key>Frameworks/IndoorsCoreSDK.framework/Assets/Icons/icon_default.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			69NAa4Tb3X2y6xET7fJQ3JrohlFMau9tlQtjbVVlGG4=
-			</data>
-		</dict>
-		<key>Frameworks/IndoorsCoreSDK.framework/IndoorsCoreSDK</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eepAiaOOij0YST7bg59MBePjTNm7zIeco4r9QxSMqVQ=
-			</data>
-		</dict>
-		<key>Frameworks/IndoorsCoreSDK.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TYxCeC737IEhKd62HI794Cv6lEG1N07tb+e3MkXoMOo=
-			</data>
-		</dict>
-		<key>Frameworks/IndoorsCoreSDK.framework/PkgInfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BAzqpXwuTjQEU1W/T5hGrAfFvwk2tDapGs5bsm6caS4=
-			</data>
-		</dict>
-		<key>Frameworks/IndoorsCoreSDK.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5TZelDIb2KwsVk83s325UseilVUzezQgLLlND2yVtwM=
-			</data>
-		</dict>
-		<key>Frameworks/IndoorsCoreSDK.framework/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			leLkIfYVdWy6CucHYV396aRUxGIGi1L7qeOOwaE2a40=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/IndoorsCoreSDK.framework/ru.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VgMV2lGS0cNzl9w/aDqIxRKeT2JDz7di+ZEKu0eL0d0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/Assets.car</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/BEabL7QwFdMlaynz49CT/RWksGyVSjOs2FX00iwe2o=
-			</data>
-		</dict>
-		<key>Frameworks/Mapbox.framework/Base.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ivRLhrmSL71NoY6dirUCNPw3k/mh36WowG8jpNrVAIM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/Base.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9BVFUXnGMghi4JU9LVGKsTrfpwkojAbDYzUFdKdW/8k=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cTWOJ8w68wU7MumSmCFgCXk3B6U9iiAVVFIOLiA72+U=
-			</data>
-		</dict>
-		<key>Frameworks/Mapbox.framework/Mapbox</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TD8ngV6yRp/xcO6mqBGTVaPoqTtlIscgcvbSi44ahjI=
-			</data>
-		</dict>
-		<key>Frameworks/Mapbox.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			09oaSnA7wvB9QgTO14cP5fUE9WHHwnGzuo+B+CWsqGs=
-			</data>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ar.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/AWStvUVqrtfOAnbjoRJT0F6CJcI/2j4IJuNycq49Eg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ar.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			itNxaW2iy2dza8EQKi8XWMeYfa6pGmb44+9MeO/Jf5U=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/bg.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QLxiMhrVZqUPynG0nKu6SK8Hs8QLY0shgC4zxiQNGTI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/bg.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			adjQWUE8B9EBEyV8nO3oWKr3zlyQwaa5LkT5THmxP7I=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/bg.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4oueWZkHtgVB0+MkUS9do2NlmiPn1vLPAFDKC/pEVFo=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/bg.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			l44/ZMVhiZv9hgGos3UxxOSD+XxNcyJlTPfVF0R5gTM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ca.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wWZ07C7BcnzVwDna3VTOTkilYnv13tG9IytyB2hyFlE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ca.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jYcp+3hr8145G+CnHBgLnblOMgv5nSgguV2ihbFzyv4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ca.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			E4zjTM6+rDiviYu1GtqTFslphGgPPezEvqY5E+2bfAc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ca.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3W5xvWqkhFDlc1gbgRqBAYvB4NnF/8XUAFBPHiN5h6Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/cs.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ivRLhrmSL71NoY6dirUCNPw3k/mh36WowG8jpNrVAIM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/cs.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7y0jdwBYhTGLy+ibkiXhm/cbsz7tHDxc0NPpAfpPHfQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/cs.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			D6mFxpO0ZgfcBJVV18XWCEcj+KpOCi29cqWNczf+GAg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/cs.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ueGGBkkJC69+BOC2Ep2lMOBMOTdnbMVCx7oYF0JoO8s=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/da.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1IlZKgu7eCOvMkQEEj9TxnuGQvxI/rx5oV01db4DsGE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/da.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			k1WaP5G1CGhUo+PnKo1PZfYHzSscVa2jVWDIcQRzk7o=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/da.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/khzbW4JcbNMQMy8DBrcdBZc/NwJVoYaEzoUhmuIQB8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/da.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UfesfX/0TJTGa2u2aAry+GTmRRWFpSlkBnFmZpInV94=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/de.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JA5JuIh1GxmHJhOnNlJICLJ4+uij+2lO43fPQecqo90=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/de.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dmBjhQN0SBgINsNTdg4aUwuQB7q07vrSMECM73mX4FU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/de.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bZNGf+VvA5/E5TJTq7fcc2LF0aoWjJIIwHb8HpTgLTs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/de.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			d4yReBjHEYMhqubVz1OR/4eG4wCs5bNbKDhocXxAA9Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/en.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7y0jdwBYhTGLy+ibkiXhm/cbsz7tHDxc0NPpAfpPHfQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/en.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ueGGBkkJC69+BOC2Ep2lMOBMOTdnbMVCx7oYF0JoO8s=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/es.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			G2rmtiL+z1k3880w5lWmEPqPI6E9tkI1c9+lsWB7310=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/es.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CCReE/y+L9cmpsrT0+RxyHbh/fIwlaojeYPor5tAMHk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WhrJV0B/ierMVB4S7dlsM0HUpc7lx0Z9V2/xLcN/flI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/es.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			q08vuAayk6BlR4qP26x7eLDlTWbY+rNgzZ5R6YSO+iU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/fr.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			68I8+R/C/jl6XqLyLmLBdyh/kgnWBzGe1fbraShXywA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dpPCS0HG8OVJXyJQ5vUN12lvIYu92kNKK0eg/bZACZI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/fr.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PNdNGLxdKLvYAqt+W3l7BgT++bDn+YlB0eh+bAYjrCM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/gl.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1j+RvuVXBce+YPtkVUP1kygkzEHhWwqb/ixJf18RhmI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/gl.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DmCdzv7RmR/Ohyp2btHr9wGxZH1rL0O7owZ83SdD/SQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/gl.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			niECPg+acy6K6btbjBKI8n4Dcanp7rTYxElRM/QV8OQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/gl.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9txFRw6uIKVPeqByROwz4zZAkuLVIxdmLq4bu+Jts54=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/he.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8bqAPU18VAaCeP5O3FFxUgs54SyG+za/cs/9bXiWewk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/he.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			XUa/ksI8SgBnlx4OMljUAPkIAVlT3Pyijtigt5yRqIg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/hu.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yhnBeHZ6SUY0kNLAcur9rdJIUHmrj+oW383+WJkYU6o=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/hu.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RSrjIzST5n/iYYD9dQYUGMr4n3NvMD8tExUZcIak304=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ja.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			L8GZZr+ZMbBWQIcdo2Jy4R5u9xv1TAJICVNoJ7ShCXY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ja.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ngBg13HDm4N/87NdMAOfdkDjgAqwFA7rH1kBNA27bqE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ko.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xjzx7TLKzZte4RLpFcboZVQCTURmHtfhtKzTI0yAA8k=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ko.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kNKBvnaySFL+7bLUie4lvYWKejml+fvZUMgSsPFzObk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ko.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			oFFTad1HVW/AIFosPX9XT/saT0sQSBxYoZFjWphW+pU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ko.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			r4KurDtYuPc0yt6mMUhzidJpUEz+yxKDyUHUdit+kNg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/lt.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			aZBVpKje0FWrAO7nBqG3Q6j3NvrOIsbRT6dNeZrHl9o=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/lt.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			b7TvuutSZZUeBvLouGpTbgA4H4CBTWirEY0C3QNZQlw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/lt.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6rHjcQCQiv9fCCAQiiFTn0SxRlE+HZrl2poW2FC5uGU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/lt.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			J/N1Yuo9ilKAOQoQAXJrFrB35NppFUNVMK8i6ggRTxQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/pl.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lyXKy4/Om9PJu88TVCHOqKiBz5DzRoTaZdbQZWKSDHk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/pt-BR.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sn/S3s58MKj093ZwcERt1F1DMR6VPUWHvbHNLhac7g4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/pt-BR.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ozVFaISMes3X+FJ/Z5ooZPtfrig4D4meike+DUz1iPI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/pt-BR.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			f9Xt5humAnJDd1E3DmYInrokjkXmntnedMBa0I/5+9g=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/pt-BR.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			F7C2NCtWl/UxugMAyvH7vpMCwnKC53/v+1i3Xz4wi2w=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/pt-PT.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ozVFaISMes3X+FJ/Z5ooZPtfrig4D4meike+DUz1iPI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/pt-PT.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tiFn++Ty4dpJPdatuadu++uEYhD4vfGq5sNhh2/D3qk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/pt-PT.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			oiuePfwNUpi1M+c5f9i+G94eSznolH1B88/CtfbSmZo=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ru.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Uw9gwm1n+R6bZGJ0/3Da/aWcTKoUg77Flo5QwNyuujo=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ru.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Le46mTJZaw8Am9JMqz38yOJkD+1BLFNAqLei2F2rFqg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ru.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6ceoH8lhY/1QeZ+THDScG3MoNoHTE7Ti3YvzFME/tAM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/ru.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			N9Y08qg3N5E+/spor3J7IDThb+hF1oNRJKT3cPQMGk4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/strip-frameworks.sh</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5SFot09NTyUi0DJh2RVbCcvpT/Z7iKdhdxyIrXzr3a8=
-			</data>
-		</dict>
-		<key>Frameworks/Mapbox.framework/sv.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1zbtdafhSYvhKL8LDNNcA3nAlhwEa4dQ/D3BA/rvu0Q=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/sv.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3UzHFDXE5IIxF3CfyjBfnrEmUl8zazKTwopJvRXEHgU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/sv.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QpIQa0nLmTp2bMBZzg1DT04dNNz576880DmkDICGzAI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/sv.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZoT6jJMHwldSfp6gEcI8J/aW/jMG7zlajYfY0zhBb88=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/uk.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VCLFcgUUYy3/6Pn+yaGlKbpjqYZW903sPQtv3hvrZ88=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/uk.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Zzd2MU9EezXdLxKkTKDCg9a7xHLx1Ug+dEzEGYsS4jM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/uk.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fwOYHubqpD6hD/d/1/sYsfWKaFa+3wIIwlv6FyO2JHc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/uk.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NfO4wcf1BnQYsE6v8jKTf0T0lsD2oGTDiUfDTGkeI+k=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/vi.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			e+6A842M/jfkOhRzykeqfitzllKsjuKXjzh/7Dc/1g8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/vi.lproj/Foundation.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			GiIZoYdCbziVc65AkB4OrvgSnTPXpdKiDJUGzIToQfA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/vi.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9eHDSwKh8Z+ohEaQlhr9QNi44CSWDrnCgsTFhPaBDh0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/vi.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			na4s0NsQcWtDKXI7inCwwqoe64NAvao81StP0ExVn7w=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/zh-Hans.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BufSI6/DelIljoa8u5xP5l3GC/W323iYGVLgtvce6gI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/zh-Hans.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wt264RiY7RQ7M1pQtUiDQM+xro3O+UPl262jXXRRgk4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/zh-Hant.lproj/Foundation.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zqtC1aupJVIy/kc74PI5G2hP0YpTakeBkOa2Oa+UGP4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/zh-Hant.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2qBLj9qDlsE/f8wZaV9WqPs33muyHm1Vmhhd2ULR+tU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/Mapbox.framework/zh-Hant.lproj/Localizable.stringsdict</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HO21sfx4ZvIYHLL5viJSGx7sXt+cfQd5ZkapmFBt9WI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Headers/IndoorsMapSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EcUg4Jlw4mYLW2zfqZWfydVSzSDRri1OrBmgzhhzhQI=
+			byJEr9nth4nEeyxDtxC0n4wJBSKWEBiGP7ZBpUnWkDE=
 			</data>
 		</dict>
 		<key>Headers/IndoorsMapSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ibKQq9AUQXZSZwTJuwvUZj8o+nzt5M3GB9CbKD0r7fI=
+			gmJ9+1OodkcNSYt0QDuVWX2y+prZWRaMTtFPl93kdN0=
 			</data>
 		</dict>
 		<key>INARControllerNew + Scene.swift.orig</key>
@@ -6094,35 +5017,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rcAkPow/S0iw3tePbcYgZ7qEwqP+PT6pas6v6HAxhQ8=
+			YEB3TKQKyMC71s70SZuz7GIMhSgLp6464HtuWFmuzdo=
 			</data>
 		</dict>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l80ku3UEM5J/4ppOMEyxUkYcpmgPBFU1PI5HKJI6S9U=
+			j0SejFffMb0ZCkV3wOek4jo5i5pYrjJOvYz+PmoNDiw=
 			</data>
 		</dict>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hSA1KuvYE8Rhf284kFiawRyJEuhxQEBuywekSvnnVyA=
+			qORRHvrPGNIDtGnE/rfFOX6wUe82tOqKjLaXPRzOTFs=
 			</data>
 		</dict>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l80ku3UEM5J/4ppOMEyxUkYcpmgPBFU1PI5HKJI6S9U=
+			j0SejFffMb0ZCkV3wOek4jo5i5pYrjJOvYz+PmoNDiw=
 			</data>
 		</dict>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9JCbpji4kEkUqTfxhV9TvDfsHEkxWTMOB+8n6p7eLxw=
+			9CPOMhoUIbNOFCTmqSgn1cF9+sVNs53RXf43yN2H6VM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -6139,11 +5062,25 @@
 			Mws2iBAOVSs5XH8GIvWZacKOcwYRex/3DUimIiWD4RY=
 			</data>
 		</dict>
+		<key>PrivateHeaders/INBaseMapInternalView.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yaa6EQwwquwJkQEY25i46hzlQHzmcC/nYCkL3nClanw=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INBaseMapInternalViewDelegate.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nvuSHXqDsgWO+vLiubQZL7hviXqRJVEI4eoCkb43rk4=
+			</data>
+		</dict>
 		<key>PrivateHeaders/INBaseMapView.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oDwf3VH1iVqbQrsQb8gpI3wwFiArh6egRZVbOpDq4SA=
+			INi4qp8K/xDxp1YT3DAa90pZXwCRHKrj7VH7P5YJemI=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INBaseMapViewDelegate.h</key>
@@ -6153,11 +5090,18 @@
 			f8420FXdXokt2SNXqyNsXS+7ck5v+EPJT/D6Ik5Oi9o=
 			</data>
 		</dict>
+		<key>PrivateHeaders/INBuildingLayer.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			beUsYVcVW9KcXh2ODB/pNE1egjja4f4FhCicgc4dx9k=
+			</data>
+		</dict>
 		<key>PrivateHeaders/INConverterForMap.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			POaAFS7fkm+LDhndwHktq87+A9YKd4dtBUX1lGFQZzk=
+			gYsJuDcuuTbtOdzAEB8ND3/CKQe0qh3iIdHtejnov7A=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INDateFormatter.h</key>
@@ -6174,6 +5118,20 @@
 			TSOn0pBJFZvnwcHDqlmuzvWhB58ZxULBeDuchkmpH5c=
 			</data>
 		</dict>
+		<key>PrivateHeaders/INEarcut.hpp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kDnufgbz6ZpKiEa4zWHUAy6anlj/AcbP3LzU/KSSFSc=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INEarcutWrapper.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eLyuGUFFC65DPOS2TWLA5+FjMTIarAy+tr/5xNcxcXQ=
+			</data>
+		</dict>
 		<key>PrivateHeaders/INGlobalInternalMapTapDelegate.h</key>
 		<dict>
 			<key>hash2</key>
@@ -6181,11 +5139,18 @@
 			/G7iyqgQF8kB95A61qsVn2xLYlH/2ZOQDlt9s9m5yT8=
 			</data>
 		</dict>
+		<key>PrivateHeaders/INGlobalMapInternalView.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fUXP2ZeGrh6GvA0oASWbvyOky97xkVZQpvypmToNgfo=
+			</data>
+		</dict>
 		<key>PrivateHeaders/INGlobalMapView.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/KQ8/BcMneYfoknM3VBIkcfV0fHz0Rmnb8Ty9LOpKXM=
+			8psX/zDJAP/GMkSP1btiBgKmkmjWDQsEhoq04M0lYxI=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INGlobalRadioMapView.h</key>
@@ -6206,7 +5171,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JvYq4EyBFBKQD/xaM9XAldD7ekbLqnlgb7HBHTAwWlg=
+			+OyDo3OFdlL1+iqRnrVB5Yfrl7wOKToXMXnOZ4TmpbA=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INMapView.h</key>
@@ -6220,7 +5185,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ay03PmY7m/VpicNrtxjiog7NbVBeJAsBoXul0eSYbCo=
+			bQr6RGxsKkPnQgDw62VYPoB5nImFc1l9eLf+Z9ef4CE=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INMinewBeaconAdminDelegate.h</key>
@@ -6251,6 +5216,27 @@
 			SOwmjxpJmmgX3vXYxsUC18Wgv2crpVzaSYMxvgg3Rv0=
 			</data>
 		</dict>
+		<key>PrivateHeaders/INRouteSearchViewV2.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Zqpwt+FQLpKjgba1yZbmO9I5u9V+4bhWtzFBVAW6rh4=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INSymbolObjC.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Izch+b6Tnkis/IUZaNwAnL1I+iPonPnVEK6FuOmb47s=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INTerritory.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			J/+e367DTM8Xi/yZJa6/eFr43jQAg133L9kvgYiRD5s=
+			</data>
+		</dict>
 		<key>PrivateHeaders/INTourPickerView.h</key>
 		<dict>
 			<key>hash2</key>
@@ -6269,7 +5255,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J6DXSlPtsLjbaSn/cC58GaEBmcV7Pk/7+tgEYxjrayA=
+			1Yn7m1YOTYOPbVvHFwSQbSOQ7P5rQADEbq9Cq86hONM=
 			</data>
 		</dict>
 	</dict>

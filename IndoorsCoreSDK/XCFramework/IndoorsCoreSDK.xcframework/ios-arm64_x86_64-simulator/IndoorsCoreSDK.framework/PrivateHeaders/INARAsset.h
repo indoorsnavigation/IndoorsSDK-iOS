@@ -109,6 +109,9 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, strong, nullable) NSString *Compressed3DModelIOSPath;
 
+@property (nonatomic, strong, nullable) NSString *QrContent;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

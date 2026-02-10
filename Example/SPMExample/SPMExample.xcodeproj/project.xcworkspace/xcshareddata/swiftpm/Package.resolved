@@ -1,13 +1,22 @@
 {
-  "originHash" : "12978a0ff12aa8f44ccf8b3a5ecd10942244c51fed18e94e1edb77ad0d26db60",
+  "originHash" : "9f30a4de1406de6670acf39db7c40d98c089f8206e50d614967529fca2898931",
   "pins" : [
     {
-      "identity" : "ios",
+      "identity" : "indoorssdk-ios",
       "kind" : "remoteSourceControl",
-      "location" : "https://gitlab.indoorsnavi.pro/sdk/ios",
+      "location" : "https://github.com/indoorsnavigation/IndoorsSDK-iOS",
       "state" : {
-        "revision" : "e76f5421b26445393026df112657cf1b3bbc306d",
-        "version" : "3.3.8"
+        "revision" : "0fe6f5fb76068d7889d36f85c16d0c4ae78b312f",
+        "version" : "3.3.91"
+      }
+    },
+    {
+      "identity" : "maplibre-gl-native-distribution",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maplibre/maplibre-gl-native-distribution",
+      "state" : {
+        "revision" : "ffda61e298c1490d4860d5184e80d618aaadc089",
+        "version" : "5.13.0"
       }
     }
   ],

@@ -345,6 +345,34 @@ SWIFT_CLASS("_TtC17IndoorsModulesSDK14HomeController")
 @end
 
 
+@class INApplicantsProfileViewController;
+
+SWIFT_CLASS("_TtC17IndoorsModulesSDK26INApplicantsProfileBuilder")
+@interface INApplicantsProfileBuilder : NSObject
++ (INApplicantsProfileViewController * _Nonnull)buildPrifileUUIDWith:(NSString * _Nonnull)uuid SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC17IndoorsModulesSDK33INApplicantsProfileViewController")
+@interface INApplicantsProfileViewController : UIViewController <UIScrollViewDelegate>
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@interface INApplicantsProfileViewController (SWIFT_EXTENSION(IndoorsModulesSDK)) <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (UIEdgeInsets)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout insetForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
 @class INTasksRequestsBuildingsController;
 
 SWIFT_CLASS("_TtC17IndoorsModulesSDK31INTasksRequestsBuildingsBuilder")
@@ -429,6 +457,10 @@ SWIFT_CLASS("_TtC17IndoorsModulesSDK26INTrackingTabBarController")
 - (nonnull instancetype)initWithTabs:(NSArray<UITab *> * _Nonnull)tabs SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
+
+
+
+
 
 
 

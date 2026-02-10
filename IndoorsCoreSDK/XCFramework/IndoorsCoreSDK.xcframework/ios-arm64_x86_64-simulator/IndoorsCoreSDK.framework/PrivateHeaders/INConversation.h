@@ -11,6 +11,9 @@
 
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
+#import "INMessage.h"
+#import "JSQMessageData.h"
+#import "INProfiles.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -48,6 +51,11 @@ NS_ASSUME_NONNULL_BEGIN
  New messages count.
  */
 @property int                                   NewMessagesCount;
+
+/**
+ Conversation Edited.
+ */
+@property BOOL                                   isEdited;
 
 /// Returns lasst message time string.
 - (NSString*)getLastMessageTimeString;

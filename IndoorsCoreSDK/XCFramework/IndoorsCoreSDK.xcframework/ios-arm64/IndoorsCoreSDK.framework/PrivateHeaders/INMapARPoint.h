@@ -101,6 +101,12 @@ NS_ASSUME_NONNULL_BEGIN
 // Объявляем _pathFinder как свойство
 @property (nonatomic, strong) INPathfinder *pathFinder;
 
+
+// Объявляем _pathFinder как свойство
+@property (nonatomic, strong, nullable) NSNumber *savedLastFloorNumber;
+
+@property (nonatomic, strong, nullable) NSString *UrlInQrcode;
+
 /**
  Calculates the shortest path from this AR point to its associated target.
 
@@ -123,12 +129,15 @@ NS_ASSUME_NONNULL_BEGIN
  @return An array of `INGraphPoint` objects representing the path, or an empty array if there's no valid target or an error occurs during path calculation.
  */
 - (NSArray<INGraphPoint *> *)calculatePathToTargetWithTarget:(INMapARPointTarget *)target;
+
+- (NSArray<INGraphPoint *> *)calculatePathToTargetWithTarget:(INMapARPointTarget *)target returnedNumber:( NSNumber * _Nullable )outNumbe;
 /**
  Calculates the total distance of the path from this AR point to its target.
 
  @return An NSNumber containing the total distance as a float value, or @(0.0f) if there's no path or an error occurs.
  */
 - (NSNumber *)getTotalPathDistanceToTarget;
+
 
 @end
 

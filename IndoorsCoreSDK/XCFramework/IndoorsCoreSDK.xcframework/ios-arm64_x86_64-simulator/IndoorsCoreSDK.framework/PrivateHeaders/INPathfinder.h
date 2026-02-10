@@ -46,8 +46,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// - Parameter endPoint: The end point.
 ///
 /// - Returns: An array of INGraphPoint objects that represent the shortest path.
-- (NSMutableArray*)calculateShortestPathWithStartPoint:(INGraphPoint*)startPoint
-                                            toEndPoint:(INGraphPoint*)endPoint;
+- (NSMutableArray*)calculateShortestPathWithStartPoint:(INGraphPoint*)startPointt
+                                            toEndPoint:(INGraphPoint*)endPointt;
 
 /// Sorts the routable objects from the graph point.
 ///
@@ -86,6 +86,24 @@ NS_ASSUME_NONNULL_BEGIN
  - Returns: The total distance as an NSNumber.
  */
 - (NSNumber *)calculateTotalPathDistance;
+
+/**
+ get Building
+ */
+- (INBuilding *)getBuilding;
+/**
+  Update building
+ */
+- (void)updateBuildingWithBuilding:(INBuilding *)building;
+
+
+
+/// Gets the snap point from the raw point.
+///
+/// - Parameter target Coordinate: global coordinatet.
+///
+/// - Returns: The snap point.
+- (nullable INGraphPoint*)getNearestPointOfTargetCoordinate:(CLLocationCoordinate2D)targetCoordinate;
 
 /// Cleans up the data.
 - (void)cleanup;

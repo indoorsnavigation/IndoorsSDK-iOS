@@ -11,7 +11,7 @@
 #import <Foundation/Foundation.h>
 #import <IndoorsCoreSDK/IndoorsCoreSDK.h>
 //#import "RTCSessionDescription.h"
-#import <Mapbox/MGLPolygon.h>
+#import <MapLibre/MLNPolygon.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -34,7 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSMutableArray*)convertLocalPointsToPolygons:(INBuilding*)building
                                                :(NSArray*)points;
 
-- (MGLMultiPolygon*)convertStringToMultiPolygon:(NSString*)string;
+- (MLNMultiPolygon*)convertStringToMultiPolygon:(NSString*)string;
 
 //- (CLLocationCoordinate2D)convertLocalPointToLocation:(INBuilding*)building
 //                                       :(CGPoint)point;

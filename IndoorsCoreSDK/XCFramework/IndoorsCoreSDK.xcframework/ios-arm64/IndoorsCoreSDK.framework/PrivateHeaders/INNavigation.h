@@ -98,12 +98,12 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Delegate.
  */
-@property (nonatomic, assign, nullable) id <INNavigationDelegate>  delegate;
+@property (nonatomic, weak, nullable) id <INNavigationDelegate>  delegate;
 
 /**
  Location delegate.
  */
-@property (nonatomic, assign, nullable) id <INLocationDelegate>  locationDelegate;
+@property (nonatomic, weak, nullable) id <INLocationDelegate>  locationDelegate;
 
 /**
  Is navigation enabled flag.
@@ -114,6 +114,8 @@ NS_ASSUME_NONNULL_BEGIN
  Is user position flag.
  */
 @property (nonatomic) BOOL isUserPositionFound;
+
+@property (nonatomic, assign) NSTimeInterval beaconSignalLostTimeout;
 
 /**
  Initialization.
@@ -135,6 +137,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)restartNavigationWithNewSettings:(INBuildingNavigationSettings*)settings;
 
 /**
+ This method Reset Navigation
+ */
+- (void)resetNavigation;
+
+/**
  This method stops the process of determining the device location.
  */
 - (void)stopNavigation;
@@ -154,6 +161,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (CGPoint)stopLocationManagerForRadioMap:(CGPoint)myPoint;
 - (CGPoint)calculationABForRadioMap;
 
+- (void)startBroadcasting;
+- (void)stopBroadcasting;
+
+
 @end
 
 NS_ASSUME_NONNULL_END
@@ -162,158 +173,3 @@ NS_ASSUME_NONNULL_END
 
 
 
-
-
-
-//- (void)locationManager:(CLLocationManager*)manager didRangeBeacons:(NSArray*)beacons inRegion:(CLBeaconRegion*)region
-//{
-//    if (![region.identifier isEqualToString:@"pro.indoorsnavi.indoors"])
-//        return;
-//    
-//    if(!_isNavigationEnabled)
-//        return;
-//    
-//    if ([beacons count] < 1)
-//        return;
-//    
-//    if (_currentBuilding == nil)
-//        return;
-//    
-//    if ([_currentBuilding Floors] == nil || [[_currentBuilding Floors] count] <= 0)
-//        return;
-//    
-//    if([[_currentBuilding EnableNewNavigation] intValue] == 1)
-//    {
-//
-//        NSMutableArray<INBeaconPoint*> *myBeacons =  [[NSMutableArray<INBeaconPoint*> alloc] init];
-//        for(CLBeacon *beacon in beacons)
-//        {
-//            for(INBeaconPoint *beacob in _currentBuilding.BeaconPoints)
-//            {
-//                if ((beacob.Beacon.Major.doubleValue == beacon.major.doubleValue) && (beacob.Beacon.Minor.doubleValue == beacon.minor.doubleValue))
-//                {
-//                    if(beacon.rssi < 0)
-//                    {
-////                        long long timeStamp = [[NSDate date] timeIntervalSince1970] * 1000;
-////                        INTransmitterMeasurement transmitterMeasurement = {};
-////                        transmitterMeasurement.type = TransmitterType::BEACON;
-////                        transmitterMeasurement.id = makeBeaconId([[[_currentBuilding BeaconUUID] lowercaseString] UTF8String], [[beacon major] intValue], [[beacon minor] intValue]);
-////                        transmitterMeasurement.rssi = beacon.rssi;
-////                        transmitterMeasurement.timestamp = getTimestamp(timeStamp);
-//                        
-//                        
-//                        INBeaconPoint *myBeacon = [[INBeaconPoint alloc] init];
-//                        myBeacon.RSSI = [NSNumber numberWithInteger: beacon.rssi];
-//                        myBeacon.X = beacob.X;
-//                        myBeacon.Y = beacob.Y;
-//                        myBeacon.VirtualX = beacob.VirtualX;
-//                        myBeacon.VirtualY = beacob.VirtualY;
-//                        
-//                        INBeacon *minBeac = [[INBeacon alloc] init];
-//                        minBeac.Major = [beacon major];
-//                        minBeac.Minor = [beacon minor];
-//   
-//                        myBeacon.Beacon = minBeac;
-//                        
-//                        
-//                        [myBeacons addObject:myBeacon];
-//                        
-//
-//                        
-//                   //     _transmitterMeasurements.push_back(transmitterMeasurement);
-//                    }
-//                }
-//            }
-//            if (_savedBeaconPoints.count > 0)
-//            {
-//                long long timeStamp = [[NSDate date] timeIntervalSince1970] * 1000;
-//                
-//                _transmitterMeasurements.clear();
-//                
-//                NSMutableArray<INBeaconPoint *> *newBeacons = [NSMutableArray array];
-//
-//                for (INBeaconPoint *myBeacon in myBeacons) {
-//                    BOOL isFound = NO;
-//
-//
-//                    for (INBeaconPoint *savedBeacon in _savedBeaconPoints) {
-//                        if (((savedBeacon.Beacon.Major.doubleValue == myBeacon.Beacon.Major.doubleValue) &&
-//                             (savedBeacon.Beacon.Minor.doubleValue == myBeacon.Beacon.Minor.doubleValue))) {
-//                            isFound = YES;
-//                            break;
-//                        }
-//                    }
-//                    if (!isFound) {
-//                        [newBeacons addObject:myBeacon];
-//                    }
-//                }
-//                
-//                [_savedBeaconPoints addObjectsFromArray:newBeacons];
-//
-//
-//                for (INBeaconPoint *myBeacon in myBeacons) {
-//                    for (INBeaconPoint *savedBeacon in _savedBeaconPoints) {
-//                        
-//
-//                        if (((savedBeacon.Beacon.Major.doubleValue == myBeacon.Beacon.Major.doubleValue) &&
-//                             (savedBeacon.Beacon.Minor.doubleValue == myBeacon.Beacon.Minor.doubleValue))) {
-//                            
-//
-//                            NSInteger currentRSSI = [savedBeacon.RSSI integerValue];
-//                            NSInteger newRSSI = [myBeacon.RSSI integerValue];
-//                            
-//           
-//                            NSInteger averagedRSSI = (currentRSSI + newRSSI) / 2;
-//                            
-//        
-//                            savedBeacon.RSSI = @(averagedRSSI);
-//                            
-//                            INTransmitterMeasurement transmitterMeasurement = {};
-//                            transmitterMeasurement.type = TransmitterType::BEACON;
-//                            transmitterMeasurement.id = makeBeaconId([[[_currentBuilding BeaconUUID] lowercaseString] UTF8String], [[savedBeacon.Beacon Major] intValue], [[savedBeacon.Beacon Minor] intValue]);
-//                            transmitterMeasurement.rssi = [savedBeacon.RSSI integerValue];
-//                            transmitterMeasurement.timestamp = getTimestamp(timeStamp);
-//                            
-//                            _transmitterMeasurements.push_back(transmitterMeasurement);
-//                            
-//                            break;
-//                        }
-//                    }
-//                }
-//                
-//                
-//            }
-//            else
-//            {
-//                _transmitterMeasurements.clear();
-//                _savedBeaconPoints = myBeacons;
-//                long long timeStamp = [[NSDate date] timeIntervalSince1970] * 1000;
-//                for (INBeaconPoint *beacon in _savedBeaconPoints)
-//                {
-//                    INTransmitterMeasurement transmitterMeasurement = {};
-//                    transmitterMeasurement.type = TransmitterType::BEACON;
-//                    transmitterMeasurement.id = makeBeaconId([[[_currentBuilding BeaconUUID] lowercaseString] UTF8String], [[beacon.Beacon Major] intValue], [[beacon.Beacon Minor] intValue]);
-//                    transmitterMeasurement.rssi = [beacon.RSSI integerValue];
-//                    transmitterMeasurement.timestamp = getTimestamp(timeStamp);
-//                    
-//                    _transmitterMeasurements.push_back(transmitterMeasurement);
-//                }
-//                
-//            }
-//            if([[INUtilities sharedInstance] isTool] || [[INUtilities sharedInstance] isExample])
-//            {
-//                dispatch_run_on_main_queue(^{
-//                    if ([delegate respondsToSelector:@selector(navigation:didUpdateCircleAroundBeacons:)])
-//                        [delegate navigation:self didUpdateCircleAroundBeacons:myBeacons];
-//                });
-//            }
-//
-//        }
-//    }
-//    else
-//    {
-//        _currentBeaconPoints = [[INBeaconPreprocessor sharedInstance] getBeaconPoints:[beacons mutableCopy]
-//                                                                    inCurrentPosition:_indoorPosition
-//                                                                          forBuilding:_currentBuilding];
-//    }
-//}
