@@ -7,10 +7,9 @@ target 'CocoapodsExample' do
 
   # Pods for CocoapodsExample
 
-  # pod 'IndoorsMapSDK'
-  # OR
-  pod 'IndoorsMapSDK'
-  # OR
-  # pod 'IndoorsMapSDK'
+   pod 'IndoorsMapSDK'
+   pod 'IndoorsCoreSDK'
+
+   pod 'MapLibre', '~> 6.16.0'
 
 end
