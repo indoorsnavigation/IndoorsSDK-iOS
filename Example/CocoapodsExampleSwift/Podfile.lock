@@ -1,0 +1,26 @@
+PODS:
+  - IndoorsCoreSDK (4.0.0)
+  - IndoorsMapSDK (4.0.0):
+    - IndoorsCoreSDK (= 4.0.0)
+    - MapLibre (~> 6.16.0)
+  - MapLibre (6.16.0)
+
+DEPENDENCIES:
+  - IndoorsCoreSDK
+  - IndoorsMapSDK
+  - MapLibre (~> 6.16.0)
+
+SPEC REPOS:
+  trunk:
+    - IndoorsCoreSDK
+    - IndoorsMapSDK
+    - MapLibre
+
+SPEC CHECKSUMS:
+  IndoorsCoreSDK: 45654e255ad6bfe4c0f94f9d10ca0529c9d00d85
+  IndoorsMapSDK: 64d3d27ec936172054587ee63946fef084be477a
+  MapLibre: c0b276c568789dbadc09e54014a15b070e674ae1
+
+PODFILE CHECKSUM: 1d8b9b1da5c082b5c0ce9bb17a03af40e3d4f0ee
+
+COCOAPODS: 1.16.2
