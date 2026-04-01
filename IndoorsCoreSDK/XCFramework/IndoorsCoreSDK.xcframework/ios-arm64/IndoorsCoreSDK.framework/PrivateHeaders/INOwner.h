@@ -91,6 +91,19 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *Vk;
 
 /**
+ The Telegram url of the owner of the room/building.
+ */
+@property (nonatomic, strong) NSString *Telegram;
+
+
+/**
+ The Instagram url of the owner of the room/building.
+ */
+@property (nonatomic, strong) NSString *Instagram;
+
+
+@property (nonatomic, strong) NSString *AdminTitle;
+/**
  
  */
 @property (nonatomic, strong) NSString *WorkingTime;

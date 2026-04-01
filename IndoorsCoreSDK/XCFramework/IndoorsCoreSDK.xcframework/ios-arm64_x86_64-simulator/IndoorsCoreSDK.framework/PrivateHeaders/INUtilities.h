@@ -44,6 +44,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)lineSegmentsIntersect:(CGPoint)L1P1 :(CGPoint)L1P2 :(CGPoint)L2P1 :(CGPoint)L2P2;
 - (NSNumber*)getBeaconKeyFromMajor:(int)major andMinor:(int)minor;
 
+
++ (CGFloat)adaptiveHeightForInitialSize:(CGFloat)initialSize baseHeight:(CGFloat)baseHeight;
++ (CGFloat)adaptiveWidthForInitialSize:(CGFloat)initialSize baseWidth:(CGFloat)baseWidth;
+
 @end
 
 NS_ASSUME_NONNULL_END

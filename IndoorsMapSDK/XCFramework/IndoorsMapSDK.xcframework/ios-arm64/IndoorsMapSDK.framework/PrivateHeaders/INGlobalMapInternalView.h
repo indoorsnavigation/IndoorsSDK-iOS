@@ -149,7 +149,7 @@ NS_ASSUME_NONNULL_BEGIN
                        isDrawStartCircle:(BOOL)isDrawStartCircle
                       isDrawFinishCircle:(BOOL)isDrawFinishCircle;
 
--(void)checkAndRemoveRouteIfReachedLocation:(CLLocationCoordinate2D)location;
+//-(void)checkAndRemoveRouteIfReachedLocation:(CLLocationCoordinate2D)location;
 
 - (void)clearGlobalRoute:(INBuilding *)building;
 - (void)removeGlobalRoute;
@@ -165,7 +165,7 @@ NS_ASSUME_NONNULL_BEGIN
 //                   withCompletionBlock:(void (^)( NSArray<NSValue *> * coordinate))completionBlock;
 
 //- (void)zoomToPosition:(CGPoint)position withCompletionBlock:(void (^)())completionBlock;
-- (void)zoomToPosition:(CGPoint)position floorId:(double)floorId withCompletionBlock:(void (^)())completionBlock;
+- (void)zoomToPosition:(CGPoint)position floorId:(double)floorId withCompletionBlock:( void (^)(void))completionBlock;
 
 - (void)updateUserPosition:(CGPoint)position building:(INBuilding *)building;
 - (void)updateUserRotation:(float)heading;
@@ -178,12 +178,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)drawSharedUserPosition:(INDrawUserPositionProcedureParams*)drawUserPositionProcedureParams;
 
-- (void)hideBuildingFeaturesForBuilding:(INBuilding*)building;
-- (void)hideBuildingFeaturesInPolygon:(MLNMultiPolygon*)polygon forBuilding:(INBuilding*)building;
+//- (void)hideBuildingFeaturesForBuilding:(INBuilding*)building;
+//- (void)hideBuildingFeaturesInPolygon:(MLNMultiPolygon*)polygon forBuilding:(INBuilding*)building;
+
+- (INRouteDirection)mapDirectionFromType:(NSString *)type andModifier:(NSString *)modifier;
+
 
 - (void)cleanup;
 
-- (void)hideBuildingAnnotationViewForBuilding:(INBuilding *)building;
+- (void)hideBuildingAnnotationViewForBuilding:(id)territory;
 - (void)showBuildingAnnotations:(INBuilding *)building;
 
 - (UIImage*)takeCenterSnapshot;
@@ -193,7 +196,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)updateMapConstraints:(CGRect)frame;
 
 
-- (void)zoomToCoordinateX:(double)x y:(double)y floorId:(double) floorId building:(INBuilding *)building;
+- (void)zoomToCoordinateX:(double)x y:(double)y floorId:(double) floorId building:(INBuilding *)building withCompletionBlock:( void (^)(void))completionBlock;
 - (void)zoomToCoordinateXAndAddMarker:(double)x y:(double)y floorId:(double) floorId building:(INBuilding *)building;
 - (void)enablePointSelecting:(INBuilding *)building;
 - (void)addPointMarkerOnFloor:(NSNumber *)floorId andPoint:(CGPoint)point building:(INBuilding *)building;
@@ -207,6 +210,8 @@ NS_ASSUME_NONNULL_BEGIN
 -(id)getCurrentTerritory;
 -(id)getAllTerritories;
 -(INBuilding *)getCurrentBuilding;
+
+- (void)zoomOutToEntraceFromTabWaypointCoordinateX:(NSNumber *)x y:(NSNumber *)y floorId:(NSNumber *) floorId buildingId:(NSNumber *)buildingId withCompletionBlock:( void (^)(void))completionBlock;
 
 @end
 

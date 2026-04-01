@@ -48,7 +48,12 @@ NS_ASSUME_NONNULL_BEGIN
 - (float)getDistance;
 - (CGPoint)getPointInBuilding;
 
+
 - (nullable NSString*)getKeyWords;
+
+- (float)getDistanceForSearchRouteView;
+- (void)setDistanceForSearchRouteView:(float)distance;
+
 
 @end
 

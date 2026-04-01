@@ -336,8 +336,11 @@
 + (UIImage*)settingButton;
 + (UIImage*)sortingButton;
 
++ (UIImage*)sosImage;
+
 
 + (UIImage*)resizeImageWithImage:(UIImage*) image size:(CGSize)size;
++ (UIImage*)resizeImageWithImageAlwaysOriginal:(UIImage*)image size:(CGSize)size;
 + (UIImage*)resizeImageWithImageWithColor:(UIImage*) image size:(CGSize)size;
 
 + (UIImage *)createTextImageWithText:(NSString *)text
@@ -346,6 +349,12 @@
                           lineCount:(NSInteger)lineCount
                           textColor:(UIColor *)textColor
                      backgroundColor:(UIColor *)backgroundColor;
+
++ (UIImage *)squareImageFromImage:(UIImage *)image;
+
++ (UIImage *)processAndResizeImage:(UIImage *)image
+                            toSize:(CGSize)size
+                          maxBytes:(NSUInteger)maxBytes;
 @end
 
 

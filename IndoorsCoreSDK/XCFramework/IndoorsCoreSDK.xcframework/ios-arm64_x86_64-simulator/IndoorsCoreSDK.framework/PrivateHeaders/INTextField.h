@@ -28,6 +28,7 @@
 - (void)setRightItemInsets:(UIEdgeInsets)insets;
 - (void)setAdditionalTextRectInsets:(UIEdgeInsets)insets;
 - (void)addToolbarWithDoneButton;
+- (void)updatePermanentPlaceholder:(NSString *)placeholder;
 @end
 
 #endif /* INTextField_h */

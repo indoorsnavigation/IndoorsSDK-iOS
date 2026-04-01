@@ -144,6 +144,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)fetchFileWithUrl:(NSString*)urlString
       andCompletionBlock:(void (^)(NSData *fileData, NSString *extension, NSError * error))completionBlock;
 
+/// Clean Database
+///
+/// - Parameter completionBlock: Completion block.
+- (void)deleteAllObjectsFromDatabaseWithCompletionBlock:(void (^)(NSError *error))completionBlock;
+
 NS_ASSUME_NONNULL_END
 
 @end

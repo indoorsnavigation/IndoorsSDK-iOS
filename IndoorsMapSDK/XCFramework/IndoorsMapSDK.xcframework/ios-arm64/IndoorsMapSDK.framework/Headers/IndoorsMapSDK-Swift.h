@@ -355,7 +355,7 @@ SWIFT_CLASS("_TtC13IndoorsMapSDK17INARControllerNew")
 @interface INARControllerNew : UIViewController
 @property (nonatomic, strong) INMapARPointTarget * _Nullable initialTargetFromGlobalMap;
 @property (nonatomic, weak) id <ARControllerDelegate> _Nullable delegate;
-@property (nonatomic, strong) INPathfinder * _Nullable globalMapPathFinder;
+@property (nonatomic, weak) INPathfinder * _Nullable globalMapPathFinder;
 - (void)viewDidLoad;
 - (void)viewDidDisappear:(BOOL)animated;
 - (void)viewWillAppear:(BOOL)animated;
@@ -387,13 +387,13 @@ SWIFT_CLASS("_TtC13IndoorsMapSDK17INARControllerNew")
 - (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer updateAtTime:(NSTimeInterval)time;
 @end
 
-
 @class ARCoachingOverlayView;
 
 @interface INARControllerNew (SWIFT_EXTENSION(IndoorsMapSDK)) <ARCoachingOverlayViewDelegate>
 - (void)coachingOverlayViewWillActivate:(ARCoachingOverlayView * _Nonnull)coachingOverlayView;
 - (void)coachingOverlayViewDidDeactivate:(ARCoachingOverlayView * _Nonnull)coachingOverlayView;
 @end
+
 
 
 
@@ -454,7 +454,7 @@ SWIFT_CLASS("_TtC13IndoorsMapSDK23INBuildingLayerRenderer")
 
 @interface INBuildingLayerRenderer (SWIFT_EXTENSION(IndoorsMapSDK))
 - (void)addLayerRouteWithName:(NSString * _Nonnull)name buildingId:(double)buildingId;
-- (void)addRouteOfLayerWithPath:(NSArray<NSNumber *> * _Nonnull)path z:(float)z isVisible:(BOOL)isVisible layerName:(NSString * _Nonnull)layerName width:(float)width buildingId:(double)buildingId;
+- (void)addRouteOfLayerWithPath:(NSArray<NSNumber *> * _Nonnull)path z:(float)z isVisible:(BOOL)isVisible layerName:(NSString * _Nonnull)layerName width:(float)width buildingId:(double)buildingId opacity:(float)opacity;
 - (void)redrawColorRouteOpacityWithLayerWithLayerName:(NSString * _Nonnull)layerName buildingId:(double)buildingId opacity:(float)opacity;
 - (void)setLayerRouteVisibleWithLayerName:(NSString * _Nonnull)layerName isVisible:(BOOL)isVisible buildingId:(double)buildingId;
 - (void)updateOpacityRoutsOfLayerWithOpacity:(float)opacity layerName:(NSString * _Nonnull)layerName buildingId:(double)buildingId;
@@ -486,6 +486,7 @@ SWIFT_CLASS("_TtC13IndoorsMapSDK23INBuildingLayerRenderer")
 @class INSymbolObjC;
 
 @interface INBuildingLayerRenderer (SWIFT_EXTENSION(IndoorsMapSDK))
+- (BOOL)isNeedImageWithNameImageWithName:(NSString * _Nonnull)name SWIFT_WARN_UNUSED_RESULT;
 - (void)addImageWithName:(NSString * _Nonnull)name image:(UIImage * _Nonnull)image;
 - (void)addLayerSymbolWithName:(NSString * _Nonnull)name buildingId:(double)buildingId;
 - (void)addSymbolOfLayerWithSymbolObjC:(INSymbolObjC * _Nonnull)symbolObjC buildingId:(double)buildingId;

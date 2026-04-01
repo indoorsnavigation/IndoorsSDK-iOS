@@ -9,6 +9,7 @@
 #define _INService_
 
 #import <Foundation/Foundation.h>
+#import <objc/runtime.h>
 #import <AVFoundation/AVFoundation.h>
 #import <UIKit/UIKit.h>
 #import "INMessageFiles.h"
@@ -394,6 +395,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (INTagService *)tagServiceWithoutCurrentBuilding;
 - (NSString *)getCurrentProfileUUID;
 
+@property (atomic, assign) BOOL isLoadAllBuildingsNow;
+@property (atomic, assign) BOOL isLoadCurrentBuildingNow;
+
 /// The line in which the push-token is stored for subsequent registration in the `registerForPushNotificationsWithApplication` method.
 @property (nonatomic, strong) NSData *pushDeviceToken;
 
@@ -619,9 +623,15 @@ NS_ASSUME_NONNULL_BEGIN
 ///
 /// - Parameter building `INBuildings` objects.
 /// - Parameter completionBlock Completion block.
+//- (void)loadBuildings:(NSMutableArray<INBuilding*>*)buildings
+//    withProgressBlock:(void (^)(Class layerClass, NSMutableArray *buildings))progressBlock
+//  WithCompletionBlock:(void (^)(NSMutableArray<INBuilding*>* buildings, NSError *_Nullable error))completionBlock;
+
 - (void)loadBuildings:(NSMutableArray<INBuilding*>*)buildings
     withProgressBlock:(void (^)(Class layerClass, NSMutableArray *buildings))progressBlock
+  WithCompletionBlockForShow:(void (^)(NSMutableArray<INBuilding*>* buildings, NSError *_Nullable error))completionBlockForShow
   WithCompletionBlock:(void (^)(NSMutableArray<INBuilding*>* buildings, NSError *_Nullable error))completionBlock;
+
  
 /// Loads building with all objects required for navigation and pathfinding only.
 ///
@@ -631,6 +641,12 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)loadBuildingForNavigationOnly:(INBuilding*)building
                     withProgressBlock:(void (^)(Class layerClass, NSMutableArray *objects))progressBlock
                    andCompletionBlock:(void (^)(INBuilding *building, NSError *_Nullable error))completionBlock;
+
+
+#pragma mark - Barriers
+
+- (void)loadBarriersOfBuilding:(INBuilding*)building
+           withCompletionBlock:(void (^)(NSMutableArray *barriers, NSError *error))completionBlock;
 
 #pragma mark - Beacon Points
 
@@ -645,6 +661,9 @@ NS_ASSUME_NONNULL_BEGIN
       withParameterA:(NSNumber*)A
                 andB:(NSNumber*)B
  withCompletionBlock:(void (^)(INBeacon *beacon, NSError *_Nullable error))completionBlock;
+
+- (void)loadBeaconPointsOfBuilding:(INBuilding*)building
+               withCompletionBlock:(void (^)(NSMutableArray *beaconPoints, NSError *error))completionBlock;
 
 #pragma mark - Raw Beacon
 
@@ -1645,7 +1664,7 @@ withCompletionBlock:(void (^)(NSError *_Nullable error))completionBlock;
 
 
 /// in development
--(void) cleanDB;
+-(void)cleanDBWithCompletionBlock:( void (^)(void))completionBlock;
 
 -(INCoreConfiguration *)getConfiguration;
 
@@ -1817,6 +1836,9 @@ withCompletionBlock:(void (^)(INTasksModel *task, NSError * _Nullable error))com
 - (void)fetchMap3dModelOfBuilding:(INBuilding *)building
               withCompletionBlock:(void (^)( INMap3dModel *model))completionBlock;
 
+
+- (BOOL)checkLoadBuildings:(NSMutableArray*)buildings;
+
 #pragma mark - Cancelation and deletion
 
 
@@ -1829,6 +1851,11 @@ withCompletionBlock:(void (^)(INTasksModel *task, NSError * _Nullable error))com
 
 /// Clean image cache.
 - (void)cleanCachedImage;
+
+
+- (void)testUpTestBuildingForTestSpeed:(INBuilding*)building
+   withProgressBlock:(void (^)(Class layerClass, NSMutableArray *objects))progressBlock
+                    andCompletionBlock:(void (^)(INBuilding* building, NSError *_Nullable error))completionBlock;
 
 @end
 

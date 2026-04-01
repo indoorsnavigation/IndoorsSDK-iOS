@@ -502,7 +502,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OFQXE1EavpjG6p7luYIA5EkxkWM=
+		X6H2b+kcpDddJ/lcvj3l4iqXIBc=
 		</data>
 		<key>JSQMessagesCollectionViewCellIncoming.nib</key>
 		<data>
@@ -534,19 +534,19 @@
 		</data>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		VObnTMd/oirZx/bT/oqCdjbdXBE=
+		j6eOReLLFkbxkRCkugH48GejF1o=
 		</data>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		xcsJb53RZh/BeYFA5EG/GAp7H0U=
+		eYmFbJgnJ7xw3IaWAHadx0DynSk=
 		</data>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VObnTMd/oirZx/bT/oqCdjbdXBE=
+		j6eOReLLFkbxkRCkugH48GejF1o=
 		</data>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lKHF66P7BQtQWtZP9/Z0kltmaeA=
+		ZQGjN8Qtr0TnatTKHlbNYIfi8gM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1708,28 +1708,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3eesPk0Tvh0QmAzGoguGcpsXndMBEjKqHH1+DnsvW9Q=
+			oxPm09RXSuyYP5eBvQKJUgyHsu5Ecb6s3F5+oVuuHN4=
 			</data>
 		</dict>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dod2ToAqrr5YLAujCK4OBLDHrsL030Z2apIHnmQnO7U=
+			v9ps12/GYnAB1PXmALnl74wP8B9DFw2dxY2T3amzZds=
 			</data>
 		</dict>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3eesPk0Tvh0QmAzGoguGcpsXndMBEjKqHH1+DnsvW9Q=
+			oxPm09RXSuyYP5eBvQKJUgyHsu5Ecb6s3F5+oVuuHN4=
 			</data>
 		</dict>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NS8Ts1kMF9oq7Phfmmql1kZN57lhazA4Q0tAqOlNO70=
+			sGmiT2mPFWmlipC0guhVtwZvXDXZxUCCJyhyNYQ3r0M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -29,4 +29,5 @@ FOUNDATION_EXPORT const unsigned char IndoorsMapSDKVersionString[];
 #import <IndoorsMapSDK/INImageExtension.h>
 #import <IndoorsMapSDK/INEarcutWrapper.h>
 #import <IndoorsMapSDK/INSymbolObjC.h>
+#import <IndoorsMapSDK/INVoiceRecognitionController.h>
 

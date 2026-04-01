@@ -72,9 +72,9 @@ NS_ASSUME_NONNULL_BEGIN
 //- (void)selectDoor:(INDoor*)door;
 //- (void)zoomToDoor:(INDoor*)door;
 //
-//- (void)drawEntrances;
-//- (void)selectEntrance:(INEntrance*)entrance;
-//- (void)zoomToEntrance:(INEntrance*)entrance;
+- (void)drawEntrances;
+- (void)selectEntrance:(INEntrance*)entrance;
+- (void)zoomToEntrance:(INEntrance*)entrance;
 
 - (void)drawBeaconPoints;
 - (void)updateBeaconPoints;
@@ -131,13 +131,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)showFloorWithFloorId:(double)floor currentBuildingId:(NSNumber *)currentBuildingId;
 - (void)hideAllFloors;
-- (void)zoomToCoordinateX:(double)x y:(double)y floorId:(double) floorId;
+- (void)zoomToCoordinateX:(double)x y:(double)y floorId:(double) floorId withCompletionBlock:( void (^)(void))completionBlock;
 - (void)zoomToCoordinateXAndAddMarker:(double)x y:(double)y floorId:(double) floorId;
 - (void)handleMapTap:(CLLocationCoordinate2D)coordinate floorId:(NSNumber *)floorId;
 - (void)deleteTapPointMarkers;
 - (void)setupTapPointLayer;
 
-- (void)setCurrentBuildingToBuildingRender:(INBuilding *)building;
 - (void)setDelegateINBuildingLayerRendererToINFloorLayer;
 
 - (void)unselectAllOnMap;
@@ -153,6 +152,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)unSelectAnnotation;
 
 - (void)updateStyle:(MLNStyle *)style andRenderer:(id)renderer;
+
+
+- (void)zoomOutToEntraceFromTabWaypointCoordinateX:(NSNumber *)x y:(NSNumber *)y floorId:(NSNumber *) floorId buildingId:(NSNumber *)buildingId withCompletionBlock:( void (^)(void))completionBlock;
 
 - (void)cleanup;
 - (void)remove;

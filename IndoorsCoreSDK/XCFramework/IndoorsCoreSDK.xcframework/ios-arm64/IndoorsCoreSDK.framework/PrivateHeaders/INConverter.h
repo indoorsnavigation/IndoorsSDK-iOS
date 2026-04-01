@@ -44,6 +44,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (double)convertLengthCameraToTargetToZoomWithLength:(double)length latitude:(double)latitude heightViewPortDP:(double)heightViewPortDP;
 
+- (double)getDistanceInMetersBetweenPoint:(CGPoint)pointA
+                                 andPoint:(CGPoint)pointB
+                               inBuilding:(INBuilding *)building;
+
 @end
 
 NS_ASSUME_NONNULL_END

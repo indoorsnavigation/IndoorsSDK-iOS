@@ -1,11 +1,11 @@
+////
+////  INMap3dModelService.h
+////  IndoorsCoreSDK
+////
+////  Created by Indoors on 19.08.2025.
+////
 //
-//  INMap3dModelService.h
-//  IndoorsCoreSDK
 //
-//  Created by Indoors on 19.08.2025.
-//
-
-
 #ifndef INMap3dModelService_h
 #define INMap3dModelService_h
 

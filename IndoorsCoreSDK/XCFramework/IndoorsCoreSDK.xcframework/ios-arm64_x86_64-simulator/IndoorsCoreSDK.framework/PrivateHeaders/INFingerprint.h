@@ -70,6 +70,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSNumber *AccountId;
 
 +(INFingerprint*)generate;
++ (void)generateWithCompletion:(void(^)(INFingerprint *fingerprint))completion;
 
 @end
 

@@ -631,6 +631,7 @@ An array of the 'INBookingModel' objects.
 
 @property (nonatomic, strong) NSMutableArray *Graphs;
 @property (nonatomic, strong) NSMutableArray *FireGraph;
+@property (nonatomic, strong) INGraph *GPSGraph;
 
 @property (nonatomic, strong) NSMutableArray *RoutableObjects;
 
@@ -683,7 +684,9 @@ An array of the 'INFireSafetyImagePoints' objects.
 - (int)getGraphIndexByGraphId:(NSNumber*)graphId;
 
 - (BOOL)isReadyForNavigationAndPathfinding;
+//- (BOOL)isReadyForStartNavigationOnBeacons;
 - (BOOL)ready;
+- (BOOL)readyForShowBuilding;
 - (BOOL)loaded;
 - (void)cleanup;
 
@@ -719,11 +722,16 @@ An array of the 'INFireSafetyImagePoints' objects.
 // new for new map
 @property (nonatomic, strong) NSNumber *CurrentFloorId;
 @property (nonatomic, strong) NSNumber *CurrentFloorIndex;
-@property (nonatomic) int               CurrentGraphIndex;
+@property (nonatomic, strong) NSNumber *CurrentGraphIndex;
 @property (nonatomic, strong) INGraph  *CurrentGraph;
 @property (nonatomic, strong) id  CurrentPathfinder;
-@property (nonatomic, strong) id  PathFinderForSort;
+@property (nonatomic, strong) id  PathFinderGPS;
 @property (nonatomic, strong) NSMutableArray *CurrentPath;
+
+
+-(void)createPathfinderWithGraphIndexSync:(int)graphIndex;
+-(void)createPathfinderWithGraphIndexAsync:(int)graphIndex;
+
 
 
 @end

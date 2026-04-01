@@ -23,6 +23,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @optional
 
+
+/**
+ 
+ */
+- (void)mapInternalView:(UIView*)mapInternalView
+textForDebuggingPosition:(NSString *)test;
+
 /**
  
  */

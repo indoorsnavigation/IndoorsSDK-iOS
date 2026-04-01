@@ -19,13 +19,14 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  'INPathfinder' perfroms calculation of routes on the map.
  */
-@interface INPathfinder : NSObject
+@interface INPathfinder : NSObject<NSCopying>
 
 /// An array of `INGraphPoint` objects that represent the current path.
 @property (nonatomic, strong, nullable) NSMutableArray *currentPath;
 /// An array of `INWaypoint` objects that represent the current path.
 @property (nonatomic, strong, nullable) NSMutableArray *currentRoutes;
 
+@property (atomic, assign) BOOL isCancelled;
 
 /// Initializes a new instance of the INPathfinder class with a building.
 ///
@@ -40,6 +41,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// - Parameter graphPoints: An array of `INGraphPoint` objects.
 - (void)setGraph:(INGraph*)graph withGraphPoints:(NSMutableArray*)graphPoints useRemoteCalculation:(BOOL)useRemoteCalculation enableRouting:(BOOL)enableRouting;
 
+- (void)setGraphSync:(INGraph*)graph withGraphPoints:(NSMutableArray*)graphPoints useRemoteCalculation:(BOOL)useRemoteCalculation enableRouting:(BOOL)enableRouting;
+
 /// Calculates the shortest path from the start point to the end point.
 ///
 /// - Parameter startPoint: The start point.
@@ -48,6 +51,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// - Returns: An array of INGraphPoint objects that represent the shortest path.
 - (NSMutableArray*)calculateShortestPathWithStartPoint:(INGraphPoint*)startPointt
                                             toEndPoint:(INGraphPoint*)endPointt;
+
 
 /// Sorts the routable objects from the graph point.
 ///
@@ -107,6 +111,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// Cleans up the data.
 - (void)cleanup;
+
+/// Безопасно вычисляет дистанцию по графу без изменения внутреннего состояния (Thread-Safe).
+/// Используется для быстрой сортировки объектов.
+//- (float)calculateSafeDistanceBetween:(INGraphPoint*)startPoint1 and:(INGraphPoint*)endPoint1;
+
+- (NSMutableArray*)calculateSafeDistanceBetween:(INGraphPoint*)startPoint1
+                                            toEndPoint:(INGraphPoint*)endPoint1;
 
 @end
 

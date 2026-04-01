@@ -145,15 +145,15 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)mapView:(INBaseMapView*)mapView didSharePositionWithTitle:(NSString*)title image:(UIImage*)image andUrl:(NSURL*)url;
 
-/**
- Called before drawing a global route to a building.
- */
-- (void)mapView:(INBaseMapView*)mapView willDrawGlobalRouteToBuilding:(INBuilding*)building;
-
-/**
- Called after a global route to a building is drawn
- */
-- (void)mapView:(INBaseMapView*)mapView didDrawGlobalRouteToBuilding:(INBuilding*)building;
+///**
+// Called before drawing a global route to a building.
+// */
+//- (void)mapView:(INBaseMapView*)mapView willDrawGlobalRouteToBuilding:(INBuilding*)building;
+//
+///**
+// Called after a global route to a building is drawn
+// */
+//- (void)mapView:(INBaseMapView*)mapView didDrawGlobalRouteToBuilding:(INBuilding*)building;
 
 /**
  Called before starting a search on the map.

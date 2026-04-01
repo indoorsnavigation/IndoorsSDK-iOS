@@ -67,6 +67,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSNumber *VirtualY;
 
 /**
+ Range scan beacon 
+ */
+@property (nonatomic, strong) NSNumber *EnableRange;
+
+
+/**
  Reference to 'INBeacon' object.
  @see 'INBeacon'
  */
@@ -83,6 +89,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, strong) NSNumber *RSSI;
 
+@property (nonatomic, strong) NSNumber *RSSI2;
 /**
  */
 @property (nonatomic, strong) NSNumber *RangeRSSI;

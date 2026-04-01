@@ -65,6 +65,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// Invoked when navigation should request permission for the navigation.
 - (void)navigationShouldRequestPermission:(INNavigation*)navigation;
 
+- (void)navigation:(INNavigation*)navigation startCulculateWithCountBicons:(int)count;
+- (void)navigationWithCoordinatesNULL:(INNavigation*)navigation;
+- (void)navigationWithCoordinatesINFINITY:(INNavigation*)navigation;
+- (void)navigation:(INNavigation*)navigation ERRORWithText:(NSString *)text;
+- (void)navigation:(INNavigation*)navigation textUnder:(NSString *)text;
+
 @end
 
 /**

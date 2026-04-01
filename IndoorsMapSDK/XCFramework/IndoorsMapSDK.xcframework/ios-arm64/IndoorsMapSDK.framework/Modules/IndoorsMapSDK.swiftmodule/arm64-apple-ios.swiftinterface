@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios15.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-bare-slash-regex -module-name IndoorsMapSDK
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-bare-slash-regex -module-name IndoorsMapSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import ARKit
 import AVFoundation
@@ -130,7 +130,7 @@ extension ARKit.ARSCNView : IndoorsMapSDK.ARSmartHitTest {
     @objc set
   }
   @objc @_Concurrency.MainActor @preconcurrency weak final public var delegate: (any IndoorsMapSDK.ARControllerDelegate)?
-  @objc @_Concurrency.MainActor @preconcurrency final public var globalMapPathFinder: IndoorsCoreSDK.INPathfinder?
+  @objc @_Concurrency.MainActor @preconcurrency weak final public var globalMapPathFinder: IndoorsCoreSDK.INPathfinder?
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
@@ -287,6 +287,7 @@ extension IndoorsMapSDK.INBuildingLayerRenderer {
   @objc final public func setHideLocationPoint()
 }
 extension IndoorsMapSDK.INBuildingLayerRenderer {
+  @objc final public func isNeedImageWithNameImage(name: Swift.String) -> Swift.Bool
   @objc final public func addImage(name: Swift.String, image: UIKit.UIImage)
   @objc final public func addLayerSymbol(name: Swift.String, buildingId: Swift.Double)
   @objc final public func addSymbolOfLayer(symbolObjC: IndoorsMapSDK.INSymbolObjC, buildingId: Swift.Double)
@@ -319,7 +320,7 @@ extension IndoorsMapSDK.INBuildingLayerRenderer {
 }
 extension IndoorsMapSDK.INBuildingLayerRenderer {
   @objc final public func addLayerRoute(name: Swift.String, buildingId: Swift.Double)
-  @objc final public func addRouteOfLayer(path: [Swift.Float], z: Swift.Float, isVisible: Swift.Bool, layerName: Swift.String, width: Swift.Float, buildingId: Swift.Double)
+  @objc final public func addRouteOfLayer(path: [Swift.Float], z: Swift.Float, isVisible: Swift.Bool, layerName: Swift.String, width: Swift.Float, buildingId: Swift.Double, opacity: Swift.Float)
   @objc final public func redrawColorRouteOpacityWithLayer(layerName: Swift.String, buildingId: Swift.Double, opacity: Swift.Float)
   @objc final public func setLayerRouteVisible(layerName: Swift.String, isVisible: Swift.Bool, buildingId: Swift.Double)
   @objc final public func updateOpacityRoutsOfLayer(opacity: Swift.Float, layerName: Swift.String, buildingId: Swift.Double)

@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Stores data about augmented reality point on the map.
  */
-@interface INMapARPoint : INBaseObject
+@interface INMapARPoint : INBaseObject<INRoutableProtocol>
 
 
 @property (nonatomic, strong) NSNumber *Id;
@@ -80,11 +80,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, strong) NSNumber *Active;
 
-/**
- Reference to 'INARAsset' object.
- @see 'INARAsset'
- */
-@property (nonatomic, weak) INARAsset *Asset;
+    /**
+     Reference to 'INARAsset' object.
+     @see 'INARAsset'
+     */
+    @property (nonatomic, weak) INARAsset *Asset;
 
 /**
  Reference to 'INFloor' object.
@@ -103,7 +103,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 // Объявляем _pathFinder как свойство
-@property (nonatomic, strong, nullable) NSNumber *savedLastFloorNumber;
+@property (nonatomic, weak, nullable) INFloor *savedLastFloorNumber;
 
 @property (nonatomic, strong, nullable) NSString *UrlInQrcode;
 

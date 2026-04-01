@@ -35,6 +35,13 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, strong) NSNumber *Y;
 
+
+@property (nonatomic, strong) NSNumber *Status;
+
+@property (nonatomic, strong) NSNumber *User;
+
+@property (nonatomic, strong) NSNumber *Building;
+
 /**
  Dictionary representation of this class.
  */

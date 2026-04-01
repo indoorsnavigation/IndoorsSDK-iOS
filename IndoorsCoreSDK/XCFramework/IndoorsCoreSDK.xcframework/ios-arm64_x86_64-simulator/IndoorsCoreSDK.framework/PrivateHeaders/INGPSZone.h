@@ -93,6 +93,8 @@ Associated `INFloor` object.
 
 - (BOOL)containsPosition:(INPosition2*)position;
 
+- (BOOL)containsPositionWithPoint:(CGPoint)position;
+
 @end
 
 NS_ASSUME_NONNULL_END

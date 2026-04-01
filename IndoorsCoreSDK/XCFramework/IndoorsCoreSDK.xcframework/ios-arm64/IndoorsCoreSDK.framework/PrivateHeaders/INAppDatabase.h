@@ -38,6 +38,16 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString*)getKey;
 
 
+- (void)createMap3dModelsTableIfNeeded;
+
+// Сохранение массива словарей (JSON) в базу
+- (void)saveMap3dModels:(NSArray<NSDictionary *> *)jsonArray;
+
+// Получение данных из базы для оффлайн режима
+- (NSArray<NSDictionary *> *)getMap3dModelsForBuildingId:(NSNumber *)buildingId;
+- (NSArray<NSDictionary *> *)getMap3dModelsForBuildingIds:(NSArray<NSNumber *> *)buildingIds;
+
+
 -(void)close;
 
 

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'IndoorsModulesSDK'
-    s.version          = '4.0.2'
+    s.version          = '4.0.3'
     s.summary          = 'IndoorsModulesSDK - SDK для дополнительных возможностей карты'
     s.description      = <<-DESC
             IndoorsModulesSDK предоставляет функционал бронирования, трекинга на карте и других возможностей.
@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   
     s.frameworks       = 'MapKit', 'CoreGraphics', 'CoreLocation', 'ARKit'
     s.dependency       'MapLibre', '~> 6.16.0'
-    s.dependency       'IndoorsCoreSDK', '4.0.2'
-    s.dependency       'IndoorsMapSDK', '4.0.2'
+    s.dependency       'IndoorsCoreSDK', '4.0.3'
+    s.dependency       'IndoorsMapSDK', '4.0.3'
     
     # Использование ARC
     s.requires_arc = true

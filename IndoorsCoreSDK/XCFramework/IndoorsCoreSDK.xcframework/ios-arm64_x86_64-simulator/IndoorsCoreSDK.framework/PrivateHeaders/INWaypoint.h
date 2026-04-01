@@ -22,7 +22,8 @@ typedef enum {
     TURN,
     TARGET,
     FINISH,
-    REINIT
+    REINIT,
+    CUSTOM
 } INRouteDirection ;
 
 NS_ASSUME_NONNULL_BEGIN
@@ -44,6 +45,15 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSMutableArray  *Route;
 /// Weak reference to the next INWaypoint in the route.
 @property (nonatomic, weak) INWaypoint *NextWaypoint;
+/// Weak reference to the next INWaypoint in the route.
+///
+@property (nonatomic, strong) NSString *ImageId;
+
+@property (nonatomic, weak) NSString *TextForCustom;
+
+@property (nonatomic, weak) NSNumber *NextBuildingId;
+@property (nonatomic, weak) INGraphPoint *PointToZoomNextBuilding;
+
 
 @end
 

@@ -1192,6 +1192,14 @@
 		<data>
 		uK+Mfp0TQ6mj92XPUvJ3LTpz0YU=
 		</data>
+		<key>Assets/Icons/sosNew1.png</key>
+		<data>
+		09kPps3rETo9qf1zDgj5wgHSqRc=
+		</data>
+		<key>Assets/Icons/sos_image.png</key>
+		<data>
+		8ejdyR3TvxEzIz2mrCFzmr9JiX4=
+		</data>
 		<key>Assets/Icons/soundIconProfile.png</key>
 		<data>
 		1kuDrW2uN3r5bVvcBT8MDYkoVac=
@@ -1654,11 +1662,11 @@
 		</data>
 		<key>Headers/IndoorsMapSDK-Swift.h</key>
 		<data>
-		bua1fChXENHXpqaQtym+hsyYxnc=
+		b35szfTd8clpDj+F4lHrXevQ4zw=
 		</data>
 		<key>Headers/IndoorsMapSDK.h</key>
 		<data>
-		//wtac447cUw1S7YEkjy/Fyql8s=
+		klWQitza9G4M7MVJup1vCE27qHg=
 		</data>
 		<key>INARControllerNew + Scene.swift.orig</key>
 		<data>
@@ -1774,27 +1782,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5k+50cNmfBEwPeYFlltPOMsIHGU=
+		7SZC8/eEta56dVPpVg1IitQua98=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		jdISv2zvZtk+kmzj8TZ00EoXEVQ=
+		fTEE0gaEKrLbAVF4ovX56EOn+Zw=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		KqmWYQmJfW0Zd4O6gISEK7WE8Os=
+		JyiQQHyNDrQ6JchWYLfQku9wZTI=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		JkxZPSBQP4FPCyhd71NHSgZuZhk=
+		dYkBsuSH+N9iSdxZcSRIg63S8kg=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		KqmWYQmJfW0Zd4O6gISEK7WE8Os=
+		JyiQQHyNDrQ6JchWYLfQku9wZTI=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		7pMtPVvPjGz91kIYzWnEUyOn+tc=
+		50CVrYvBNVmQDZGIjGWtXCPXlXA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1810,7 +1818,7 @@
 		</data>
 		<key>PrivateHeaders/INBaseMapInternalViewDelegate.h</key>
 		<data>
-		AswlQnkc+fMtlgHmDxWuWLbxZA0=
+		H6bKRTJG9BDNGEZRyOckFO1/qPE=
 		</data>
 		<key>PrivateHeaders/INBaseMapView.h</key>
 		<data>
@@ -1818,15 +1826,15 @@
 		</data>
 		<key>PrivateHeaders/INBaseMapViewDelegate.h</key>
 		<data>
-		JGuhsF0mTc+om7XxOgFAhKnEDko=
+		R5Waumh3ebkC65w8GX7CAecUU5s=
 		</data>
 		<key>PrivateHeaders/INBuildingLayer.h</key>
 		<data>
-		5dq02+5WaXa9kLuxSfT/E6tuQqg=
+		sgezyYAG59Vu1ouoFu23EcWXVG8=
 		</data>
 		<key>PrivateHeaders/INConverterForMap.h</key>
 		<data>
-		WwnoEOBYR8xAK8ZM7GF28MURUJc=
+		OeWDIINCxvlVMzyQ9TIg7ddCnt4=
 		</data>
 		<key>PrivateHeaders/INDateFormatter.h</key>
 		<data>
@@ -1850,7 +1858,7 @@
 		</data>
 		<key>PrivateHeaders/INGlobalMapInternalView.h</key>
 		<data>
-		Nb4kB4VDJ0aeaueRQ3X0xfrr/jk=
+		5Y7UEpYpdMbHQUf6tU9/pJ18Al8=
 		</data>
 		<key>PrivateHeaders/INGlobalMapView.h</key>
 		<data>
@@ -1866,7 +1874,7 @@
 		</data>
 		<key>PrivateHeaders/INImageExtension.h</key>
 		<data>
-		nUBQogBCZF4lJAl57NqN9YgdLa8=
+		ywTx7cXTVdolHmmxKaFosFY1wi0=
 		</data>
 		<key>PrivateHeaders/INMapView.h</key>
 		<data>
@@ -1874,15 +1882,39 @@
 		</data>
 		<key>PrivateHeaders/INMapViewsConfiguration.h</key>
 		<data>
-		Z8o1ZdDJxzIFhI3nmTDCCqRF3Q0=
+		MnD1Tq9i7enzOffbfUJqL0BopHc=
+		</data>
+		<key>PrivateHeaders/INMicrophonePermissionController.h</key>
+		<data>
+		hOCIpHHikCL/MjhQGiaS5q8rLgs=
 		</data>
 		<key>PrivateHeaders/INMinewBeaconAdminDelegate.h</key>
 		<data>
 		a8OHuS/tQSCYRk4i4rNclAYo0Ho=
 		</data>
+		<key>PrivateHeaders/INNoPermissionConstants.h</key>
+		<data>
+		I3CJkkMVfmJpOu3K+F4M/6aXUEs=
+		</data>
+		<key>PrivateHeaders/INPermissionConstants.h</key>
+		<data>
+		9AwUxDi1CiLfWBU7ia8pbBG/u4k=
+		</data>
+		<key>PrivateHeaders/INPermissionController.h</key>
+		<data>
+		doTWNRUk4YvSg9QZYYYAqnaChGw=
+		</data>
 		<key>PrivateHeaders/INRadioMapView.h</key>
 		<data>
 		aLCFCGQWNCzQFIyJ2Jj0JRLTfnk=
+		</data>
+		<key>PrivateHeaders/INRecordConstants.h</key>
+		<data>
+		ccBExYOTMLq+rLZ/W9X28qIj/iw=
+		</data>
+		<key>PrivateHeaders/INRecordable.h</key>
+		<data>
+		nRjQY/4+Km5UR3F0nSG2gBSmE90=
 		</data>
 		<key>PrivateHeaders/INRoutableObjectSearchBar.h</key>
 		<data>
@@ -1894,7 +1926,15 @@
 		</data>
 		<key>PrivateHeaders/INRouteSearchViewV2.h</key>
 		<data>
-		2pXPy1dEhWefFmFYoPbTUov2jww=
+		v5tQxGVNZXxAuEL2ZnfgzmzAhRg=
+		</data>
+		<key>PrivateHeaders/INSpeechController.h</key>
+		<data>
+		dK7vK/dOzDTYXVNYw7LQ7PchC6Q=
+		</data>
+		<key>PrivateHeaders/INSpeechRecognitionPermissionController.h</key>
+		<data>
+		p30+TMMzHFpPEDGXLZIEUcpIv3w=
 		</data>
 		<key>PrivateHeaders/INSymbolObjC.h</key>
 		<data>
@@ -1912,9 +1952,21 @@
 		<data>
 		WzxTtFgTCt/CJUbRKqIWPyh1/6I=
 		</data>
+		<key>PrivateHeaders/INVoiceInputViewController.h</key>
+		<data>
+		X6nHCg/fFh2zOH9EHk/mHppAOOU=
+		</data>
+		<key>PrivateHeaders/INVoiceOverlayDelegate.h</key>
+		<data>
+		UalK969VkX+Gmuf3YNWq2Yuu5bQ=
+		</data>
+		<key>PrivateHeaders/INVoiceRecognitionController.h</key>
+		<data>
+		nkQssTc1auDA5tEth8qXdohOEgM=
+		</data>
 		<key>default.metallib</key>
 		<data>
-		7r/DujNdsFc23EX10VuazTomj+0=
+		Dvz8nD3voiXUBubBDMAgZ6/7zDQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -3998,6 +4050,20 @@
 			VYsmfrs8gKnCI7Nsq3B2WB1+Pfe2CXfGF3ngcK0tMvo=
 			</data>
 		</dict>
+		<key>Assets/Icons/sosNew1.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GR3xY9RjLUSj4nHEoeJdEVOAsYVrFfe/erVzCrCtb1M=
+			</data>
+		</dict>
+		<key>Assets/Icons/sos_image.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iFngakFDuN0IoXWeoPXSNmdsR/qfgP7dBOPJ4QVSyuY=
+			</data>
+		</dict>
 		<key>Assets/Icons/soundIconProfile.png</key>
 		<dict>
 			<key>hash2</key>
@@ -4807,14 +4873,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			byJEr9nth4nEeyxDtxC0n4wJBSKWEBiGP7ZBpUnWkDE=
+			dGDnC3S++RKbjSdKsy6C1d7vvbwLvO8REaEqAJh8+BM=
 			</data>
 		</dict>
 		<key>Headers/IndoorsMapSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gmJ9+1OodkcNSYt0QDuVWX2y+prZWRaMTtFPl93kdN0=
+			X2VtrHZ/20kl8iyvFYDUJJLdii/zY/rdw0B0KZ0yiKs=
 			</data>
 		</dict>
 		<key>INARControllerNew + Scene.swift.orig</key>
@@ -5017,35 +5083,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YEB3TKQKyMC71s70SZuz7GIMhSgLp6464HtuWFmuzdo=
+			WPiP50OkQtWbXCAdpPbbzTUm0FqSuc2e1bnKGJ1Ckuo=
 			</data>
 		</dict>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j0SejFffMb0ZCkV3wOek4jo5i5pYrjJOvYz+PmoNDiw=
+			ePqtmGy6ObikqJR3wxKwE1PyfvXHVMrDqejlmpsDFIs=
 			</data>
 		</dict>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qORRHvrPGNIDtGnE/rfFOX6wUe82tOqKjLaXPRzOTFs=
+			O0Hfyxg8EzLNSgMpGMGHyUtBTWQw5/Nz4/CC8nmyfog=
 			</data>
 		</dict>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j0SejFffMb0ZCkV3wOek4jo5i5pYrjJOvYz+PmoNDiw=
+			ePqtmGy6ObikqJR3wxKwE1PyfvXHVMrDqejlmpsDFIs=
 			</data>
 		</dict>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9CPOMhoUIbNOFCTmqSgn1cF9+sVNs53RXf43yN2H6VM=
+			2RgAf8L86FZJCEleymGSeQuDo4JdjNJGc8ZcruEriXE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -5073,7 +5139,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nvuSHXqDsgWO+vLiubQZL7hviXqRJVEI4eoCkb43rk4=
+			NIEHOrmUCK4qCs2KDLhrfLgN2s5x2Ieg9ELO78m9Mlc=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INBaseMapView.h</key>
@@ -5087,21 +5153,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f8420FXdXokt2SNXqyNsXS+7ck5v+EPJT/D6Ik5Oi9o=
+			VhVhPN8R3MqTgrLpx8Z3D+R4CtRed5c5uM1ZgiLguuQ=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INBuildingLayer.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			beUsYVcVW9KcXh2ODB/pNE1egjja4f4FhCicgc4dx9k=
+			2H30fjmqu7UHc5fz7YJ6vv4B/bI4gfygefswxafFgsk=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INConverterForMap.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gYsJuDcuuTbtOdzAEB8ND3/CKQe0qh3iIdHtejnov7A=
+			nvg/z/AQzdL9EFAVPMm6oZDCL3EM6nLBTGXcF6+UAjg=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INDateFormatter.h</key>
@@ -5143,7 +5209,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fUXP2ZeGrh6GvA0oASWbvyOky97xkVZQpvypmToNgfo=
+			zyecTXfYEisg4b3wVaV+QA979E8ghCIhiGHZXi7pSl8=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INGlobalMapView.h</key>
@@ -5171,7 +5237,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+OyDo3OFdlL1+iqRnrVB5Yfrl7wOKToXMXnOZ4TmpbA=
+			7VlbsPfiqk1LSPWLrADS+fNIjBJJqMGWbm5qPjK5Wv8=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INMapView.h</key>
@@ -5185,7 +5251,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bQr6RGxsKkPnQgDw62VYPoB5nImFc1l9eLf+Z9ef4CE=
+			KG57ADe2RKag9qHBmB7YwX14FrKNWVFlEc5gC8fUXsw=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INMicrophonePermissionController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eaFeM2p8YSwdxjtKmLeG5+YSDcapjXowJBKLRbuBHzE=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INMinewBeaconAdminDelegate.h</key>
@@ -5195,11 +5268,46 @@
 			snBSnutyIPYxxOLN7wD1b8aAm05ENIAsJ/LrFmnHZYU=
 			</data>
 		</dict>
+		<key>PrivateHeaders/INNoPermissionConstants.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rRsxv4avj05BdYG+X1PTLX6vQhdtKHf2ocjF9ZJ1fnU=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INPermissionConstants.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9itYq5AFIN2Pr3GaNGqtbOIbEAi73mE2WAvL08JpTXM=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INPermissionController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PYh3dbGTuZjYqje2JJ0NHHpkrOzzAOBFm/AQLnSvJUc=
+			</data>
+		</dict>
 		<key>PrivateHeaders/INRadioMapView.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			xBcJzljiCeugTu1wcYvcClwcK/5cmv9Ng+RdrZpDhQk=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INRecordConstants.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JU3j43gS25UEmj51o+DQxyzZyC4vaqdVJv4mCYCHd9Y=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INRecordable.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l671hn4/GuVDeMVOuOb2/5zjZZTuZgfxF4EsKtgfY4U=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INRoutableObjectSearchBar.h</key>
@@ -5220,7 +5328,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zqpwt+FQLpKjgba1yZbmO9I5u9V+4bhWtzFBVAW6rh4=
+			x4VDI/w7vvzpxV2CLfh9fzRnV/NqagE1tFcU1dtl2ho=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INSpeechController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/e/Dt0uPbSjuWbvwCBfJ4P2XXDJ3bYF3jCvyad1qi/w=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INSpeechRecognitionPermissionController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lN+iZK4Cjhz24O4jxSMaDRgG4ssnYuqvUb3cZDBHssI=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INSymbolObjC.h</key>
@@ -5251,11 +5373,32 @@
 			MlraSWKT8TPi1dAXlV0eI3HPJQwlKxkUcfVqkxABSm0=
 			</data>
 		</dict>
+		<key>PrivateHeaders/INVoiceInputViewController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5LJscO9rhBv7AclLO7T2JH5MnMiNWaIMXTDj5DhEbTg=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INVoiceOverlayDelegate.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eGsgP4UYvl70OXTMrcIFfMUWYXqkrq+zxctNbTpTtcc=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INVoiceRecognitionController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RXh/QsBXl6VkxFWdG6owb+0MrgTRzCG83M5fNxj6bkI=
+			</data>
+		</dict>
 		<key>default.metallib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Yn7m1YOTYOPbVvHFwSQbSOQ7P5rQADEbq9Cq86hONM=
+			X1rQU3XMBEUgEkAAcEQzPS0F7Bc0Q5bLMsHHv02h+6w=
 			</data>
 		</dict>
 	</dict>

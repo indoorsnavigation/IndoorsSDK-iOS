@@ -502,7 +502,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sFLdmTVKL5nON7G1PkDYw1wtC/8=
+		tv37s+N/STmugl7DiiWaTNjvsPc=
 		</data>
 		<key>JSQMessagesCollectionViewCellIncoming.nib</key>
 		<data>
@@ -534,19 +534,19 @@
 		</data>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		+rAl7kCNifyAgjzkvn3LmFAkqqY=
+		NVqndAnOdZ8CjeddBZ832YFoCvc=
 		</data>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		kYx8c393iwoJHxmC99bmC1qqai4=
+		HqjGkArsdadPzzMaWvDXLXQaTME=
 		</data>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		+rAl7kCNifyAgjzkvn3LmFAkqqY=
+		NVqndAnOdZ8CjeddBZ832YFoCvc=
 		</data>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		MEBqWUdFxlrTQyOnFtBjefsfd1o=
+		OISejijXsMo9UMOg9seqioiNxik=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1708,28 +1708,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tWXhjrQwURgM17BijOdkCah9++OX6cgT0PuV/aL7aTA=
+			Lp1wfsZs8TlbKEfY3iirW4z8ulkamrHu07D16gfPkaY=
 			</data>
 		</dict>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PgaeIZT+ojVsSRQ8Boq4cfChcFySJnbJDyAO0yc+Hls=
+			lip2JoO+WuoU0NrBkplPVqn9NpUGHh4RzqSM2CPLi5w=
 			</data>
 		</dict>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tWXhjrQwURgM17BijOdkCah9++OX6cgT0PuV/aL7aTA=
+			Lp1wfsZs8TlbKEfY3iirW4z8ulkamrHu07D16gfPkaY=
 			</data>
 		</dict>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SIRXdNjxQs1Cq5hd7BdSf2zyM+kDy7V4hvrVnPTq7lc=
+			3pd/9Nq7CFPsIZRUVk5YG6I9HL65ZYUVsuM6+Yix6TY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
