@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-bare-slash-regex -module-name IndoorsMapSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -Osize -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IndoorsMapSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
 import ARKit
 import AVFoundation
 import CoreLocation
@@ -435,6 +435,8 @@ extension IndoorsMapSDK.INPanoramaWatcherView {
 extension IndoorsMapSDK.INPanoramaWatcherView : UIKit.UIGestureRecognizerDelegate {
   @_Concurrency.MainActor @preconcurrency @objc final public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
 }
+extension IndoorsMapSDK.FocusNode : Swift.Sendable {}
+extension IndoorsMapSDK.SCNPathNode : Swift.Sendable {}
 extension IndoorsMapSDK.OnboardingViewController.ViewType : Swift.Equatable {}
 extension IndoorsMapSDK.OnboardingViewController.ViewType : Swift.Hashable {}
 extension IndoorsMapSDK.OnboardingViewController.ViewType : Swift.RawRepresentable {}

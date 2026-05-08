@@ -81,6 +81,8 @@
 + (UIImage*)bluetoothIconImage;
 + (UIImage*)bluetoothIconWithoutPaddingImageWith:(CGSize)size;
 
++ (UIImage*)bluetoothIconWithCircle;
+
 + (UIImage*)enableTrackingButtonIconWith:(CGSize)size;
 + (UIImage*)infoIconWithCircleWithoutPaddingWith:(CGSize)size;
 
@@ -144,6 +146,9 @@
 
 + (UIImage*)iconPlus;
 + (UIImage*)iconMinus;
+
++ (UIImage*)iconPlusNew;
++ (UIImage*)iconMinusNew;
 
 + (UIImage*)iconSearch;
 + (UIImage*)iconSearchNew;

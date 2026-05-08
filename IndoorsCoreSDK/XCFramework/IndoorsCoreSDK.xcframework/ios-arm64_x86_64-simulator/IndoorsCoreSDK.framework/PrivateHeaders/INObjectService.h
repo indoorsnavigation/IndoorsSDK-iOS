@@ -63,6 +63,14 @@ NS_ASSUME_NONNULL_BEGIN
                  verifyToken:(BOOL)verifyToken
           andCompletionBlock:(void (^)(NSMutableArray *objects, int remoteCount, NSError * error))completionBlock;
 
+/// Loads objects.
+///
+/// - Parameter filter: Dictionary with filters.
+/// - Parameter completionBlock: Completion block.
+- (void)getObjectsWithCustomUrlString:(NSString *)string
+           usingBackendCache:(BOOL)useBackendCache
+          andCompletionBlock:(void (^)(id  _Nullable responseObject, NSError * error))completionBlock;
+
 /// Creates an object on the service.
 ///
 /// - Parameter object: The object that we store.
@@ -148,6 +156,8 @@ NS_ASSUME_NONNULL_BEGIN
 ///
 /// - Parameter completionBlock: Completion block.
 - (void)deleteAllObjectsFromDatabaseWithCompletionBlock:(void (^)(NSError *error))completionBlock;
+
+- (void)validateCacheForFilter:(NSDictionary *)filter;
 
 NS_ASSUME_NONNULL_END
 

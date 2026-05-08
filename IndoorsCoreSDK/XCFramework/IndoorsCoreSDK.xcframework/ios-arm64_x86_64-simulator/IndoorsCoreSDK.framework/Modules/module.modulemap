@@ -7,5 +7,4 @@ framework module IndoorsCoreSDK {
 
 module IndoorsCoreSDK.Swift {
   header "IndoorsCoreSDK-Swift.h"
-  requires objc
 }

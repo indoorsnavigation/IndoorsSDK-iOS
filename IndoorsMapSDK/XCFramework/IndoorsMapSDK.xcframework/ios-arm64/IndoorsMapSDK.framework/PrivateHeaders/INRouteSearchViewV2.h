@@ -106,9 +106,13 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)setActivateInfomatTintColor:(UIColor *)tintColor andBackgroundColor:(UIColor *)backgroundColor;
 
 - (void)openView;
+- (void)halfOpenView;
 - (void)closeView;
 
 - (BOOL)isOpen;
+- (BOOL)isHalfOpen;
+
+- (void)setRoomOrIconOrEntranceFromMap:(id<INRoutableProtocol>)object;
 
 -(void)setBuildings:(NSMutableArray<INBuilding *> *)buildings userGraphPoint:(nullable INGraphPoint *)userGraphPoint userLocation:(nullable CLLocation *)userLocation allTerritories:(nullable NSMutableArray *)territories;
 -(void)setBuildingsWithOneCheAndLoadBuildingsIfNeeded:(NSMutableArray<INBuilding *> *)buildings userGraphPoint:(nullable INGraphPoint *)userGraphPoint userLocation:(nullable CLLocation *)userLocation allTerritories:(nullable NSMutableArray *)territories;
@@ -119,10 +123,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) INInfomatPoint                     *infomatPoint;
 
 
+-(void)cleanStartFieldAndFinishField;
 
 
 - (void)setReadyButtonTintColor:(UIColor *)tintColor andBackgroundColor:(UIColor *)backgroundColor;
 - (void)setCancelButtonTintColor:(UIColor *)tintColor andBackgroundColor:(UIColor *)backgroundColor;
+
+-(void)setBottomOffset:(CGFloat)bottomOffset;
 
 @end
 NS_ASSUME_NONNULL_END

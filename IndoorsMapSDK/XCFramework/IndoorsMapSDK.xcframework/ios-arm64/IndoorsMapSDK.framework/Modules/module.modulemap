@@ -7,5 +7,4 @@ framework module IndoorsMapSDK {
 
 module IndoorsMapSDK.Swift {
   header "IndoorsMapSDK-Swift.h"
-  requires objc
 }

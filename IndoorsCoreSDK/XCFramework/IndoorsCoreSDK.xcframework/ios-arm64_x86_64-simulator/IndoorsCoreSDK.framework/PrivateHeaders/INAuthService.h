@@ -69,6 +69,30 @@ NS_ASSUME_NONNULL_BEGIN
               andClientSecret:(NSString*)clientSecret
           withCompletionBlock:(void (^)(NSError *error))completionBlock;
 
+/// Authenticates a user using OAuth2 code and clientId.
+///
+/// - Parameter code: The authorization code received from the web page.
+/// - Parameter clientId: The client ID of the application.
+/// - Parameter completionBlock: The completion block to call when authentication is completed.
+- (void)authenticateWithOAuthCode:(NSString *)code
+                         clientId:(NSString *)clientId
+              withCompletionBlock:(void (^)(NSString *token, NSError *error))completionBlock;
+
+- (void)authenticateWithTokenRUDN:(NSString *)tokenRUDN
+                         clientId:(NSString *)clientId
+                         clientSecret:(NSString *)clientSecret
+              withCompletionBlock:(void (^)(NSError *error))completionBlock;
+
+
+
+- (void)authenticateRUDNWith:(nonnull NSString *)phoneNumber
+                   secretKey:(nonnull NSString *)secretKey
+                       email:(nullable NSString *)email
+                   firstName:(nullable NSString *)firstName
+                    lastName:(nullable NSString *)lastName
+                  patronymic:(nullable NSString *)patronymic
+         withCompletionBlock:(nonnull void (^)(NSError * _Nullable error))completionBlock;
+
 /// Registers a new user with email and password.
 ///
 /// - Parameter email: The email of the new user account.

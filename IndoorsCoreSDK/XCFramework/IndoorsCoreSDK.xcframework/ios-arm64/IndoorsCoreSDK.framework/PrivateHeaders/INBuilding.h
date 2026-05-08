@@ -490,6 +490,11 @@ An array of the 'INBookingModel' objects.
 @property (nonatomic, strong) NSMutableArray *Bookings;
 
 /**
+ BOOL IsBookingNow.
+*/
+@property (nonatomic) BOOL IsBookingNow;
+
+/**
  An array of the 'INBeacon' objects.
  @see 'INBeacon'
  */
@@ -732,6 +737,7 @@ An array of the 'INFireSafetyImagePoints' objects.
 -(void)createPathfinderWithGraphIndexSync:(int)graphIndex;
 -(void)createPathfinderWithGraphIndexAsync:(int)graphIndex;
 
+- (INBuilding *)lightweightCopy;
 
 
 @end

@@ -11,7 +11,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
-
+#import "INCoreConfiguration.h"
 NS_ASSUME_NONNULL_BEGIN
 
 /**
@@ -26,6 +26,9 @@ NS_ASSUME_NONNULL_BEGIN
 ///   - completionBlock: Completion block.
 - (void)fetchPolylineWithQuery:(NSDictionary *)query
             andCompletionBlock:(void (^)(id responseObject, NSError *error))completionBlock;
+
+
+- (instancetype)initWithConfiguration:(INCoreConfiguration*)configuration;
 
 /// Sends a request to the cloud to calculate the global outdoor route.
 ///

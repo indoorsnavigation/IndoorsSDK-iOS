@@ -21,6 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface  ListOfBuildingsView : UIViewController
 - (instancetype)initWithCoordinator:(StartBookingCoordinator*)coordinator;
 - (void)setBuildings:(NSArray *)buildings;
+-(void)setHeightCellBuildings:(float)cellHeight;
 @end
 
 NS_ASSUME_NONNULL_END

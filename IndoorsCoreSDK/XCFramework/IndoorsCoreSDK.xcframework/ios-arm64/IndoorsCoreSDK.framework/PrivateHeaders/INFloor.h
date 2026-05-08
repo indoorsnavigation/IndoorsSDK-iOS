@@ -282,6 +282,8 @@ An array of the 'INFireSafetyImagePoints' objects.
  */
 @property (nonatomic, strong, nullable) NSArray *BarriersPoints;
 
+- (void)cleanup;
+
 @end
 
 NS_ASSUME_NONNULL_END

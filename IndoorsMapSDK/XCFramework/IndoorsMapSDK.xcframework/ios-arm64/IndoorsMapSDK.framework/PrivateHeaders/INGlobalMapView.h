@@ -19,156 +19,354 @@
 #import "INBaseMapViewDelegate.h"
 #import "INMinewBeaconAdminDelegate.h"
 #import "INGlobalInternalMapTapDelegate.h"
+#import "INGlobalMapViewBackButtonDelegate.h"
+
+
 
 
 NS_ASSUME_NONNULL_BEGIN
 
 
-/// The `INGlobalMapView` is a 3D Global Map interface that provides an API for navigation within buildings and other in-building functionalities.
-///
-///    The API allows to access the full range of mapping and navigation functionalities, including the ability to navigate to building from current user location,  zoom to map objects like Buildings and Rooms, making route with choosen routable objects and interact with different map objects, making it a powerful tool for navigating indoor environments.
-///
-///
+/**
+ The `INGlobalMapView` is a 3D Global Map interface that provides an API for navigation within buildings and other in-building functionalities.
+
+    The API allows to access the full range of mapping and navigation functionalities, including the ability to navigate to building from current user location,  zoom to map objects like Buildings and Rooms, making route with choosen routable objects and interact with different map objects, making it a powerful tool for navigating indoor environments.
+
+ */
+
 /// - Note:
 @interface INGlobalMapView : INBaseMapView
 
-/// Delegate for handling map events.
+/**
+ Delegate processing to handle display events related to beacons.
+ */
 @property (nonatomic, weak) id<INMinewBeaconAdminDelegate> minewBeaconAdminDelegate;
 
-/// Property that determines if building view hidden.
-@property (nonatomic) BOOL hideBuildingCalloutView;
-/// Property that determines if search view hidden.
-@property (nonatomic) BOOL searchViewHidden;
-/// Property that determines if tour route building from point to point serially, if true.
-/// If falst, route will be building from first to last point.
+/**
+ Sets the delegate for internal map tap events.
+
+ @param delegate The delegate object conforming to `INGlobalInternalMapTapDelegate`.
+ */
+- (void)setInternalMapTapDelegate:(id<INGlobalInternalMapTapDelegate>)delegate;
+
+
+/**
+ A delegate for processing clicks on the "Back" button.
+ 
+ */
+@property (nonatomic, weak, nullable) id<INGlobalMapViewBackButtonDelegate> backButtonDelegate;
+
+/**
+ Designated initializer.
+
+ @param frame The frame rectangle for the view, measured in points.
+ @return An initialized map view object.
+ */
+- (instancetype)initWithFrame:(CGRect)frame;
+
+
+
+
+
+
+
+/**
+ Property that determines if the tour route is building from point to point serially.
+ If false, the route will be built from the first to the last point.
+ */
 @property (nonatomic) BOOL isTourMultipleRoutesActive;
-/// Property that determines if map will prevent user camera to go out of custom bounds.
-/// Look for @property `INCoordinateBounds` maxVisibleBuildingBounds.
-@property (nonatomic) BOOL preventOutOfZoomBounds;
-/// Property that determines if adjective button hidden.
-/// Observe touches on this button in map delegate.
-@property (nonatomic) BOOL isNeedToAddAdjectiveButton;
-/// Property that determines if map must start with inital camera position.
-/// Look for @property `INCameraPosition` initialCameraPostion.
-@property (nonatomic) BOOL isInitialCameraPositionExists;
-/// Property that determines if map FloorForegroundThinExtrusionLayer use lighten FloorBackgroundColor.
-@property (nonatomic) BOOL isFloorLightenFloorBackgroundColor;
 
-/// Property that determines if map will hide owner icon images, for owners that title contains only from digits.
-@property (nonatomic) BOOL isDigitsOnlyTitleIconsHideImage;
-
-@property (nonatomic) BOOL isUseGlobalNavigationInBuilding;
-
-
-//_shareButton
-
-/// Property that controls map buttons corner radius.
-/// By default its fetching this value from current INApplication.
+/**
+ Property that controls the map buttons corner radius.
+ By default, it fetches this value from the current INApplication.
+ */
 @property (nonatomic, nullable) NSNumber *buttonsCornerRadius;
 
-@property (nonatomic) INCoordinateBounds maxVisibleBuildingBounds;
-@property (nonatomic) INCameraPosition initialCameraPostion;
 
+/**
+ Sets the array of buildings on the map.
 
-
-/// Designated initializer
-/// - Parameter containerView: Container view that will contain `INMapView` view. When adding map view to its container view as subview, container view must have non zero size.
-- (instancetype)initWithFrame:(CGRect)frame;
-- (instancetype)initWithFrame:(CGRect)frame andConfiguration:(INMapViewsConfiguration *)configuration;
-
-//- (void)moveForward:(double)meters;
-
+ @param buildings Array of `INBuilding` objects to be set.
+ */
 - (void)setBuildings:(nullable NSMutableArray*)buildings;
 
-/// Map will show layer of that specified floor,
-/// - Parameter floor: Floor to select.
+/**
+ Map will show the layer of the specified floor.
+
+ @param floor Floor to select.
+ */
 - (void)selectFloor:(INFloor*)floor;
 
+/**
+ Selects multiple rooms on the map.
+
+ @param rooms Array of rooms to select.
+ */
 - (void)selectRooms:(nullable NSMutableArray*)rooms;
-/// Map will zoom to room.
-/// - Parameter room: `INRoom` object.
+
+
+/**
+ Map will zoom to the specified room.
+
+ @param room `INRoom` object to zoom to.
+ */
 - (void)zoomToRoom:(INRoom*)room;
 
 
-/// Map view will zoom to icon, set it selected and display Room Info View.
-/// - Parameter icon: `INIcon` object.
+/**
+ Map view will zoom to the icon, set it selected, and display the Icon Info View.
+
+ @param icon `INIcon` object to select.
+ */
 - (void)selectIcon:(nullable INIcon*)icon;
 
-/// Map view will zoom to icon.
-/// - Parameter icon: `INIcon` object.
+/**
+ Map view will zoom to the specified icon.
+
+ @param icon `INIcon` object to zoom to.
+ */
 - (void)zoomToIcon:(INIcon*)icon;
 
 
 
-/// Map view will show `INTourPickerView` that will display `INTour` objects.
+/**
+ Map view will show `INTourPickerView` that will display `INTour` objects.
+ */
 - (void)showTours;
 
-/// Starts a tour event.
-///
-///  - Parameter tour: `INTour` object.
-///  - Note: Method will reset current route and draw new route for the tour.
+/**
+ Starts a tour event.
+
+ @param tour `INTour` object.
+ @note This method will reset the current route and draw a new route for the tour.
+ */
 - (void)selectTour:(nullable INTour*)tour;
 
-/// Set map routable objects and calculates the route.
-/// - Parameters:
-///   - startRoom: Starting routable object that must conform to `INRoutableProtocol` protocol.
-///   - finishRoom: Finishing routable object that must conform to `INRoutableProtocol` protocol.
+/**
+ Sets map routable objects and calculates the route.
+
+ @param startObject Starting routable object that must conform to the `INRoutableProtocol` protocol.
+ @param finishObject Finishing routable object that must conform to the `INRoutableProtocol` protocol.
+ */
 - (void)setRouteStartObject:(nullable id<INRoutableProtocol>)startObject
             andFinishObject:(nullable id<INRoutableProtocol>)finishObject;
 
-/// Set map finish object and display it in the Route View.
-/// - Parameter finishObject: Object that conform to a `INRoutableProtocol` protocol.
-/// - Note: Method will reset current route.
+/**
+ Sets the map finish object and displays it in the Route View.
+
+ @param finishObject Object that conforms to the `INRoutableProtocol` protocol.
+ @note This method will reset the current route.
+ */
 - (void)makeRouteWithFinalObject:(nullable id<INRoutableProtocol>)finishObject;
 
 
 
 
-/// - Note: Uses when stoped location and navigation
+/**
+ Restarts navigation and location services in the building.
+
+ @note Use this when location and navigation were previously stopped.
+ */
 - (void)restartNavigationAndLocationInBuilding;
+
+/**
+ Stops navigation in the building.
+ */
 - (void)stopNavigationInBuilding;
+
+/**
+ Stops both navigation and location services in the building.
+ */
 - (void)stopNavigationAndLocationInBuilding;
 
 
 
-/// for hide buttons
-@property (nonatomic) BOOL hideSearchButton;
-@property (nonatomic) BOOL hideARButton;
-@property (nonatomic) BOOL hideLocationButton;
-@property (nonatomic) BOOL hideNavigationButton;
-@property (nonatomic) BOOL hideRoomInfoView;
-@property (nonatomic) BOOL hideVoiceSearchButton;
-@property (nonatomic) BOOL hideRouteButton;
-@property (nonatomic) BOOL hideSelectGraphButton;
-@property (nonatomic) BOOL hideTourButton;
-@property (nonatomic) BOOL hideBeacons;
-@property (nonatomic) BOOL hideSelectFloorButton;
-@property (nonatomic) BOOL hideShareButton;
-
-
-/// for booking apps
+/**
+ Indicates whether it is a booking application.
+ */
 @property (nonatomic) BOOL isBookingApplicaton;
 
 
 
-/// redrawing rooms if need
+
+/**
+ Redraws rooms.
+ */
 -(void)redrawingRooms;
 
+/**
+ Sets scanned beacons along with their power levels.
+
+ @param beacons Array of scanned beacons.
+ */
 -(void)setScanBeaconsWithPower:(NSArray *)beacons;
 
--(void)updateMapConstraintsMapInternalView:(CGRect)frame;
+/**
+ Updates map constraints for the internal map view.
 
+ @param frame The new frame for the constraints.
+ */
+- (void)updateMapConstraintsMapInternalView:(CGRect)frame;
+
+/**
+ Enables point selecting on the map.
+ */
 - (void)enablePointSelecting;
-- (void)addPointMarkerOnFloor:(NSNumber *)floorId andPoint:(CGPoint)point;
-- (void)setInternalMapTapDelegate:(id<INGlobalInternalMapTapDelegate>)delegate;
 
-// Tracking
+/**
+ Adds a point marker on a specific floor.
+
+ @param floorId The ID of the floor.
+ @param point The coordinates of the point.
+ */
+- (void)addPointMarkerOnFloor:(NSNumber *)floorId andPoint:(CGPoint)point;
+
+
+
+/**
+ Returns the current floor.
+
+ @return The current `INFloor` object, or nil if none.
+ */
 - (nullable INFloor *)currentFloor;
+
+/**
+ Returns the tracking internal map view.
+
+ @return An object conforming to `INTrackingMapInternalView`.
+ */
 - (id<INTrackingMapInternalView>)getTrackingInternalMap;
 
 
+
+
+/**
+ Zooms the map to specific coordinates on a given floor.
+
+ @param x The X coordinate.
+ @param y The Y coordinate.
+ @param floorId The ID of the floor.
+ */
 - (void)zoomToCoordinateX:(double)x y:(double)y floorId:(double) floorId;
+
+/**
+ Zooms the map to specific coordinates on a given floor and adds a marker.
+
+ @param x The X coordinate.
+ @param y The Y coordinate.
+ @param floorId The ID of the floor.
+ */
 - (void)zoomToCoordinateXAndAddMarker:(double)x y:(double)y floorId:(double) floorId;
+
+
+
+/**
+ Shows or hides the back button.
+
+ @param isShow Boolean flag indicating whether to show the back button.
+ */
+-(void)showBackButton:(BOOL)isShow;
+
+/**
+ Sets the top offset for map buttons.
+
+ @param offset Top offset value in points.
+ */
+-(void)setTopOffsetForButtons:(float)offset;
+
+/**
+ Sets the bottom offset for map buttons.
+
+ @param offset Bottom offset value in points.
+ */
+-(void)setBottomOffsetForButtons:(float)offset;
+
+
+/**
+ Sets the bottom offset for map Views.
+
+ @param offset Bottom offset value in points.
+ */
+-(void)setBottomOffsetForViews:(float)offset;
+
+
+
+/**
+ Zoom to building and open info
+
+ @param buildingId  building id.
+ @param completion A completion block called when the operation finishes, passing a boolean indicating success.
+ */
+- (void)setPositionMapCameraToBuilding:(NSNumber *)buildingId  completion:(void (^_Nullable)(BOOL answer))completion;
+
+/**
+ Zoom to room and open info
+
+ @param roomId  room id.
+ @param buildingId  building id.
+ @param completion A completion block called when the operation finishes, passing a boolean indicating success.
+ */
+- (void)setPositionMapCameraToRoom:(NSNumber *)roomId buildingId:(NSNumber *)buildingId completion:(void (^_Nullable)(BOOL answer))completion;
+
+
+
+/**
+ Positions the map camera to a location retrieved from a specific integration.
+
+ @param integrationName The name of the integration to query.
+ @param fieldName The name of the field used to identify the location.
+ @param fieldValue The value of the field to match.
+ @param completion A completion block called when the operation finishes, passing a boolean indicating success.
+ */
+- (void)setPositionMapCameraToLocationWithIntegration:(nonnull NSString *)integrationName
+                                            fieldName:(nonnull NSString *)fieldName
+                                           fieldValue:(nonnull id)fieldValue
+                                           completion:(void (^_Nullable)(BOOL answer))completion
+NS_SWIFT_NAME(positionMapCamera(withIntegration:fieldName:value:completion:));
+
+
+
+
+// in develop
+
+/**
+ The maximum visible bounds for the building.
+ 
+ This property defines the geographical limits (South-West and North-East coordinates)
+ that restrict how far the user can pan the map camera.
+ */
+@property (nonatomic) INCoordinateBounds maxVisibleBuildingBounds;
+
+/**
+ The initial camera position when the map loads.
+ 
+ This configuration sets the starting center coordinate, viewing distance, pitch, heading,
+ and applies any necessary constraints to the camera's movement.
+ */
+@property (nonatomic) INCameraPosition initialCameraPostion;
+
+
+
+
+
+/**
+ Initializes and returns a newly allocated map view object with the specified frame and configuration.
+
+ @param frame The frame rectangle for the view, measured in points.
+ @param configuration Configuration object for the map view.
+ @return An initialized map view object.
+ */
+- (instancetype)initWithFrame:(CGRect)frame andConfiguration:(INMapViewsConfiguration *)configuration;
+
+
+
+/**
+ Initializes and returns a newly allocated map view object configured for Auto Layout.
+ */
+- (instancetype)init;
+
+- (instancetype)initWithConfiguration:(INMapViewsConfiguration *)configuration;
+
 
 
 // Mark:: old metods to remove

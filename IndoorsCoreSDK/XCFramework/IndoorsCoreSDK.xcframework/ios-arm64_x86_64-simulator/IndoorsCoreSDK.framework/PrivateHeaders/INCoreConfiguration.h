@@ -72,6 +72,11 @@ NS_ASSUME_NONNULL_BEGIN
 + (INCoreConfiguration *)customConfigurationWithServer:(NSString *)server andMapStyleUrl:(NSString *)mapStyleUrl;
 
 /**
+ Сustom configuration with server.
+ */
++ (INCoreConfiguration *)customConfigurationWithServer:(NSString *)server;
+
+/**
 	Custom initializer, if default configuration is not enough.
  */
 - (nonnull instancetype)initWithServer:(NSString *)server

@@ -51,6 +51,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)navigation:(INNavigation*)navigation didUpdateCircleAroundBeacons:(NSArray*)beacons;
 
+- (void)navigation:(INNavigation*)navigation didUpdateBeaconsForScanSession:(NSArray*)beacons;
+
 - (void)navigation:(INNavigation*)navigation didUpdateAccelerometrGraphData:(NSMutableArray *)mobileAccelerometr andINNavigationAccelerometr:(NSMutableArray *)navigationAccelerometr;
 
 - (void)navigation:(INNavigation*)navigation  andArrayPointsForCalculateAB:(NSMutableArray *)ArrayPoints;

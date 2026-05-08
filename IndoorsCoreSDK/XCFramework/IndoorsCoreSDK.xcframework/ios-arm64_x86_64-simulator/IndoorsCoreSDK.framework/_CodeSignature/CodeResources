@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/IndoorsCoreSDK-Swift.h</key>
 		<data>
-		i/3O63C4GOrn6G+eMsQf+LcK834=
+		MaUVhjlvZSpyzpTqjtLnIHdaA5U=
 		</data>
 		<key>Headers/IndoorsCoreSDK.h</key>
 		<data>
@@ -18,51 +18,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		090XqijXyTEfm/2t5U1puRQn3NY=
+		2LvIDAFYbT3/uYvtYWTWjfHYMRY=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		aLHeTwTkJSbDNYhjUfkoD089k54=
+		QxdtDJf5q9OExfyh2VhnHQwGvK4=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		VIODdpoo2yCi5/xQQ+9CWtD9YDY=
+		nq+YUh91xdb4SD+jQ2JzlOL6wqo=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		pLkD6rmfhw9UXPBQD5badaqpV1c=
+		bQt1A2uJMZTI9DDreiEwLwhlFQY=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VIODdpoo2yCi5/xQQ+9CWtD9YDY=
+		nq+YUh91xdb4SD+jQ2JzlOL6wqo=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2t3/q3GX/Wo0ovnYj4hU7izQswg=
+		4fQXsVPCOfTDm1+WPjPM3CRFMR8=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		aLHeTwTkJSbDNYhjUfkoD089k54=
+		QxdtDJf5q9OExfyh2VhnHQwGvK4=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kolZfSxkEjpzvfOKNL4TKXgRGqs=
+		WDcDKcFx30svy+DLSUzoYwux5A8=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		PShsmdK1if7ray9Xa5isdie8YgM=
+		/dlk4z4hSen3CzLjzrjWGtRNNNo=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kolZfSxkEjpzvfOKNL4TKXgRGqs=
+		WDcDKcFx30svy+DLSUzoYwux5A8=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		epJu3hZYVcfoidAImRv16E3yL7A=
+		qaRwXRX4zvaAQ6CdxAX/vXFE3k8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		cWZSpmGPj9jEubvraa+ouGuWs5o=
+		3+eyaOOYFEfopOM9w0DgJMEY7DY=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>PrivateHeaders/INApplication.h</key>
 		<data>
-		+vVJndYnqKrZx3vHcVWQ3jm9TSs=
+		CxEoCn7aVAMrU4aPAe38XYgIsbg=
 		</data>
 		<key>PrivateHeaders/INArticles.h</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>PrivateHeaders/INAuthService.h</key>
 		<data>
-		gnNyP3TgFJi2j2mCRYOpOs4Dq7w=
+		5gCE5iYS9Eid2+C2/u8MHpnOJ3o=
 		</data>
 		<key>PrivateHeaders/INBLELocation.h</key>
 		<data>
@@ -198,7 +198,7 @@
 		</data>
 		<key>PrivateHeaders/INBuilding.h</key>
 		<data>
-		+FcIKPNjFlDQDeCNrwsnyjbtUUs=
+		uotXjglxdok46uRsiR7NjdSakIs=
 		</data>
 		<key>PrivateHeaders/INBuildingBusinessHours.h</key>
 		<data>
@@ -290,7 +290,7 @@
 		</data>
 		<key>PrivateHeaders/INCoreConfiguration.h</key>
 		<data>
-		zW1ctct4BzQFZbWsBlWqs8fBYD4=
+		FIX50/E2oRILzJUaNJAcsgbqvrQ=
 		</data>
 		<key>PrivateHeaders/INCountry.h</key>
 		<data>
@@ -308,9 +308,13 @@
 		<data>
 		0Fd3vKNSxpcqL7F/G3osIid1DFw=
 		</data>
+		<key>PrivateHeaders/INDeviceLocationLinks.h</key>
+		<data>
+		mbk/zCtIcXqzs7NOpUkUVu8Q9P8=
+		</data>
 		<key>PrivateHeaders/INDirectionService.h</key>
 		<data>
-		/3+PaYqY3uzPjj2z8y0q+lVlgdE=
+		i32a869e4AjVc3dbJq+v468gnT0=
 		</data>
 		<key>PrivateHeaders/INDispatch.h</key>
 		<data>
@@ -394,7 +398,7 @@
 		</data>
 		<key>PrivateHeaders/INFloor.h</key>
 		<data>
-		2pw75D71i3LM8qUK8fXQi/4qHHs=
+		pNUcKUh9VCB0k5AZLe4hnLyIEr0=
 		</data>
 		<key>PrivateHeaders/INGPSZone.h</key>
 		<data>
@@ -554,7 +558,7 @@
 		</data>
 		<key>PrivateHeaders/INMessengerButton.h</key>
 		<data>
-		/KO6DabNHZYY1j4HM8IODM9lLLY=
+		nx66cNOpzJrYNQ3fM8eQ/CXAV0I=
 		</data>
 		<key>PrivateHeaders/INMobileBannerAsset.h</key>
 		<data>
@@ -574,7 +578,7 @@
 		</data>
 		<key>PrivateHeaders/INNavigation.h</key>
 		<data>
-		PRe7idhQdo/LkN7XfEPcH7zPn6Q=
+		E4eFMHQ5wHP9/0lKaTeJD4mwHkM=
 		</data>
 		<key>PrivateHeaders/INNavigationSettingsNew.h</key>
 		<data>
@@ -594,7 +598,7 @@
 		</data>
 		<key>PrivateHeaders/INObjectService.h</key>
 		<data>
-		10t7WPLceW0Awdn6EB6j0EBB0fM=
+		F3UXgRu0ew9q+WHPmL2ZedLus2U=
 		</data>
 		<key>PrivateHeaders/INOwner.h</key>
 		<data>
@@ -742,7 +746,7 @@
 		</data>
 		<key>PrivateHeaders/INRoom.h</key>
 		<data>
-		qSUAvXm31rmJm4f54G9Y6TRRLlc=
+		e9YfiSpZ/Fg2VGUMpLYV4/A7vZ4=
 		</data>
 		<key>PrivateHeaders/INRoomEvent.h</key>
 		<data>
@@ -770,7 +774,7 @@
 		</data>
 		<key>PrivateHeaders/INService.h</key>
 		<data>
-		fSHGrmRoeMVyshGO2YzVxwRGQpU=
+		157D61rRCyK8ypSX1RGanL6pUBg=
 		</data>
 		<key>PrivateHeaders/INServiceMessage.h</key>
 		<data>
@@ -1036,7 +1040,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k8cu4Qhh0PLhKafKpm+mkFr1UU8=
+			RZiwvt61YP+sMCHI57F0MDCgAiY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1045,7 +1049,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eVQoJXQzzFvHuyQaHBgqOk9bLt8=
+			qSmRE4CyVapsN8R3DYpuVryCpGo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1064,7 +1068,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XFAXTBZq+sqtyTYVOYBJNtPODITKZewdtc3xRALD4hA=
+			6CXFFXIBh3JjLmet6c8MJ0oYuuxm5lXFF0K3P4JJMos=
 			</data>
 		</dict>
 		<key>Headers/IndoorsCoreSDK.h</key>
@@ -1078,77 +1082,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lx1xykveCXTxHlHoYfowBLkWaXEsQCuWRVgHc3GIYmc=
+			6IFyT5Rn3cCCJ8JBZeud1ryKEQzhPC/ypC2HI6Z2ApU=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ybu1lU/0RJwow2FmId8DmEZAr4iOVr5leZR+wAsM5uI=
+			JPkcCDHkXuQ0s35DVoeen2MdydeyntsdKGYtZ3VP/h4=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M6+puaIcROW/w6DqQl+oErTkiq7ZGnXK0NyuIVC9WKc=
+			yLXgDcq8tZ3gU8wY7ziWjIaFmCgC69aHblnzbPE6jd8=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ybu1lU/0RJwow2FmId8DmEZAr4iOVr5leZR+wAsM5uI=
+			JPkcCDHkXuQ0s35DVoeen2MdydeyntsdKGYtZ3VP/h4=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YKIpP6HbHoOHnYYwkaW9SB1hDiJ+/XAn+8XVxQgmLwU=
+			PM/q4WZ5rDe2F6jRu4e+2FCb/dZKsvSYAefAP9IFYTw=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lx1xykveCXTxHlHoYfowBLkWaXEsQCuWRVgHc3GIYmc=
+			6IFyT5Rn3cCCJ8JBZeud1ryKEQzhPC/ypC2HI6Z2ApU=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fOfgxiRFltRVJ3LEz9xMQk2HahBKmo81UtG/kC0FyKk=
+			jPqng7xOf2hA/BVnFXAahpi0tkuICLoOJ3kGTnQ6sb4=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VQH9CFR9NRSgsVM5Rpy56cqSK7PvF8LEyqKFU431Ii0=
+			3SRmuDvOy9fWUD3rIz2mGUI4j1Vjco3sIFscA3s6bbc=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fOfgxiRFltRVJ3LEz9xMQk2HahBKmo81UtG/kC0FyKk=
+			jPqng7xOf2hA/BVnFXAahpi0tkuICLoOJ3kGTnQ6sb4=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MFcbIYontlRRBgFr+Zf7WL5B2nYB4TE1MkvjRi2B7nA=
+			33HRpSX4mbjpscvjXe0AivW/U3+BfyRQlx62jOkBNrI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3YnYwVQYNcbZ5janGYBRJn8OhGciu3ohvkIHVcQYhlE=
+			YntpKHP/TdbapZa9TeEayPIq7n/gittzzufN7+mPVXc=
 			</data>
 		</dict>
 		<key>PrivateHeaders/AcceleromenrGraphModel.h</key>
@@ -1260,7 +1264,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q/orO5efxqAku7UBSxElZuWGWZMenSqRk40BZC4NVyc=
+			On6/gV1ecKeBZIpo1mCKJX74m1H5+2SnEbbwkcU278k=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INArticles.h</key>
@@ -1274,7 +1278,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VqPLkiItUdcujnm1g4hjjCwLpkRiIKGd6QeeVqAPMq4=
+			vxQqfGJXYzz8FGZ6J0coOP4ioID6GgfG7rogsqV6250=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INBLELocation.h</key>
@@ -1379,7 +1383,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LBMWblxzcJN+20DwZB73uuiH6Yp9iIJprS1KHRrRUn4=
+			BM3nH6qzD4CTjBqqhaREECwAyMb6NPZmDVa6oWmKK1k=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INBuildingBusinessHours.h</key>
@@ -1540,7 +1544,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aD/x1rm7uX1UbGjxZynTmPdiHHD/fnZmKcK5p/pC7No=
+			hkdyUDi1Ivkxr22UtdcPknQmJMoZlUuxVA91arIEsQA=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INCountry.h</key>
@@ -1571,11 +1575,18 @@
 			kxHyf2mAh7OUHjlJMLQvSj3em5DBuaPqPOm+Zmn8Y4Y=
 			</data>
 		</dict>
+		<key>PrivateHeaders/INDeviceLocationLinks.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WW9miNHEkrzjtEkS+kTdLG8iLq7t5GSpSMGf56mfmzc=
+			</data>
+		</dict>
 		<key>PrivateHeaders/INDirectionService.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			amSbtv6dffnOvWbAbdpZENLPXFnSNEZHCPGFQuGTgjc=
+			AEx85TlvK3shk96J1Dy6dHhTRDDB3NMzWJa+K+91BCI=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INDispatch.h</key>
@@ -1722,7 +1733,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IzKx+vOIpx1h4B4AhBmtQAYL4Tehk7pwOcFYO4WuXno=
+			B8sf6ecwgTHtCI2ZOSH+pQ6VNw3TQrln3MoemuAlhrM=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INGPSZone.h</key>
@@ -2002,7 +2013,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GudvXF/FqOAPxa9CvW45zey674QWronx/lHwHzsZtQY=
+			3c8UPlrga0CTcQvxYKUTF7YXZu9DL+lr5Qe0TdClV0Q=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INMobileBannerAsset.h</key>
@@ -2037,7 +2048,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UlVSR7Jmh0QrLWJEqOAQXhwmTkunHZsFZa4o9Pn5mQw=
+			X2cINjgADGJ2z/zsLXwhAXqqoIrUAV8dDkftOsYQcOo=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INNavigationSettingsNew.h</key>
@@ -2072,7 +2083,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jMvL464Lb68xAi6XC48+f1cTFyBqHGCSLREK3QcF7E4=
+			bbjBDDQDX3CsfhO0rlaJzw/fwxI5eLhttQJHYL/Xmqs=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INOwner.h</key>
@@ -2331,7 +2342,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4JMeCCICr6SZP8wkJCC8R5qbzzdSyp9HFVlBkpiB5qk=
+			WR3a9SPJ80hlaFBRGGjzP/TiR/oqC19Y8lwZN7G04rg=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INRoomEvent.h</key>
@@ -2380,7 +2391,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Glz4Y+3axsikPfRlfycGHhiH4wOTb7reLY1RrnY46wU=
+			IA5lRS3Qs+yXT4FiwqWi3czC46bzfvDAKYXjZ5arOMY=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INServiceMessage.h</key>
@@ -2842,7 +2853,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			leLkIfYVdWy6CucHYV396aRUxGIGi1L7qeOOwaE2a40=
+			TLqwpgkm6fSiyXI/iHsREfS9yW+G8TMyQKxdKq4l8FU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2851,7 +2862,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VgMV2lGS0cNzl9w/aDqIxRKeT2JDz7di+ZEKu0eL0d0=
+			Fn9XlzG9hYMIsO02loPMBcCW/0qn3mO9xxxD0d4iLyQ=
 			</data>
 			<key>optional</key>
 			<true/>

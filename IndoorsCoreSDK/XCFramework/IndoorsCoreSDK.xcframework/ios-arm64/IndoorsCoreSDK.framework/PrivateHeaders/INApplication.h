@@ -99,6 +99,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *BeaconUUID;
 
 /**
+ Alarm button enabled.
+ */
+@property (nonatomic, strong) NSNumber *AlarmButtonEnabled;
+
+
+/**
  An array of 'INLocalNotification' objects.
  */
 @property (nonatomic, strong) NSMutableArray *LocalNotifications;

@@ -310,7 +310,7 @@
 		</data>
 		<key>Assets/Icons/finishIconNew.png</key>
 		<data>
-		y8ubb6dFzJUBfMlOJ9VFvsaBLFk=
+		pK4q0CH3qYu+BKbYbWKXE8kAy1o=
 		</data>
 		<key>Assets/Icons/hotel-service2.png</key>
 		<data>
@@ -427,6 +427,10 @@
 		<key>Assets/Icons/icon_bluetooth.png</key>
 		<data>
 		zOVFCndRYNlviJtIXuq4nSaRTbQ=
+		</data>
+		<key>Assets/Icons/icon_bluetooth_with_circle.png</key>
+		<data>
+		zJo0y9EfEtm7VX7DE1vRyWnamfk=
 		</data>
 		<key>Assets/Icons/icon_bluetooth_without_padding.png</key>
 		<data>
@@ -590,7 +594,7 @@
 		</data>
 		<key>Assets/Icons/icon_floor_new.png</key>
 		<data>
-		ayydX5c+jSNKT7mmVbuR93U/Smc=
+		tFICxYpCNKIgeI45NPxrQvUePo4=
 		</data>
 		<key>Assets/Icons/icon_floors.png</key>
 		<data>
@@ -646,7 +650,7 @@
 		</data>
 		<key>Assets/Icons/icon_info_button_on_map.png</key>
 		<data>
-		94OtUs5eVOgXUpCNjs+vTl+Mm2g=
+		JOwCK32LQH/2vK+pMWB02eCBvh8=
 		</data>
 		<key>Assets/Icons/icon_infomat.png</key>
 		<data>
@@ -732,6 +736,10 @@
 		<data>
 		3Z6uEW5jQ3DgXFOzZ2S7YdLvii4=
 		</data>
+		<key>Assets/Icons/icon_minus_new.png</key>
+		<data>
+		9T39Hx2G6TmIp+eGxr+yKA9tcOU=
+		</data>
 		<key>Assets/Icons/icon_navigation.png</key>
 		<data>
 		2/Vw9BeR0xHIDMT8NIYQx5qKyPI=
@@ -767,6 +775,10 @@
 		<key>Assets/Icons/icon_plusGrid.png</key>
 		<data>
 		akxPwWJOCu7F7fsddkyE30J4yB4=
+		</data>
+		<key>Assets/Icons/icon_plus_new.png</key>
+		<data>
+		neIi7ETT+auyf6prR3u4fy28ojM=
 		</data>
 		<key>Assets/Icons/icon_plus_red.png</key>
 		<data>
@@ -892,6 +904,10 @@
 		<data>
 		kQkCC5HMYdwejloJAW304sAajGk=
 		</data>
+		<key>Assets/Icons/icon_sos.png</key>
+		<data>
+		3cO9CBhLTA2TwpxxWP3UKPlAC6A=
+		</data>
 		<key>Assets/Icons/icon_start_new.png</key>
 		<data>
 		LvtdU7+mxhiiXm/IBh6pPoyNJfA=
@@ -994,15 +1010,15 @@
 		</data>
 		<key>Assets/Icons/infoViewCloseIcon.png</key>
 		<data>
-		vi5G5HXW9T7T71gNaX9bYyDJ8Hs=
+		YkKybdhWpqqN7gpa/anm1KG4zG4=
 		</data>
 		<key>Assets/Icons/infoViewCloseIcon@2x.png</key>
 		<data>
-		Dmtaf6UAz1HNWjMhtSnyEIJl6MQ=
+		JaGrl9GwPH6Ppk2J60rA2bEZ91M=
 		</data>
 		<key>Assets/Icons/infoViewCloseIcon@3x.png</key>
 		<data>
-		pe9/gm/ODtcFXsWOVXyH6wP4Sp4=
+		wC+VG17jBwwIDd1ZfiOmU68cKB0=
 		</data>
 		<key>Assets/Icons/informatIconReversed.png</key>
 		<data>
@@ -1226,7 +1242,7 @@
 		</data>
 		<key>Assets/Icons/startIconNew.png</key>
 		<data>
-		HkWKCfy8n3OTUAtFTJDrF5A1Oa4=
+		PtJZKAUE23GyriRnld3iBEUPexo=
 		</data>
 		<key>Assets/Icons/statisticIconProfile.png</key>
 		<data>
@@ -1662,7 +1678,7 @@
 		</data>
 		<key>Headers/IndoorsMapSDK-Swift.h</key>
 		<data>
-		b35szfTd8clpDj+F4lHrXevQ4zw=
+		xB84DkMLPsjVCUAoY5A6Ee6V1vc=
 		</data>
 		<key>Headers/IndoorsMapSDK.h</key>
 		<data>
@@ -1782,31 +1798,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7SZC8/eEta56dVPpVg1IitQua98=
+		DBFAV7ZZ3SFpuk52Hp1Mv2GsbL8=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		fTEE0gaEKrLbAVF4ovX56EOn+Zw=
+		LtEhdu3ZhnOd/ikFb3cLX94P4Mk=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		JyiQQHyNDrQ6JchWYLfQku9wZTI=
+		fvrrfyjxz3ReyR3VhKr3M4SOCM8=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		dYkBsuSH+N9iSdxZcSRIg63S8kg=
+		HvDJjX85dr2YxV2j/kvjsvlhAjw=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		JyiQQHyNDrQ6JchWYLfQku9wZTI=
+		fvrrfyjxz3ReyR3VhKr3M4SOCM8=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		50CVrYvBNVmQDZGIjGWtXCPXlXA=
+		FjD0GuAlReQn/wWlB+arZVx96y8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		kdp0Uy8E+OfKRU9ovI516gv81hE=
+		eXDc39veRs/ebHgcN5Zdt7rYx18=
 		</data>
 		<key>PrivateHeaders/IN2DShapeLayer.h</key>
 		<data>
@@ -1818,7 +1834,7 @@
 		</data>
 		<key>PrivateHeaders/INBaseMapInternalViewDelegate.h</key>
 		<data>
-		H6bKRTJG9BDNGEZRyOckFO1/qPE=
+		f+pbUE8odggPOe0Qp3adbkrF6bU=
 		</data>
 		<key>PrivateHeaders/INBaseMapView.h</key>
 		<data>
@@ -1830,7 +1846,7 @@
 		</data>
 		<key>PrivateHeaders/INBuildingLayer.h</key>
 		<data>
-		sgezyYAG59Vu1ouoFu23EcWXVG8=
+		eYXt29Iw/klp/Bvyxyq0X11u9Eo=
 		</data>
 		<key>PrivateHeaders/INConverterForMap.h</key>
 		<data>
@@ -1858,11 +1874,15 @@
 		</data>
 		<key>PrivateHeaders/INGlobalMapInternalView.h</key>
 		<data>
-		5Y7UEpYpdMbHQUf6tU9/pJ18Al8=
+		ifP+LezkSJsNqylyHAOc4h4cLhI=
 		</data>
 		<key>PrivateHeaders/INGlobalMapView.h</key>
 		<data>
-		XgcLYcLDkQt5z0Byj+70GHjHppY=
+		QLbJCAgY8ZWuC2Mv3cigQFMOIcA=
+		</data>
+		<key>PrivateHeaders/INGlobalMapViewBackButtonDelegate.h</key>
+		<data>
+		IfibGNc2cYIpE7RVquOzj04CYgk=
 		</data>
 		<key>PrivateHeaders/INGlobalRadioMapView.h</key>
 		<data>
@@ -1874,7 +1894,7 @@
 		</data>
 		<key>PrivateHeaders/INImageExtension.h</key>
 		<data>
-		ywTx7cXTVdolHmmxKaFosFY1wi0=
+		yEnDWYVVs5efbozfLUJbIhcHGic=
 		</data>
 		<key>PrivateHeaders/INMapView.h</key>
 		<data>
@@ -1926,7 +1946,7 @@
 		</data>
 		<key>PrivateHeaders/INRouteSearchViewV2.h</key>
 		<data>
-		v5tQxGVNZXxAuEL2ZnfgzmzAhRg=
+		A40agSDG8II+uNB8wmYzUBtAv7U=
 		</data>
 		<key>PrivateHeaders/INSpeechController.h</key>
 		<data>
@@ -1966,7 +1986,7 @@
 		</data>
 		<key>default.metallib</key>
 		<data>
-		Dvz8nD3voiXUBubBDMAgZ6/7zDQ=
+		hKemt/a9bUYiCfUlM33AkQYfqlY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -2507,7 +2527,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+iT6zmC9pyDJynPW3nduheLxukSh2ji3uJJlYYEnqhc=
+			VV6t3ow9lSUUUkxGw9Y+enqlxB8yOgTS1DA29A5EOT8=
 			</data>
 		</dict>
 		<key>Assets/Icons/hotel-service2.png</key>
@@ -2711,6 +2731,13 @@
 			<key>hash2</key>
 			<data>
 			BKX54a6I4286FLW5hCBR/melnwie0gqvpurOSWvU+NA=
+			</data>
+		</dict>
+		<key>Assets/Icons/icon_bluetooth_with_circle.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vJOoGFVbW//yVMIzUUKMODoBUS/6pkIEv9caVnlHubs=
 			</data>
 		</dict>
 		<key>Assets/Icons/icon_bluetooth_without_padding.png</key>
@@ -2997,7 +3024,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h4L7W+UH596TsupN1KnLgi/Vfl8u3l9uxNoYPAaRxOM=
+			3PzoJtAeskkJjxkC3a6PKU1bt5zoiNtlKWPCEftGPNA=
 			</data>
 		</dict>
 		<key>Assets/Icons/icon_floors.png</key>
@@ -3095,7 +3122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2zoM5wfPrXDJWDhShK3IQP14bVql2LmqVtdEn14qYrM=
+			jz0L12SdIkG8LGQc1f8Hb/2WCq4tWkOvbRrjc0ibPig=
 			</data>
 		</dict>
 		<key>Assets/Icons/icon_infomat.png</key>
@@ -3245,6 +3272,13 @@
 			0U2XSegHoxOSkJDl7IBLpmrzjiew1Q2BxYTkCwzi92Y=
 			</data>
 		</dict>
+		<key>Assets/Icons/icon_minus_new.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3WpsZ7nxpTtzDoEqLFO1f4isPzPkQ3bxYyLOQhUOtJM=
+			</data>
+		</dict>
 		<key>Assets/Icons/icon_navigation.png</key>
 		<dict>
 			<key>hash2</key>
@@ -3306,6 +3340,13 @@
 			<key>hash2</key>
 			<data>
 			vQVhU5RVyZGjcCuOaRzCVye2udCmpRlW6/tSEBnL7Jc=
+			</data>
+		</dict>
+		<key>Assets/Icons/icon_plus_new.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PNQqenUKJdVYSCWcrsn8R3Api39YHOnNr0e//jzLG+4=
 			</data>
 		</dict>
 		<key>Assets/Icons/icon_plus_red.png</key>
@@ -3525,6 +3566,13 @@
 			128WZ/tfoXBhFpIXrLdYhm21hNDAlfRBcrZiDoQnOF0=
 			</data>
 		</dict>
+		<key>Assets/Icons/icon_sos.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CwyK099hjhp608ZF/4E5FlOnyAtwuF7KmgmxRBAWgwo=
+			</data>
+		</dict>
 		<key>Assets/Icons/icon_start_new.png</key>
 		<dict>
 			<key>hash2</key>
@@ -3704,21 +3752,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vVE6bOZ2PeaX9aYskWwSk6XTVZxfSrfBHiXfwHnFBSc=
+			JfRbVL7baXfQGLyrRREERneCRJCOo3onES5p685NjHo=
 			</data>
 		</dict>
 		<key>Assets/Icons/infoViewCloseIcon@2x.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yldydFuLEoj+TazKotWIOgoqO3u1D0qYr0/aCMQ71I8=
+			wSe7dH9TOrYmuepA0Il3ngwcfJMVWYGET7HvnbXCXNc=
 			</data>
 		</dict>
 		<key>Assets/Icons/infoViewCloseIcon@3x.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/LkRhkgG9pmPyhqQxGvBy9Ih2h8VMxVHByBOrWRZbRY=
+			4D7bDV0Xc7DM0nqO/37rwf+wADDgVDOUbZdM2DXyq50=
 			</data>
 		</dict>
 		<key>Assets/Icons/informatIconReversed.png</key>
@@ -4110,7 +4158,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vBV6R9Bg2gT2YFA7/XvOA8Rgi/F+WSndBkiAFhgC+b8=
+			Dh30iit+CKt75zkbFg2WEW6rasFkR76jhqYGmNDktOU=
 			</data>
 		</dict>
 		<key>Assets/Icons/statisticIconProfile.png</key>
@@ -4873,7 +4921,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dGDnC3S++RKbjSdKsy6C1d7vvbwLvO8REaEqAJh8+BM=
+			8DjlRI3byWUKDAKiiYubt2YSFpfk3qTmiwNEBKvo6us=
 			</data>
 		</dict>
 		<key>Headers/IndoorsMapSDK.h</key>
@@ -5083,42 +5131,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WPiP50OkQtWbXCAdpPbbzTUm0FqSuc2e1bnKGJ1Ckuo=
+			szqjuzjUv4qygJtVlN4/YrP3RspAQRPiI2kEESeAuTg=
 			</data>
 		</dict>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ePqtmGy6ObikqJR3wxKwE1PyfvXHVMrDqejlmpsDFIs=
+			ksGsJ7tRxdzj9YYZx5yPkHT2ASEKKZwoEP7MFQFvtj8=
 			</data>
 		</dict>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O0Hfyxg8EzLNSgMpGMGHyUtBTWQw5/Nz4/CC8nmyfog=
+			gQXXrkoAkZcGey9d/pKfwu/1ox/o96c5wyfROCF0xKM=
 			</data>
 		</dict>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ePqtmGy6ObikqJR3wxKwE1PyfvXHVMrDqejlmpsDFIs=
+			ksGsJ7tRxdzj9YYZx5yPkHT2ASEKKZwoEP7MFQFvtj8=
 			</data>
 		</dict>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2RgAf8L86FZJCEleymGSeQuDo4JdjNJGc8ZcruEriXE=
+			JIccMd72kJf78PUC+vmeKZmLom6tNOnaKUdR2yk12fw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+fUNUT4sMyj/rMEfG+ztZS1VbHfrJJU5UkUoA9Eo90M=
+			RSjIXLu1HtonK62vJsPVxnuFlbviymDeSmYVAKWuKyo=
 			</data>
 		</dict>
 		<key>PrivateHeaders/IN2DShapeLayer.h</key>
@@ -5139,7 +5187,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NIEHOrmUCK4qCs2KDLhrfLgN2s5x2Ieg9ELO78m9Mlc=
+			vGGd2s9jlCX+dYDcGQMklSQTZyKuz2zecD5XFTN29cg=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INBaseMapView.h</key>
@@ -5160,7 +5208,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2H30fjmqu7UHc5fz7YJ6vv4B/bI4gfygefswxafFgsk=
+			nYq1tYaRi3U3xJbZh9fA4Z+pIIYfFpDqscn489CybxQ=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INConverterForMap.h</key>
@@ -5209,14 +5257,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zyecTXfYEisg4b3wVaV+QA979E8ghCIhiGHZXi7pSl8=
+			+rOdLoEDJdsXwkRIU2wnn2vGM9cb8oLZ2+YSBGcgHUg=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INGlobalMapView.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8psX/zDJAP/GMkSP1btiBgKmkmjWDQsEhoq04M0lYxI=
+			Op0TsuujEQJkXlos1Xc7pFtIvocnBodHwiqhdQMmIkg=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INGlobalMapViewBackButtonDelegate.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VT8zzAyVcqv8kiQ3HRXZjm7pD6LtShhLtnNmoDpT8v8=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INGlobalRadioMapView.h</key>
@@ -5237,7 +5292,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7VlbsPfiqk1LSPWLrADS+fNIjBJJqMGWbm5qPjK5Wv8=
+			ZZk+eQUhNsA2VtvFloJj5JoTXPvkjUSTJphYSrzUacQ=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INMapView.h</key>
@@ -5328,7 +5383,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x4VDI/w7vvzpxV2CLfh9fzRnV/NqagE1tFcU1dtl2ho=
+			jhR+hqBHhOtAFq5u3MePlZ7bREjHHKYPS9GkMA0cZ/s=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INSpeechController.h</key>
@@ -5398,7 +5453,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X1rQU3XMBEUgEkAAcEQzPS0F7Bc0Q5bLMsHHv02h+6w=
+			Y3dMdiC9/ng0aWRzMXWjfu+WUuAMRsgcibBb4vuQx2E=
 			</data>
 		</dict>
 	</dict>

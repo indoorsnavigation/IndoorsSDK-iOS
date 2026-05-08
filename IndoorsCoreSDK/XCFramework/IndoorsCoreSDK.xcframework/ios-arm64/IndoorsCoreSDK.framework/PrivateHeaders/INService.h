@@ -493,6 +493,41 @@ NS_ASSUME_NONNULL_BEGIN
                          andClientSecret:(NSString*)clientSecret
                      withCompletionBlock:(void (^)(NSError *_Nullable error))completionBlock;
 
+/// Authenticates a user using OAuth2 code and clientId.
+///
+/// - Parameter code: The authorization code received from the web page.
+/// - Parameter clientId: The client ID of the application.
+/// - Parameter completionBlock: The completion block to call when authentication is completed.
+- (void)authenticateWithOAuthCode:(NSString *)code
+                         clientId:(NSString *)clientId
+              withCompletionBlock:(void (^)(NSString *token, NSError *error))completionBlock;
+
+
+- (void)authenticateWithTokenRUDN:(NSString *)tokenRYDN
+                         clientId:(NSString *)clientId
+                         clientSecret:(NSString *)clientSecret
+              withCompletionBlock:(void (^)(NSError *error))completionBlock;
+
+
+/// Authorize application.
+///
+///
+///    - Parameter phoneNumber: user phone.
+///    - Parameter secretKey: user secret key.
+///    - Parameter email: user email.
+///    - Parameter firstName: user first name.
+///    - Parameter lastName: user last name.
+///    - Parameter patronymic: user patronymic.
+///    - Parameter completionBlock: The completion block to call when authentication is completed.
+- (void)authenticateWithPhoneNumber:(nonnull NSString *)phoneNumber
+                   secretKey:(nonnull NSString *)secretKey
+                       email:(nullable NSString *)email
+                   firstName:(nullable NSString *)firstName
+                    lastName:(nullable NSString *)lastName
+                  patronymic:(nullable NSString *)patronymic
+                    withCompletionBlock:(nonnull void (^)(NSError * _Nullable error))completionBlock;
+
+
 /// Registers new user with email and password.
 ///
 ///    - Parameter email: Email of the new user account.
@@ -507,6 +542,10 @@ NS_ASSUME_NONNULL_BEGIN
                 firstName:(NSString*)firstName
                  lastName:(NSString*)lastName
       withCompletionBlock:(void (^)(NSError *_Nullable error))completionBlock;
+
+
+
+
 
 /// Closes the session, invalidates the token
 /// - Parameter completionBlock: Completion block.
@@ -570,6 +609,22 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)loadMapZonesForBuilding:(INBuilding *)building
              andCompletionBlock:(void (^)(NSMutableArray<INMapZone *> *_Nullable zones, NSError *_Nullable error))completionBlock;
 
+
+#pragma mark - Fetch Integration Field
+/**
+ Fetches the building and room identifiers based on the provided integration data.
+
+ @param integrationName The name of the integration system or data source.
+ @param fieldName The name of the field to search by (e.g., building ID or room code).
+ @param fieldValue The value of the field to match.
+ @param completion A completion block called when the fetch operation finishes. Returns `buildingId`, `roomId`, or an `error`. All parameters can be `nil`.
+ */
+- (void)fetchLocationDetailsWithIntegrationName:(nonnull NSString *)integrationName
+                                      fieldName:(nonnull NSString *)fieldName
+                                     fieldValue:(nonnull id)fieldValue
+                                     completion:(void (^_Nullable)(NSNumber * _Nullable buildingId, NSNumber * _Nullable roomId, NSError * _Nullable error))completion;
+
+
 #pragma mark - Zone visit stamps
 
 /// Loads array of `INZoneVisitSpamp` objects.
@@ -605,7 +660,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// - Parameter application:  `INApplication` object.
 /// - Parameter completionBlock: Completion block.
 - (void)loadBuildingsOfApplication:(INApplication*)application
-               withCompletionBlock:(void (^)(NSMutableArray<INBuilding *> *buildings, NSError *_Nullable error))completionBlock;
+               withCompletionBlock:(void (^)(NSMutableArray<INBuilding *> * _Nullable buildings, NSError *_Nullable error))completionBlock;
 
 #pragma mark - Building
 
@@ -1634,6 +1689,13 @@ withCompletionBlock:(void (^)(NSError *_Nullable error))completionBlock;
 - (void)postRadioTrack:(INRadioMapTrack *)radioTrack
         withCompletionBlock:(void (^)(INRadioMapTrack *_Nullable updatedTrack, NSError *_Nullable error))completionBlock;
 
+/// Puts  an `INSendingFoundBeacons` object.
+///
+/// - Parameter floorId: Current Floor Id.
+/// - Parameter beaconsIds: Found beacons Id.
+/// - Parameter completionBlock: Completion block that returns an `NSString` object or error.
+- (void)postSendingFoundBeacons:(NSNumber *)floorId beaconsIds:(NSString *)beaconsIds withCompletionBlock:(void (^)(NSString * answerString, NSError * error))completionBlock;
+
 #pragma mark - Online route calculation
 /// Fetchs an array of 'INRadioMap' objects using 'INBuilding' as filter.
 ///
@@ -1651,10 +1713,17 @@ withCompletionBlock:(void (^)(NSError *_Nullable error))completionBlock;
 - (void)loadRoomsOfBuilding:(INBuilding*)building
         withCompletionBlock:(void (^)(NSMutableArray *rooms, NSError *error))completionBlock;
 
+- (void)loadRoomsWithIds:(NSMutableArray*)ids
+        withCompletionBlock:(void (^)(NSMutableArray *rooms, NSError *error))completionBlock;
+
 - (void)loadOwnersOfBuilding:(INBuilding*)building
          withCompletionBlock:(void (^)(NSMutableArray *owners, NSError *error))completionBlock;
 - (void)loadFloorsOfBuilding:(INBuilding*)building
          withCompletionBlock:(void (^)(NSMutableArray *floors, NSError *error))completionBlock;
+
+- (void)loadFloorsWithIds:(NSMutableArray*)ids
+         withCompletionBlock:(void (^)(NSMutableArray *floors, NSError *error))completionBlock;
+
 
 
 /// saveLastSeenBeacon
@@ -1838,6 +1907,19 @@ withCompletionBlock:(void (^)(INTasksModel *task, NSError * _Nullable error))com
 
 
 - (BOOL)checkLoadBuildings:(NSMutableArray*)buildings;
+
+-(void)sendRouteTimeStamp:(id<INRoutableProtocol>)routeStartObject
+        routeFinishObject:(id<INRoutableProtocol>)routeFinishObject
+      withCompletionBlock:(void (^)( NSError * _Nullable error))completionBlock;
+
+-(void)getDeviceLocationLinkWithApplication:(NSNumber *)application
+                                   userUUID:(NSString *)userUUID
+                        withCompletionBlock:(void (^)(NSString * _Nullable locationLink,  NSError * _Nullable error))completionBlock;
+
+
+
+-(nullable NSString *)getConfigurationApiUrl;
+-(nullable NSString *)getMapStyleUrlString;
 
 #pragma mark - Cancelation and deletion
 

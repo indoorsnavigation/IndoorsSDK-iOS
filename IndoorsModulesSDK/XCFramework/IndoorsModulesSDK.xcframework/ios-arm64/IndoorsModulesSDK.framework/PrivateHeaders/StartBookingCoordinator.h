@@ -31,7 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)initWithBuildings:(NSMutableArray *)buildings withNavigationController:(UINavigationController *)navigationController;
 
-
+-(void)setHeightCellBuildings:(float)cellHeight;
 
 @property (nonatomic, assign, nullable) id<StartBookingCoordinatorDelegate> delegate;
 //@property (weak, nonatomic) INBuilding *building;

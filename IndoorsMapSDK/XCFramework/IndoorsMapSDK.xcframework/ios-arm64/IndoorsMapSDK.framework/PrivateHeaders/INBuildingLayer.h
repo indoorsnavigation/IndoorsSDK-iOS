@@ -132,6 +132,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)showFloorWithFloorId:(double)floor currentBuildingId:(NSNumber *)currentBuildingId;
 - (void)hideAllFloors;
 - (void)zoomToCoordinateX:(double)x y:(double)y floorId:(double) floorId withCompletionBlock:( void (^)(void))completionBlock;
+- (void)zoomToCoordinateX:(double)x y:(double)y floorId:(double) floorId heading:(double)heading withCompletionBlock:( void (^)(void))completionBlock;
 - (void)zoomToCoordinateXAndAddMarker:(double)x y:(double)y floorId:(double) floorId;
 - (void)handleMapTap:(CLLocationCoordinate2D)coordinate floorId:(NSNumber *)floorId;
 - (void)deleteTapPointMarkers;
@@ -155,6 +156,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 - (void)zoomOutToEntraceFromTabWaypointCoordinateX:(NSNumber *)x y:(NSNumber *)y floorId:(NSNumber *) floorId buildingId:(NSNumber *)buildingId withCompletionBlock:( void (^)(void))completionBlock;
+
+-(NSNumber *)getCurrentFloorId;
 
 - (void)cleanup;
 - (void)remove;

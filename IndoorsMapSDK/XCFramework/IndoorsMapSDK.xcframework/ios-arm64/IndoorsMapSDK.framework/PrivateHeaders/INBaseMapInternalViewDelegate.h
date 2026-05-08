@@ -52,6 +52,20 @@ textForDebuggingPosition:(NSString *)test;
  
  */
 - (void)mapInternalView:(UIView*)mapInternalView
+      didSelectBuilding:(nullable INBuilding*)building
+   andSelectedTerritory:(nullable INBuilding*)territoryBuilding;
+
+
+/**
+ 
+ */
+- (void)mapInternalView:(UIView*)mapInternalView
+      didSelectTerritory:(nullable INBuilding*)territoryBuilding;
+
+/**
+ 
+ */
+- (void)mapInternalView:(UIView*)mapInternalView
           didSelectRoom:(nullable INRoom*)room;
 
 /**

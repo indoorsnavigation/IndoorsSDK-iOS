@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Stores data about room.
  */
-@interface INRoom : INBaseObject <INRoutableProtocol, INCategoryProtocol>
+@interface INRoom : INBaseObject <INRoutableProtocol, INCategoryProtocol, NSCopying>
 
 /**
  Floor identifier in the database.

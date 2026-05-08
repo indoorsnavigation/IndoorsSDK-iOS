@@ -14,6 +14,9 @@
 @interface INMessengerButton : UIButton
 -(id)initWithTitle:(NSString *)title
           andImage:(UIImage *)image;
+-(void)setTitleFont:(UIFont *)font;
+-(NSString *)getTitleLabel;
+-(void)setTitleLabel:(NSString *)title;
 @end
 
 #endif /* INMessengerButton_h */

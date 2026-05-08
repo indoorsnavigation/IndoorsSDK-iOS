@@ -36,11 +36,14 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) BOOL isBookingApplicaton;
 
 - (instancetype)initWithFrame:(CGRect)frame;
+- (instancetype)initForAutoLayout;
 
 -(void)setNewStyleMapUrl;
 
 - (void)setCurrentBuilding:(nullable INBuilding *)building;
 - (void)setFocusedBuilding:(INBuilding *)building;
+- (void)setFocusedBuilding:(INBuilding *)building withDuration:(double)duration;
+- (void)setBuildingCameraPosition:(INBuilding*)building;
 
 - (void)zoomToUserLocation:(CLLocation*)location;
 - (void)moveForward:(double)meters;
@@ -56,6 +59,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)drawRooms:(INBuilding *)building;
 - (void)selectRooms:(nullable NSMutableArray*)rooms building:(INBuilding *)building;
 - (void)zoomToRoom:(INRoom*)room building:(INBuilding *)building;
+
+- (void)zoomToRoomWithoutLoadedBuilding:(INRoom*)room floor:(INFloor *)floor withDuration:(double)duration completion:(void (^)(void))completion;
 
 - (void)drawOwners:(INBuilding *)building;
 - (void)drawOwnersWithSplitTextAndImage:(INBuilding *)building;
@@ -196,7 +201,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)updateMapConstraints:(CGRect)frame;
 
 
-- (void)zoomToCoordinateX:(double)x y:(double)y floorId:(double) floorId building:(INBuilding *)building withCompletionBlock:( void (^)(void))completionBlock;
+- (void)zoomToCoordinateX:(double)x y:(double)y floorId:(double) floorId building:(INBuilding *)building needHeading:(BOOL)isNeedHeading withCompletionBlock:( void (^)(void))completionBlock;
+
 - (void)zoomToCoordinateXAndAddMarker:(double)x y:(double)y floorId:(double) floorId building:(INBuilding *)building;
 - (void)enablePointSelecting:(INBuilding *)building;
 - (void)addPointMarkerOnFloor:(NSNumber *)floorId andPoint:(CGPoint)point building:(INBuilding *)building;
@@ -210,8 +216,11 @@ NS_ASSUME_NONNULL_BEGIN
 -(id)getCurrentTerritory;
 -(id)getAllTerritories;
 -(INBuilding *)getCurrentBuilding;
+-(nullable INBuilding *)getCurrentBuildingWithBuildinId:(NSNumber *)buildingId;
 
 - (void)zoomOutToEntraceFromTabWaypointCoordinateX:(NSNumber *)x y:(NSNumber *)y floorId:(NSNumber *) floorId buildingId:(NSNumber *)buildingId withCompletionBlock:( void (^)(void))completionBlock;
+
+-(void)setIsCameraTrackingUserNeedMe:(BOOL)cameraTracking;
 
 @end
 
