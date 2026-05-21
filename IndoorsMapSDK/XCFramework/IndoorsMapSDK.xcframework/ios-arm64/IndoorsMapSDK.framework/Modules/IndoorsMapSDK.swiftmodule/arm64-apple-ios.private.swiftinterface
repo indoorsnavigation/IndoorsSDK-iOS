@@ -135,9 +135,9 @@ extension ARKit.ARSCNView : IndoorsMapSDK.ARSmartHitTest {
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidAppear(_ animated: Swift.Bool)
+  @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
 }
 extension IndoorsMapSDK.INARControllerNew {
   @objc @_Concurrency.MainActor @preconcurrency final public func setCurrentBuilding(building: IndoorsCoreSDK.INBuilding)
