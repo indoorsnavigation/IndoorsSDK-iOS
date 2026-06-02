@@ -14,17 +14,19 @@
 #import "INIconType.h"
 #import "INImageGallery.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about the description of the icon.
  */
-@interface INIconDescription : INBaseObject
+@interface INIconDescription : INBaseObject<INLocalStorable>
 
 /**
  Icon type identifier.
  */
-@property (nonatomic, strong) NSNumber *IconTypeId;
+@property (nullable, nonatomic, strong) NSNumber *IconTypeId;
 
 /**
  The name of the 'owner' of the room/building.
@@ -59,7 +61,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Icon Description Image gallery identifier.
  */
-@property (nonatomic, strong) NSNumber *GalleryId;
+@property (nullable, nonatomic, strong) NSNumber *GalleryId;
 
 /**
  Icon Description E-mail address.

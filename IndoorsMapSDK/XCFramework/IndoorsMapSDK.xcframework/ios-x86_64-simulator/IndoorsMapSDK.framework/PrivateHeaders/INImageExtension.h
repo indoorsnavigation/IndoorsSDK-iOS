@@ -342,7 +342,7 @@
 + (UIImage*)sortingButton;
 
 + (UIImage*)sosImage;
-
++ (UIImage*)iconChevron;
 
 + (UIImage*)resizeImageWithImage:(UIImage*) image size:(CGSize)size;
 + (UIImage*)resizeImageWithImageAlwaysOriginal:(UIImage*)image size:(CGSize)size;
@@ -360,6 +360,8 @@
 + (UIImage *)processAndResizeImage:(UIImage *)image
                             toSize:(CGSize)size
                           maxBytes:(NSUInteger)maxBytes;
+
+
 @end
 
 

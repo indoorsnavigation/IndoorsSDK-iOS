@@ -13,11 +13,13 @@
 #import "INBaseObject.h"
 #import "INImageGallery.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 /**
  Stores data about building tour.
  */
-@interface INTour : INBaseObject
+@interface INTour : INBaseObject<INLocalStorable>
 
 @property (nonatomic, strong) NSString *Image;
 
@@ -39,7 +41,7 @@ NS_ASSUME_NONNULL_BEGIN
  Reference to 'INTourPoint' object.
  @see 'INTourPoint'
  */
-@property (nonatomic, strong) NSMutableArray *TourPoints;
+@property (nullable, nonatomic, strong) NSMutableArray *TourPoints;
 
 /**
  Image gallery.

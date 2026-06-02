@@ -17,10 +17,11 @@
 NS_ASSUME_NONNULL_BEGIN
 @class INMapARPointTarget;
 @class INPathfinder;
+@protocol INLocalStorable;
 /**
  Stores data about augmented reality point on the map.
  */
-@interface INMapARPoint : INBaseObject<INRoutableProtocol>
+@interface INMapARPoint : INBaseObject<INRoutableProtocol, INLocalStorable>
 
 
 @property (nonatomic, strong) NSNumber *Id;
@@ -28,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
  AR marker identifier.
  @see 'INARAsset'
  */
-@property (nonatomic, strong) NSNumber *AssetId;
+@property (nullable, nonatomic, strong) NSNumber *AssetId;
 
 /**
  X-coordinate of this point on the map.

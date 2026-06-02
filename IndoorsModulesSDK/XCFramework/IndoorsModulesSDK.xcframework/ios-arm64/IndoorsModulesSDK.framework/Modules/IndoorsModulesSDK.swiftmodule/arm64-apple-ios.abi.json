@@ -20497,98 +20497,98 @@
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Tracking\/INTrackingTabBarController.swift",
       "kind": "StringLiteral",
-      "offset": 1158,
+      "offset": 1159,
       "length": 10,
       "value": "\"settings\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Tracking\/INTrackingTabBarController.swift",
       "kind": "StringLiteral",
-      "offset": 1210,
+      "offset": 1211,
       "length": 11,
       "value": "\"gearshape\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Tracking\/INTrackingTabBarController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1241,
+      "offset": 1242,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Tracking\/INTrackingTabBarController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1309,
+      "offset": 1310,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Tracking\/INTrackingTabBarController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1319,
+      "offset": 1320,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Tracking\/INTrackingTabBarController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1331,
+      "offset": 1332,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Tracking\/INTrackingTabBarController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1342,
+      "offset": 1343,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Tracking\/INTrackingTabBarController.swift",
       "kind": "StringLiteral",
-      "offset": 1619,
+      "offset": 1620,
       "length": 7,
       "value": "\"users\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Tracking\/INTrackingTabBarController.swift",
       "kind": "StringLiteral",
-      "offset": 1668,
+      "offset": 1669,
       "length": 37,
       "value": "\"person.crop.square.on.square.angled\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Tracking\/INTrackingTabBarController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1725,
+      "offset": 1726,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Tracking\/INTrackingTabBarController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1793,
+      "offset": 1794,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Tracking\/INTrackingTabBarController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1803,
+      "offset": 1804,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Tracking\/INTrackingTabBarController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1815,
+      "offset": 1816,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Tracking\/INTrackingTabBarController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1826,
+      "offset": 1827,
       "length": 2,
       "value": "-2"
     }

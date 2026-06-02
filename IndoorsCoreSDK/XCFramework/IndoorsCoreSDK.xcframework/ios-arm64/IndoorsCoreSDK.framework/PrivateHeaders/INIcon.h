@@ -14,18 +14,19 @@
 #import "INIconDescription.h"
 
 @class INFloor;
+@protocol INLocalStorable;
 
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about the icon on the map.
  */
-@interface INIcon : INBaseObject <INRoutableProtocol, INCategoryProtocol>
+@interface INIcon : INBaseObject <INRoutableProtocol, INCategoryProtocol, INLocalStorable>
 
 /**
  Floor identifier.
  */
-@property (nonatomic, strong) NSNumber *FloorId;
+@property (nullable, nonatomic, strong) NSNumber *FloorId;
 
 /**
  Building identifier.
@@ -50,7 +51,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Identifier of the icon description object.
  */
-@property (nonatomic, strong) NSNumber *IconDescriptionId;
+@property (nullable, nonatomic, strong) NSNumber *IconDescriptionId;
 
 /**
  Reference to 'INIconDescription' object.

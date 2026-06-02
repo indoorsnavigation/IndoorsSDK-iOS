@@ -12,12 +12,15 @@
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 
+
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores country data.
  */
-@interface INCountry : INBaseObject
+@interface INCountry : INBaseObject<INLocalStorable>
 
 /**
  Country name.

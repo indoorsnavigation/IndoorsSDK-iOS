@@ -13,9 +13,11 @@
 #import "INBaseObject.h"
 #import "INFloor.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
-@interface INMapARPointTarget : INBaseObject
+@interface INMapARPointTarget : INBaseObject<INLocalStorable>
 
 /**
 

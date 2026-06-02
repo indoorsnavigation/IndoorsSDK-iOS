@@ -27,13 +27,14 @@
 #import "INFireSafetyImagePoints.h"
 
 @class INBuilding;
+@protocol INLocalStorable;
 
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about the floor.
  */
-@interface INFloor : INBaseObject
+@interface INFloor : INBaseObject <INLocalStorable>
 
 /**
 Boolean flag specifies if floot is active.
@@ -99,12 +100,12 @@ Boolean flag specifies if floot is active.
 /**
  SVG-path of the floor.
  */
-@property (nonatomic, strong) NSString *SvgBackground;
+@property (nullable, nonatomic, strong) NSString *SvgBackground;
 
 /**
  SVG-path of the walls.
  */
-@property (nonatomic, strong) NSString *SvgForeground;
+@property (nullable, nonatomic, strong) NSString *SvgForeground;
 
 @property (nonatomic, strong) NSString *Image;
 @property (nonatomic, strong) NSNumber *ImageX;
@@ -129,13 +130,13 @@ Boolean flag specifies if floot is active.
  An array of the 'INWall' objects.
  @see 'INWall'
  */
-@property (nonatomic, strong) NSMutableArray *Walls;
+@property (nullable, nonatomic, strong) NSMutableArray *Walls;
 
 /**
  An array of the 'INBarrier' objects.
  @see 'INBarrier'
  */
-@property (nonatomic, strong) NSMutableArray *Barriers;
+@property (nullable, nonatomic, strong) NSMutableArray *Barriers;
 
 /**
  An array of the 'INRoom' objects.
@@ -147,7 +148,7 @@ Boolean flag specifies if floot is active.
  An array of the 'INIcon' objects.
  @see 'INIcon'
  */
-@property (nonatomic, strong) NSMutableArray *Icons;
+@property (nullable, nonatomic, strong) NSMutableArray *Icons;
 
 /**
  An array of the 'INGraphPoint' objects.
@@ -159,7 +160,7 @@ Boolean flag specifies if floot is active.
  An array of the 'INBeaconPoint' objects.
  @see 'INBeaconPoint'
  */
-@property (nonatomic, strong) NSMutableArray *BeaconPoints;
+@property (nullable, nonatomic, strong) NSMutableArray *BeaconPoints;
 
 /**
 An array of the 'INFireSafetyImagePoints' objects.
@@ -178,25 +179,25 @@ An array of the 'INFireSafetyImagePoints' objects.
  An array of the 'INARPoint' objects.
  @see 'INARPoint'
  */
-@property (nonatomic, strong) NSMutableArray *MapARPoints;
+@property (nullable, nonatomic, strong) NSMutableArray *MapARPoints;
 
 /**
  An array of the 'INMediaPoint' objects.
  @see 'INMediaPoint'
  */
-@property (nonatomic, strong) NSMutableArray *MediaPoints;
+@property (nullable, nonatomic, strong) NSMutableArray *MediaPoints;
 
 /**
  An array of the 'INPanoramaPoint' objects.
  @see 'INPanoramaPoint'
  */
-@property (nonatomic, strong) NSMutableArray *PanoramaPoints;
+@property (nullable, nonatomic, strong) NSMutableArray *PanoramaPoints;
 
 /**
  An array of the 'INInfomatPoint' objects.
  @see 'INInfomatPoint'
  */
-@property (nonatomic, strong) NSMutableArray *InfomatPoints;
+@property (nullable, nonatomic, strong) NSMutableArray *InfomatPoints;
 
 /**
  An array of the 'INDNNPoint' objects.
@@ -227,12 +228,12 @@ An array of the 'INFireSafetyImagePoints' objects.
 /**
  An array of the 'INEntrance' objects.
  */
-@property (nonatomic, strong) NSMutableArray *Entrances;
+@property (nullable, nonatomic, strong) NSMutableArray *Entrances;
 
 /**
  An array of the 'INGPSZone' objects.
  */
-@property (nonatomic, strong) NSMutableArray *GPSZones;
+@property (nullable, nonatomic, strong) NSMutableArray *GPSZones;
 
 /**
  An array of the 'INMTTrackerPoint' objects.

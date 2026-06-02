@@ -12,12 +12,14 @@
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about the type of the icon on the map.
  */
-@interface INIconType : INBaseObject
+@interface INIconType : INBaseObject<INLocalStorable>
 
 /**
  Icon type name.

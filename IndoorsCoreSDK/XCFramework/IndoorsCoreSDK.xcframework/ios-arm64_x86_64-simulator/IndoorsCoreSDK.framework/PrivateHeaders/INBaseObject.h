@@ -101,6 +101,9 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, strong) NSNumber *ApplicationId;
 
+
+@property (nonatomic, readonly, copy) NSString *debugDescription;
+
 /**
  Flag.
  */

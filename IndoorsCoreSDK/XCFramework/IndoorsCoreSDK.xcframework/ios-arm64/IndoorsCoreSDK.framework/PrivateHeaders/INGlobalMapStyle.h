@@ -12,12 +12,14 @@
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about map style.
  */
-@interface INGlobalMapStyle : INBaseObject
+@interface INGlobalMapStyle : INBaseObject<INLocalStorable>
 
 /**
  Name of the map style that used for creating URL for downloading this style.
@@ -34,3 +36,6 @@ NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_END
 
 #endif
+
+
+

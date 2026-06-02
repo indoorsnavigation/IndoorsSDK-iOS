@@ -9,6 +9,12 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc public protocol INLocalStorable : ObjectiveC.NSObjectProtocol {
+  @objc var Id: Foundation.NSNumber? { get }
+  @objc var UpdatedAt: Foundation.NSNumber? { get }
+  @objc static func databaseTableName() -> Swift.String
+  @objc func dictionaryValue() -> [Swift.AnyHashable : Any]
+}
 @objc final public class INTagService : ObjectiveC.NSObject {
   @objc public init(configuration: IndoorsCoreSDK.INCoreConfiguration, authService: IndoorsCoreSDK.INAuthService, database: IndoorsCoreSDK.INAppDatabase, reachability: IndoorsCoreSDK.INReachability, building: IndoorsCoreSDK.INBuilding? = nil)
   final public func setBuilding(_ building: IndoorsCoreSDK.INBuilding)

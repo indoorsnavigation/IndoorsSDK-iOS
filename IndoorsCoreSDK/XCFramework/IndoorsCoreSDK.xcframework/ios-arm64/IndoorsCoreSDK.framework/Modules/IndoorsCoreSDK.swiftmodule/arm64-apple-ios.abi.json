@@ -26,6 +26,245 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "INLocalStorable",
+        "printedName": "INLocalStorable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Id",
+            "printedName": "Id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndoorsCoreSDK@objc(pl)INLocalStorable(py)Id",
+            "mangledName": "$s14IndoorsCoreSDK15INLocalStorableP2IdSo8NSNumberCSgvp",
+            "moduleName": "IndoorsCoreSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndoorsCoreSDK@objc(pl)INLocalStorable(im)Id",
+                "mangledName": "$s14IndoorsCoreSDK15INLocalStorableP2IdSo8NSNumberCSgvg",
+                "moduleName": "IndoorsCoreSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndoorsCoreSDK.INLocalStorable>",
+                "sugared_genericSig": "<Self where Self : IndoorsCoreSDK.INLocalStorable>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "UpdatedAt",
+            "printedName": "UpdatedAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndoorsCoreSDK@objc(pl)INLocalStorable(py)UpdatedAt",
+            "mangledName": "$s14IndoorsCoreSDK15INLocalStorableP9UpdatedAtSo8NSNumberCSgvp",
+            "moduleName": "IndoorsCoreSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndoorsCoreSDK@objc(pl)INLocalStorable(im)UpdatedAt",
+                "mangledName": "$s14IndoorsCoreSDK15INLocalStorableP9UpdatedAtSo8NSNumberCSgvg",
+                "moduleName": "IndoorsCoreSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndoorsCoreSDK.INLocalStorable>",
+                "sugared_genericSig": "<Self where Self : IndoorsCoreSDK.INLocalStorable>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "databaseTableName",
+            "printedName": "databaseTableName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndoorsCoreSDK@objc(pl)INLocalStorable(cm)databaseTableName",
+            "mangledName": "$s14IndoorsCoreSDK15INLocalStorableP17databaseTableNameSSyFZ",
+            "moduleName": "IndoorsCoreSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndoorsCoreSDK.INLocalStorable>",
+            "sugared_genericSig": "<Self where Self : IndoorsCoreSDK.INLocalStorable>",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dictionaryValue",
+            "printedName": "dictionaryValue()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndoorsCoreSDK@objc(pl)INLocalStorable(im)dictionaryValue",
+            "mangledName": "$s14IndoorsCoreSDK15INLocalStorableP15dictionaryValueSDys11AnyHashableVypGyF",
+            "moduleName": "IndoorsCoreSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndoorsCoreSDK.INLocalStorable>",
+            "sugared_genericSig": "<Self where Self : IndoorsCoreSDK.INLocalStorable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndoorsCoreSDK@objc(pl)INLocalStorable",
+        "mangledName": "$s14IndoorsCoreSDK15INLocalStorableP",
+        "moduleName": "IndoorsCoreSDK",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IndoorsCoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "INTagService",
         "printedName": "INTagService",
         "children": [

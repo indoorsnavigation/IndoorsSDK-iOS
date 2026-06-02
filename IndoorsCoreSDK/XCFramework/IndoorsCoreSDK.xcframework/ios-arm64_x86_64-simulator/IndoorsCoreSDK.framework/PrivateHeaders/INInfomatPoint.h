@@ -14,17 +14,19 @@
 #import "INFloor.h"
 #import "INInfomat.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 /**
  Stores data about Informat point.
  */
-@interface INInfomatPoint : INBaseObject
+@interface INInfomatPoint : INBaseObject<INLocalStorable>
 
 /**
  Identifier of the 'INMediaPoint' object.
  @see 'INMediaPoint'
  */
-@property (nonatomic, strong) NSNumber *InfomatId;
+@property (nullable, nonatomic, strong) NSNumber *InfomatId;
 
 /**
  X-coordinate of the infomat on the map.

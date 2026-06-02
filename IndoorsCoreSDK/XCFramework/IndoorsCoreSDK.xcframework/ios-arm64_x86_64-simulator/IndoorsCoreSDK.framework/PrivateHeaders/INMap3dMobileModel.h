@@ -11,9 +11,9 @@
 
 #import "INBaseObject.h"
 #import <Foundation/Foundation.h>
+@protocol INLocalStorable;
 
-
-@interface INMap3dMobileModel : INBaseObject
+@interface INMap3dMobileModel : INBaseObject <INLocalStorable>
 
 
 @property (nonatomic, strong, nullable) NSString *Title;

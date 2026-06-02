@@ -17,17 +17,18 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @class INPanoramaEdge;
+@protocol INLocalStorable;
 
 /**
  Stores data about augmented reality point on the map.
  */
-@interface INPanoramaPoint : INBaseObject
+@interface INPanoramaPoint : INBaseObject<INLocalStorable>
 
 /**
  Panorama asset identifier.
  @see 'INPanoramaAsset'
  */
-@property (nonatomic, strong) NSNumber *PanoramaAssetId;
+@property (nullable, nonatomic, strong) NSNumber *PanoramaAssetId;
 
 /**
  X-coordinate of this point on the map.
@@ -72,7 +73,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  `Array of panorama edges containing this point` object.
  */
-@property (nonatomic, strong) NSMutableArray<INPanoramaEdge *> *PanoramaEdges;
+@property (nullable, nonatomic, strong) NSMutableArray<INPanoramaEdge *> *PanoramaEdges;
 
 /**
  `INPanoramaEdge` object which has first point as it point.

@@ -15,12 +15,13 @@
 #import "INPanoramaPoint.h"
 
 @class INPanoramaPoint;
+@protocol INLocalStorable;
 
 NS_ASSUME_NONNULL_BEGIN
 /**
  Stores data about point of an `INPanoramaTour` object.
  */
-@interface INPanoramaTourPoint : INBaseObject
+@interface INPanoramaTourPoint : INBaseObject<INLocalStorable>
 
 /**
  Identifier of the 'INPanoramaPoint' object.

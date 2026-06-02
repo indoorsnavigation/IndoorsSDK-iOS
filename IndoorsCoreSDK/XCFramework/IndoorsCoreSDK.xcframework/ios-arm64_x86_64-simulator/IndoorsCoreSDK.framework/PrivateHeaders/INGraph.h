@@ -16,11 +16,12 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @class INBuilding;
+@protocol INLocalStorable;
 
 /**
  Stores data about graph route.
  */
-@interface INGraph : INBaseObject
+@interface INGraph : INBaseObject<INLocalStorable>
 
 /**
  Name of the graph

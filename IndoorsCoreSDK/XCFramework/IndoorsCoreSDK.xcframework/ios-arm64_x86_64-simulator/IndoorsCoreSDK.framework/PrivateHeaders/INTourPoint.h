@@ -15,28 +15,29 @@
 #import "INMediaPoint.h"
 
 @class INMediaPoint;
+@protocol INLocalStorable;
 
 NS_ASSUME_NONNULL_BEGIN
 /**
  Stores data about point of an `INTour` object.
  */
-@interface INTourPoint : INBaseObject
+@interface INTourPoint : INBaseObject<INLocalStorable>
 
 /**
  Identifier of the 'INMediaPoint' object.
  @see 'INMediaPoint'
  */
-@property (nonatomic, strong) NSNumber *MediaPointId;
+@property (nullable, nonatomic, strong) NSNumber *MediaPointId;
 
 /**
  Identifier of the 'INTour' object.
  @see 'INTour'
  */
-@property (nonatomic, strong) NSNumber *TourId;
+@property (nullable, nonatomic, strong) NSNumber *TourId;
 
 
 /// Serial number of tour point.
-@property (nonatomic, strong) NSNumber *Number;
+@property (nullable, nonatomic, strong) NSNumber *Number;
 
 /**
  Reference to 'INTour' object.

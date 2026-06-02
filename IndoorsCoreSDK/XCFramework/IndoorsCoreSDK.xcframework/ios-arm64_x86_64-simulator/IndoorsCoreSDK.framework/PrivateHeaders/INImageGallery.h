@@ -11,10 +11,12 @@
 
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /// Stores image gallery data.
-@interface INImageGallery : INBaseObject
+@interface INImageGallery : INBaseObject <INLocalStorable>
 
 /// Image gallery title.
 @property (nonatomic, strong) NSString *Title;

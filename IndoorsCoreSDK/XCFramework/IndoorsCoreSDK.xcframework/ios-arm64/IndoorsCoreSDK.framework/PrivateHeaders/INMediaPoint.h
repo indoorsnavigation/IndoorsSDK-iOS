@@ -17,19 +17,20 @@
 #import "INFloor.h"
 
 @class INTourPoint;
+@protocol INLocalStorable;
 
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about the position of the media asset.
  */
-@interface INMediaPoint : INBaseObject
+@interface INMediaPoint : INBaseObject<INLocalStorable>
 
 /**
  Identifier of the 'INMediaAsset' object.
  @see 'INMediaAsset'
  */
-@property (nonatomic, strong) NSNumber *MediaAssetId;
+@property (nullable, nonatomic, strong) NSNumber *MediaAssetId;
 
 /**
  X-coordinate of the media asset on the map.

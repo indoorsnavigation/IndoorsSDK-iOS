@@ -301,7 +301,7 @@
 #import "INMap3dMobileModel.h"
 
 #import "INEmptyModelForNavigation.h"
-
+#import "INDeviceModelManager.h"
 
 
 @class INRawBeacon;

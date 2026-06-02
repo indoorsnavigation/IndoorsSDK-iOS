@@ -20,19 +20,20 @@
 
 
 @class INFloor;
+@protocol INLocalStorable;
 
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about barrier.
  */
-@interface INBarrier : INBaseObject
+@interface INBarrier : INBaseObject<INLocalStorable>
 
 /**
  Floor identifier in the database.
  @see 'INFloor'
  */
-@property (nonatomic, strong) NSNumber *FloorId;
+@property (nullable, nonatomic, strong) NSNumber *FloorId;
 
 /**
  Associated `INBuilding` object Id.

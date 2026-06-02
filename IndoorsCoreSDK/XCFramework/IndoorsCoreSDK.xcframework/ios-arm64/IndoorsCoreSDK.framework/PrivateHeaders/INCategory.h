@@ -14,6 +14,7 @@
 #import "INImageGallery.h"
 
 @class INCategoryType;
+@protocol INLocalStorable;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -21,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
  Stores data about category of 'INOwner'.
  Example: 'Kids Café' (type of category - 'Cafe'), 'Women's Shoes' (type of category - 'shops') and so on.
  */
-@interface INCategory : INBaseObject
+@interface INCategory : INBaseObject <INLocalStorable>
 
 /**
  The name of the category.
@@ -41,7 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Parent `INCategory` object id.
  */
-@property (nonatomic, strong) NSNumber          *ParentId;
+@property (nullable, nonatomic, strong) NSNumber          *ParentId;
 
 /**
  Image gallery.

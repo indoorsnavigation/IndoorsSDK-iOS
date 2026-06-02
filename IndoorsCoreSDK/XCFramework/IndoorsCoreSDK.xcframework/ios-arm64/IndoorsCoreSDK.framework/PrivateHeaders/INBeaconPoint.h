@@ -23,12 +23,14 @@ typedef enum : NSInteger
     
 } INBeaconPointState;
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about the position of the iBeacon device.
  */
-@interface INBeaconPoint : INBaseObject
+@interface INBeaconPoint : INBaseObject<INLocalStorable>
 
 /**
  Identifier of the 'INBeacon' object.

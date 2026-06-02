@@ -12,12 +12,14 @@
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores information about AR Asset.
  */
-@interface INARAsset : INBaseObject
+@interface INARAsset : INBaseObject<INLocalStorable>
 
 /**
  Name of the AR asset.

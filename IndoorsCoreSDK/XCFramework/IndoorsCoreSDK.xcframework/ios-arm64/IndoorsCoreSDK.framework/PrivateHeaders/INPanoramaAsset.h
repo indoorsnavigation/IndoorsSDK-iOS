@@ -16,11 +16,12 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @class INPanoramaPoint;
+@protocol INLocalStorable;
 
 /**
  Stores data about augmented reality point on the map.
  */
-@interface INPanoramaAsset : INBaseObject
+@interface INPanoramaAsset : INBaseObject<INLocalStorable>
 
 /**
  Panorama Asset title.

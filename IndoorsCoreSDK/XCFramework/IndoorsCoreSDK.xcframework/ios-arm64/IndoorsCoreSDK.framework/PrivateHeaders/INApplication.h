@@ -9,6 +9,7 @@
 #ifndef _INApplication_
 #define _INApplication_
 
+
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 #import "INBuilding.h"
@@ -18,14 +19,14 @@
 
 @class INBuilding;
 @class INImageGallery;
+@protocol INLocalStorable;
 
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Strores application data.
  */
-@interface INApplication : INBaseObject
-
+@interface INApplication : INBaseObject <INLocalStorable>
 /**
  Application name.
  */

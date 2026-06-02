@@ -21,19 +21,20 @@
 
 @class INFloor;
 @class INPosition2;
+@protocol INLocalStorable;
 
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about room.
  */
-@interface INGPSZone : INBaseObject
+@interface INGPSZone : INBaseObject<INLocalStorable>
 
 /**
  Floor identifier in the database.
  @see 'INFloor'
  */
-@property (nonatomic, strong) NSNumber *FloorId;
+@property (nullable, nonatomic, strong) NSNumber *FloorId;
 
 /**
  Building identifier in the database.

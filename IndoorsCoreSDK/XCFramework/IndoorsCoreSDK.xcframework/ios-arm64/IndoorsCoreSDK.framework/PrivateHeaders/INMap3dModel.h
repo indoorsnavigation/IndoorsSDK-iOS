@@ -15,8 +15,9 @@
 #import "INMap3dMobileModel.h"
 #import "INModel3DData.h"
 
+@protocol INLocalStorable;
 
-@interface INMap3dModel : INBaseObject
+@interface INMap3dModel : INBaseObject <INLocalStorable>
 
 @property (nonatomic, strong, nullable) NSNumber *X;
 @property (nonatomic, strong, nullable) NSNumber *Y;

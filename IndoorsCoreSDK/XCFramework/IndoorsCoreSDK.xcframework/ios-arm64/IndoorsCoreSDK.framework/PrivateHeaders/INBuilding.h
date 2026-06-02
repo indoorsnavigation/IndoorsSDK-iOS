@@ -23,13 +23,14 @@
 
 @class INFloor;
 @class INBuildingType;
+@protocol INLocalStorable;
 
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores information about building.
  */
-@interface INBuilding :  INBaseObject<NSCopying>
+@interface INBuilding :  INBaseObject<INLocalStorable, NSCopying>
 
 /**
  Building name.
@@ -332,7 +333,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Image gallery.
  */
-@property (nonatomic, strong) NSNumber *DefaultFloorId;
+@property (nullable, nonatomic, strong) NSNumber *DefaultFloorId;
 
 /**
  Associated `INBuildingType` object.
@@ -410,24 +411,24 @@ Machine learning Y filename.
 /**
  Building current 'INBuildingNavigationSettings' object.
  */
-@property (nonatomic, strong) INBuildingNavigationSettings *NavigationSettings;
+@property (nullable, nonatomic, strong) INBuildingNavigationSettings *NavigationSettings;
 
 /**
  An array of the 'INBuildingNavigationSettings' objects.
  */
-@property (nonatomic, strong) NSMutableArray *AllNavigationSettings;
+@property (nullable, nonatomic, strong) NSMutableArray *AllNavigationSettings;
 
 /**
  An array of the 'INFloor' objects.
  @see 'INFloor'
  */
-@property (nonatomic, strong) NSMutableArray *Floors;
+@property (nullable, nonatomic, strong) NSMutableArray *Floors;
 
 /**
  An array of the 'INFloor' objects.
  @see 'INFloor'
  */
-@property (nonatomic, strong) NSMutableDictionary *FloorsDict;
+@property (nullable, nonatomic, strong) NSMutableDictionary *FloorsDict;
 
 /**
  An array of the 'INPolygon' objects.
@@ -481,7 +482,7 @@ Machine learning Y filename.
  An array of the 'INBeaconPoint' objects.
  @see 'INBeaconPoint'
  */
-@property (nonatomic, strong) NSMutableArray *BeaconPoints;
+@property (nullable, nonatomic, strong) NSMutableArray *BeaconPoints;
 
 /**
 An array of the 'INBookingModel' objects.
@@ -625,7 +626,7 @@ An array of the 'INBookingModel' objects.
 
 @property (nonatomic, strong) INImageGallery *ImageGallery;
 
-@property (nonatomic, strong) NSMutableArray *BuildingBusinessHours;
+@property (nullable, nonatomic, strong) NSMutableArray *BuildingBusinessHours;
 
 @property (nonatomic) BOOL IsInFavouritesList;
 
@@ -666,7 +667,7 @@ An array of the 'INFireSafetyImagePoints' objects.
 /**
  Model 3D Mobile url.
  */
-@property (nonatomic, strong) NSString *Model3DMobile;
+@property (nullable, nonatomic, strong) NSString *Model3DMobile;
 
 @property (nonatomic, strong) INMap3dModel *Model3DOfBuilding;
 

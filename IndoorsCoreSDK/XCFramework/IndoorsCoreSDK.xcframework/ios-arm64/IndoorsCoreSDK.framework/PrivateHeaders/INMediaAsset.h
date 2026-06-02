@@ -12,9 +12,11 @@
 #import "INBaseObject.h"
 #import "INImageGallery.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
-@interface INMediaAsset : INBaseObject
+@interface INMediaAsset : INBaseObject<INLocalStorable>
 
 /// Title of the media asset
 @property (nonatomic, strong) NSString *Title;

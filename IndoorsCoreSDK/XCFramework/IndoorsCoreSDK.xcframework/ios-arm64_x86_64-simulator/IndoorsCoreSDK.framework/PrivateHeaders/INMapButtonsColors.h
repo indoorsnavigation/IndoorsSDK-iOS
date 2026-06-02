@@ -12,8 +12,9 @@
 #import "INBaseObject.h"
 #import <Foundation/Foundation.h>
 
+@protocol INLocalStorable;
 
-@interface INMapButtonsColors : INBaseObject
+@interface INMapButtonsColors : INBaseObject<INLocalStorable>
 
 @property (nonatomic, strong, nullable) NSString *MapPrimaryColor;          // основной цвет
 @property (nonatomic, strong, nullable) NSString *MapAccentColor;           // акцентирующий цвет

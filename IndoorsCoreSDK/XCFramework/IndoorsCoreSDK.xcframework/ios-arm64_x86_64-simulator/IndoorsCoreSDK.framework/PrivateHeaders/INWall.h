@@ -17,13 +17,14 @@
 
 
 @class INFloor;
+@protocol INLocalStorable;
 
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about wall.
  */
-@interface INWall : INBaseObject
+@interface INWall : INBaseObject<INLocalStorable>
 
 /**
  */
@@ -33,7 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
  Floor identifier in the database.
  @see 'INFloor'
  */
-@property (nonatomic, strong) NSNumber *FloorId;
+@property (nullable, nonatomic, strong) NSNumber *FloorId;
 
 /**
  SVG-path of room on the map.

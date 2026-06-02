@@ -13,12 +13,14 @@
 #import <UIKit/UIKit.h>
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores information about building navigation settings.
  */
-@interface INBuildingNavigationSettings : INBaseObject<NSCopying> 
+@interface INBuildingNavigationSettings : INBaseObject<NSCopying, INLocalStorable>
 
 @property (nonatomic, strong) NSNumber *BuildingId;
 @property (nonatomic, strong) NSNumber *Editor;

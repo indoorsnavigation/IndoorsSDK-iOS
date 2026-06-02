@@ -12,12 +12,14 @@
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about a city.
  */
-@interface INCity : INBaseObject
+@interface INCity : INBaseObject<INLocalStorable>
 
 /**
  City name.

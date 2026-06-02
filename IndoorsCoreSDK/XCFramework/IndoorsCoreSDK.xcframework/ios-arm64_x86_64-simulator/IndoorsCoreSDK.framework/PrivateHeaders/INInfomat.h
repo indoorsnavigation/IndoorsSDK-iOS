@@ -11,10 +11,12 @@
 
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /// Class that stores data about Informat.
-@interface INInfomat : INBaseObject
+@interface INInfomat : INBaseObject<INLocalStorable>
 
 /// Informat name.
 @property (nonatomic, strong) NSString *Name;

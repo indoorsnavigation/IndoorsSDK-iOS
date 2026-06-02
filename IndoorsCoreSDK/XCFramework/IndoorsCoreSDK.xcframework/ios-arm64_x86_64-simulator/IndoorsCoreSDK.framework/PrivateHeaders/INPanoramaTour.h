@@ -14,10 +14,13 @@
 #import "INImageGallery.h"
 
 NS_ASSUME_NONNULL_BEGIN
+
+@protocol INLocalStorable;
+
 /**
  Stores data about building tour.
  */
-@interface INPanoramaTour : INBaseObject
+@interface INPanoramaTour : INBaseObject<INLocalStorable>
 
 @property (nonatomic, strong, nullable) NSString *Image;
 

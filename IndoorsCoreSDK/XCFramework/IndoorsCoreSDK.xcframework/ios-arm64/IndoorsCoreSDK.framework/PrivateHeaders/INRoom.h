@@ -20,13 +20,14 @@
 
 
 @class INFloor;
+@protocol INLocalStorable;
 
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about room.
  */
-@interface INRoom : INBaseObject <INRoutableProtocol, INCategoryProtocol, NSCopying>
+@interface INRoom : INBaseObject <INRoutableProtocol, INCategoryProtocol, NSCopying, INLocalStorable>
 
 /**
  Floor identifier in the database.
@@ -38,7 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
  Floor identifier in the database.
  @see 'INFloor'
  */
-@property (nonatomic, strong) NSNumber *FloorId;
+@property (nullable, nonatomic, strong) NSNumber *FloorId;
 
 /**
  Associated `INBuilding` object Id.
@@ -49,7 +50,7 @@ NS_ASSUME_NONNULL_BEGIN
  Owner identifier in the database.
  @see 'INOwner'
  */
-@property (nonatomic, strong) NSNumber *OwnerId;
+@property (nullable, nonatomic, strong) NSNumber *OwnerId;
 
 /**
  SVG-path of room on the map.
@@ -135,7 +136,7 @@ Boolean value specifies if it needed to show info view on map.
 /**
  Associated `INCategory` object.
  */
-@property (strong, nonatomic) INCategory *Category;
+@property (nullable, strong, nonatomic) INCategory *Category;
 
 /**
  Associated `INFloor` object where room is placed.

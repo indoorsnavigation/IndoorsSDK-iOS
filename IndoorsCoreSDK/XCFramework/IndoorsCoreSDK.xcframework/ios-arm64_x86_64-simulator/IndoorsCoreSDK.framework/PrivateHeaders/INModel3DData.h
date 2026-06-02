@@ -11,6 +11,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+
 @interface INModel3DData : NSObject
 
 // Содержимое OBJ-файла

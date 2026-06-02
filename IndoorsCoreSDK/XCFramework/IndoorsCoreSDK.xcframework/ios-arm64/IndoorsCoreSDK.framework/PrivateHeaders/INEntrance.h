@@ -19,13 +19,14 @@
 
 
 @class INFloor;
+@protocol INLocalStorable;
 
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about entrance.
  */
-@interface INEntrance : INBaseObject <INRoutableProtocol, INCategoryProtocol>
+@interface INEntrance : INBaseObject <INRoutableProtocol, INCategoryProtocol, INLocalStorable>
 
 /**
  Floor identifier in the database.
@@ -41,7 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
  Floor identifier in the database.
  @see 'INFloor'
  */
-@property (nonatomic, strong) NSNumber *FloorId;
+@property (nullable, nonatomic, strong) NSNumber *FloorId;
 
 /**
  Associated`INBuilding` identifier.

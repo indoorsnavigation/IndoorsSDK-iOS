@@ -12,11 +12,13 @@
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 /**
  Store data about building buisness hours.
  */
-@interface INBuildingBusinessHours : INBaseObject
+@interface INBuildingBusinessHours : INBaseObject<INLocalStorable>
 
 /**
  Identifier of the 'INBuilding' object.

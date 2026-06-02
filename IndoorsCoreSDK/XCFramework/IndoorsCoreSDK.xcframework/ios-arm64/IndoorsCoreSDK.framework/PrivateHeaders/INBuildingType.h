@@ -14,13 +14,14 @@
 #import "INApplication.h"
 
 @class INApplication;
+@protocol INLocalStorable;
 
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores information about a type of building.
  */
-@interface INBuildingType : INBaseObject
+@interface INBuildingType : INBaseObject<INLocalStorable>
 
 /**
  Name of the type of the building.

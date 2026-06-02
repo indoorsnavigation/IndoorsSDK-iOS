@@ -14,13 +14,14 @@
 #import "INFloor.h"
 
 @class INFloor;
+@protocol INLocalStorable;
 
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about route point.
  */
-@interface INGraphPoint : INBaseObject<INRoutableProtocol, NSMutableCopying>
+@interface INGraphPoint : INBaseObject<INRoutableProtocol, NSMutableCopying, INLocalStorable>
 
 
 

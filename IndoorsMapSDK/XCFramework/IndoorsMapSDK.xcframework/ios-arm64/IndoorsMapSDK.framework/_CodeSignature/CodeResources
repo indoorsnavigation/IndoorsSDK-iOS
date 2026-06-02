@@ -492,6 +492,10 @@
 		<data>
 		Dk9HqPHMiJ6uU+H3++81aCUq4II=
 		</data>
+		<key>Assets/Icons/icon_chevron.png</key>
+		<data>
+		irzMeo9qtMN270e65Xm/+J8WjjM=
+		</data>
 		<key>Assets/Icons/icon_clear.png</key>
 		<data>
 		7j1X2qaKKTdBgYNi1yevugPjHZQ=
@@ -1798,7 +1802,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/t+snleQdLlznIecy31Y55ENUvs=
+		KXDoZ/J1rOod7IQp1qEvUMp0DFU=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -1894,7 +1898,7 @@
 		</data>
 		<key>PrivateHeaders/INImageExtension.h</key>
 		<data>
-		yEnDWYVVs5efbozfLUJbIhcHGic=
+		HplpL3gBa52hXLZkjTpLlcT7m1c=
 		</data>
 		<key>PrivateHeaders/INMapView.h</key>
 		<data>
@@ -2843,6 +2847,13 @@
 			<key>hash2</key>
 			<data>
 			PD2eiqXF4VGjluCzaf6z3FHWAPL2VcUkvZSK9kjW7KU=
+			</data>
+		</dict>
+		<key>Assets/Icons/icon_chevron.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			83ZMnvIsGyjKwEW5ptWWQDighjMFmwew2+oy4yyRb1w=
 			</data>
 		</dict>
 		<key>Assets/Icons/icon_clear.png</key>
@@ -5292,7 +5303,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZZk+eQUhNsA2VtvFloJj5JoTXPvkjUSTJphYSrzUacQ=
+			KI/T40bbLEItOu8mb1pnw/S1kHW4Ne8TOfPJkycELd0=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INMapView.h</key>

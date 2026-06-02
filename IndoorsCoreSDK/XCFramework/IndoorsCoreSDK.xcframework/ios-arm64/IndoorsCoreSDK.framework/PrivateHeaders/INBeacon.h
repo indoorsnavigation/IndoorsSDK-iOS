@@ -12,12 +12,14 @@
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about iBeacon device.
  */
-@interface INBeacon : INBaseObject<NSCopying>
+@interface INBeacon : INBaseObject<INLocalStorable, NSCopying>
 
 /**
  128-bit unique identifier.

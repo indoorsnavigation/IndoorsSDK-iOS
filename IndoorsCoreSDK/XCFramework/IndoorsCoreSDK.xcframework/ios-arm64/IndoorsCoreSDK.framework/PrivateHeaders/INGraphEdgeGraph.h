@@ -15,12 +15,14 @@
 #import "INGraph.h"
 #import "INBuilding.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about the edge of the route.
  */
-@interface INGraphEdgeGraph : INBaseObject
+@interface INGraphEdgeGraph : INBaseObject<INLocalStorable>
 
 /**
  Associated `INGraph` object Id.

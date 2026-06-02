@@ -14,13 +14,14 @@
 #import "INImageGallery.h"
 
 @class INCategory;
+@protocol INLocalStorable;
 
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores information about 'owner' of the room/building.
  */
-@interface INOwner : INBaseObject<INCategoryProtocol>
+@interface INOwner : INBaseObject<INCategoryProtocol, INLocalStorable>
 
 /**
  The name of the 'owner' of the room/building.
@@ -42,7 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
  Category identifier of the 'owner' of the room/building in the Indoors Navigation Platform database.
  @see 'INCategory'
  */
-@property (nonatomic, strong) NSNumber *CategoryId;
+@property (nullable, nonatomic, strong) NSNumber *CategoryId;
 
 /**
  The address of the 'owner' of the room/building.
@@ -62,7 +63,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Image gallery identifier.
  */
-@property (nonatomic, strong) NSNumber *GalleryId;
+@property (nullable, nonatomic, strong) NSNumber *GalleryId;
 
 /**
  E-mail address of the 'owner' company.
@@ -179,7 +180,7 @@ NS_ASSUME_NONNULL_BEGIN
 /*
 An array of the `INRoomBusinessHours` objects.
 */
-@property (nonatomic, strong) NSMutableArray *OwnerBusinessHours;
+@property (nullable, nonatomic, strong) NSMutableArray *OwnerBusinessHours;
 
 
 @property (nonatomic, strong) NSString *NameForAr;

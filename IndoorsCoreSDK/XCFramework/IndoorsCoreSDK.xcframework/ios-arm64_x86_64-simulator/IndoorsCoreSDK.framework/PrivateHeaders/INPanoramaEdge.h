@@ -12,10 +12,13 @@
 #import "INBaseObject.h"
 #import "INPanoramaPoint.h"
 
+
+@protocol INLocalStorable;
+
 /**
  .
  */
-@interface INPanoramaEdge : INBaseObject
+@interface INPanoramaEdge : INBaseObject<INLocalStorable>
 
 /**
  1 Panorama point.

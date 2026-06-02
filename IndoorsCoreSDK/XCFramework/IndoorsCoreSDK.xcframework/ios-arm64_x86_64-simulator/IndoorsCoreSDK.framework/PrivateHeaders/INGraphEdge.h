@@ -14,13 +14,14 @@
 #import "INGraphPoint.h"
 
 @class INGraphPoint;
+@protocol INLocalStorable;
 
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about the edge of the route.
  */
-@interface INGraphEdge : INBaseObject
+@interface INGraphEdge : INBaseObject<INLocalStorable>
 
 /**
  The type of the edge.

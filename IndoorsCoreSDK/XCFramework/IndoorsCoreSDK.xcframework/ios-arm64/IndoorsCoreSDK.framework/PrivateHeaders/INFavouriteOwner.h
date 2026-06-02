@@ -13,10 +13,12 @@
 #import "INFavourite.h"
 #import "INOwner.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /// Stores data about favorite owner.
-@interface INFavouriteOwner : INFavourite
+@interface INFavouriteOwner : INFavourite<INLocalStorable>
 
 /**
  Associated `INOwner` Id.

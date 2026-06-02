@@ -11,9 +11,10 @@
 
 #import "INFavourite.h"
 
+@protocol INLocalStorable;
 NS_ASSUME_NONNULL_BEGIN
 
-@interface INFavouriteBuilding : INFavourite
+@interface INFavouriteBuilding : INFavourite<INLocalStorable>
 
 /// `INBuilding` Id.
 @property (nonatomic, strong) NSNumber *BuildingId;

@@ -372,8 +372,17 @@ extern "C" {
 
 #if defined(__OBJC__)
 
-@class NSString;
 @class NSNumber;
+@class NSString;
+@class NSObject;
+SWIFT_PROTOCOL("_TtP14IndoorsCoreSDK15INLocalStorable_")
+@protocol INLocalStorable <NSObject>
+@property (nonatomic, readonly, strong) NSNumber * _Nullable Id;
+@property (nonatomic, readonly, strong) NSNumber * _Nullable UpdatedAt;
++ (NSString * _Nonnull)databaseTableName SWIFT_WARN_UNUSED_RESULT;
+- (NSDictionary * _Nonnull)dictionaryValue SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class UIImage;
 SWIFT_CLASS("_TtC14IndoorsCoreSDK13INTagMapModel")
 @interface INTagMapModel : NSObject <INTrackedMapObject>
@@ -511,7 +520,6 @@ SWIFT_PROTOCOL("_TtP14IndoorsCoreSDK32INTrackingObjectsManagerDelegate_")
 - (void)trackingObjectsManagerDidDeleteWithObject:(id <INTrackedMapObject> _Nonnull)object;
 @end
 
-@class NSDictionary;
 /// A delegate that gets changes of tracked objects
 SWIFT_PROTOCOL("_TtP14IndoorsCoreSDK26INTrackingObserverDelegate_")
 @protocol INTrackingObserverDelegate
@@ -993,8 +1001,17 @@ extern "C" {
 
 #if defined(__OBJC__)
 
-@class NSString;
 @class NSNumber;
+@class NSString;
+@class NSObject;
+SWIFT_PROTOCOL("_TtP14IndoorsCoreSDK15INLocalStorable_")
+@protocol INLocalStorable <NSObject>
+@property (nonatomic, readonly, strong) NSNumber * _Nullable Id;
+@property (nonatomic, readonly, strong) NSNumber * _Nullable UpdatedAt;
++ (NSString * _Nonnull)databaseTableName SWIFT_WARN_UNUSED_RESULT;
+- (NSDictionary * _Nonnull)dictionaryValue SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class UIImage;
 SWIFT_CLASS("_TtC14IndoorsCoreSDK13INTagMapModel")
 @interface INTagMapModel : NSObject <INTrackedMapObject>
@@ -1132,7 +1149,6 @@ SWIFT_PROTOCOL("_TtP14IndoorsCoreSDK32INTrackingObjectsManagerDelegate_")
 - (void)trackingObjectsManagerDidDeleteWithObject:(id <INTrackedMapObject> _Nonnull)object;
 @end
 
-@class NSDictionary;
 /// A delegate that gets changes of tracked objects
 SWIFT_PROTOCOL("_TtP14IndoorsCoreSDK26INTrackingObserverDelegate_")
 @protocol INTrackingObserverDelegate
