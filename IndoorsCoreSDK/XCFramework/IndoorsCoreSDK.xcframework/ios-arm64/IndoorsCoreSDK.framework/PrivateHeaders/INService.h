@@ -302,7 +302,19 @@
 
 #import "INEmptyModelForNavigation.h"
 #import "INDeviceModelManager.h"
+//#import "INIntegrationField.h"
+#import "INEmail.h"
 
+#import "INRoutePoint.h"
+
+
+#import "INTaskWorkflows.h"
+#import "INTaskStatusTransitions.h"
+
+#import "INUserWallet.h"
+#import "INUserSubscriptionCategorie.h"
+
+#import "INRoutestamps.h"
 
 @class INRawBeacon;
 
@@ -712,10 +724,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)loadBeaconPointsOfApplication:(INApplication*)application
                   withCompletionBlock:(void (^)(NSMutableArray<INBeaconPoint *> *beaconPoints, NSError *_Nullable error))completionBlock;
 
-- (void)updateBeacon:(INBeacon*)beacon
-      withParameterA:(NSNumber*)A
-                andB:(NSNumber*)B
- withCompletionBlock:(void (^)(INBeacon *beacon, NSError *_Nullable error))completionBlock;
+/// saveLastSeenBeacon
+ /// - Parameter INBeacon:
+
+- (void)saveLastSeenBeacon:(INBeacon *)beacon;
 
 - (void)loadBeaconPointsOfBuilding:(INBuilding*)building
                withCompletionBlock:(void (^)(NSMutableArray *beaconPoints, NSError *error))completionBlock;
@@ -1726,10 +1738,7 @@ withCompletionBlock:(void (^)(NSError *_Nullable error))completionBlock;
 
 
 
-/// saveLastSeenBeacon
- /// - Parameter INBeacon:
 
-- (void)saveLastSeenBeacon:(INBeacon *)beacon;
 
 
 /// in development
@@ -1863,13 +1872,13 @@ withCompletionBlock:(void (^)(INTasksModel *task, NSError * _Nullable error))com
 ///
 /// - Parameter building: building where rooms and owners and floors
 /// - Parameter completionBlock: Completion block that returns a 'INBuilding' object or error.
-- (void)loadRoomsOAndOwnersAndFloors:(INBuilding*)building
-   withProgressBlock:(void (^)(Class layerClass, NSMutableArray *objects))progressBlock
-                  andCompletionBlock:(void (^)(INBuilding* building, NSError *_Nullable error))completionBlock;
+//- (void)loadRoomsOAndOwnersAndFloors:(INBuilding*)building
+//   withProgressBlock:(void (^)(Class layerClass, NSMutableArray *objects))progressBlock
+//                  andCompletionBlock:(void (^)(INBuilding* building, NSError *_Nullable error))completionBlock;
 
 
-- (void)loadRoomsOAndOwnersAndFloorsAndGraphs:(NSMutableArray<INBuilding*> *)buildings
-                           andCompletionBlock:(void (^)(NSMutableArray<INBuilding*>* buildings, NSError *_Nullable error))completionBlock;
+//- (void)loadRoomsOAndOwnersAndFloorsAndGraphs:(NSMutableArray<INBuilding*> *)buildings
+//                           andCompletionBlock:(void (^)(NSMutableArray<INBuilding*>* buildings, NSError *_Nullable error))completionBlock;
 
 
 - (void)loadAllCitysWithCompletionBlock:(void (^)(NSMutableArray<INCity *>* _Nullable model, NSError * _Nullable error))completionBlock;
@@ -1912,13 +1921,14 @@ withCompletionBlock:(void (^)(INTasksModel *task, NSError * _Nullable error))com
         routeFinishObject:(id<INRoutableProtocol>)routeFinishObject
       withCompletionBlock:(void (^)( NSError * _Nullable error))completionBlock;
 
--(void)getDeviceLocationLinkWithApplication:(NSNumber *)application
-                                   userUUID:(NSString *)userUUID
-                        withCompletionBlock:(void (^)(NSString * _Nullable locationLink,  NSError * _Nullable error))completionBlock;
+//-(void)getDeviceLocationLinkWithApplication:(NSNumber *)application
+//                                   userUUID:(NSString *)userUUID
+//                        withCompletionBlock:(void (^)(NSString * _Nullable locationLink,  NSError * _Nullable error))completionBlock;
 
 
 
 -(nullable NSString *)getConfigurationApiUrl;
+-(nullable NSString *)getConfigurationServer;
 -(nullable NSString *)getMapStyleUrlString;
 
 #pragma mark - Cancelation and deletion

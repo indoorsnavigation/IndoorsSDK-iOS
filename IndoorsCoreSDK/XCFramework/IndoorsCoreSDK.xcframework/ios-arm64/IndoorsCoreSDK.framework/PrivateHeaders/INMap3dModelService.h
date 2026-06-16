@@ -45,6 +45,8 @@
 - (void)downloadAndExtractModelsForMobileModels:(NSArray<INMap3dMobileModel *> *)mobileModels
                                      completion:(void (^)(NSDictionary<NSString *, INModel3DData *> * _Nullable modelDataByFileUrl))completion;
 
+- (void)clearAllCachedModelsAndDatabase;
+
 @end
 
 #endif /* INMap3dModelService_h */

@@ -11,8 +11,10 @@
 
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 /// Stores data about control module.
-@interface INControlModule : INBaseObject
+@interface INControlModule : INBaseObject<INLocalStorable>
 
 /**
  Control module name.

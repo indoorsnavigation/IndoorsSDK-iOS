@@ -14,9 +14,11 @@
 #import "INUserZoneBusinessHours.h"
 #import "INMapZone.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
-@interface INUserZones : INBaseObject
+@interface INUserZones : INBaseObject<INLocalStorable>
 
 
 @property (nonatomic, strong, nullable) NSNumber *Editor;

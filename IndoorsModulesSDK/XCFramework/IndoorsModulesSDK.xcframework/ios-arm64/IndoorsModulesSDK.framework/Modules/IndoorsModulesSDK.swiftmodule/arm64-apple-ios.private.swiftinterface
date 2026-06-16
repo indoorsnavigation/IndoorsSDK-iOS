@@ -18,7 +18,12 @@ import _SwiftConcurrencyShims
   @objc override dynamic public init()
   @objc deinit
 }
+@objc public protocol INApplicantsProfileViewControllerDelegate {
+  @objc func loguot()
+}
 @_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency final public class INApplicantsProfileViewController : UIKit.UIViewController, UIKit.UIScrollViewDelegate {
+  @objc @_Concurrency.MainActor @preconcurrency final public var delegate: (any IndoorsModulesSDK.INApplicantsProfileViewControllerDelegate)?
+  @objc @_Concurrency.MainActor @preconcurrency final public var nav: UIKit.UINavigationController?
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
@@ -31,6 +36,12 @@ extension IndoorsModulesSDK.INApplicantsProfileViewController : UIKit.UICollecti
   @_Concurrency.MainActor @preconcurrency @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize
   @_Concurrency.MainActor @preconcurrency @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, insetForSectionAt section: Swift.Int) -> UIKit.UIEdgeInsets
   @_Concurrency.MainActor @preconcurrency @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
+}
+extension IndoorsModulesSDK.INApplicantsProfileViewController : IndoorsModulesSDK.INApplicantsProfileViewControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func loguot()
+}
+extension IndoorsModulesSDK.INApplicantsProfileViewController {
+  @objc @_Concurrency.MainActor @preconcurrency final public func exitButtonTab()
 }
 @_inheritsConvenienceInitializers @objc public class HomeBuilder : ObjectiveC.NSObject {
   @objc public static func build(with building: IndoorsCoreSDK.INBuilding) -> IndoorsModulesSDK.HomeController

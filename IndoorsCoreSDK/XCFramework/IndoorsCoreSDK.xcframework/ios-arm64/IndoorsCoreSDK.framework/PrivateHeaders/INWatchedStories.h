@@ -14,9 +14,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol INLocalStorable;
 
 
-@interface INWatchedStories : INBaseObject
+
+@interface INWatchedStories : INBaseObject<INLocalStorable>
 
 @property (nonatomic, strong, nullable) NSNumber *Story;
 

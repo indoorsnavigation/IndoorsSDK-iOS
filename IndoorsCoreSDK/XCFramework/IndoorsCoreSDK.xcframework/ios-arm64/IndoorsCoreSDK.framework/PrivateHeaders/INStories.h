@@ -12,10 +12,12 @@
 
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 
-@interface INStories : INBaseObject
+@interface INStories : INBaseObject<INLocalStorable>
 
 
 @property (nonatomic, strong, nullable) NSString *Image; // url

@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Session description description.
  */
-@property (nonatomic, strong) NSString *Description;
+@property (nonatomic, strong) NSString *Description NS_SWIFT_NAME(Description);
 
 @end
 

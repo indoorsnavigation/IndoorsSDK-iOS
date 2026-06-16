@@ -119,6 +119,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSMutableArray*)calculateSafeDistanceBetween:(INGraphPoint*)startPoint1
                                             toEndPoint:(INGraphPoint*)endPoint1;
 
+-(UIImage *)getGraphImage;
+
 @end
 
 NS_ASSUME_NONNULL_END

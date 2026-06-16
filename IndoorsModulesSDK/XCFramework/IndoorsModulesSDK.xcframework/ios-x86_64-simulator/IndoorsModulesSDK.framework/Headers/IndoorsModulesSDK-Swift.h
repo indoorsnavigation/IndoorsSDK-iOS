@@ -412,12 +412,35 @@ SWIFT_CLASS("_TtC17IndoorsModulesSDK26INApplicantsProfileBuilder")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@protocol INApplicantsProfileViewControllerDelegate;
+@class UINavigationController;
 SWIFT_CLASS("_TtC17IndoorsModulesSDK33INApplicantsProfileViewController")
 @interface INApplicantsProfileViewController : UIViewController <UIScrollViewDelegate>
+@property (nonatomic, strong) id <INApplicantsProfileViewControllerDelegate> _Nullable delegate;
+@property (nonatomic, strong) UINavigationController * _Nullable nav;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@interface INApplicantsProfileViewController (SWIFT_EXTENSION(IndoorsModulesSDK))
+- (void)exitButtonTab;
+@end
+
+/// /
+/// /  ApplicantsProfileViewController.swift
+/// /  IndoorsSDK
+/// /
+/// /  Created by Indoors on 13.01.2025.
+/// /  Copyright © 2025 Indoors Navigation LLC. All rights reserved.
+SWIFT_PROTOCOL("_TtP17IndoorsModulesSDK41INApplicantsProfileViewControllerDelegate_")
+@protocol INApplicantsProfileViewControllerDelegate
+- (void)loguot;
+@end
+
+@interface INApplicantsProfileViewController (SWIFT_EXTENSION(IndoorsModulesSDK)) <INApplicantsProfileViewControllerDelegate>
+- (void)loguot;
 @end
 
 @interface INApplicantsProfileViewController (SWIFT_EXTENSION(IndoorsModulesSDK)) <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>

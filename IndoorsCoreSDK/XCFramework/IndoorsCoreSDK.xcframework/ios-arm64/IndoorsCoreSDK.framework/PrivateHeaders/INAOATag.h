@@ -13,10 +13,12 @@
 #import "INBaseObject.h"
 #import "INAOATagModel.h"
 
+@protocol INLocalStorable;
+
 /**
  Stores data about AOA Tag.
  */
-@interface INAOATag : INBaseObject<INBaseTag>
+@interface INAOATag : INBaseObject<INBaseTag, INLocalStorable>
 
 /**
  AOA Tag name.

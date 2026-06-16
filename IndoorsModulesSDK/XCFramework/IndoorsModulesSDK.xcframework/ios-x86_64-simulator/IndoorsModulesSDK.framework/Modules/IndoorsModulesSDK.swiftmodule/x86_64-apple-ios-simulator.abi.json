@@ -1653,20 +1653,332 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "INApplicantsProfileViewControllerDelegate",
+        "printedName": "INApplicantsProfileViewControllerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loguot",
+            "printedName": "loguot()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndoorsModulesSDK@objc(pl)INApplicantsProfileViewControllerDelegate(im)loguot",
+            "mangledName": "$s17IndoorsModulesSDK41INApplicantsProfileViewControllerDelegateP6loguotyyF",
+            "moduleName": "IndoorsModulesSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndoorsModulesSDK.INApplicantsProfileViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : IndoorsModulesSDK.INApplicantsProfileViewControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndoorsModulesSDK@objc(pl)INApplicantsProfileViewControllerDelegate",
+        "mangledName": "$s17IndoorsModulesSDK41INApplicantsProfileViewControllerDelegateP",
+        "moduleName": "IndoorsModulesSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "IndoorsModulesSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "IndoorsModulesSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "IndoorsCoreSDK",
+        "printedName": "IndoorsCoreSDK",
+        "declKind": "Import",
+        "moduleName": "IndoorsModulesSDK"
       },
       {
         "kind": "TypeDecl",
         "name": "INApplicantsProfileViewController",
         "printedName": "INApplicantsProfileViewController",
         "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any IndoorsModulesSDK.INApplicantsProfileViewControllerDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "INApplicantsProfileViewControllerDelegate",
+                    "printedName": "any IndoorsModulesSDK.INApplicantsProfileViewControllerDelegate",
+                    "usr": "c:@M@IndoorsModulesSDK@objc(pl)INApplicantsProfileViewControllerDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndoorsModulesSDK@objc(cs)INApplicantsProfileViewController(py)delegate",
+            "mangledName": "$s17IndoorsModulesSDK33INApplicantsProfileViewControllerC8delegateAA0defG8Delegate_pSgvp",
+            "moduleName": "IndoorsModulesSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any IndoorsModulesSDK.INApplicantsProfileViewControllerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "INApplicantsProfileViewControllerDelegate",
+                        "printedName": "any IndoorsModulesSDK.INApplicantsProfileViewControllerDelegate",
+                        "usr": "c:@M@IndoorsModulesSDK@objc(pl)INApplicantsProfileViewControllerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndoorsModulesSDK@objc(cs)INApplicantsProfileViewController(im)delegate",
+                "mangledName": "$s17IndoorsModulesSDK33INApplicantsProfileViewControllerC8delegateAA0defG8Delegate_pSgvg",
+                "moduleName": "IndoorsModulesSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any IndoorsModulesSDK.INApplicantsProfileViewControllerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "INApplicantsProfileViewControllerDelegate",
+                        "printedName": "any IndoorsModulesSDK.INApplicantsProfileViewControllerDelegate",
+                        "usr": "c:@M@IndoorsModulesSDK@objc(pl)INApplicantsProfileViewControllerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndoorsModulesSDK@objc(cs)INApplicantsProfileViewController(im)setDelegate:",
+                "mangledName": "$s17IndoorsModulesSDK33INApplicantsProfileViewControllerC8delegateAA0defG8Delegate_pSgvs",
+                "moduleName": "IndoorsModulesSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IndoorsModulesSDK33INApplicantsProfileViewControllerC8delegateAA0defG8Delegate_pSgvM",
+                "mangledName": "$s17IndoorsModulesSDK33INApplicantsProfileViewControllerC8delegateAA0defG8Delegate_pSgvM",
+                "moduleName": "IndoorsModulesSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nav",
+            "printedName": "nav",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UINavigationController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINavigationController",
+                    "printedName": "UIKit.UINavigationController",
+                    "usr": "c:objc(cs)UINavigationController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndoorsModulesSDK@objc(cs)INApplicantsProfileViewController(py)nav",
+            "mangledName": "$s17IndoorsModulesSDK33INApplicantsProfileViewControllerC3navSo012UINavigationG0CSgvp",
+            "moduleName": "IndoorsModulesSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UINavigationController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UINavigationController",
+                        "printedName": "UIKit.UINavigationController",
+                        "usr": "c:objc(cs)UINavigationController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndoorsModulesSDK@objc(cs)INApplicantsProfileViewController(im)nav",
+                "mangledName": "$s17IndoorsModulesSDK33INApplicantsProfileViewControllerC3navSo012UINavigationG0CSgvg",
+                "moduleName": "IndoorsModulesSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UINavigationController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UINavigationController",
+                        "printedName": "UIKit.UINavigationController",
+                        "usr": "c:objc(cs)UINavigationController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndoorsModulesSDK@objc(cs)INApplicantsProfileViewController(im)setNav:",
+                "mangledName": "$s17IndoorsModulesSDK33INApplicantsProfileViewControllerC3navSo012UINavigationG0CSgvs",
+                "moduleName": "IndoorsModulesSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17IndoorsModulesSDK33INApplicantsProfileViewControllerC3navSo012UINavigationG0CSgvM",
+                "mangledName": "$s17IndoorsModulesSDK33INApplicantsProfileViewControllerC3navSo012UINavigationG0CSgvM",
+                "moduleName": "IndoorsModulesSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
           {
             "kind": "Function",
             "name": "viewDidLoad",
@@ -1991,8 +2303,7 @@
               "ObjC",
               "Preconcurrency",
               "Custom",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -2034,6 +2345,57 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loguot",
+            "printedName": "loguot()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndoorsModulesSDK@objc(cs)INApplicantsProfileViewController(im)loguot",
+            "mangledName": "$s17IndoorsModulesSDK33INApplicantsProfileViewControllerC6loguotyyF",
+            "moduleName": "IndoorsModulesSDK",
+            "objc_name": "loguot",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "exitButtonTab",
+            "printedName": "exitButtonTab()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndoorsModulesSDK@objc(cs)INApplicantsProfileViewController(im)exitButtonTab",
+            "mangledName": "$s17IndoorsModulesSDK33INApplicantsProfileViewControllerC13exitButtonTabyyF",
+            "moduleName": "IndoorsModulesSDK",
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -2068,6 +2430,13 @@
             "printedName": "_KeyValueCodingAndObservingPublishing",
             "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
             "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "INApplicantsProfileViewControllerDelegate",
+            "printedName": "INApplicantsProfileViewControllerDelegate",
+            "usr": "c:@M@IndoorsModulesSDK@objc(pl)INApplicantsProfileViewControllerDelegate",
+            "mangledName": "$s17IndoorsModulesSDK41INApplicantsProfileViewControllerDelegateP"
           },
           {
             "kind": "Conformance",
@@ -13071,1203 +13440,2092 @@
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/ApplicantsProfileViews\/INUserDataMainView.swift",
       "kind": "StringLiteral",
       "offset": 7991,
-      "length": 21,
-      "value": "\"contact_information\""
+      "length": 39,
+      "value": "\"Данные пользователя\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/ApplicantsProfileViews\/INUserDataMainView.swift",
       "kind": "StringLiteral",
-      "offset": 8023,
+      "offset": 8041,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/ApplicantsProfileViews\/INUserDataMainView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8282,
+      "offset": 8300,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/ApplicantsProfileViews\/INUserDataMainView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8399,
+      "offset": 8417,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/ApplicantsProfileViews\/INUserDataMainView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8490,
+      "offset": 8508,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/ApplicantsProfileViews\/INUserDataMainView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8583,
+      "offset": 8601,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/ApplicantsProfileViews\/INUserDataMainView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8685,
+      "offset": 8703,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/ApplicantsProfileViews\/INUserDataMainView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8773,
+      "offset": 8791,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/ApplicantsProfileViews\/INUserDataMainView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9058,
+      "offset": 9076,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/ApplicantsProfileViews\/INUserDataMainView.swift",
       "kind": "BooleanLiteral",
-      "offset": 13557,
+      "offset": 13575,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "Array",
-      "offset": 519,
+      "offset": 768,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "Array",
-      "offset": 574,
+      "offset": 823,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "Array",
-      "offset": 627,
+      "offset": 876,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "Array",
-      "offset": 680,
+      "offset": 929,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "Array",
-      "offset": 733,
+      "offset": 982,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 777,
+      "offset": 1026,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 820,
+      "offset": 1069,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 862,
+      "offset": 1111,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 905,
+      "offset": 1154,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1049,
+      "offset": 1298,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1105,
+      "offset": 1354,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1174,
+      "offset": 1423,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1641,
+      "length": 12,
+      "value": "\"Выйти\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1808,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1989,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2073,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1495,
+      "offset": 2191,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2342,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2655,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1672,
+      "offset": 2878,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1709,
+      "offset": 2915,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1776,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1958,
+      "offset": 2982,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2173,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2196,
+      "offset": 3170,
       "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2414,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2480,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2546,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2607,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2674,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2739,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2814,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2877,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2940,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3005,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3067,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3130,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3195,
-      "length": 2,
-      "value": "\"\""
+      "value": "10"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3268,
+      "offset": 3207,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3274,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3339,
-      "length": 5,
-      "value": "false"
+      "offset": 3309,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5214,
+      "offset": 3480,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5254,
+      "offset": 3520,
       "length": 15,
       "value": "\"SFPro-Regular\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5277,
+      "offset": 3543,
       "length": 2,
-      "value": "15"
+      "value": "18"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5310,
+      "offset": 3576,
       "length": 2,
-      "value": "15"
+      "value": "18"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5477,
+      "offset": 3739,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5500,
+      "offset": 3762,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3945,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3985,
+      "length": 15,
+      "value": "\"SFPro-Regular\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4008,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4041,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4204,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4227,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4396,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4436,
+      "length": 15,
+      "value": "\"SFPro-Regular\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4459,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4492,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4655,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4678,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5033,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5098,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5289,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5338,
+      "length": 15,
+      "value": "\"SFPro-Regular\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5361,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5394,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5590,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5622,
+      "length": 44,
+      "value": "\"Тариф \/ окончание через\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5782,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5829,
+      "length": 15,
+      "value": "\"SFPro-Regular\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5852,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5885,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6075,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6105,
+      "length": 6,
+      "value": "\"дн\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6264,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6312,
+      "length": 15,
+      "value": "\"SFPro-Regular\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6335,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6368,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6553,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6584,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6805,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6853,
+      "length": 15,
+      "value": "\"SFPro-Regular\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6876,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6909,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7096,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7127,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7337,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7382,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7514,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7557,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7808,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 7890,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 7937,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8266,
+      "length": 15,
+      "value": "\"SFPro-Regular\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8289,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8322,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8460,
+      "length": 14,
+      "value": "\"Баланс\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8660,
+      "length": 15,
+      "value": "\"SFPro-Regular\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8683,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8716,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8848,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8901,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 9025,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9260,
+      "length": 15,
+      "value": "\"SFPro-Regular\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9283,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9316,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9454,
+      "length": 28,
+      "value": "\"След. списание\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9672,
+      "length": 15,
+      "value": "\"SFPro-Regular\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9695,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9728,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9860,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9914,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 10036,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10297,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10332,
+      "length": 14,
+      "value": "\"Оплата\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10470,
+      "length": 12,
+      "value": "\"SFPro-Bold\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10490,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10523,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10658,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10996,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11322,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11630,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11709,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13006,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13114,
+      "length": 3,
+      "value": "-15"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13195,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13276,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13391,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13481,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13616,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13734,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13850,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13966,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14084,
+      "length": 3,
+      "value": "-15"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14207,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14311,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14439,
+      "length": 3,
+      "value": "-15"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14607,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14708,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14811,
+      "length": 3,
+      "value": "-15"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 14888,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15275,
+      "length": 3,
+      "value": "-15"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15351,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15427,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15530,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15775,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16024,
+      "length": 3,
+      "value": "-10"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17108,
+      "length": 25,
+      "value": "\"arrowtriangle.up.circle\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17257,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17294,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17361,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17616,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17677,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17887,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17927,
+      "length": 15,
+      "value": "\"SFPro-Regular\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17950,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17983,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18152,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 18175,
+      "length": 39,
+      "value": "\"ДАННЫЕ ПОЛЬЗОВАТЕЛЯ\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18460,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18572,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18658,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18746,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18848,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18936,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19155,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19221,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19287,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19348,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19415,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19480,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19555,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19618,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19681,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19746,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19808,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19871,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19936,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20009,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20080,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20278,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 20318,
+      "length": 15,
+      "value": "\"SFPro-Regular\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20341,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20374,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20541,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 20564,
       "length": 35,
       "value": "\"ДОСТУПНЫЕ ПРОЕКТЫ\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5742,
+      "offset": 20806,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5785,
+      "offset": 20849,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5987,
+      "offset": 21051,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6269,
+      "offset": 21333,
       "length": 38,
       "value": "\"ApplicantsProfileViewControllerCell1\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6372,
+      "offset": 21436,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6434,
+      "offset": 21498,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6488,
+      "offset": 21552,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6540,
+      "offset": 21604,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6587,
+      "offset": 21651,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6637,
+      "offset": 21701,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6834,
+      "offset": 21898,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6874,
+      "offset": 21938,
       "length": 15,
       "value": "\"SFPro-Regular\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6897,
+      "offset": 21961,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6930,
+      "offset": 21994,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7032,
+      "offset": 22096,
       "length": 9,
       "value": "\"#7D7D7D\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7073,
+      "offset": 22137,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7096,
+      "offset": 22160,
       "length": 16,
       "value": "\"НАВИТАГ\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7316,
+      "offset": 22380,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7359,
+      "offset": 22423,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7561,
+      "offset": 22625,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7843,
+      "offset": 22907,
       "length": 38,
       "value": "\"ApplicantsProfileViewControllerCell2\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7946,
+      "offset": 23010,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8008,
+      "offset": 23072,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8062,
+      "offset": 23126,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8114,
+      "offset": 23178,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8161,
+      "offset": 23225,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8211,
+      "offset": 23275,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8412,
+      "offset": 23476,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8452,
+      "offset": 23516,
       "length": 15,
       "value": "\"SFPro-Regular\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8475,
+      "offset": 23539,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8508,
+      "offset": 23572,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8610,
+      "offset": 23674,
       "length": 9,
       "value": "\"#7D7D7D\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8651,
+      "offset": 23715,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8674,
+      "offset": 23738,
       "length": 51,
       "value": "\"Бронирования пользователя\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8923,
+      "offset": 23987,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8966,
+      "offset": 24030,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9168,
+      "offset": 24232,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9448,
+      "offset": 24512,
       "length": 38,
       "value": "\"ApplicantsProfileViewControllerCell3\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9542,
+      "offset": 24606,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9604,
+      "offset": 24668,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9658,
+      "offset": 24722,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9710,
+      "offset": 24774,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9757,
+      "offset": 24821,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9807,
+      "offset": 24871,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10004,
+      "offset": 25068,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10044,
+      "offset": 25108,
       "length": 15,
       "value": "\"SFPro-Regular\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10067,
+      "offset": 25131,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10100,
+      "offset": 25164,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10202,
+      "offset": 25266,
       "length": 9,
       "value": "\"#7D7D7D\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10243,
+      "offset": 25307,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10266,
+      "offset": 25330,
       "length": 39,
       "value": "\"заявки пользователя\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10512,
+      "offset": 25576,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10555,
+      "offset": 25619,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10757,
+      "offset": 25821,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11037,
+      "offset": 26101,
       "length": 38,
       "value": "\"ApplicantsProfileViewControllerCell3\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11131,
+      "offset": 26195,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11193,
+      "offset": 26257,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11247,
+      "offset": 26311,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11299,
+      "offset": 26363,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11346,
+      "offset": 26410,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11396,
+      "offset": 26460,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11592,
+      "offset": 26656,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11632,
+      "offset": 26696,
       "length": 15,
       "value": "\"SFPro-Regular\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11655,
+      "offset": 26719,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11688,
+      "offset": 26752,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11790,
+      "offset": 26854,
       "length": 9,
       "value": "\"#7D7D7D\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11831,
+      "offset": 26895,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11854,
+      "offset": 26918,
       "length": 22,
       "value": "\"Статистика\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12074,
+      "offset": 27138,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12117,
+      "offset": 27181,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12319,
+      "offset": 27383,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12595,
+      "offset": 27659,
       "length": 32,
       "value": "\"ApplicantsProfileStatisticCell\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12683,
+      "offset": 27747,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12745,
+      "offset": 27809,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12799,
+      "offset": 27863,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12851,
+      "offset": 27915,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12898,
+      "offset": 27962,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12948,
+      "offset": 28012,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 13136,
-      "length": 6,
-      "value": "\"exit\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 13153,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 13310,
-      "length": 4,
-      "value": "10.0"
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 13566,
-      "length": 3,
-      "value": "0.7"
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13650,
+      "offset": 28215,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 28255,
+      "length": 15,
+      "value": "\"SFPro-Regular\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28278,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28311,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 28413,
+      "length": 9,
+      "value": "\"#7D7D7D\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28454,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 28477,
+      "length": 37,
+      "value": "\"ОСНОВНЫЕ НАСТРОЙКИ\""
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/ApplicantsProfile\/ApplicantsProfileModule\/INApplicantsProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13773,
+      "offset": 28762,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/views\/INGenderSelectionView.swift",
       "kind": "StringLiteral",
-      "offset": 568,
+      "offset": 550,
       "length": 8,
-      "value": "\"gender\""
+      "value": "\"Пол\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/views\/INGenderSelectionView.swift",
       "kind": "StringLiteral",
-      "offset": 587,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/views\/INGenderSelectionView.swift",
-      "kind": "StringLiteral",
-      "offset": 816,
-      "length": 6,
-      "value": "\"male\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/views\/INGenderSelectionView.swift",
-      "kind": "StringLiteral",
-      "offset": 833,
-      "length": 2,
-      "value": "\"\""
+      "offset": 766,
+      "length": 16,
+      "value": "\"Мужчина\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/views\/INGenderSelectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 843,
+      "offset": 789,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/views\/INGenderSelectionView.swift",
       "kind": "StringLiteral",
-      "offset": 936,
-      "length": 8,
-      "value": "\"female\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/views\/INGenderSelectionView.swift",
-      "kind": "StringLiteral",
-      "offset": 955,
-      "length": 2,
-      "value": "\"\""
+      "offset": 864,
+      "length": 16,
+      "value": "\"Женщина\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/views\/INGenderSelectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 965,
+      "offset": 887,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 751,
+      "offset": 807,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 923,
+      "offset": 979,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 961,
+      "offset": 1017,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1105,
+      "offset": 1161,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1184,
-      "length": 16,
-      "value": "\"from_the_photo\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1211,
-      "length": 2,
-      "value": "\"\""
+      "offset": 1222,
+      "length": 18,
+      "value": "\"Изм. фото\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1338,
+      "offset": 1364,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1574,
+      "offset": 1600,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1806,
+      "offset": 1832,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1844,
+      "offset": 1870,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2065,
+      "offset": 2091,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2303,
+      "offset": 2329,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2547,
+      "offset": 2573,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2831,
+      "offset": 2857,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3070,
+      "offset": 3096,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3394,
+      "offset": 3420,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3630,
+      "offset": 3656,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3897,
+      "offset": 3923,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4153,
+      "offset": 4179,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4394,
+      "offset": 4420,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4637,
+      "offset": 4663,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4877,
+      "offset": 4903,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5171,
+      "offset": 5197,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5381,
-      "length": 16,
-      "value": "\"delete_profile\""
-    },
-    {
-      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5408,
-      "length": 2,
-      "value": "\"\""
+      "offset": 5389,
+      "length": 31,
+      "value": "\"Удалить профиль\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 5566,
+      "offset": 5575,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5617,
+      "offset": 5626,
       "length": 9,
       "value": "\"#E31E24\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 5734,
+      "offset": 5743,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5818,
+      "offset": 5827,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsModulesSDK\/IndoorsModulesSDK\/Profile\/EditProfileViewController\/INEditProfileViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5936,
+      "offset": 5945,
       "length": 5,
       "value": "false"
     },

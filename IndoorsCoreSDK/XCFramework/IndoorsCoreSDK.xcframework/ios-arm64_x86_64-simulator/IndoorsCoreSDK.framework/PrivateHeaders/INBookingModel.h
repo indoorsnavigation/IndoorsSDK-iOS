@@ -12,10 +12,12 @@
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 /**
  Stores data about the BookingModel.
  */
-@interface INBookingModel : INBaseObject
+@interface INBookingModel : INBaseObject<INLocalStorable>
 
 
 @property (nonatomic, strong) NSString *UUID;

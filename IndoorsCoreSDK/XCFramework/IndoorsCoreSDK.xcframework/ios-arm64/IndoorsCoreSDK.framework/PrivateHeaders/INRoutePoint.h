@@ -12,13 +12,14 @@
 #import <Foundation/Foundation.h>
 #import "INGraphPoint.h"
 
+@protocol INLocalStorable;
 
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about route point. Analog GraphPoint. This model does not go to database.
  */
-@interface INRoutePoint : INGraphPoint
+@interface INRoutePoint : INGraphPoint<INLocalStorable>
 
 
 

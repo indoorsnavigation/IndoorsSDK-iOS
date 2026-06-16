@@ -12,9 +12,9 @@
 
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
 
-
-@interface INAccountPersonalData : INBaseObject
+@interface INAccountPersonalData : INBaseObject<INLocalStorable>
 
 @property (nonatomic, strong, nullable) NSNumber *Account;
 

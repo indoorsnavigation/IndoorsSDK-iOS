@@ -13,12 +13,14 @@
 #import "INBaseObject.h"
 #import "INFloor.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about device position.
  */
-@interface INTrackPoint : INBaseObject
+@interface INTrackPoint : INBaseObject<INLocalStorable>
 
 /**
  Tag.

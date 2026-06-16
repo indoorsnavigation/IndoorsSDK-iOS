@@ -11,10 +11,12 @@
 
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 /**
  Stores datat about AOA Gateway.
  */
-@interface INAOAGateway : INBaseObject
+@interface INAOAGateway : INBaseObject<INLocalStorable>
 
 /**
  AOA Gateway name.

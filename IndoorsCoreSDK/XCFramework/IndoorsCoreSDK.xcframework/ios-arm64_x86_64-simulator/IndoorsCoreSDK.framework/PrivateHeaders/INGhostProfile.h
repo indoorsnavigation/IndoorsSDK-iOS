@@ -12,8 +12,10 @@
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 /// Stores data about User, without confidential information.
-@interface INGhostProfile : INBaseObject
+@interface INGhostProfile : INBaseObject<INLocalStorable>
 /**
  UUID.
  */

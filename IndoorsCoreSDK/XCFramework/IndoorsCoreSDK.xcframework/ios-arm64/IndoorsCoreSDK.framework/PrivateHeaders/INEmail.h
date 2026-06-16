@@ -12,12 +12,14 @@
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
 
  */
-@interface INEmail : MTLModel <MTLJSONSerializing, INObjectProtocol>
+@interface INEmail : INBaseObject<INLocalStorable>
 
 /**
  

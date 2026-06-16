@@ -14,12 +14,14 @@
 #import "INProfiles.h"
 #import "INConversation.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about conversation member.
  */
-@interface INConversationMember : INBaseObject
+@interface INConversationMember : INBaseObject<INLocalStorable>
 
 /**
  Associated `INConversation` object Id.

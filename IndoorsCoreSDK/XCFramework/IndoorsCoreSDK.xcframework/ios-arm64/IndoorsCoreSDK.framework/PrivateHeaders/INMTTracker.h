@@ -12,12 +12,14 @@
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about MTTracker device.
  */
-@interface INMTTracker : INBaseObject
+@interface INMTTracker : INBaseObject<INLocalStorable>
 
 /**
  MTTracker name.

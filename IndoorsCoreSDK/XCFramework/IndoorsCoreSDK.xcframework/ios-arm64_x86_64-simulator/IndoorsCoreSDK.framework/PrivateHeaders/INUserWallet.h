@@ -12,10 +12,12 @@
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 
-@interface INUserWallet : INBaseObject
+@interface INUserWallet : INBaseObject<INLocalStorable>
 
 @property (nonatomic, strong, nullable) NSString *Balance;
 

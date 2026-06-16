@@ -48,6 +48,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSArray<NSDictionary *> *)getMap3dModelsForBuildingIds:(NSArray<NSNumber *> *)buildingIds;
 
 
+- (void)deleteAllMap3dModels;
+
 -(void)close;
 
 

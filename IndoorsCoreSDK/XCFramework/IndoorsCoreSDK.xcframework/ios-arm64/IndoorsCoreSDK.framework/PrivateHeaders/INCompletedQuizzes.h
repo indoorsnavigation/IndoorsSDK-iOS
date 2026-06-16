@@ -11,7 +11,9 @@
 
 #import "INBaseObject.h"
 
-@interface INCompletedQuizzes : INBaseObject
+@protocol INLocalStorable;
+
+@interface INCompletedQuizzes : INBaseObject<INLocalStorable>
 
 
 @property (nonatomic, strong) NSNumber *Quiz;

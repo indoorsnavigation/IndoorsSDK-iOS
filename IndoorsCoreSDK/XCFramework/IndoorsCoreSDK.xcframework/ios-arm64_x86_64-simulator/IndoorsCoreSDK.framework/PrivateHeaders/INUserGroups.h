@@ -11,9 +11,11 @@
 
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
-@interface INUserGroups : INBaseObject
+@interface INUserGroups : INBaseObject<INLocalStorable>
 
 
 @property (nonatomic, strong, nullable) NSNumber *Editor;

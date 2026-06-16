@@ -15,12 +15,14 @@
 #import "INConversation.h"
 #import "INMessageFiles.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Store data about message.
  */
-@interface INMessage : INBaseObject
+@interface INMessage : INBaseObject<INLocalStorable>
 
 /**
  Sender `INProfile` object Id.
@@ -40,7 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Message text.
  */
-@property (nonatomic, strong) NSString *Message;
+@property (nullable, nonatomic, strong) NSString *Message;
 
 /**
  Message status.

@@ -12,12 +12,14 @@
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about Task User.
  */
-@interface INTaskUser : INBaseObject
+@interface INTaskUser : INBaseObject<INLocalStorable>
 
 /**
 Associated `INTask` object Id.

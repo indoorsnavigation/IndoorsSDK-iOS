@@ -12,9 +12,11 @@
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 
 /// Stores data about map zone of the building.
-@interface INMapZone : INBaseObject
+@interface INMapZone : INBaseObject<INLocalStorable>
 
 /**
  The name zone.

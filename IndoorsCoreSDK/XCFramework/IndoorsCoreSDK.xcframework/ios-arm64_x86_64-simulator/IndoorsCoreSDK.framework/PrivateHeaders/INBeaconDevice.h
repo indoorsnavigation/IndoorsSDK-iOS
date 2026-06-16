@@ -11,12 +11,14 @@
 
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about beacon device.
  */
-@interface INBeaconDevice : INBaseObject
+@interface INBeaconDevice : INBaseObject<INLocalStorable>
 
 /**
  Beacon name.

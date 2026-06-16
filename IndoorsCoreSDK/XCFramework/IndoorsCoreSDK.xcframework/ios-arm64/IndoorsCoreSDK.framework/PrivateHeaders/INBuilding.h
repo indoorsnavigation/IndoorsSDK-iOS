@@ -440,7 +440,7 @@ Machine learning Y filename.
  An array of the 'INRoom' objects.
  @see 'INRoom'
  */
-@property (nonatomic, strong) NSMutableArray *Rooms;
+@property (nullable, nonatomic, strong) NSMutableArray *Rooms;
 
 /**
  An array of the 'INWall' objects.

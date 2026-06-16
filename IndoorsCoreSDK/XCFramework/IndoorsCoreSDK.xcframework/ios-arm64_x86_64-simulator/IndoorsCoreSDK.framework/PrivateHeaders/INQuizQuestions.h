@@ -13,11 +13,11 @@
 #import "INQuizQuestionAnswers.h"
 
 
-
+@protocol INLocalStorable;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface INQuizQuestions : INBaseObject
+@interface INQuizQuestions : INBaseObject<INLocalStorable>
 
 
 @property (nonatomic, strong) NSString *Text;

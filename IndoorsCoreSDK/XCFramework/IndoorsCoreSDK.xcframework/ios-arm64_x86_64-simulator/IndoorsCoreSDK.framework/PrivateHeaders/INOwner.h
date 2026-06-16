@@ -155,7 +155,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Associated `INCategory` object.
  */
-@property (nonatomic, strong) INCategory        *Category;
+@property (nullable, nonatomic, strong) INCategory        *Category;
 
 /**
  Array of `INRoom` objects of owner.

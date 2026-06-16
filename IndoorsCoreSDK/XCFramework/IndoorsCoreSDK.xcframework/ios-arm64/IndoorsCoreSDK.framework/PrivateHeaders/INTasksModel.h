@@ -18,10 +18,12 @@
 #import "INTaskUsers.h"
 #import "INRoom.h"
 #import "INFloor.h"
+
+@protocol INLocalStorable;
 /**
  Stores data about the BookingModel.
  */
-@interface INTasksModel : INBaseObject
+@interface INTasksModel : INBaseObject<INLocalStorable>
 
 
 

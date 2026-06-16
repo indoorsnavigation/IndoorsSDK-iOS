@@ -11,10 +11,12 @@
 
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /// Stores information about image asset.
-@interface INImageAsset : INBaseObject
+@interface INImageAsset : INBaseObject<INLocalStorable>
 
 /// Image asset title.
 @property (nonatomic, strong) NSString *Title;
@@ -23,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *Description NS_SWIFT_NAME(Description);
 
 /// Image asset image URL string.
-@property (nonatomic, strong) NSString *Image;
+@property (nullable, nonatomic, strong) NSString *Image;
 
 /// ID of the associated `INGallery` object.
 @property (nonatomic, strong) NSNumber *GalleryId;

@@ -13,12 +13,14 @@
 #import "INBaseObject.h"
 #import "INProfiles.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about user contact.
  */
-@interface INContact : INBaseObject
+@interface INContact : INBaseObject<INLocalStorable>
 
 /**
  Associated `INProfile` - (profile that have this contact) object Id.

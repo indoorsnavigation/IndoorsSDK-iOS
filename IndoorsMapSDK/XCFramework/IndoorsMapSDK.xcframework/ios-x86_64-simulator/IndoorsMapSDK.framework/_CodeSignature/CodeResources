@@ -812,6 +812,10 @@
 		<data>
 		tWZmhxnbW2oy2ERK4tKScORrm4A=
 		</data>
+		<key>Assets/Icons/icon_rigth_route_metrics.png</key>
+		<data>
+		qDwnY6yyi/uGQhj7RdLFD0+SA2k=
+		</data>
 		<key>Assets/Icons/icon_route.png</key>
 		<data>
 		cdUG+bhAsxWgDHeoSeYpMtzosSo=
@@ -1802,7 +1806,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QoBRgyh4EnvhRIL9TGnvT3G5DS8=
+		2vw2tY5WLntYfBYpuVrc+wlj7eo=
 		</data>
 		<key>Modules/IndoorsMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -1898,7 +1902,7 @@
 		</data>
 		<key>PrivateHeaders/INImageExtension.h</key>
 		<data>
-		HplpL3gBa52hXLZkjTpLlcT7m1c=
+		bJp41wbcpDwiy47zTOArCKoPXzE=
 		</data>
 		<key>PrivateHeaders/INMapView.h</key>
 		<data>
@@ -3407,6 +3411,13 @@
 			<key>hash2</key>
 			<data>
 			DcxGYUWbMDUXISlVytKZVtv4cTKDGKtL9NdJtQiYZoE=
+			</data>
+		</dict>
+		<key>Assets/Icons/icon_rigth_route_metrics.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NZGFwLmcfVGu8btxOGmHniYDH9N7aWW6RMmLq5lSlCY=
 			</data>
 		</dict>
 		<key>Assets/Icons/icon_route.png</key>
@@ -5303,7 +5314,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KI/T40bbLEItOu8mb1pnw/S1kHW4Ne8TOfPJkycELd0=
+			Dv4XsogvcRQ4gYHOTSbvGyNTczeGKwIl0c17ft3/FAM=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INMapView.h</key>

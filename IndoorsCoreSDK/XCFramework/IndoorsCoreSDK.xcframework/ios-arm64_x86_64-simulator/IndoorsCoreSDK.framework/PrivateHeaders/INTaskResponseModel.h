@@ -12,10 +12,12 @@
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 
-@interface INTaskResponseModel : INBaseObject
+@interface INTaskResponseModel : INBaseObject<INLocalStorable>
 
 
 @property (nonatomic, strong, nullable) NSString *Datetime;

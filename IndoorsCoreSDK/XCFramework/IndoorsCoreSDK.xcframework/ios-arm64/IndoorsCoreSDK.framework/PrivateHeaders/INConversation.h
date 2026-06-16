@@ -15,12 +15,14 @@
 #import "JSQMessageData.h"
 #import "INProfiles.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about in-messenger conversations.
  */
-@interface INConversation : INBaseObject
+@interface INConversation : INBaseObject<INLocalStorable>
 
 /**
  Converastion title.
@@ -30,22 +32,22 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Converastion image URL string.
  */
-@property (nonatomic, strong) NSString          *Image;
+@property (nullable, nonatomic, strong) NSString          *Image;
 
 /**
  An array of the `INConversationMember` objects.
  */
-@property (nonatomic, strong) NSMutableArray    *ConversationMembers;
+@property (nullable, nonatomic, strong) NSMutableArray    *ConversationMembers;
 
 /**
  An array of the `INMessage` objects.
  */
-@property (nonatomic, strong) NSMutableArray    *Messages;
+@property (nullable, nonatomic, strong) NSMutableArray    *Messages;
 
 /**
  Converastion image.
  */
-@property (nonatomic, strong) UIImage           *ConversationImage;
+@property (nullable, nonatomic, strong) UIImage           *ConversationImage;
 
 /**
  New messages count.

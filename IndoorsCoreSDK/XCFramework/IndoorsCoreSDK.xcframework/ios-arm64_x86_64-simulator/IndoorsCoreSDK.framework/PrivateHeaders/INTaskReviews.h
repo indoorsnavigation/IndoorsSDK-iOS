@@ -13,13 +13,15 @@
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about task type.
  */
-@interface INTaskReviews : INBaseObject
+@interface INTaskReviews : INBaseObject<INLocalStorable>
 
 
 

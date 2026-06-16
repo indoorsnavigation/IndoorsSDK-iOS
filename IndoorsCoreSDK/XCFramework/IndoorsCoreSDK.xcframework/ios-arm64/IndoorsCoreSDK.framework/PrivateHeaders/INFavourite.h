@@ -12,6 +12,7 @@
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 
+
 NS_ASSUME_NONNULL_BEGIN
 
 /// Stores data about some favorite object.

@@ -12,10 +12,12 @@
 #import "INBaseObject.h"
 #import "INAOAGateway.h"
 
+@protocol INLocalStorable;
+
 /**
  Stores datat about AOA Locator.
  */
-@interface INAOALocator : INBaseObject
+@interface INAOALocator : INBaseObject<INLocalStorable>
 
 /**
  Control module name.

@@ -14,12 +14,14 @@
 #import "INImageGallery.h"
 #import "INAccountPersonalData.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores user account data.
  */
-@interface INProfile : INBaseObject
+@interface INProfile : INBaseObject<INLocalStorable>
 
 /**
  Profile UUID.
@@ -39,7 +41,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  User avatar filename.
  */
-@property (nonatomic, strong) NSString *Image;
+@property (nullable, nonatomic, strong) NSString *Image;
 
 /**
  Image gallery.

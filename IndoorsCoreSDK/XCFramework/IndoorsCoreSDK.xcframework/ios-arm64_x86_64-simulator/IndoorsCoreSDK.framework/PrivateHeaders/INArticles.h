@@ -12,8 +12,10 @@
 #import "INBaseObject.h"
 
 
+@protocol INLocalStorable;
 
-@interface INArticles : INBaseObject
+
+@interface INArticles : INBaseObject<INLocalStorable>
 
 @property (nonatomic, strong, nullable) NSString *PreviewTitle;
 @property (nonatomic, strong, nullable) NSString *PreviewImage;

@@ -11,12 +11,14 @@
 
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about wifi radar device.
  */
-@interface INWIFIRadar : INBaseObject
+@interface INWIFIRadar : INBaseObject<INLocalStorable>
 
 /**
  WIFI Radar name.

@@ -263,6 +263,8 @@
 + (UIImage *)compas;
 + (UIImage *)infoViewCloseMark;
 
++ (UIImage *)iconRigthRouteMetrics;
+
 + (UIImage *)bookingTabBar_icon2_blue;
 + (UIImage *)booking_compass;
 + (UIImage *)sliders_horiz;

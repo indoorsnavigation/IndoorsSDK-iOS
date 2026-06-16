@@ -12,10 +12,11 @@
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
 /**
  Stores data about zone visit stamp.
  */
-@interface INZoneVisitStamp : INBaseObject
+@interface INZoneVisitStamp : INBaseObject<INLocalStorable>
 
 /**
  Zone Id.

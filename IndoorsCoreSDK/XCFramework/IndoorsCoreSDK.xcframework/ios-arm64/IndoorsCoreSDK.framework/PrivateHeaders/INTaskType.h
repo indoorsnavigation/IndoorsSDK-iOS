@@ -14,12 +14,14 @@
 #import "INFloor.h"
 #import "INMTTracker.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
  Stores data about task type.
  */
-@interface INTaskType : INBaseObject
+@interface INTaskType : INBaseObject<INLocalStorable>
 
 
 /**

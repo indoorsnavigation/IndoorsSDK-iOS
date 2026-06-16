@@ -12,9 +12,11 @@
 
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
-@interface INUsersGroups : INBaseObject
+@interface INUsersGroups : INBaseObject<INLocalStorable>
 
 
 @property (nonatomic, strong, nullable) NSString *Title;

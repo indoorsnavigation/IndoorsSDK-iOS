@@ -358,7 +358,7 @@
 		</data>
 		<key>Headers/IndoorsModulesSDK-Swift.h</key>
 		<data>
-		thupWORYJbFBkBCbDv7zRbWVRyo=
+		u2Lg1pAJRfV+1+UuJL5nOl22kdI=
 		</data>
 		<key>Headers/IndoorsModulesSDK.h</key>
 		<data>
@@ -502,7 +502,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		130rMcSbCSUDG/hxauypR+FZqMI=
+		aausC/2lqbhF35k8MGxAxS/GX4s=
 		</data>
 		<key>JSQMessagesCollectionViewCellIncoming.nib</key>
 		<data>
@@ -530,23 +530,23 @@
 		</data>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		f1/YHvZmxt0sheK5ovhgi6ZuLhc=
+		RrU4n6UNSfHYF4rkJopo+WXeLig=
 		</data>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		tcZq7Xtpcm0u1NTXLCkfxGF8LPI=
+		0ufnzQacfI95S0FG5GgyzKom5rQ=
 		</data>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		z/IAFEsi7TkMyUf4SdopMq1zZ7c=
+		xrFV6ZYnvnbRJb2I/aydc+LPvDQ=
 		</data>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		tcZq7Xtpcm0u1NTXLCkfxGF8LPI=
+		0ufnzQacfI95S0FG5GgyzKom5rQ=
 		</data>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		6c6+1zwfBUfVBUinyARfu6NHbGo=
+		2SVHUwQccPSEdipyeylG96VN4cQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1407,7 +1407,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e0z1SxMP251WjAuFEkZND8Z94KXlK1ftm8F04CU156M=
+			Ixe569UCtUTjDgTcpuAB+35KxShzI9+rSV4SmRAttvg=
 			</data>
 		</dict>
 		<key>Headers/IndoorsModulesSDK.h</key>
@@ -1701,35 +1701,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zPZxxnKiOQioo8REJkOiDd/8ezEiozvdo/y9vTyQQY0=
+			D/aLKQB80PlOWpMVTfp3GC871HI2D/ptxgEH8x0HKhM=
 			</data>
 		</dict>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RjvOx+5804KwbVNVt0/M7UgzMCCqx7dmbpZk/yijKTI=
+			4WzyEMiwLUhxA6NGMiZx1JQ/Mb4cbMnkVdU5uFLkvnE=
 			</data>
 		</dict>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ydK68XQxYDRSJKYinsn4wMQbgj5N53Sk3nf7VeLJsJs=
+			ao5X/qn73jF/zDqJpK9TYT2VeA0WJ7IhYLNs1HygHmA=
 			</data>
 		</dict>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RjvOx+5804KwbVNVt0/M7UgzMCCqx7dmbpZk/yijKTI=
+			4WzyEMiwLUhxA6NGMiZx1JQ/Mb4cbMnkVdU5uFLkvnE=
 			</data>
 		</dict>
 		<key>Modules/IndoorsModulesSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FKyUvJG1CGjAetBZDqUX8Ou9Cvjkm2MwUhoI5sE7l0I=
+			eb6/M2ODwPdEqelFqwFb50hhIBOaZS7q8k+rdBMyVbQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -12,10 +12,12 @@
 #import <Foundation/Foundation.h>
 #import "INFavourite.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 /// Stores data about favorite room.
-@interface INFavouriteRoom : INFavourite
+@interface INFavouriteRoom : INFavourite<INLocalStorable>
 
 /**
  Associated `INRoom` Id.

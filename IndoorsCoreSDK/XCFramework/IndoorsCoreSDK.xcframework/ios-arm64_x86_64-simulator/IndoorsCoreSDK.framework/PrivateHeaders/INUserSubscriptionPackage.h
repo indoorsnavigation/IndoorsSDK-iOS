@@ -12,10 +12,12 @@
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
 
-@interface INUserSubscriptionPackage : INBaseObject
+@interface INUserSubscriptionPackage : INBaseObject<INLocalStorable>
 
 
 @property (nonatomic, strong, nullable) NSNumber *Duration;

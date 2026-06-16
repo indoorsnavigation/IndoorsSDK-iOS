@@ -11,9 +11,11 @@
 
 #import "INBaseObject.h"
 
+@protocol INLocalStorable;
+
 NS_ASSUME_NONNULL_BEGIN
 
-@interface INUserZoneBusinessHours : INBaseObject
+@interface INUserZoneBusinessHours : INBaseObject<INLocalStorable>
 
 
 @property (nonatomic, strong, nullable) NSNumber *Day;
