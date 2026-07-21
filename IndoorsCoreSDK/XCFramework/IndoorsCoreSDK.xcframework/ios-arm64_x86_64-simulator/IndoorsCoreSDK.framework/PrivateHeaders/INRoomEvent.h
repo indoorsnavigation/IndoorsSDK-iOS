@@ -9,13 +9,13 @@
 #ifndef _INRoomEvent_
 #define _INRoomEvent_
 
-#import "INEvent.h"
+#import "INdoorsEvent.h"
 #import "INRoom.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 /// Stores data about room event.
-@interface INRoomEvent : INEvent
+@interface INRoomEvent : INdoorsEvent
 
 /**
  ID of the associated `INRoom` object.

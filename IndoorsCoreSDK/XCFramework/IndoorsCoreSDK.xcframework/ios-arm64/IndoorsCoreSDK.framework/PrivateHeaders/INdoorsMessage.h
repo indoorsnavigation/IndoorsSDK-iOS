@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Store data about message.
  */
-@interface INMessage : INBaseObject<INLocalStorable>
+@interface INdoorsMessage : INBaseObject<INLocalStorable>
 
 /**
  Sender `INProfile` object Id.

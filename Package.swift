@@ -31,18 +31,18 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "IndoorsCoreSDK",
-            url: "https://software.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoors-core/IndoorsCoreSDK-4.0.7.zip",
-            checksum: "00fa67b174708decbf29173a16d7511d6ebfe0831a1683f8fdda4b58d47d314a"
+            url: "https://software.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoors-core/IndoorsCoreSDK-4.0.8.zip",
+            checksum: "83d5851204f009bb4ed4d0aa52bc3f4f02f042484c6704f935d9d39c832e82fc"
         ),
         .binaryTarget(
             name: "IndoorsMapSDK",
-            url: "https://software.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoors-map/IndoorsMapSDK-4.0.7.zip",
-            checksum: "e6600dc88c115519f3043239e647d33235c990a93ed066ee43d0c4b76af1ba6c"
+            url: "https://software.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoors-map/IndoorsMapSDK-4.0.8.zip",
+            checksum: "25c3ac94712e97356d2ac38dea75ddaa7bbc4fc1e597336d9bc99eef37930378"
         ),
         .binaryTarget(
             name: "IndoorsModulesSDK",
-            url: "https://software.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoors-modules/IndoorsModulesSDK-4.0.7.zip",
-            checksum: "ad85b340cc1bb8d418c25bd92003047d29bd5c073dac2d50d4140fcebab50401"
+            url: "https://software.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoors-modules/IndoorsModulesSDK-4.0.8.zip",
+            checksum: "350d4c38d7cff5c65f041243f36aac2968307fb7f246e9ae87ac4554670644e4"
         ),
 
         .target(

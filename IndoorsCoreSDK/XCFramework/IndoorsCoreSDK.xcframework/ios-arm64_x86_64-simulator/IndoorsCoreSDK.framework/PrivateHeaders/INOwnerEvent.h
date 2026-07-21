@@ -9,13 +9,13 @@
 #ifndef _INOwnerEvent_
 #define _INOwnerEvent_
 
-#import "INEvent.h"
+#import "INdoorsEvent.h"
 #import "INOwner.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 /// Stores data about owner event.
-@interface INOwnerEvent : INEvent
+@interface INOwnerEvent : INdoorsEvent
 
 /**
  ID of the associated `INOwner` object.

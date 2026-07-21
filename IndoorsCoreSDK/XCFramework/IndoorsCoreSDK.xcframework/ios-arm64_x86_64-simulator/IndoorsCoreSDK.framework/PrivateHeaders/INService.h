@@ -80,7 +80,7 @@
 #import "INProfile.h"
 #import "INGhostProfile.h"
 #import "INConversation.h"
-#import "INMessage.h"
+#import "INdoorsMessage.h"
 #import "INZoneVisitStamp.h"
 #import "INContact.h"
 #import "INConversationMember.h"
@@ -212,7 +212,7 @@
 #import "INProfile.h"
 #import "INGhostProfile.h"
 #import "INConversation.h"
-#import "INMessage.h"
+#import "INdoorsMessage.h"
 #import "INZoneVisitStamp.h"
 #import "INContact.h"
 #import "INConversationMember.h"
@@ -261,7 +261,7 @@
 #import "INLidarDevice.h"
 #import "INLidarLocation.h"
 #import "INTrackedMapObject.h"
-#import "INImage.h"
+#import "INdoorsImage.h"
 #import "INPanoramaTour.h"
 #import "INWaypoint.h"
 #import "INParser.h"
@@ -337,15 +337,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// Called when a new message is received
 /// - Parameter message: Recieved message
-- (void)didGetNewMessage:(INMessage*)message;
+- (void)didGetNewMessage:(INdoorsMessage*)message;
 
 /// Called when a new message is updated
 /// - Parameter message: Updated message
-- (void)didUpdateMessage:(INMessage*)message;
+- (void)didUpdateMessage:(INdoorsMessage*)message;
 
 /// Called when a new message is deleted
 /// - Parameter message: Deleted message
-- (void)didDeleteMessage:(INMessage*)message;
+- (void)didDeleteMessage:(INdoorsMessage*)message;
 
 /// Called when a new conversation member is received.
 /// - Parameter conversationMember: Received member.
@@ -1381,12 +1381,12 @@ withCompletionBlock:(void (^)(NSError *_Nullable error))completionBlock;
 - (void)loadMessages:(INConversation*)conversation
         withPageSize:(NSNumber*)pageSize
                 page:(NSString*)page
-  andCompletionBlock:(void (^)(NSMutableArray<INMessage *> *objects, int remoteCount, int localCount, NSError *_Nullable error))completionBlock;
+  andCompletionBlock:(void (^)(NSMutableArray<INdoorsMessage *> *objects, int remoteCount, int localCount, NSError *_Nullable error))completionBlock;
 
 - (void)loadNewMessagesWithStatus:(NSNumber*)status
                     applicationId:(NSNumber*)applicationId
                             limit:(NSNumber*)limit
-               andCompletionBlock:(void (^)(NSMutableArray<INMessage *> *objects, int remoteCount, int localCount, NSError *_Nullable error))completionBlock;
+               andCompletionBlock:(void (^)(NSMutableArray<INdoorsMessage *> *objects, int remoteCount, int localCount, NSError *_Nullable error))completionBlock;
 
 /// Creates `INMessage` object and push it.
 ///
@@ -1395,22 +1395,22 @@ withCompletionBlock:(void (^)(NSError *_Nullable error))completionBlock;
 /// - Parameter completionBlock: Completion block.
 - (void)createMessage:(NSString*)text
       forConversation:(INConversation*)conversation
-  withCompletionBlock:(void (^)(INMessage *_Nullable message, NSError *_Nullable error))completionBlock;
+  withCompletionBlock:(void (^)(INdoorsMessage *_Nullable message, NSError *_Nullable error))completionBlock;
 
 /// Edits messages from `INConversation` object.
 ///
 /// - Parameter message: Message to edit.
 /// - Parameter text: Edited message text.
 /// - Parameter completionBlock: ComplCompletion block.
-- (void)editMessage:(INMessage*)message
+- (void)editMessage:(INdoorsMessage*)message
            withText:(NSString * _Nullable)text
- andCompletionBlock:(void (^)(INMessage *_Nullable message, NSError *_Nullable error))completionBlock;
+ andCompletionBlock:(void (^)(INdoorsMessage *_Nullable message, NSError *_Nullable error))completionBlock;
 
 /// Deletes messages.
 ///
 /// - Parameter message: Message to delete.
 /// - Parameter completionBlock: Completion block.
-- (void)deleteMessage:(INMessage*) message withCompletionBlock:(void (^)(NSError *_Nullable error))completionBlock;
+- (void)deleteMessage:(INdoorsMessage*) message withCompletionBlock:(void (^)(NSError *_Nullable error))completionBlock;
 
 
 - (void)loadMessageFilesWithId:(NSArray<NSNumber *>*)messageIds
@@ -1429,7 +1429,7 @@ withCompletionBlock:(void (^)(NSError *_Nullable error))completionBlock;
                      andFile:(NSMutableArray< NSData *> * _Nullable)filesData
                  andFileName:(NSString * _Nullable)fileName
             andFileExtension:(NSString * _Nullable)fileExtension
-          andCompletionBlock:(void (^)( INMessage  *_Nullable message, NSError *_Nullable error))completionBlock;
+          andCompletionBlock:(void (^)( INdoorsMessage  *_Nullable message, NSError *_Nullable error))completionBlock;
 
 #pragma mark - Conversation member
 

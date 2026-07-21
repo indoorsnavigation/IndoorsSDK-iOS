@@ -76,7 +76,9 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, weak) INFloor *Floor;
 
-@property (nonatomic, weak) INRoom *Room;
+//@property (nonatomic, weak) INRoom *Room;
+@property ( nonatomic, strong) id<INRoutableProtocol> Room;
+//@property (nullable, nonatomic, weak) id<INRoutableProtocol> Room;
 
 @end
 

@@ -41,7 +41,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Short description of the icon.
  */
-@property (nonatomic, strong) NSString *Description NS_SWIFT_NAME(Description);
+@property (nullable, nonatomic, strong) NSString *Description NS_SWIFT_NAME(Description);
 
 /**
  Icon Description address.

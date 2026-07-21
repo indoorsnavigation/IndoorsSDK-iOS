@@ -256,6 +256,7 @@ extension UIKit.UIView {
 @objc public protocol INBuildingLayerRendererAnnotationViewDelegate : ObjectiveC.NSObjectProtocol {
   @objc func onPickingObjectAnnotationView(objName: Foundation.NSString, itemId: Swift.String)
   @objc func onDeselectAnnotationView()
+  @objc func debugString(debug: Swift.String)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class INBuildingLayerRenderer : MapLibre.MLNCustomStyleLayer {
   @objc weak final public var delegate: (any IndoorsMapSDK.INBuildingLayerRendererDelegate)?

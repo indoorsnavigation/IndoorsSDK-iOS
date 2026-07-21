@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Codd2413Ro1zl9Jltj22qyzz61A=
+		+8kAWLYzPUoM7UebaRwHFkXyg0s=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		dYAsxuLIvJPd4wqa+fnufAb5RZ4=
+		PWvIqla9a8olkd0E9pwymgHqglU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -186,7 +186,7 @@
 		</data>
 		<key>PrivateHeaders/INBuildingEvent.h</key>
 		<data>
-		sE3yeTWEwXrWqnmXFQAG0mAKIMo=
+		+9GKL+llDbZ/C3hAGukIOeHCkLs=
 		</data>
 		<key>PrivateHeaders/INBuildingEventSchedule.h</key>
 		<data>
@@ -250,7 +250,7 @@
 		</data>
 		<key>PrivateHeaders/INConversation.h</key>
 		<data>
-		5/9A7Nn5Xv/ohsh0X7gFxCBoW3s=
+		IcZNFcIzZJkF3S5fS73Bu36yX2k=
 		</data>
 		<key>PrivateHeaders/INConversationMember.h</key>
 		<data>
@@ -331,10 +331,6 @@
 		<key>PrivateHeaders/INEntrance.h</key>
 		<data>
 		b1+DdNiMYWfF99lMv7X93kWW5EM=
-		</data>
-		<key>PrivateHeaders/INEvent.h</key>
-		<data>
-		UkeaGRBjGNVd4WiunQyqHQXdYzU=
 		</data>
 		<key>PrivateHeaders/INFBeacon.h</key>
 		<data>
@@ -430,15 +426,11 @@
 		</data>
 		<key>PrivateHeaders/INIconDescription.h</key>
 		<data>
-		wLAxZx/WjziJdEL0n5VSXqSESRk=
+		AeG0Zc1ARQw3cjiDXfX5XjCnd3U=
 		</data>
 		<key>PrivateHeaders/INIconType.h</key>
 		<data>
 		m8zFq2R0ngOTZVZAU9zZGbpTUr8=
-		</data>
-		<key>PrivateHeaders/INImage.h</key>
-		<data>
-		7vWUUJrJPNP+86EUaRfsPlLfnF4=
 		</data>
 		<key>PrivateHeaders/INImageAsset.h</key>
 		<data>
@@ -510,7 +502,7 @@
 		</data>
 		<key>PrivateHeaders/INMapARPointTarget.h</key>
 		<data>
-		A0LsHfdl3WtauG/PtPidnCeZtz8=
+		sV6XNaaUasoTC2CG+O+cav7kmS8=
 		</data>
 		<key>PrivateHeaders/INMapButtonsColors.h</key>
 		<data>
@@ -531,10 +523,6 @@
 		<key>PrivateHeaders/INMediaPoint.h</key>
 		<data>
 		iKVP+pKZ9L68Ro4fnrOth1dqEFs=
-		</data>
-		<key>PrivateHeaders/INMessage.h</key>
-		<data>
-		v4Kh054J5QJx6MQN/+95EtYasng=
 		</data>
 		<key>PrivateHeaders/INMessageFiles.h</key>
 		<data>
@@ -594,7 +582,7 @@
 		</data>
 		<key>PrivateHeaders/INOwnerEvent.h</key>
 		<data>
-		ImKMDj29LGNLih621QZLD/h7nGQ=
+		6eKyf9TmTS8YyaqEVYqsVDQhfMo=
 		</data>
 		<key>PrivateHeaders/INOwnerEventSchedule.h</key>
 		<data>
@@ -734,7 +722,7 @@
 		</data>
 		<key>PrivateHeaders/INRoomEvent.h</key>
 		<data>
-		VSDxXN9A4yBQ1ETAPiWg+OkiJKA=
+		MfMyO55+bdwNaqpLITKpK85HRsg=
 		</data>
 		<key>PrivateHeaders/INRoomEventSchedule.h</key>
 		<data>
@@ -762,7 +750,7 @@
 		</data>
 		<key>PrivateHeaders/INService.h</key>
 		<data>
-		Ql1yMLZhmDD8KLpg6aArFcalxpI=
+		U8C2syHWgP6+pGzgP3QR7pdr1U4=
 		</data>
 		<key>PrivateHeaders/INServiceMessage.h</key>
 		<data>
@@ -944,6 +932,18 @@
 		<data>
 		mXx4BDC8PyNW6JNdPkE0cOHWLK0=
 		</data>
+		<key>PrivateHeaders/INdoorsEvent.h</key>
+		<data>
+		DeQ2OZ7beTQHPpmwbfMO7tlIbeY=
+		</data>
+		<key>PrivateHeaders/INdoorsImage.h</key>
+		<data>
+		aLbDZxy1x2zm464fZ3gssjQ9yUE=
+		</data>
+		<key>PrivateHeaders/INdoorsMessage.h</key>
+		<data>
+		nFQEUH3L2+TcJUnra/DrNLN/fdI=
+		</data>
 		<key>PrivateHeaders/JSQMessageData.h</key>
 		<data>
 		qa91anREwUaHteJypEhlqfI7Zsg=
@@ -1028,7 +1028,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6SmP4di/I8pGcYJ6riP87/hJaAw=
+			H9T2rDLmBUWtYXNd/QNHhUbGPWo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1037,7 +1037,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			u05fm5+Pb4/qeVkGkGZb5Ga/eYA=
+			RlkI4YljbY5SSnLl54ku9DfcEps=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1098,7 +1098,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nswlHeUooXOfjiGYq5IUGf5LSlR3f4eB3eKXT9hekVk=
+			Q40FEV3WjMvGXpVxm6nGopi1NkI/Gqn45iu5+xQTyBE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1350,7 +1350,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fgHjVPN+ZuIBl741lj2Mamiz+S3+2Etlc4hgVeslP0k=
+			CGWvEg2ifZwCgnTBrvvU4m/iZm+PRk272aaVysfBPQs=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INBuildingEventSchedule.h</key>
@@ -1462,7 +1462,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OH05kJCmOn031mPCi3e5qGhhlwA8oLooj+IsA9+QvZg=
+			0G7ozWwlSTDFHK5LMoFkX4gThfJBE8Zy7UoCGahUHwM=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INConversationMember.h</key>
@@ -1603,13 +1603,6 @@
 			<key>hash2</key>
 			<data>
 			7mUmc5Y0CJSMuPeDUN0STqOlOvSapf3Yj4EV6bKwuZ0=
-			</data>
-		</dict>
-		<key>PrivateHeaders/INEvent.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6B2pevpkWEntNSm01i93NSZqbD+JW6VsFVcKGQJz9SE=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INFBeacon.h</key>
@@ -1777,7 +1770,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cqGHU+vUyohM5s8wqAIav3nKzifSe+FDwdxJNlaVoZY=
+			NeOICyGawHP5ANJMYuGC9vvOx8akD8VAsO4Na/lybTw=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INIconType.h</key>
@@ -1785,13 +1778,6 @@
 			<key>hash2</key>
 			<data>
 			UCollF+VFj8RYLfcFSCAmrZeOXhKIfGs0LV6dROMfD0=
-			</data>
-		</dict>
-		<key>PrivateHeaders/INImage.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eiLyUp7BuBNwSftiPC7lJwQ6n9wdropppb8YNDKt9oo=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INImageAsset.h</key>
@@ -1917,7 +1903,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HPbq3pjoZ4oFIsKDB8SJ8Kln6aHL+veT7TknlvUfNAA=
+			3AqZvUv2ffIJrXm0f8ULbyvkzXeRozKWq/j8/o8wy1E=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INMapButtonsColors.h</key>
@@ -1953,13 +1939,6 @@
 			<key>hash2</key>
 			<data>
 			VMUzlfisyD4CMSZkBg7VL18DtLfPlGVGtsdFscRHVy8=
-			</data>
-		</dict>
-		<key>PrivateHeaders/INMessage.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bXJukmohdEd7q0WuLpJ8x4WZRyCLqwkztajSsefzpO8=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INMessageFiles.h</key>
@@ -2064,7 +2043,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RSjP1rHejNZKcVM7n6SidmTixz0hWJxSEC1lxLWj2ak=
+			/s0EWrUHDdIv11xrV0XRe7WPhNZAfZzMrAklOcXlsCU=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INOwnerEventSchedule.h</key>
@@ -2309,7 +2288,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Us3Z6MgW7jLpbcLyuDyz1DxOBlFs2ly79j6tlbv0+w8=
+			g9RDCdKdG/sc1Z/SDcCuuAsaZL+hUwiX0CDoJaTZwks=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INRoomEventSchedule.h</key>
@@ -2358,7 +2337,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AMTSE2YwBJwN5okeY2Y1R3u5N1yMZ4VgTXpdrihYpgA=
+			mn+lh2Dj0fLbtHChMvSj1/s42FEiPaHlf+gTEbVK0D4=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INServiceMessage.h</key>
@@ -2676,6 +2655,27 @@
 			MBWPFt4x+tguo0v+fV6Z+THVn3kWqok77blI+x4vMIs=
 			</data>
 		</dict>
+		<key>PrivateHeaders/INdoorsEvent.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uhDBNCBl/ZAalaBqIap7VyIT5vzKTIVloQMnikpDU+A=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INdoorsImage.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mZkMp1r89kSvWRnRxdLlYu6Anf8JekN2om0i9zPPAlQ=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INdoorsMessage.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9aJUEPgPV+bBKiE0NZWsP4JgMLAwdKWjB6AboYfqnts=
+			</data>
+		</dict>
 		<key>PrivateHeaders/JSQMessageData.h</key>
 		<dict>
 			<key>hash2</key>
@@ -2820,7 +2820,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fSQ8LGfab2K8N35NEtUICN6aPn4jtl144LsqejKC/fQ=
+			E+BXKiAgdANunQV911MKu7e9RdWwWpWzwOY/LzdfWsQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2829,7 +2829,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6i01/XSSJIyWQRVus445C7BUf9+tI8vK/MBAo0Z/GVA=
+			zVf1jw4laIIlB3DKYenpNo15NNglBW1nDfuJSvF1VR8=
 			</data>
 			<key>optional</key>
 			<true/>

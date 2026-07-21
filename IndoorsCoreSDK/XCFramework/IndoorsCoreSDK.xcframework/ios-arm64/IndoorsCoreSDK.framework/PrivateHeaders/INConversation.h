@@ -11,7 +11,7 @@
 
 #import <Foundation/Foundation.h>
 #import "INBaseObject.h"
-#import "INMessage.h"
+#import "INdoorsMessage.h"
 #import "JSQMessageData.h"
 #import "INProfiles.h"
 

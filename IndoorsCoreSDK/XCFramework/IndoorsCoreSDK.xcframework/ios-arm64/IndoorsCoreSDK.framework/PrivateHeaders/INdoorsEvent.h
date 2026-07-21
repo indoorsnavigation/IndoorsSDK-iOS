@@ -15,7 +15,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /// Stores data about default event.
-@interface INEvent : INBaseObject
+@interface INdoorsEvent : INBaseObject
 
 /// Event title.
 @property (nonatomic, strong) NSString *Title;

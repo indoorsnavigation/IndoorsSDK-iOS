@@ -457,6 +457,10 @@ SWIFT_CLASS("_TtC13IndoorsMapSDK23INBuildingLayerRenderer")
 - (nonnull instancetype)initWithIdentifier:(NSString * _Nonnull)identifier OBJC_DESIGNATED_INITIALIZER;
 - (void)didMoveToMapView:(MLNMapView * _Nonnull)mapView;
 - (void)willMoveFromMapView:(MLNMapView * _Nonnull)_;
+/// /                symbolLayer.renderAnnotation(deltaTime: deltaTime, building: building, renderEncoder: renderEncoder, viewPortIsChange: true, currentBuildingId: territory.currentBuildingId, isPickingInTerritory: true, isLast: territories.last?.buildings.last?.id == building.id)
+/// /
+/// /                symbolLayer.render(deltaTime: deltaTime, building: building, renderEncoder: renderEncoder, viewPortIsChange: true, currentBuildingId: territory.currentBuildingId, isPickingInTerritory: (territory.buildings.count > 1 && territory.territoryBuildingId == building.id))
+/// /                symbolLayer.renderWaypoints(deltaTime: deltaTime, building: building, renderEncoder: renderEncoder, viewPortIsChange: true, currentBuildingId: territory.currentBuildingId, isPickingInTerritory: (territory.buildings.count > 1 && territory.territoryBuildingId == building.id))
 - (void)drawInMapView:(MLNMapView * _Nonnull)mapView withContext:(MLNStyleLayerDrawingContext)context;
 @end
 
@@ -536,6 +540,7 @@ SWIFT_PROTOCOL("_TtP13IndoorsMapSDK45INBuildingLayerRendererAnnotationViewDelega
 @protocol INBuildingLayerRendererAnnotationViewDelegate <NSObject>
 - (void)onPickingObjectAnnotationViewWithObjName:(NSString * _Nonnull)objName itemId:(NSString * _Nonnull)itemId;
 - (void)onDeselectAnnotationView;
+- (void)debugStringWithDebug:(NSString * _Nonnull)debug;
 @end
 
 SWIFT_PROTOCOL("_TtP13IndoorsMapSDK31INBuildingLayerRendererDelegate_")

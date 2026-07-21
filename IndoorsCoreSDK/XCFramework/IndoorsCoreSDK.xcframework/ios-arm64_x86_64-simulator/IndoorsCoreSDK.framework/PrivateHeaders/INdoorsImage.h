@@ -1,5 +1,5 @@
 //
-//  INImage.h
+//  INdoorsImage.h
 //  IndoorsSDK v2.0
 //
 //  Created by Ivan Sugrobov.
@@ -11,7 +11,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface INImage : NSObject
+@interface INdoorsImage : NSObject
 
 + (UIImage*)defaultImage;
 

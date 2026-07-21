@@ -9,13 +9,13 @@
 #ifndef _INBuildingEvent_
 #define _INBuildingEvent_
 
-#import "INEvent.h"
+#import "INdoorsEvent.h"
 #import "INBuilding.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 /// Stores data about building event.
-@interface INBuildingEvent : INEvent
+@interface INBuildingEvent : INdoorsEvent
 
 /// Associated `INBuilding` object Id.
 @property (nonatomic, strong) NSNumber *BuildingId;
