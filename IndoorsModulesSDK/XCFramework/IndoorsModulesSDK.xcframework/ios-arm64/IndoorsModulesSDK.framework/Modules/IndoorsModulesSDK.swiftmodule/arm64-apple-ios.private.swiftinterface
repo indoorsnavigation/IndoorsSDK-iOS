@@ -88,6 +88,7 @@ extension IndoorsModulesSDK.INTasksRequestsBuildingsController : UIKit.UICollect
 @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class INTrackingGlobalMapView : IndoorsMapSDK.INGlobalMapView {
   @objc @_Concurrency.MainActor @preconcurrency public init(frame: CoreFoundation.CGRect, trackingService: IndoorsCoreSDK.INTrackingService)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func select(_ floor: IndoorsCoreSDK.INFloor)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func setFloorIndex(_ index: Foundation.NSNumber?, building: IndoorsCoreSDK.INBuilding?)
   @objc deinit
 }
 extension IndoorsModulesSDK.INTrackingGlobalMapView : IndoorsCoreSDK.INTrackingObjectsManagerDelegate {

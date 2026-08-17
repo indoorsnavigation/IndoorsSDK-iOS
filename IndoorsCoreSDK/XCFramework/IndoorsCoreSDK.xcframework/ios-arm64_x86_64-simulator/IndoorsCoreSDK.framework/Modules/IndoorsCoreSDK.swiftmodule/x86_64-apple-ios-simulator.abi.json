@@ -2136,6 +2136,126 @@
           },
           {
             "kind": "Var",
+            "name": "modelName",
+            "printedName": "modelName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndoorsCoreSDK@objc(cs)INTagMapModel(py)modelName",
+            "mangledName": "$s14IndoorsCoreSDK13INTagMapModelC9modelNameSSSgvp",
+            "moduleName": "IndoorsCoreSDK",
+            "objc_name": "modelName",
+            "declAttributes": [
+              "HasInitialValue",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndoorsCoreSDK@objc(cs)INTagMapModel(im)modelName",
+                "mangledName": "$s14IndoorsCoreSDK13INTagMapModelC9modelNameSSSgvg",
+                "moduleName": "IndoorsCoreSDK",
+                "implicit": true,
+                "objc_name": "modelName",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndoorsCoreSDK@objc(cs)INTagMapModel(im)setModelName:",
+                "mangledName": "$s14IndoorsCoreSDK13INTagMapModelC9modelNameSSSgvs",
+                "moduleName": "IndoorsCoreSDK",
+                "implicit": true,
+                "objc_name": "setModelName:",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14IndoorsCoreSDK13INTagMapModelC9modelNameSSSgvM",
+                "mangledName": "$s14IndoorsCoreSDK13INTagMapModelC9modelNameSSSgvM",
+                "moduleName": "IndoorsCoreSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "company",
             "printedName": "company",
             "children": [
@@ -7274,6 +7394,126 @@
           },
           {
             "kind": "Var",
+            "name": "modelName",
+            "printedName": "modelName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndoorsCoreSDK@objc(cs)INTrackedSocketPNEvent(py)modelName",
+            "mangledName": "$s14IndoorsCoreSDK22INTrackedSocketPNEventC9modelNameSSSgvp",
+            "moduleName": "IndoorsCoreSDK",
+            "objc_name": "modelName",
+            "declAttributes": [
+              "HasInitialValue",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndoorsCoreSDK@objc(cs)INTrackedSocketPNEvent(im)modelName",
+                "mangledName": "$s14IndoorsCoreSDK22INTrackedSocketPNEventC9modelNameSSSgvg",
+                "moduleName": "IndoorsCoreSDK",
+                "implicit": true,
+                "objc_name": "modelName",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndoorsCoreSDK@objc(cs)INTrackedSocketPNEvent(im)setModelName:",
+                "mangledName": "$s14IndoorsCoreSDK22INTrackedSocketPNEventC9modelNameSSSgvs",
+                "moduleName": "IndoorsCoreSDK",
+                "implicit": true,
+                "objc_name": "setModelName:",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14IndoorsCoreSDK22INTrackedSocketPNEventC9modelNameSSSgvM",
+                "mangledName": "$s14IndoorsCoreSDK22INTrackedSocketPNEventC9modelNameSSSgvM",
+                "moduleName": "IndoorsCoreSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "company",
             "printedName": "company",
             "children": [
@@ -8702,6 +8942,126 @@
           },
           {
             "kind": "Var",
+            "name": "modelName",
+            "printedName": "modelName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndoorsCoreSDK@objc(cs)INTrackedSocketTrackpoint(py)modelName",
+            "mangledName": "$s14IndoorsCoreSDK25INTrackedSocketTrackpointC9modelNameSSSgvp",
+            "moduleName": "IndoorsCoreSDK",
+            "objc_name": "modelName",
+            "declAttributes": [
+              "HasInitialValue",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndoorsCoreSDK@objc(cs)INTrackedSocketTrackpoint(im)modelName",
+                "mangledName": "$s14IndoorsCoreSDK25INTrackedSocketTrackpointC9modelNameSSSgvg",
+                "moduleName": "IndoorsCoreSDK",
+                "implicit": true,
+                "objc_name": "modelName",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndoorsCoreSDK@objc(cs)INTrackedSocketTrackpoint(im)setModelName:",
+                "mangledName": "$s14IndoorsCoreSDK25INTrackedSocketTrackpointC9modelNameSSSgvs",
+                "moduleName": "IndoorsCoreSDK",
+                "implicit": true,
+                "objc_name": "setModelName:",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14IndoorsCoreSDK25INTrackedSocketTrackpointC9modelNameSSSgvM",
+                "mangledName": "$s14IndoorsCoreSDK25INTrackedSocketTrackpointC9modelNameSSSgvM",
+                "moduleName": "IndoorsCoreSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "company",
             "printedName": "company",
             "children": [
@@ -9414,13 +9774,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Foundation.NSNumber?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "NSNumber",
-                    "printedName": "Foundation.NSNumber",
-                    "usr": "c:objc(cs)NSNumber"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
@@ -9428,15 +9788,15 @@
             ],
             "declKind": "Var",
             "usr": "c:@M@IndoorsCoreSDK@objc(cs)INTrackedSocketTrackpoint(py)deviceModel",
-            "mangledName": "$s14IndoorsCoreSDK25INTrackedSocketTrackpointC11deviceModelSo8NSNumberCSgvp",
+            "mangledName": "$s14IndoorsCoreSDK25INTrackedSocketTrackpointC11deviceModelSSSgvp",
             "moduleName": "IndoorsCoreSDK",
             "declAttributes": [
-              "Final",
+              "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -9447,13 +9807,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Foundation.NSNumber?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "NSNumber",
-                        "printedName": "Foundation.NSNumber",
-                        "usr": "c:objc(cs)NSNumber"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
@@ -9461,14 +9821,66 @@
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@IndoorsCoreSDK@objc(cs)INTrackedSocketTrackpoint(im)deviceModel",
-                "mangledName": "$s14IndoorsCoreSDK25INTrackedSocketTrackpointC11deviceModelSo8NSNumberCSgvg",
+                "mangledName": "$s14IndoorsCoreSDK25INTrackedSocketTrackpointC11deviceModelSSSgvg",
                 "moduleName": "IndoorsCoreSDK",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndoorsCoreSDK@objc(cs)INTrackedSocketTrackpoint(im)setDeviceModel:",
+                "mangledName": "$s14IndoorsCoreSDK25INTrackedSocketTrackpointC11deviceModelSSSgvs",
+                "moduleName": "IndoorsCoreSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14IndoorsCoreSDK25INTrackedSocketTrackpointC11deviceModelSSSgvM",
+                "mangledName": "$s14IndoorsCoreSDK25INTrackedSocketTrackpointC11deviceModelSSSgvM",
+                "moduleName": "IndoorsCoreSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -9480,13 +9892,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Foundation.NSNumber?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "NSNumber",
-                    "printedName": "Foundation.NSNumber",
-                    "usr": "c:objc(cs)NSNumber"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
@@ -9494,7 +9906,7 @@
             ],
             "declKind": "Var",
             "usr": "c:@M@IndoorsCoreSDK@objc(cs)INTrackedSocketTrackpoint(py)deviceVendor",
-            "mangledName": "$s14IndoorsCoreSDK25INTrackedSocketTrackpointC12deviceVendorSo8NSNumberCSgvp",
+            "mangledName": "$s14IndoorsCoreSDK25INTrackedSocketTrackpointC12deviceVendorSSSgvp",
             "moduleName": "IndoorsCoreSDK",
             "declAttributes": [
               "Final",
@@ -9513,13 +9925,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Foundation.NSNumber?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "NSNumber",
-                        "printedName": "Foundation.NSNumber",
-                        "usr": "c:objc(cs)NSNumber"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
@@ -9527,7 +9939,7 @@
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@IndoorsCoreSDK@objc(cs)INTrackedSocketTrackpoint(im)deviceVendor",
-                "mangledName": "$s14IndoorsCoreSDK25INTrackedSocketTrackpointC12deviceVendorSo8NSNumberCSgvg",
+                "mangledName": "$s14IndoorsCoreSDK25INTrackedSocketTrackpointC12deviceVendorSSSgvg",
                 "moduleName": "IndoorsCoreSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -13440,133 +13852,133 @@
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 1046,
+      "offset": 1048,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1089,
+      "offset": 1091,
       "length": 30,
       "value": "\"Объект по видео\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1488,
+      "offset": 1530,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1526,
+      "offset": 1568,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1562,
+      "offset": 1604,
       "length": 6,
       "value": "\"zone\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 3333,
+      "offset": 3375,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3371,
+      "offset": 3413,
       "length": 26,
       "value": "\"Пользователь\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4136,
+      "offset": 4296,
       "length": 18,
       "value": "\"client_timestamp\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4186,
+      "offset": 4346,
       "length": 18,
       "value": "\"server_timestamp\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4232,
+      "offset": 4392,
       "length": 14,
       "value": "\"device_model\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4275,
+      "offset": 4435,
       "length": 15,
       "value": "\"device_vendor\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4318,
+      "offset": 4478,
       "length": 14,
       "value": "\"zone_changed\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4355,
+      "offset": 4515,
       "length": 6,
       "value": "\"zone\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6233,
+      "offset": 6438,
       "length": 11,
       "value": "\"app_label\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6270,
+      "offset": 6475,
       "length": 12,
       "value": "\"model_name\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6332,
+      "offset": 6537,
       "length": 8,
       "value": "\"object\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 8133,
+      "offset": 10021,
       "length": 11,
       "value": "\"app_label\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 8170,
+      "offset": 10058,
       "length": 12,
       "value": "\"model_name\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 8232,
+      "offset": 10120,
       "length": 8,
       "value": "\"object\""
     },

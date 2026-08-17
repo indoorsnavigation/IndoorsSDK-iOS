@@ -482,6 +482,7 @@ SWIFT_CLASS("_TtC17IndoorsModulesSDK32INTasksRequestsPlaceOnMapBuilder")
 
 @class INTrackingService;
 @class INFloor;
+@class NSNumber;
 @class INMapViewsConfiguration;
 /// Map view based on the INGlobalMapView with configuration for tracking
 SWIFT_CLASS("_TtC17IndoorsModulesSDK23INTrackingGlobalMapView")
@@ -495,6 +496,7 @@ SWIFT_CLASS("_TtC17IndoorsModulesSDK23INTrackingGlobalMapView")
 ///
 - (nonnull instancetype)initWithFrame:(CGRect)frame trackingService:(INTrackingService * _Nonnull)trackingService OBJC_DESIGNATED_INITIALIZER;
 - (void)selectFloor:(INFloor * _Nonnull)floor;
+- (void)setFloorIndex:(NSNumber * _Nullable)index building:(INBuilding * _Nullable)building;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame andConfiguration:(INMapViewsConfiguration * _Nonnull)configuration SWIFT_UNAVAILABLE;
@@ -506,7 +508,6 @@ SWIFT_CLASS("_TtC17IndoorsModulesSDK23INTrackingGlobalMapView")
 @interface INTrackingGlobalMapView (SWIFT_EXTENSION(IndoorsModulesSDK)) <INTrackingServiceDelegate>
 @end
 
-@class NSNumber;
 @protocol INTrackedMapObject;
 @interface INTrackingGlobalMapView (SWIFT_EXTENSION(IndoorsModulesSDK)) <INTrackingObjectsManagerDelegate>
 - (BOOL)isCurrentFloorWithFloorId:(NSNumber * _Nullable)floorId SWIFT_WARN_UNUSED_RESULT;

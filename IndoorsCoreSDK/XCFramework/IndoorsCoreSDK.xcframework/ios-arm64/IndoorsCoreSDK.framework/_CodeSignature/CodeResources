@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/IndoorsCoreSDK-Swift.h</key>
 		<data>
-		5N4tsgXYv9cx/01SM08ykytfrTE=
+		Mq7g8+io6jECEUZOroxJhU2fVRQ=
 		</data>
 		<key>Headers/IndoorsCoreSDK.h</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+8kAWLYzPUoM7UebaRwHFkXyg0s=
+		LAKpHcU2natMRyQCjK3gMPqk2YA=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		65MBlYD6N/jfrh/8pNjzt+J25l0=
+		qErGQY6uEmyTnUqCmrrUNIZAxZA=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Tp9ZJRanMvEDh/0vfIEmMxutQgQ=
+		22sfHWFk+ad+nkF1siU6jAN/sXA=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Tp9ZJRanMvEDh/0vfIEmMxutQgQ=
+		22sfHWFk+ad+nkF1siU6jAN/sXA=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		PWvIqla9a8olkd0E9pwymgHqglU=
+		yaoNkm9ZcxhqudiEmHUlmW370nU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -234,7 +234,7 @@
 		</data>
 		<key>PrivateHeaders/INColorScheme.h</key>
 		<data>
-		yXd7nV6n4UO1VO/veOAtlFU94Xs=
+		ZhLjtJj6IPX6TApiBORCo+I/4xE=
 		</data>
 		<key>PrivateHeaders/INCompletedQuizzes.h</key>
 		<data>
@@ -270,7 +270,7 @@
 		</data>
 		<key>PrivateHeaders/INCoreConfiguration.h</key>
 		<data>
-		FIX50/E2oRILzJUaNJAcsgbqvrQ=
+		iKyv/Lz7HlngUnwjfPNtN0otcKI=
 		</data>
 		<key>PrivateHeaders/INCountry.h</key>
 		<data>
@@ -392,6 +392,10 @@
 		<data>
 		rVhBmIgeKunNS5+PcQhL6cJ60Io=
 		</data>
+		<key>PrivateHeaders/INGlobalLightModel.h</key>
+		<data>
+		BH+RMvlS3ZVb5I+qhsjGN+Afv3I=
+		</data>
 		<key>PrivateHeaders/INGlobalMapStyle.h</key>
 		<data>
 		zc8w5vjw+ZBPgO6nNiTCp9VwO38=
@@ -470,7 +474,7 @@
 		</data>
 		<key>PrivateHeaders/INLocalizable.h</key>
 		<data>
-		XifOLOF9fGfVLESJllBvqhuEBbY=
+		aLnULObS/N5f08mq67gcD6kk2rY=
 		</data>
 		<key>PrivateHeaders/INLogger.h</key>
 		<data>
@@ -510,7 +514,11 @@
 		</data>
 		<key>PrivateHeaders/INMapStyle.h</key>
 		<data>
-		GgjJ+g3QXcXJP49K6+qqLg/bp3M=
+		sCSDrerEH3mfRLy5c3EN70JGL2A=
+		</data>
+		<key>PrivateHeaders/INMapStyleSheme.h</key>
+		<data>
+		QnKk7psQXRlq8gRX+LTVjQ6TUEA=
 		</data>
 		<key>PrivateHeaders/INMapZone.h</key>
 		<data>
@@ -750,7 +758,7 @@
 		</data>
 		<key>PrivateHeaders/INService.h</key>
 		<data>
-		U8C2syHWgP6+pGzgP3QR7pdr1U4=
+		E1tPLQwXMMIKWpl4cjZd8TLDeFY=
 		</data>
 		<key>PrivateHeaders/INServiceMessage.h</key>
 		<data>
@@ -846,7 +854,7 @@
 		</data>
 		<key>PrivateHeaders/INTrackedMapObject.h</key>
 		<data>
-		DE06jh1nPU6N4eDMdTn0j0xJJYc=
+		+QLbqsCt7BcQY/TYdnrRUfXv1Gk=
 		</data>
 		<key>PrivateHeaders/INTrackingMapInternalView.h</key>
 		<data>
@@ -1056,7 +1064,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZuAj98MxSz3BpEIy3CZAKeh/NoS+RtHTJbe5sNkObmw=
+			CoReePH7A4LeToKpfsZd9gNXO1KuR3p2lEUW+OIsZ4E=
 			</data>
 		</dict>
 		<key>Headers/IndoorsCoreSDK.h</key>
@@ -1070,14 +1078,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BXZqRFGjO0APJCegsmudH+64XQybCEbuemC/qFxH65Q=
+			A8obcR7zFtMhg7pT239iRCax7eoIx3s10cXS86hA0kU=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MFr8TS1+Q6uJNNDmUFPlobhobevklApElKJ8KfXjkW8=
+			XhcyFFwYcokz48qylY8d9IoDqyebUa9vHYwUWWKTifU=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -1091,14 +1099,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MFr8TS1+Q6uJNNDmUFPlobhobevklApElKJ8KfXjkW8=
+			XhcyFFwYcokz48qylY8d9IoDqyebUa9vHYwUWWKTifU=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q40FEV3WjMvGXpVxm6nGopi1NkI/Gqn45iu5+xQTyBE=
+			IXSzkj5THsHV/vtAg3hVtJu8lEb0MDhD+PebHrJhmrU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1434,7 +1442,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zRR3VdO/q1NLTnJ+WhlfdDK1SNDjxghaMKgv3zk7zxU=
+			WAR6ArZ1QqpJwV9fw+39b5Xpzce8hLewLXw9/YEafZ8=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INCompletedQuizzes.h</key>
@@ -1497,7 +1505,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hkdyUDi1Ivkxr22UtdcPknQmJMoZlUuxVA91arIEsQA=
+			V9t0Z2aq/0ST8I5Z+M+9UHZECZH92AsMqH+RnQkfCrg=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INCountry.h</key>
@@ -1710,6 +1718,13 @@
 			aTS9NWAdC0X+umUDpSB8Nkup5hPVZoBLQdg7sVAFrTg=
 			</data>
 		</dict>
+		<key>PrivateHeaders/INGlobalLightModel.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xmSmXjGgWwV/CXW5L3JWrJlaHEHFu7qEmL/rxOLogOo=
+			</data>
+		</dict>
 		<key>PrivateHeaders/INGlobalMapStyle.h</key>
 		<dict>
 			<key>hash2</key>
@@ -1847,7 +1862,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pr6d/BbLsQh/RO5x9cB5fkP0DFR869K1i5sTkHne7EM=
+			2yyXyEjq/qqP7yhbv5Zfp4/r7gj4yHEn8i31TLLzrTc=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INLogger.h</key>
@@ -1917,7 +1932,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SOAvV4nlk/T7LYWf/8gtqJ7I8tGKc7HcWN59zjj2LGc=
+			uYT7WQuYMdoTgSBRRhnTO20PARbb7lw4b0qDN6ZMhok=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INMapStyleSheme.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LLhsV0RkgqeP/5V8yxE7dWuCYTJNtk+2yixDSSYM7qs=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INMapZone.h</key>
@@ -2337,7 +2359,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mn+lh2Dj0fLbtHChMvSj1/s42FEiPaHlf+gTEbVK0D4=
+			46qp2kmvs13Ox/paGbfbPNtTg8zS6c9MsHgvQdaYBRs=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INServiceMessage.h</key>
@@ -2505,7 +2527,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NghL+QnpFQPa7Emg+usXQ91U8DXfh9x+/KU0JKwDui8=
+			9R2go4EfKaOkYQzik3cu7VoyueNOpvgmL0YlQ7l2rkY=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INTrackingMapInternalView.h</key>

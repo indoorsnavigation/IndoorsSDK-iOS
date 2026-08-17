@@ -13,6 +13,8 @@
 
 @interface INLocalizable : NSObject
 
++ (void)addCustomStringForKey:(NSString *)key text:(NSString *)text;
+
 + (NSString *)localizeWithKey:(NSString *)key;
 + (NSString*)getWordByDeclension:(int)number
                                 :(NSArray*)arrayWords;

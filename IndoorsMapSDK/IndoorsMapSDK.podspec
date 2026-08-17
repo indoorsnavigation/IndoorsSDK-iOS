@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'IndoorsMapSDK'
-    s.version          = '4.0.8'
+    s.version          = '4.0.9'
     s.summary          = 'IndoorsMapSDK - SDK для внутренней навигации с поддержкой карт, AR, и MapLibre.'
     s.description      = <<-DESC
         IndoorsMapSDK предоставляет функционал для внутренней навигации, включая    поддержку карт и AR, с использованием MapLibre GL для отображения карт.

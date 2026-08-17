@@ -27,6 +27,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, assign, readonly) NSUInteger networkRetryAttempts;
 
+/**
+ TimeoutI nterval.
+ */
+@property (nonatomic, assign, readonly) NSUInteger timeoutInterval;
+
 /// API URL
 @property (nonatomic, readonly, nonnull) NSString *apiUrl;
 /// Map style URL

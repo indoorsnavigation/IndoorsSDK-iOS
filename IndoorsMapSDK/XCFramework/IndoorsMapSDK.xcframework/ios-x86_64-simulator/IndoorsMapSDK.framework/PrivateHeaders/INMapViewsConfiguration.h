@@ -46,6 +46,9 @@
 
 @property (nonatomic, assign) BOOL isBookingApplication;
 
+@property (nonatomic, assign) BOOL isRequestsAndTasksApplicaton;
+
+
 @property (nonatomic, assign) BOOL showSoSButton;
 
 @end

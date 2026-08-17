@@ -270,7 +270,7 @@
 #import "INMapARPointTarget.h"
 #import "INPanoramaTourPoint.h"
 #import "INColorScheme.h"
-#import "INMapStyle.h"
+#import "INMapStyleSheme.h"
 #import "INRouteViewStyle.h"
 #import "INBuildingSearchViewStyle.h"
 #import "INReuseIDProtocol.h"
@@ -315,6 +315,9 @@
 #import "INUserSubscriptionCategorie.h"
 
 #import "INRoutestamps.h"
+
+#import "INGlobalLightModel.h"
+#import "INMapStyle.h"
 
 @class INRawBeacon;
 
@@ -1948,6 +1951,21 @@ withCompletionBlock:(void (^)(INTasksModel *task, NSError * _Nullable error))com
 - (void)testUpTestBuildingForTestSpeed:(INBuilding*)building
    withProgressBlock:(void (^)(Class layerClass, NSMutableArray *objects))progressBlock
                     andCompletionBlock:(void (^)(INBuilding* building, NSError *_Nullable error))completionBlock;
+
+
+// MARK: - InTool Debug Logging
+
+/**
+ Возвращает массив объектов INDebugLogEntry с историей сетевых запросов текущей сессии.
+ Собирает данные только если [[INUtilities sharedInstance] isTool] == YES.
+ */
+- (NSArray *)getDebugNetworkLogs;
+
+
+/**
+ Очищает историю сетевых запросов текущей сессии.
+ */
+- (void)clearDebugNetworkLogs;
 
 @end
 

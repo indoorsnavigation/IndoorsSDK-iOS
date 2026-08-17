@@ -23,7 +23,6 @@
 
 
 
-
 NS_ASSUME_NONNULL_BEGIN
 
 
@@ -185,7 +184,6 @@ NS_ASSUME_NONNULL_BEGIN
  Indicates whether it is a booking application.
  */
 @property (nonatomic) BOOL isBookingApplicaton;
-
 
 
 
@@ -368,6 +366,41 @@ NS_SWIFT_NAME(positionMapCamera(withIntegration:fieldName:value:completion:));
 - (instancetype)initWithConfiguration:(INMapViewsConfiguration *)configuration;
 
 
+
+- (void)setFloorIndex:(NSNumber*)index building:(INBuilding *)building;
+
+/**
+ Is need delete building after remove map
+
+ @param isNeedDelete The flag
+
+ */
+- (void)isNeedDeleteBuildingAfterRemoveMap:(BOOL)isNeedDelete;
+
+/**
+ Applies a custom visual style and predefined text configurations to the map.
+ 
+ You can use this method to customize map colors, button styles, and specific text messages
+ (like routing errors). Any property in the provided `INMapStyle` object that is left as `nil`
+ will be ignored, and the SDK will fall back to its local default values or the configuration
+ downloaded from the backend.
+ 
+ @param style An `INMapStyle` object containing the desired customization properties.
+ */
+- (void)setStyle:(INMapStyle *)style;
+
+/**
+ Overrides a default SDK localized string with custom text.
+ 
+ You can use this method to dynamically change any text in the SDK (buttons, messages, alerts)
+ by providing its localization key.
+ 
+ Note: To find out the exact localization key for a specific text or UI element, please contact the development team.
+ 
+ @param key The internal localization key used by the SDK (e.g., "tour_list", "search", etc.).
+ @param text Custom localized text. Pass `nil` to keep the default SDK text.
+ */
+- (void)setCustomTranslationForKey:(nonnull NSString *)key text:(nullable NSString *)text;
 
 // Mark:: old metods to remove
 

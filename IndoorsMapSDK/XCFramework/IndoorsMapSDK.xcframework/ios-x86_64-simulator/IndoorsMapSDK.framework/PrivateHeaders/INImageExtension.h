@@ -346,6 +346,8 @@
 + (UIImage*)sosImage;
 + (UIImage*)iconChevron;
 
++ (UIImage*)galleryIcon;
+
 + (UIImage*)resizeImageWithImage:(UIImage*) image size:(CGSize)size;
 + (UIImage *)resizeImageV2:(UIImage *)image toSize:(CGSize)targetSize;
 + (UIImage*)resizeImageWithImageAlwaysOriginal:(UIImage*)image size:(CGSize)size;

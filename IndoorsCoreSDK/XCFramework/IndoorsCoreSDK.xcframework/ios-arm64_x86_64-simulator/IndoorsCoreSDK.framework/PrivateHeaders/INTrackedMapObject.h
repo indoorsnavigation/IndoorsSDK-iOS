@@ -18,6 +18,7 @@
 @property (nonnull, nonatomic, strong) NSNumber *isActive;
 @property (nonnull, nonatomic, copy) NSString *name;
 @property (nullable, nonatomic, copy) NSString *tagName;
+@property (nullable, nonatomic, copy) NSString *modelName;
 @property (nullable, nonatomic, copy) NSString *company;
 @property (nullable, nonatomic, copy) NSString *email;
 @property (nullable, nonatomic, copy) NSString *objectDescription;

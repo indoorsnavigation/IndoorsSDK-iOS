@@ -221,6 +221,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)zoomOutToEntraceFromTabWaypointCoordinateX:(NSNumber *)x y:(NSNumber *)y floorId:(NSNumber *) floorId buildingId:(NSNumber *)buildingId withCompletionBlock:( void (^)(void))completionBlock;
 
 -(void)setIsCameraTrackingUserNeedMe:(BOOL)cameraTracking;
+- (void)isNeedDeleteBuildingAfterRemoveMap:(BOOL)isNeedDelete;
 
 @end
 

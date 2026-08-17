@@ -395,6 +395,7 @@ SWIFT_CLASS("_TtC14IndoorsCoreSDK13INTagMapModel")
 @property (nonatomic, copy) NSString * _Nonnull name;
 @property (nonatomic, strong) NSNumber * _Nonnull unixTimestamp;
 @property (nonatomic, copy) NSString * _Nullable tagName;
+@property (nonatomic, copy) NSString * _Nullable modelName;
 @property (nonatomic, copy) NSString * _Nullable company;
 @property (nonatomic, copy) NSString * _Nullable email;
 @property (nonatomic, copy) NSString * _Nullable objectDescription;
@@ -452,6 +453,7 @@ SWIFT_CLASS("_TtC14IndoorsCoreSDK22INTrackedSocketPNEvent")
 @property (nonatomic, copy) NSString * _Nonnull name;
 @property (nonatomic, strong) NSNumber * _Nonnull unixTimestamp;
 @property (nonatomic, copy) NSString * _Nullable tagName;
+@property (nonatomic, copy) NSString * _Nullable modelName;
 @property (nonatomic, copy) NSString * _Nullable company;
 @property (nonatomic, copy) NSString * _Nullable email;
 @property (nonatomic, copy) NSString * _Nullable objectDescription;
@@ -472,6 +474,7 @@ SWIFT_CLASS("_TtC14IndoorsCoreSDK25INTrackedSocketTrackpoint")
 @property (nonatomic, copy) NSString * _Nonnull name;
 @property (nonatomic, strong) NSNumber * _Nonnull unixTimestamp;
 @property (nonatomic, copy) NSString * _Nullable tagName;
+@property (nonatomic, copy) NSString * _Nullable modelName;
 @property (nonatomic, copy) NSString * _Nullable company;
 @property (nonatomic, copy) NSString * _Nullable email;
 @property (nonatomic, copy) NSString * _Nullable objectDescription;
@@ -479,8 +482,8 @@ SWIFT_CLASS("_TtC14IndoorsCoreSDK25INTrackedSocketTrackpoint")
 @property (nonatomic) NSInteger timestamp;
 @property (nonatomic, readonly, strong) NSNumber * _Nullable clientTimestamp;
 @property (nonatomic, readonly, strong) NSNumber * _Nullable serverTimestamp;
-@property (nonatomic, readonly, strong) NSNumber * _Nullable deviceModel;
-@property (nonatomic, readonly, strong) NSNumber * _Nullable deviceVendor;
+@property (nonatomic, copy) NSString * _Nullable deviceModel;
+@property (nonatomic, readonly, copy) NSString * _Nullable deviceVendor;
 @property (nonatomic, readonly, strong) NSNumber * _Nullable zoneChanged;
 @property (nonatomic, readonly, strong) NSNumber * _Nullable source;
 @property (nonatomic, readonly, strong) NSNumber * _Nullable zoneId;

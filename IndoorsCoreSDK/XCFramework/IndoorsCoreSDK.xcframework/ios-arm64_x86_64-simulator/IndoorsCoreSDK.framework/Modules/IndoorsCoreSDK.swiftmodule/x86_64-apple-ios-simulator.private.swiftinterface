@@ -48,6 +48,7 @@ import _SwiftConcurrencyShims
   @objc public var name: Swift.String
   @objc public var unixTimestamp: Foundation.NSNumber
   @objc public var tagName: Swift.String?
+  @objc public var modelName: Swift.String?
   @objc public var company: Swift.String?
   @objc public var email: Swift.String?
   @objc public var objectDescription: Swift.String?
@@ -144,6 +145,7 @@ public struct INTrackingUser {
   @objc public var name: Swift.String
   @objc public var unixTimestamp: Foundation.NSNumber
   @objc public var tagName: Swift.String?
+  @objc public var modelName: Swift.String?
   @objc public var company: Swift.String?
   @objc public var email: Swift.String?
   @objc public var objectDescription: Swift.String?
@@ -162,6 +164,7 @@ public struct INTrackingUser {
   @objc public var name: Swift.String
   @objc public var unixTimestamp: Foundation.NSNumber
   @objc public var tagName: Swift.String?
+  @objc public var modelName: Swift.String?
   @objc public var company: Swift.String?
   @objc public var email: Swift.String?
   @objc public var objectDescription: Swift.String?
@@ -169,8 +172,8 @@ public struct INTrackingUser {
   @objc public var timestamp: Swift.Int
   @objc final public let clientTimestamp: Foundation.NSNumber?
   @objc final public let serverTimestamp: Foundation.NSNumber?
-  @objc final public let deviceModel: Foundation.NSNumber?
-  @objc final public let deviceVendor: Foundation.NSNumber?
+  @objc public var deviceModel: Swift.String?
+  @objc final public let deviceVendor: Swift.String?
   @objc final public let zoneChanged: Foundation.NSNumber?
   @objc final public let source: Foundation.NSNumber?
   @objc final public let zoneId: Foundation.NSNumber?

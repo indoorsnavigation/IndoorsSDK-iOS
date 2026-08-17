@@ -9,7 +9,7 @@
 #ifndef MessengerStyle_h
 #define MessengerStyle_h
 
-#import "INMapStyle.h"
+#import "INMapStyleSheme.h"
 
 @interface INColorScheme : NSObject
 
@@ -25,7 +25,7 @@
 @property (strong, nonatomic) UIColor *cellSubtitle;
 @property (strong, nonatomic) UIColor *cellButton;
 @property (strong, nonatomic) UIColor *mainAppTint;
-@property (strong, nonatomic) INMapStyle *mapStyle;
+@property (strong, nonatomic) INMapStyleSheme *mapStyle;
 @property UIEdgeInsets collectionViewInsets;
 +(instancetype)sharedInstance;
 
