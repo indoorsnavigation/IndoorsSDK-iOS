@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IjyuF4EZuNqLnRL+JplutRXBZTM=
+		r1KqGT+a9hL4QlMeyE+YP9PY5so=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		u5GAEGvKr2TgQiDDx7jt3f3S0Mw=
+		RT/PoN3Jubpz4t/QVq+pGfAZBck=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Is93OCNUlyaCv2538XjJj4EJh0Y=
+		gt8uCt8tJ9splZKniQr1kBl5/a4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -426,7 +426,7 @@
 		</data>
 		<key>PrivateHeaders/INGraph.h</key>
 		<data>
-		5NHpEllDSdPx40gMzmMLZrNt68I=
+		Kty5Of+Wz02Bnsi63162aP/HNSg=
 		</data>
 		<key>PrivateHeaders/INGraphEdge.h</key>
 		<data>
@@ -534,7 +534,7 @@
 		</data>
 		<key>PrivateHeaders/INMapStyle.h</key>
 		<data>
-		sCSDrerEH3mfRLy5c3EN70JGL2A=
+		p01Ly2Rq+kX/yvKOAOWv1124Ohc=
 		</data>
 		<key>PrivateHeaders/INMapStyleSheme.h</key>
 		<data>
@@ -1056,7 +1056,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H9T2rDLmBUWtYXNd/QNHhUbGPWo=
+			GEQ6Av/l+c36emh4DrCx/HyFNyk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1065,7 +1065,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RlkI4YljbY5SSnLl54ku9DfcEps=
+			17MieLOPjc/kZh8kJKjSR3AWjUc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1126,7 +1126,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wden6VsSEEFdvn5K73QgKzz2ZHdBxsaZeDClZeTpumU=
+			BXPffYDZ0WAu7SBo0om+BliaRVC/RooRUP+bM8QEdcw=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -1161,7 +1161,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QRKq4GXwa8ds+2eT0Y0u66GIHfc2wRIwkCF66GBYgvo=
+			2qk6np0EtTh7dMaI6/ys88FYaJQg5wL8INFvqrt1YCM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1798,7 +1798,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r1MjEoA/xhooARJGduWueao6zNjHX60uS7dWbq5DSVs=
+			ych0w7eNqxeLzysMd4RhaVqXL3w9Mq4sOIfJ73cIBqE=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INGraphEdge.h</key>
@@ -1987,7 +1987,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uYT7WQuYMdoTgSBRRhnTO20PARbb7lw4b0qDN6ZMhok=
+			biNHlDHbb1DOoNhvEU30mlHpKOZ0lMdAme7DFYjMIDQ=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INMapStyleSheme.h</key>
@@ -2897,7 +2897,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E+BXKiAgdANunQV911MKu7e9RdWwWpWzwOY/LzdfWsQ=
+			hr/XRYUNQ/TmPanX7u1PWjfJO9g1TsxtEosw9uU/rX8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2906,7 +2906,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zVf1jw4laIIlB3DKYenpNo15NNglBW1nDfuJSvF1VR8=
+			tfBolyOnB0wcNbXZuWSVoSKXXG43/7FYYzCmNgDzSm4=
 			</data>
 			<key>optional</key>
 			<true/>

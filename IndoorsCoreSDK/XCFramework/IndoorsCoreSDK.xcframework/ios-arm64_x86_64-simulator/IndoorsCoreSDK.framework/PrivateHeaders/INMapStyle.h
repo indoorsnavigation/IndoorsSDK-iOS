@@ -53,6 +53,17 @@
 @property (nonatomic, strong, nullable) NSString *RouteErrorMessage;
 
 
+
+/**
+ Custom error text displayed when a route cannot be built specifically
+ on the PRM (Persons with Reduced Mobility) routing graph.
+ 
+ Example: "No accessible route found for persons with reduced mobility."
+ If set to `nil`, the SDK's default localized message for PRM routing is used.
+ */
+@property (nonatomic, strong, nullable) NSString *RouteErrorMessageForPRM;
+
 @end
+
 
 #endif /* INMapStyle_h */

@@ -94,7 +94,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIImage *GraphImage;
 
 /**
- Graph type: 0 regular, 1 fire.
+ Graph type: 0 regular, 1 fire, 2 LPN.
  */
 @property (nonatomic, strong) NSNumber *GraphType;
 

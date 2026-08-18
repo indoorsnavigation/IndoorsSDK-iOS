@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LAKpHcU2natMRyQCjK3gMPqk2YA=
+		7+1K2y2PSjyxolHLMNsFh/czDww=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -406,7 +406,7 @@
 		</data>
 		<key>PrivateHeaders/INGraph.h</key>
 		<data>
-		5NHpEllDSdPx40gMzmMLZrNt68I=
+		Kty5Of+Wz02Bnsi63162aP/HNSg=
 		</data>
 		<key>PrivateHeaders/INGraphEdge.h</key>
 		<data>
@@ -514,7 +514,7 @@
 		</data>
 		<key>PrivateHeaders/INMapStyle.h</key>
 		<data>
-		sCSDrerEH3mfRLy5c3EN70JGL2A=
+		p01Ly2Rq+kX/yvKOAOWv1124Ohc=
 		</data>
 		<key>PrivateHeaders/INMapStyleSheme.h</key>
 		<data>
@@ -1036,7 +1036,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H9T2rDLmBUWtYXNd/QNHhUbGPWo=
+			GEQ6Av/l+c36emh4DrCx/HyFNyk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1045,7 +1045,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RlkI4YljbY5SSnLl54ku9DfcEps=
+			17MieLOPjc/kZh8kJKjSR3AWjUc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1743,7 +1743,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r1MjEoA/xhooARJGduWueao6zNjHX60uS7dWbq5DSVs=
+			ych0w7eNqxeLzysMd4RhaVqXL3w9Mq4sOIfJ73cIBqE=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INGraphEdge.h</key>
@@ -1932,7 +1932,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uYT7WQuYMdoTgSBRRhnTO20PARbb7lw4b0qDN6ZMhok=
+			biNHlDHbb1DOoNhvEU30mlHpKOZ0lMdAme7DFYjMIDQ=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INMapStyleSheme.h</key>
@@ -2842,7 +2842,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E+BXKiAgdANunQV911MKu7e9RdWwWpWzwOY/LzdfWsQ=
+			hr/XRYUNQ/TmPanX7u1PWjfJO9g1TsxtEosw9uU/rX8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2851,7 +2851,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zVf1jw4laIIlB3DKYenpNo15NNglBW1nDfuJSvF1VR8=
+			tfBolyOnB0wcNbXZuWSVoSKXXG43/7FYYzCmNgDzSm4=
 			</data>
 			<key>optional</key>
 			<true/>
