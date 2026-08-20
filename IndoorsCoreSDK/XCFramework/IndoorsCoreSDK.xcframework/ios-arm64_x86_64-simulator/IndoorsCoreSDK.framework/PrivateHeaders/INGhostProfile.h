@@ -56,6 +56,12 @@
  */
 @property (nonatomic, strong) NSString *Company;
 
+
+/**
+ Image.
+ */
+@property (nonatomic, strong, nullable) UIImage *LoadedImage;
+
 @end
 
 #endif /* INGhostProfile_h */

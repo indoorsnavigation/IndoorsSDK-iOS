@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/IndoorsCoreSDK-Swift.h</key>
 		<data>
-		tW1LJURdvojIaRjYTGX8yL3POTQ=
+		FqhT3hQUI63e6xgB6sSCQTaMAqc=
 		</data>
 		<key>Headers/IndoorsCoreSDK.h</key>
 		<data>
@@ -18,47 +18,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+UgId+E3hxDb7UrO2YRs7TJ0Uek=
+		REU2F4gkyYf0msM+hhFumI/vuzs=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		qErGQY6uEmyTnUqCmrrUNIZAxZA=
+		C2mK4ZJOIeA49lBDl5u8Gae+pnk=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		/9n4aCWp5mQkYC2WLYKOhD3R1xg=
+		l8SKldMP++SQHW9Nt71LioqPIzI=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		bQt1A2uJMZTI9DDreiEwLwhlFQY=
+		Sj5eTiGGfE3iZd+1WXkoTKq0Eq0=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		/9n4aCWp5mQkYC2WLYKOhD3R1xg=
+		l8SKldMP++SQHW9Nt71LioqPIzI=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RT/PoN3Jubpz4t/QVq+pGfAZBck=
+		xKUOiX0nVZ4FNqTR9RmT6F9b9vE=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		qErGQY6uEmyTnUqCmrrUNIZAxZA=
+		C2mK4ZJOIeA49lBDl5u8Gae+pnk=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		GGKAeAHJcnvjUuml1YKLroIcEiY=
+		OHvNTDWli52Q+RinCRW1vziWLDM=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		/dlk4z4hSen3CzLjzrjWGtRNNNo=
+		iqL83XDjxZk9PhiToZ93MCUfsKY=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		GGKAeAHJcnvjUuml1YKLroIcEiY=
+		OHvNTDWli52Q+RinCRW1vziWLDM=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gt8uCt8tJ9splZKniQr1kBl5/a4=
+		2vm1UkUNgKGXTqIFFdSGVgHEuxg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -410,7 +410,7 @@
 		</data>
 		<key>PrivateHeaders/INGhostProfile.h</key>
 		<data>
-		rVhBmIgeKunNS5+PcQhL6cJ60Io=
+		qaLUW0F0BbXl7AFxIt18JdnM2Q8=
 		</data>
 		<key>PrivateHeaders/INGlobalLightModel.h</key>
 		<data>
@@ -1084,7 +1084,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rqLcgs0n2qfvEjGE9DuuIZQyo06xYK78leYPrimCoAw=
+			O726OZ3GJJeX+Y1SDkUR50ZM0VD8n1h8cM6AGiv3zIg=
 			</data>
 		</dict>
 		<key>Headers/IndoorsCoreSDK.h</key>
@@ -1098,70 +1098,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A8obcR7zFtMhg7pT239iRCax7eoIx3s10cXS86hA0kU=
+			zk+YVr8TWF55Ayn9anPh0V6lzgER5E7uL38NB5ytxlQ=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a3HoaAJwT26bufmr3GDe5XzNXqp9ykmTuQpTqx5szEU=
+			b8S01ofSu8ANY0Y2PWiIcAfl/BeVhTQeWlv3IcG1hEU=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yLXgDcq8tZ3gU8wY7ziWjIaFmCgC69aHblnzbPE6jd8=
+			pU8aoKMh9OwQUWNhEOvvAuKHCsS8nvSVaK2HlnDjZ8s=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a3HoaAJwT26bufmr3GDe5XzNXqp9ykmTuQpTqx5szEU=
+			b8S01ofSu8ANY0Y2PWiIcAfl/BeVhTQeWlv3IcG1hEU=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BXPffYDZ0WAu7SBo0om+BliaRVC/RooRUP+bM8QEdcw=
+			SN6jJLOsBW62XW/hc8/DtBZ6Jeditfm2yY5J0O4tkhQ=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A8obcR7zFtMhg7pT239iRCax7eoIx3s10cXS86hA0kU=
+			zk+YVr8TWF55Ayn9anPh0V6lzgER5E7uL38NB5ytxlQ=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dc5rYW8wdtw4jdyCqcE1zRnbl8puDIFWVzLtp4Vh1PQ=
+			6m+uJ+0ezcORDcsKBpt91rVyk1H3ut68jSYUSwzCpU4=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3SRmuDvOy9fWUD3rIz2mGUI4j1Vjco3sIFscA3s6bbc=
+			t0zlRum8Mshx/Yz0mGR+u7bbx30BrnUEGS2BAWqmBE0=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dc5rYW8wdtw4jdyCqcE1zRnbl8puDIFWVzLtp4Vh1PQ=
+			6m+uJ+0ezcORDcsKBpt91rVyk1H3ut68jSYUSwzCpU4=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2qk6np0EtTh7dMaI6/ys88FYaJQg5wL8INFvqrt1YCM=
+			F2gM9q06B0WjLARhtUql5KKTszz77FpkytJ4x0QilIQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1770,7 +1770,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aTS9NWAdC0X+umUDpSB8Nkup5hPVZoBLQdg7sVAFrTg=
+			t9DCDt0cOAYVnlCxgFnFGJqIcD+QJBkyGgrqZj1bVfE=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INGlobalLightModel.h</key>

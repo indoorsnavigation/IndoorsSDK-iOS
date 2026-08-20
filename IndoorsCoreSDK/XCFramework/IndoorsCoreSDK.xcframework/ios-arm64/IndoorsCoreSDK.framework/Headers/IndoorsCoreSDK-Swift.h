@@ -523,6 +523,7 @@ SWIFT_PROTOCOL("_TtP14IndoorsCoreSDK32INTrackingObjectsManagerDelegate_")
 - (void)trackingObjectsManagerDidDeleteWithObject:(id <INTrackedMapObject> _Nonnull)object;
 @end
 
+@class INGhostProfile;
 /// A delegate that gets changes of tracked objects
 SWIFT_PROTOCOL("_TtP14IndoorsCoreSDK26INTrackingObserverDelegate_")
 @protocol INTrackingObserverDelegate
@@ -535,7 +536,7 @@ SWIFT_PROTOCOL("_TtP14IndoorsCoreSDK26INTrackingObserverDelegate_")
 ///
 /// \param tagModels <code>[String: INTagModelName]</code>a key in dictionary is the UUID of object.
 ///
-- (void)trackingObserverGetWithApiObjects:(NSArray<id <INTrackedMapObject>> * _Nonnull)apiObjects tagModels:(NSDictionary * _Nonnull)tagModels;
+- (void)trackingObserverGetWithApiObjects:(NSArray<id <INTrackedMapObject>> * _Nonnull)apiObjects tagModels:(NSDictionary * _Nonnull)tagModels ghostsUsers:(NSDictionary<NSNumber *, INGhostProfile *> * _Nullable)ghostsUsers;
 /// Set value for dictionary with tags types, need for correct handling of changing setting state
 /// \param tagsTypes <code>[String: INTagModelName]</code>a key in dictionary is the UUID of object.
 ///

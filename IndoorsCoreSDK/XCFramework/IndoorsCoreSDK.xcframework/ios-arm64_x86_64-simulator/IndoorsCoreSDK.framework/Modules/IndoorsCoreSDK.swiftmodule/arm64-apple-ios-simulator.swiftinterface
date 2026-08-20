@@ -18,7 +18,7 @@ import _SwiftConcurrencyShims
 @objc final public class INTagService : ObjectiveC.NSObject {
   @objc public init(configuration: IndoorsCoreSDK.INCoreConfiguration, authService: IndoorsCoreSDK.INAuthService, database: IndoorsCoreSDK.INAppDatabase, reachability: IndoorsCoreSDK.INReachability, building: IndoorsCoreSDK.INBuilding? = nil)
   final public func setBuilding(_ building: IndoorsCoreSDK.INBuilding)
-  final public func getTagsFromApi() async throws -> ([IndoorsCoreSDK.INTagMapModel], [Swift.String : IndoorsCoreSDK.INTagModelName])
+  final public func getTagsFromApi() async throws -> ([IndoorsCoreSDK.INTagMapModel], [Swift.String : IndoorsCoreSDK.INTagModelName], [Foundation.NSNumber : IndoorsCoreSDK.INGhostProfile]?)
   final public func fetchObjectWithFilter<T>(objType: T.Type, filter: Foundation.NSMutableDictionary, completion: @escaping ([T], (any Swift.Error)?) -> Swift.Void) where T : IndoorsCoreSDK.INBaseObject
   @objc deinit
 }
@@ -28,7 +28,9 @@ import _SwiftConcurrencyShims
   final public func fetchUser(uuid: Swift.String) async throws -> IndoorsCoreSDK.INGhostProfile?
   final public func fetchUsers(with ids: [Foundation.NSNumber], completion: @escaping (Swift.Result<[Foundation.NSNumber : IndoorsCoreSDK.INGhostProfile], any Swift.Error>) -> Swift.Void)
   final public func fetchUsers(with ids: [Foundation.NSNumber]) async throws -> [Foundation.NSNumber : IndoorsCoreSDK.INGhostProfile]
+  final public func fetchAllUsers() async throws -> [Foundation.NSNumber : IndoorsCoreSDK.INGhostProfile]
   final public func fetchUsers(ids: [Foundation.NSNumber]?, uuid: Swift.String?, byId: Swift.Bool, applicationId: Foundation.NSNumber, completion: @escaping ([IndoorsCoreSDK.INGhostProfile], (any Swift.Error)?) -> Swift.Void)
+  final public func fetchUsers(applicationId: Foundation.NSNumber, completion: @escaping ([IndoorsCoreSDK.INGhostProfile], (any Swift.Error)?) -> Swift.Void)
   @objc deinit
 }
 @objc public protocol INTrackingObjectsManagerDelegate {
@@ -210,7 +212,7 @@ public struct INTrackingUser {
   @objc var delegate: (any IndoorsCoreSDK.INTrackingObjectsManagerDelegate)? { get set }
   @objc var listDelegate: (any IndoorsCoreSDK.INTrackingListObjectsManagerDelegate)? { get set }
   @objc func trackingObserverGet(object: any IndoorsCoreSDK.INTrackingWebSocketObject, with tagModelName: IndoorsCoreSDK.INTagModelName)
-  @objc func trackingObserverGet(apiObjects: [any IndoorsCoreSDK.INTrackedMapObject], tagModels: Foundation.NSDictionary)
+  @objc func trackingObserverGet(apiObjects: [any IndoorsCoreSDK.INTrackedMapObject], tagModels: Foundation.NSDictionary, ghostsUsers: [Foundation.NSNumber : IndoorsCoreSDK.INGhostProfile]?)
   @objc func setTagsTypes(_ tagsTypes: Foundation.NSDictionary?)
   @objc func handleFloorChanging(_ floorId: Swift.Int)
   @objc func redrawObject(_ object: any IndoorsCoreSDK.INTrackingWebSocketObject)
@@ -230,7 +232,7 @@ final public class INTrackingObjectsManager : IndoorsCoreSDK.INTrackingObserverD
   public init(settingsManager: IndoorsCoreSDK.INTrackingSettingsManager)
   @objc final public func setTagsTypes(_ tagsTypes: Foundation.NSDictionary?)
   @objc final public func trackingObserverGet(object: any IndoorsCoreSDK.INTrackingWebSocketObject, with tagModelName: IndoorsCoreSDK.INTagModelName)
-  @objc final public func trackingObserverGet(apiObjects: [any IndoorsCoreSDK.INTrackedMapObject], tagModels: Foundation.NSDictionary)
+  @objc final public func trackingObserverGet(apiObjects: [any IndoorsCoreSDK.INTrackedMapObject], tagModels: Foundation.NSDictionary, ghostsUsers: [Foundation.NSNumber : IndoorsCoreSDK.INGhostProfile]?)
   @objc final public func redrawObject(_ object: any IndoorsCoreSDK.INTrackingWebSocketObject)
   @objc final public func objectHasImage(object: any IndoorsCoreSDK.INTrackedMapObject) -> Swift.Bool
   @objc final public func handleFloorChanging(_ floorId: Swift.Int)

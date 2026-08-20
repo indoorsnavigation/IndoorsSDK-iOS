@@ -366,7 +366,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Tuple",
-                "printedName": "([IndoorsCoreSDK.INTagMapModel], [Swift.String : IndoorsCoreSDK.INTagModelName])",
+                "printedName": "([IndoorsCoreSDK.INTagMapModel], [Swift.String : IndoorsCoreSDK.INTagModelName], [Foundation.NSNumber : IndoorsCoreSDK.INGhostProfile]?)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -401,13 +401,41 @@
                       }
                     ],
                     "usr": "s:SD"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Foundation.NSNumber : IndoorsCoreSDK.INGhostProfile]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Foundation.NSNumber : IndoorsCoreSDK.INGhostProfile]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSNumber",
+                            "printedName": "Foundation.NSNumber",
+                            "usr": "c:objc(cs)NSNumber"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "INGhostProfile",
+                            "printedName": "IndoorsCoreSDK.INGhostProfile",
+                            "usr": "c:objc(cs)INGhostProfile"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:14IndoorsCoreSDK12INTagServiceC14getTagsFromApiSayAA0D8MapModelCG_SDySSAA0dK4NameOGtyYaKF",
-            "mangledName": "$s14IndoorsCoreSDK12INTagServiceC14getTagsFromApiSayAA0D8MapModelCG_SDySSAA0dK4NameOGtyYaKF",
+            "usr": "s:14IndoorsCoreSDK12INTagServiceC14getTagsFromApiSayAA0D8MapModelCG_SDySSAA0dK4NameOGSDySo8NSNumberCSo14INGhostProfileCGSgtyYaKF",
+            "mangledName": "$s14IndoorsCoreSDK12INTagServiceC14getTagsFromApiSayAA0D8MapModelCG_SDySSAA0dK4NameOGSDySo8NSNumberCSo14INGhostProfileCGSgtyYaKF",
             "moduleName": "IndoorsCoreSDK",
             "declAttributes": [
               "Final",
@@ -920,6 +948,43 @@
           },
           {
             "kind": "Function",
+            "name": "fetchAllUsers",
+            "printedName": "fetchAllUsers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Foundation.NSNumber : IndoorsCoreSDK.INGhostProfile]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "INGhostProfile",
+                    "printedName": "IndoorsCoreSDK.INGhostProfile",
+                    "usr": "c:objc(cs)INGhostProfile"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14IndoorsCoreSDK14INUsersServiceC13fetchAllUsersSDySo8NSNumberCSo14INGhostProfileCGyYaKF",
+            "mangledName": "$s14IndoorsCoreSDK14INUsersServiceC13fetchAllUsersSDySo8NSNumberCSo14INGhostProfileCGyYaKF",
+            "moduleName": "IndoorsCoreSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "fetchUsers",
             "printedName": "fetchUsers(ids:uuid:byId:applicationId:completion:)",
             "children": [
@@ -1027,6 +1092,80 @@
             "declKind": "Func",
             "usr": "s:14IndoorsCoreSDK14INUsersServiceC10fetchUsers3ids4uuid4byId011applicationK010completionySaySo8NSNumberCGSg_SSSgSbAKySaySo14INGhostProfileCG_s5Error_pSgtctF",
             "mangledName": "$s14IndoorsCoreSDK14INUsersServiceC10fetchUsers3ids4uuid4byId011applicationK010completionySaySo8NSNumberCGSg_SSSgSbAKySaySo14INGhostProfileCG_s5Error_pSgtctF",
+            "moduleName": "IndoorsCoreSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchUsers",
+            "printedName": "fetchUsers(applicationId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([IndoorsCoreSDK.INGhostProfile], (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([IndoorsCoreSDK.INGhostProfile], (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[IndoorsCoreSDK.INGhostProfile]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "INGhostProfile",
+                            "printedName": "IndoorsCoreSDK.INGhostProfile",
+                            "usr": "c:objc(cs)INGhostProfile"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14IndoorsCoreSDK14INUsersServiceC10fetchUsers13applicationId10completionySo8NSNumberC_ySaySo14INGhostProfileCG_s5Error_pSgtctF",
+            "mangledName": "$s14IndoorsCoreSDK14INUsersServiceC10fetchUsers13applicationId10completionySo8NSNumberC_ySaySo14INGhostProfileCG_s5Error_pSgtctF",
             "moduleName": "IndoorsCoreSDK",
             "declAttributes": [
               "Final",
@@ -11532,7 +11671,7 @@
           {
             "kind": "Function",
             "name": "trackingObserverGet",
-            "printedName": "trackingObserverGet(apiObjects:tagModels:)",
+            "printedName": "trackingObserverGet(apiObjects:tagModels:ghostsUsers:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -11558,11 +11697,39 @@
                 "name": "NSDictionary",
                 "printedName": "Foundation.NSDictionary",
                 "usr": "c:objc(cs)NSDictionary"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.NSNumber : IndoorsCoreSDK.INGhostProfile]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Foundation.NSNumber : IndoorsCoreSDK.INGhostProfile]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "INGhostProfile",
+                        "printedName": "IndoorsCoreSDK.INGhostProfile",
+                        "usr": "c:objc(cs)INGhostProfile"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@IndoorsCoreSDK@objc(pl)INTrackingObserverDelegate(im)trackingObserverGetWithApiObjects:tagModels:",
-            "mangledName": "$s14IndoorsCoreSDK26INTrackingObserverDelegateP08trackingE3Get10apiObjects9tagModelsySaySo18INTrackedMapObject_pG_So12NSDictionaryCtF",
+            "usr": "c:@M@IndoorsCoreSDK@objc(pl)INTrackingObserverDelegate(im)trackingObserverGetWithApiObjects:tagModels:ghostsUsers:",
+            "mangledName": "$s14IndoorsCoreSDK26INTrackingObserverDelegateP08trackingE3Get10apiObjects9tagModels11ghostsUsersySaySo18INTrackedMapObject_pG_So12NSDictionaryCSDySo8NSNumberCSo14INGhostProfileCGSgtF",
             "moduleName": "IndoorsCoreSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : IndoorsCoreSDK.INTrackingObserverDelegate>",
             "sugared_genericSig": "<Self where Self : IndoorsCoreSDK.INTrackingObserverDelegate>",
@@ -12276,7 +12443,7 @@
           {
             "kind": "Function",
             "name": "trackingObserverGet",
-            "printedName": "trackingObserverGet(apiObjects:tagModels:)",
+            "printedName": "trackingObserverGet(apiObjects:tagModels:ghostsUsers:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -12302,13 +12469,41 @@
                 "name": "NSDictionary",
                 "printedName": "Foundation.NSDictionary",
                 "usr": "c:objc(cs)NSDictionary"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.NSNumber : IndoorsCoreSDK.INGhostProfile]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Foundation.NSNumber : IndoorsCoreSDK.INGhostProfile]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "INGhostProfile",
+                        "printedName": "IndoorsCoreSDK.INGhostProfile",
+                        "usr": "c:objc(cs)INGhostProfile"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:14IndoorsCoreSDK24INTrackingObjectsManagerC19trackingObserverGet03apiE09tagModelsySaySo18INTrackedMapObject_pG_So12NSDictionaryCtF",
-            "mangledName": "$s14IndoorsCoreSDK24INTrackingObjectsManagerC19trackingObserverGet03apiE09tagModelsySaySo18INTrackedMapObject_pG_So12NSDictionaryCtF",
+            "usr": "s:14IndoorsCoreSDK24INTrackingObjectsManagerC19trackingObserverGet03apiE09tagModels11ghostsUsersySaySo18INTrackedMapObject_pG_So12NSDictionaryCSDySo8NSNumberCSo14INGhostProfileCGSgtF",
+            "mangledName": "$s14IndoorsCoreSDK24INTrackingObjectsManagerC19trackingObserverGet03apiE09tagModels11ghostsUsersySaySo18INTrackedMapObject_pG_So12NSDictionaryCSDySo8NSNumberCSo14INGhostProfileCGSgtF",
             "moduleName": "IndoorsCoreSDK",
-            "objc_name": "trackingObserverGetWithApiObjects:tagModels:",
+            "objc_name": "trackingObserverGetWithApiObjects:tagModels:ghostsUsers:",
             "declAttributes": [
               "Final",
               "ObjC",
@@ -13866,119 +14061,119 @@
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1530,
+      "offset": 1545,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1568,
+      "offset": 1583,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1604,
+      "offset": 1619,
       "length": 6,
       "value": "\"zone\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 3375,
+      "offset": 6055,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3413,
+      "offset": 6093,
       "length": 26,
       "value": "\"Пользователь\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4296,
+      "offset": 6976,
       "length": 18,
       "value": "\"client_timestamp\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4346,
+      "offset": 7026,
       "length": 18,
       "value": "\"server_timestamp\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4392,
+      "offset": 7072,
       "length": 14,
       "value": "\"device_model\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4435,
+      "offset": 7115,
       "length": 15,
       "value": "\"device_vendor\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4478,
+      "offset": 7158,
       "length": 14,
       "value": "\"zone_changed\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4515,
+      "offset": 7195,
       "length": 6,
       "value": "\"zone\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6438,
+      "offset": 9118,
       "length": 11,
       "value": "\"app_label\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6475,
+      "offset": 9155,
       "length": 12,
       "value": "\"model_name\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6537,
+      "offset": 9217,
       "length": 8,
       "value": "\"object\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 10021,
+      "offset": 12701,
       "length": 11,
       "value": "\"app_label\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 10058,
+      "offset": 12738,
       "length": 12,
       "value": "\"model_name\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Models\/INTrackingWebSocketMessage.swift",
       "kind": "StringLiteral",
-      "offset": 10120,
+      "offset": 12800,
       "length": 8,
       "value": "\"object\""
     },
@@ -14006,42 +14201,49 @@
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Services\/INTrackingObjectsManager.swift",
       "kind": "Dictionary",
-      "offset": 650,
+      "offset": 637,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Services\/INTrackingObjectsManager.swift",
       "kind": "Dictionary",
-      "offset": 730,
+      "offset": 707,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Services\/INTrackingObjectsManager.swift",
       "kind": "Dictionary",
-      "offset": 803,
+      "offset": 787,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Services\/INTrackingObjectsManager.swift",
       "kind": "Dictionary",
-      "offset": 1038,
+      "offset": 860,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Services\/INTrackingObjectsManager.swift",
       "kind": "Dictionary",
-      "offset": 1107,
+      "offset": 1095,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Services\/INTrackingObjectsManager.swift",
       "kind": "Dictionary",
-      "offset": 1167,
+      "offset": 1164,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsCoreSDK\/IndoorsCoreSDK\/TrackingService\/Services\/INTrackingObjectsManager.swift",
+      "kind": "Dictionary",
+      "offset": 1224,
       "length": 3,
       "value": "[]"
     },

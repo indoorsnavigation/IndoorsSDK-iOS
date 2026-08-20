@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/IndoorsCoreSDK-Swift.h</key>
 		<data>
-		Mq7g8+io6jECEUZOroxJhU2fVRQ=
+		vPbjaDvydxsdLmxfDT2ihG0b2zE=
 		</data>
 		<key>Headers/IndoorsCoreSDK.h</key>
 		<data>
@@ -18,27 +18,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KCIEI410ztW/ZYQvsKSD/WNtGCo=
+		Gq49qwH97ikmR0N+PK30khZpF/Y=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		qErGQY6uEmyTnUqCmrrUNIZAxZA=
+		C2mK4ZJOIeA49lBDl5u8Gae+pnk=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		22sfHWFk+ad+nkF1siU6jAN/sXA=
+		7boZm0Pjl21a3X+i1LOmgcWxuhk=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		toIdShOIJ2eToUAyhTKOATpg8g8=
+		lmVoL+UJHhJohazSQUmnbqpH8us=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		22sfHWFk+ad+nkF1siU6jAN/sXA=
+		7boZm0Pjl21a3X+i1LOmgcWxuhk=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		yaoNkm9ZcxhqudiEmHUlmW370nU=
+		oSNqgKNJv0DH2es14LM0ArttTOA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -390,7 +390,7 @@
 		</data>
 		<key>PrivateHeaders/INGhostProfile.h</key>
 		<data>
-		rVhBmIgeKunNS5+PcQhL6cJ60Io=
+		qaLUW0F0BbXl7AFxIt18JdnM2Q8=
 		</data>
 		<key>PrivateHeaders/INGlobalLightModel.h</key>
 		<data>
@@ -1064,7 +1064,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CoReePH7A4LeToKpfsZd9gNXO1KuR3p2lEUW+OIsZ4E=
+			ZC60/gDl62Kr89dkef1GrveG6kcPpDiyXy5IC/i0qaQ=
 			</data>
 		</dict>
 		<key>Headers/IndoorsCoreSDK.h</key>
@@ -1078,35 +1078,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A8obcR7zFtMhg7pT239iRCax7eoIx3s10cXS86hA0kU=
+			zk+YVr8TWF55Ayn9anPh0V6lzgER5E7uL38NB5ytxlQ=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XhcyFFwYcokz48qylY8d9IoDqyebUa9vHYwUWWKTifU=
+			qQIS4HwlOqs7//fkmQCAkv5nZcZGl9f2qKXjiuEq2as=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NOJgrlIwuxzUNrRTcDeAV8FmDhfGat6QGPpLREBkShc=
+			Lo+9d6bA7X/cwvD51ilptMXd+EE3ybi86vc4kTLo038=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XhcyFFwYcokz48qylY8d9IoDqyebUa9vHYwUWWKTifU=
+			qQIS4HwlOqs7//fkmQCAkv5nZcZGl9f2qKXjiuEq2as=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IXSzkj5THsHV/vtAg3hVtJu8lEb0MDhD+PebHrJhmrU=
+			dSxzg1QS8D5l4FQKlwMsKEsamUslHvJHfW4ngxnxWEk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1715,7 +1715,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aTS9NWAdC0X+umUDpSB8Nkup5hPVZoBLQdg7sVAFrTg=
+			t9DCDt0cOAYVnlCxgFnFGJqIcD+QJBkyGgrqZj1bVfE=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INGlobalLightModel.h</key>
