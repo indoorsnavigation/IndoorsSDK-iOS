@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		REU2F4gkyYf0msM+hhFumI/vuzs=
+		GAitlBIFLfUlGeLeWrzbENvJ8rY=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xKUOiX0nVZ4FNqTR9RmT6F9b9vE=
+		RvYRyLXkfjHMdF6eysUrszlwCNs=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2vm1UkUNgKGXTqIFFdSGVgHEuxg=
+		ZdOST6dTNqYTg+2D5nkozQFFVMc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -250,7 +250,7 @@
 		</data>
 		<key>PrivateHeaders/INColor.h</key>
 		<data>
-		8sC48JRij/XG/bl99ylOQrID1B8=
+		S/56ZD3zeEz53SYzP1j3QgmJz5Q=
 		</data>
 		<key>PrivateHeaders/INColorScheme.h</key>
 		<data>
@@ -650,7 +650,7 @@
 		</data>
 		<key>PrivateHeaders/INParser.h</key>
 		<data>
-		PGUgbjHi/9D3IBW0ZwAw9p7jx/E=
+		oaTeeu3tr2ANU/yoRjL7yXlKcJM=
 		</data>
 		<key>PrivateHeaders/INPath.h</key>
 		<data>
@@ -778,7 +778,7 @@
 		</data>
 		<key>PrivateHeaders/INService.h</key>
 		<data>
-		E1tPLQwXMMIKWpl4cjZd8TLDeFY=
+		PefR8VsbkR2gDeQ7GM5R6hZzwyA=
 		</data>
 		<key>PrivateHeaders/INServiceMessage.h</key>
 		<data>
@@ -803,6 +803,10 @@
 		<key>PrivateHeaders/INStoryGroups.h</key>
 		<data>
 		B1EG6HK+dKtbgqG76c3XnYz39Mo=
+		</data>
+		<key>PrivateHeaders/INSvgParser.h</key>
+		<data>
+		9DxEIEvzMNsnsdbW66bMWZwyImI=
 		</data>
 		<key>PrivateHeaders/INTask.h</key>
 		<data>
@@ -1040,6 +1044,26 @@
 		<data>
 		0G9sIybDduUE2AWLOg00V8i1i48=
 		</data>
+		<key>PrivateHeaders/SVGBezierPath.h</key>
+		<data>
+		mNU0lKJmLB1ca0/1au3fDcJpvew=
+		</data>
+		<key>PrivateHeaders/SVGEngine.h</key>
+		<data>
+		ME1pKSA/bgZu+5OqB6/f9zFSvQg=
+		</data>
+		<key>PrivateHeaders/SVGImageView.h</key>
+		<data>
+		6k5pPxW8pek0FlvoNlwjGG0nkbU=
+		</data>
+		<key>PrivateHeaders/SVGLayer.h</key>
+		<data>
+		BZNRhj+SfwI5TK5juPmwYAmTltc=
+		</data>
+		<key>PrivateHeaders/SVGPortability.h</key>
+		<data>
+		7kHbXBEibr+AGNPQ11we9iMcwLw=
+		</data>
 		<key>PrivateHeaders/UIColor + Random.h</key>
 		<data>
 		GJXxINpyTzz7IC3kAcvzuBRKw/M=
@@ -1056,7 +1080,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GEQ6Av/l+c36emh4DrCx/HyFNyk=
+			XlPom3wq1aP1yhJAI3oF7t3lRqc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1065,7 +1089,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			17MieLOPjc/kZh8kJKjSR3AWjUc=
+			TcznEd2zjzmp08PEAS2DcxgG4+o=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1126,7 +1150,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SN6jJLOsBW62XW/hc8/DtBZ6Jeditfm2yY5J0O4tkhQ=
+			YQmYbvlzj8LX//qASz61ma5ysLLH1XVNqBaxxaTk9A0=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -1161,7 +1185,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F2gM9q06B0WjLARhtUql5KKTszz77FpkytJ4x0QilIQ=
+			vLfGpvB0KyYvtrCmHYieTU/7P0MqnADQq5ma7Tevpt0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1490,7 +1514,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dFLfC4y59juK12VsY9jdLkZ8xsj3DNgIJHkjW8ENrg0=
+			iTtmT39BLRst/v4E5QvvkSvprlEQefVYfbDuT1MQIpk=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INColorScheme.h</key>
@@ -2190,7 +2214,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SASneiuXhSswHlZ7wHpzIt0M21HG8kvrn8YfZp2dG2s=
+			LLVczbcqjcH8MIys9BSC5GPKuT/2vL166cdpDZZ/AmY=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INPath.h</key>
@@ -2414,7 +2438,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			46qp2kmvs13Ox/paGbfbPNtTg8zS6c9MsHgvQdaYBRs=
+			ca9LLS3k360D1DG2xGtvaODeC7gam4cFVfpJCJ9WWXg=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INServiceMessage.h</key>
@@ -2457,6 +2481,13 @@
 			<key>hash2</key>
 			<data>
 			ubQnacQxSirkd4WvDp92eFZ4oozr0aCST3ESilZWXWU=
+			</data>
+		</dict>
+		<key>PrivateHeaders/INSvgParser.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3d5k6CQnCf3yS6ndJYxrmHinlBwhxrPDC6L+4jJNKHY=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INTask.h</key>
@@ -2872,6 +2903,41 @@
 			mRcCcPaxlUi9CDm4lVKXNW/yPp5cY9bohayARfuKgFc=
 			</data>
 		</dict>
+		<key>PrivateHeaders/SVGBezierPath.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XhG82V/Tqc4Jf8TgP0296EhWqRGYFb02lrc0XYiDrKU=
+			</data>
+		</dict>
+		<key>PrivateHeaders/SVGEngine.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yElRlqBIp40oDb2T0scqwuo73T+oIOa/kJuvfpERteM=
+			</data>
+		</dict>
+		<key>PrivateHeaders/SVGImageView.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9BCyF3NxRPgWf8gnzJb9QN9Ac62QSvQQQT2L1H/T/78=
+			</data>
+		</dict>
+		<key>PrivateHeaders/SVGLayer.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0enR/kXwfG8gyEZUaF4CgOXW9AM14/42U9ABbPj7dtU=
+			</data>
+		</dict>
+		<key>PrivateHeaders/SVGPortability.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RHG/eUY1Mz7Qqk3Dx112EdyYlkQs1BzyM/q8zcvzxbI=
+			</data>
+		</dict>
 		<key>PrivateHeaders/UIColor + Random.h</key>
 		<dict>
 			<key>hash2</key>
@@ -2897,7 +2963,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hr/XRYUNQ/TmPanX7u1PWjfJO9g1TsxtEosw9uU/rX8=
+			Ldn/Kr+uU1SHzqtPaYwWHR2s0lvBBRDjPsgcJfwuD6Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2906,7 +2972,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tfBolyOnB0wcNbXZuWSVoSKXXG43/7FYYzCmNgDzSm4=
+			zeVmlARxZJlmXLxvSF5zTCDDMeFtYIMjYL7T0VraER8=
 			</data>
 			<key>optional</key>
 			<true/>

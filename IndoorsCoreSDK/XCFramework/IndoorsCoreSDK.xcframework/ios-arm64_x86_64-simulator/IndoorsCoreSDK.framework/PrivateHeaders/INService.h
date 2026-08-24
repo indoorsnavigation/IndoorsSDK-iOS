@@ -319,6 +319,8 @@
 #import "INGlobalLightModel.h"
 #import "INMapStyle.h"
 
+#import "INSvgParser.h"
+
 @class INRawBeacon;
 
 @class INBuildingModel3D;

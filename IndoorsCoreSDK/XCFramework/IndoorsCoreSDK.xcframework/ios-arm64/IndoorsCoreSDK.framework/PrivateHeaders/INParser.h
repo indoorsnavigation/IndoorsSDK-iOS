@@ -11,12 +11,14 @@
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
+#import "INSvgParser.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface INParser : NSObject
 
 + (UIBezierPath *)bezierPathWithSVGString:(NSString *)svgString;
++ (UIBezierPath *)bezierPathWithSVGStringV2:(NSString *)svgString;
 + (UIBezierPath*)bezierPathForString:(NSString*)string
                             withFont:(UIFont*)font;
 

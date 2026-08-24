@@ -68,6 +68,7 @@
 
 + (UIColor*)buttonsTintColorOnMap;
 
++ (UIColor*)arButtonsBlueColor;
 
 + (UIColor *)dynamicColorWithDayTime:(UIColor *)dayColor andNightColor:(UIColor *)nightColor;
 
