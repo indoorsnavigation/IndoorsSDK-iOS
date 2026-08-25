@@ -18140,238 +18140,252 @@
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "BooleanLiteral",
-      "offset": 13543,
+      "offset": 13551,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "BooleanLiteral",
-      "offset": 13578,
+      "offset": 13590,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "BooleanLiteral",
-      "offset": 13752,
+      "offset": 13780,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "BooleanLiteral",
-      "offset": 13952,
+      "offset": 13996,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 14018,
+      "offset": 14066,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "StringLiteral",
-      "offset": 14087,
+      "offset": 14139,
       "length": 7,
       "value": "\"xmark\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 14285,
+      "offset": 14349,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 14296,
+      "offset": 14360,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "FloatLiteral",
-      "offset": 14338,
+      "offset": 14406,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 14380,
+      "offset": 14452,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "BooleanLiteral",
-      "offset": 14646,
+      "offset": 14738,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "StringLiteral",
-      "offset": 14705,
+      "offset": 14801,
       "length": 27,
       "value": "\"scan_qr_ar_to_build_route\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "StringLiteral",
-      "offset": 14737,
+      "offset": 14833,
       "length": 101,
       "value": "\"Сканируйте QR-коды\/AR-метки для\nпостроения\nмаршрута в AR\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 14940,
+      "offset": 15048,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 14989,
+      "offset": 15101,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15322,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
+      "kind": "FloatLiteral",
+      "offset": 15366,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 15221,
+      "offset": 15597,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 15232,
+      "offset": 15608,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "FloatLiteral",
-      "offset": 15271,
+      "offset": 15651,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 15310,
+      "offset": 15694,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 15646,
+      "offset": 16062,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "FloatLiteral",
-      "offset": 16037,
-      "length": 4,
-      "value": "0.85"
+      "offset": 16436,
+      "length": 3,
+      "value": "1.0"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 16242,
+      "offset": 16652,
       "length": 2,
       "value": "-8"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 16339,
+      "offset": 16753,
       "length": 2,
       "value": "-4"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 16405,
+      "offset": 16823,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 16472,
+      "offset": 16894,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 16633,
+      "offset": 17067,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 16725,
+      "offset": 17163,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 16818,
+      "offset": 17260,
       "length": 2,
       "value": "-8"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "StringLiteral",
-      "offset": 18379,
+      "offset": 18841,
       "length": 14,
       "value": "\"update queue\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 18483,
+      "offset": 18945,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 18486,
+      "offset": 18948,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 18489,
+      "offset": 18951,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "Array",
-      "offset": 18545,
+      "offset": 19007,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "Array",
-      "offset": 18667,
+      "offset": 19129,
       "length": 2,
       "value": "[]"
     },

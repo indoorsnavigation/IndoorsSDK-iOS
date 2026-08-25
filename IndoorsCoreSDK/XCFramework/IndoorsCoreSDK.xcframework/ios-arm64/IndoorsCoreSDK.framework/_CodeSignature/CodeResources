@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ddoPWIvmI2+QVoykL9rbP7t67sc=
+		4nLZl2DZ/R7w0Wnc7MuAakr70OM=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		GRdlRJ86RBISa1PtwkKwWt0UdRY=
+		HqnoERJ9cpsuLxkXU5urpLIcXX0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1130,7 +1130,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y414ontyDBvWAexOIHT0b9RncZ884klasvZpo0qdDy4=
+			paslZ3uNf+d5CzRlEDr8rx9W1pT7RxCuWlvmSTdkyhg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
