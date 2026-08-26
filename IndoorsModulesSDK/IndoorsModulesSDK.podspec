@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'IndoorsModulesSDK'
-    s.version          = '4.1.4'
+    s.version          = '4.1.5'
     s.summary          = 'IndoorsModulesSDK - SDK для дополнительных возможностей карты'
     s.description      = <<-DESC
             IndoorsModulesSDK предоставляет функционал бронирования, трекинга на карте и других возможностей.

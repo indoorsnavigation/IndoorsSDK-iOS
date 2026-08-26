@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1u/OvU9SDVKnhEaPqSIuDvDUsvY=
+		ES9+Css5PhEDXTpLozgIygdyhic=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VoZjfglM9Jt/ehguSUWMAzgKOd0=
+		9LFfNN83cDkqNLdj+vwgiGmkJxM=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QhvzcJq1or4u/kb5B8dLdcjgUcA=
+		7H9/mWwjw34CjZYbTPyemrlS8AY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1080,7 +1080,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XlPom3wq1aP1yhJAI3oF7t3lRqc=
+			MbKmoDF1l50AWCvAH7q2gvrYt2k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1089,7 +1089,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TcznEd2zjzmp08PEAS2DcxgG4+o=
+			o+DIlt+gzZIlkt/5Dwi29oEBUrs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1150,7 +1150,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UNmO1Ts0DA4Ff4iZ6yOt1vr1G/T4Enpyioi19q7UTZk=
+			3Mb5BFDcRssnCKf4LTeYSbir4wSi3L/VMbdX0GtiF6U=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -1185,7 +1185,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Adwj9/JP9rBTSZmVez5qLIc/Iw6+Agmo4MDgdj9xEMY=
+			ZvJMqF3GNwT2RaFgQx1Llbg66IcUTi9ATmW4GHfyiBs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2963,7 +2963,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ldn/Kr+uU1SHzqtPaYwWHR2s0lvBBRDjPsgcJfwuD6Q=
+			EZPaMBz10LSn6XC3Pzz7ozyBIPe8LQq2LlJTy3Egs4s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2972,7 +2972,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zeVmlARxZJlmXLxvSF5zTCDDMeFtYIMjYL7T0VraER8=
+			WgYIVpDNU52w/bbRLte4IqkhlKqVmmDHpO85vafRF48=
 			</data>
 			<key>optional</key>
 			<true/>

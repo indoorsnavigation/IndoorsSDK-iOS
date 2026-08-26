@@ -3626,6 +3626,132 @@
         "children": [
           {
             "kind": "Var",
+            "name": "initialTargetFromGlobalMapBuildingId",
+            "printedName": "initialTargetFromGlobalMapBuildingId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndoorsMapSDK@objc(cs)INARControllerNew(py)initialTargetFromGlobalMapBuildingId",
+            "mangledName": "$s13IndoorsMapSDK17INARControllerNewC023initialTargetFromGlobalB10BuildingIdSo8NSNumberCSgvp",
+            "moduleName": "IndoorsMapSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndoorsMapSDK@objc(cs)INARControllerNew(im)initialTargetFromGlobalMapBuildingId",
+                "mangledName": "$s13IndoorsMapSDK17INARControllerNewC023initialTargetFromGlobalB10BuildingIdSo8NSNumberCSgvg",
+                "moduleName": "IndoorsMapSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndoorsMapSDK@objc(cs)INARControllerNew(im)setInitialTargetFromGlobalMapBuildingId:",
+                "mangledName": "$s13IndoorsMapSDK17INARControllerNewC023initialTargetFromGlobalB10BuildingIdSo8NSNumberCSgvs",
+                "moduleName": "IndoorsMapSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13IndoorsMapSDK17INARControllerNewC023initialTargetFromGlobalB10BuildingIdSo8NSNumberCSgvM",
+                "mangledName": "$s13IndoorsMapSDK17INARControllerNewC023initialTargetFromGlobalB10BuildingIdSo8NSNumberCSgvM",
+                "moduleName": "IndoorsMapSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "initialTargetFromGlobalMap",
             "printedName": "initialTargetFromGlobalMap",
             "children": [
@@ -3655,8 +3781,7 @@
               "Custom",
               "HasStorage",
               "AccessControl",
-              "ObjC",
-              "RawDocComment"
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -18350,42 +18475,42 @@
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "StringLiteral",
-      "offset": 18841,
+      "offset": 18915,
       "length": 14,
       "value": "\"update queue\""
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 18945,
+      "offset": 19019,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 18948,
+      "offset": 19022,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "IntegerLiteral",
-      "offset": 18951,
+      "offset": 19025,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "Array",
-      "offset": 19007,
+      "offset": 19081,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/indoors\/Desktop\/indoorsiosv3\/IndoorsMapSDK\/IndoorsMapSDK\/AR\/INARController\/INARControllerNew.swift",
       "kind": "Array",
-      "offset": 19129,
+      "offset": 19246,
       "length": 2,
       "value": "[]"
     },

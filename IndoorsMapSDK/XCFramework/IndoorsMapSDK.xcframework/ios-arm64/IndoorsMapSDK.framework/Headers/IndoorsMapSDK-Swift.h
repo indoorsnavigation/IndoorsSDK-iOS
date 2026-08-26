@@ -406,12 +406,14 @@ SWIFT_CLASS("_TtC13IndoorsMapSDK11FocusSquare")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 @end
 
+@class NSNumber;
 @class INMapARPointTarget;
 @class INPathfinder;
 @class NSString;
 @class NSBundle;
 SWIFT_CLASS("_TtC13IndoorsMapSDK17INARControllerNew")
 @interface INARControllerNew : UIViewController
+@property (nonatomic, strong) NSNumber * _Nullable initialTargetFromGlobalMapBuildingId;
 @property (nonatomic, strong) INMapARPointTarget * _Nullable initialTargetFromGlobalMap;
 @property (nonatomic, weak) id <ARControllerDelegate> _Nullable delegate;
 @property (nonatomic, weak) INPathfinder * _Nullable globalMapPathFinder;
@@ -721,7 +723,6 @@ SWIFT_CLASS("_TtC13IndoorsMapSDK19INTerritoryRenderer")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSNumber;
 SWIFT_CLASS("_TtC13IndoorsMapSDK19INTrackedObjectView")
 @interface INTrackedObjectView : UIView
 - (nonnull instancetype)initWithImage:(UIImage * _Nullable)image OBJC_DESIGNATED_INITIALIZER;

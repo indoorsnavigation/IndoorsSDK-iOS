@@ -125,6 +125,7 @@ extension ARKit.ARSCNView : IndoorsMapSDK.ARSmartHitTest {
   @objc func didARCloseRouteButtonTapped()
 }
 @_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency final public class INARControllerNew : UIKit.UIViewController {
+  @objc @_Concurrency.MainActor @preconcurrency final public var initialTargetFromGlobalMapBuildingId: Foundation.NSNumber?
   @objc @_Concurrency.MainActor @preconcurrency final public var initialTargetFromGlobalMap: IndoorsCoreSDK.INMapARPointTarget? {
     @objc get
     @objc set
