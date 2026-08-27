@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ES9+Css5PhEDXTpLozgIygdyhic=
+		VYoagtvU0F/p7IVrhs2VJAECkns=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9LFfNN83cDkqNLdj+vwgiGmkJxM=
+		RvYRyLXkfjHMdF6eysUrszlwCNs=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7H9/mWwjw34CjZYbTPyemrlS8AY=
+		ZdOST6dTNqYTg+2D5nkozQFFVMc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1150,7 +1150,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Mb5BFDcRssnCKf4LTeYSbir4wSi3L/VMbdX0GtiF6U=
+			YQmYbvlzj8LX//qASz61ma5ysLLH1XVNqBaxxaTk9A0=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -1185,7 +1185,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZvJMqF3GNwT2RaFgQx1Llbg66IcUTi9ATmW4GHfyiBs=
+			vLfGpvB0KyYvtrCmHYieTU/7P0MqnADQq5ma7Tevpt0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
