@@ -31,6 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)isTool;
 - (BOOL)isExample;
 - (bool)isSameAppVersion;
+- (BOOL)isSameLanguage;
 - (BOOL)isTwoCollectionsWithSameObjects:(NSMutableArray*)list1 :(NSMutableArray*)list2;
 - (UIImage *)imageWithView:(UIView *)view;
 - (UIImage *)snapshotWithView:(UIView *)view;

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'IndoorsCoreSDK'
-  s.version          = '4.1.6'
+  s.version          = '4.1.7'
   s.summary          = 'IndoorsCoreSDK - SDK для внутренней навигации'
   s.description      = <<-DESC
     IndoorsSDK предоставляет функционал для внутренней навигации, основанную на технолггии iBeacon.

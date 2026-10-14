@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/IndoorsCoreSDK-Swift.h</key>
 		<data>
-		FqhT3hQUI63e6xgB6sSCQTaMAqc=
+		xDhMDO6R6LW11OHbqoVxZHdGbl8=
 		</data>
 		<key>Headers/IndoorsCoreSDK.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VYoagtvU0F/p7IVrhs2VJAECkns=
+		w3+x2HbY6lpD9YZygHQgboJMiek=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		l8SKldMP++SQHW9Nt71LioqPIzI=
+		snYSs14XtgltN+Fwvm+pa0o6ySU=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Sj5eTiGGfE3iZd+1WXkoTKq0Eq0=
+		sIg53QeZrTKDH5eTOMBhboaFBfE=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		l8SKldMP++SQHW9Nt71LioqPIzI=
+		snYSs14XtgltN+Fwvm+pa0o6ySU=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RvYRyLXkfjHMdF6eysUrszlwCNs=
+		xpxDVGK2PSnUMJq1rs1Qws4GnSg=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -46,19 +46,19 @@
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OHvNTDWli52Q+RinCRW1vziWLDM=
+		QcBh58ZfEwTMOvjBr8qNxIX946I=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		iqL83XDjxZk9PhiToZ93MCUfsKY=
+		dT+QknJ9mA5hUpy7Y9dMZlCF0GY=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OHvNTDWli52Q+RinCRW1vziWLDM=
+		QcBh58ZfEwTMOvjBr8qNxIX946I=
 		</data>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZdOST6dTNqYTg+2D5nkozQFFVMc=
+		PAhA4x/d/BD4ab3+8LMEx7rr4vM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -494,7 +494,7 @@
 		</data>
 		<key>PrivateHeaders/INLocalizable.h</key>
 		<data>
-		aLnULObS/N5f08mq67gcD6kk2rY=
+		eZhVapmDGkW4g0/NrDiWPpx1iy0=
 		</data>
 		<key>PrivateHeaders/INLogger.h</key>
 		<data>
@@ -930,7 +930,7 @@
 		</data>
 		<key>PrivateHeaders/INUtilities.h</key>
 		<data>
-		5RJzEtbrPTzB7d/sEPMF8POUj9I=
+		05jMDJp3kHncmelfDtKxZXckhLg=
 		</data>
 		<key>PrivateHeaders/INVector3D.h</key>
 		<data>
@@ -1076,11 +1076,38 @@
 		<data>
 		R3h4636zq8AGLvWnv4k66unZ3vA=
 		</data>
+		<key>ar.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			28yuXgf/rgkkJ70P9SaZd+9YE8c=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MbKmoDF1l50AWCvAH7q2gvrYt2k=
+			wFu67UOGW9rVayGHplx0wYyQWXs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cBUdeBs7SpCqjlTFb5XiX3+XfPU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uRKn18U3NPdBZ6SP2M82OmyKDh0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1089,7 +1116,34 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			o+DIlt+gzZIlkt/5Dwi29oEBUrs=
+			i+6VeddNbLn8i0ClcQC6zfPvXf8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>zh-HK.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			m9L0P4k7t1obNybmmEWXqQIxPj4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			X/SpJnmji8KeXtIcoSf1OJmrXT8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>zh-Hant.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sGZ1A8ME27GfI3Lu0c5h2yfyLG8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1108,7 +1162,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O726OZ3GJJeX+Y1SDkUR50ZM0VD8n1h8cM6AGiv3zIg=
+			fBrP/V1Kr1iIbI9WIWjL5NjpUi9QjGBDo/oLK8uuFps=
 			</data>
 		</dict>
 		<key>Headers/IndoorsCoreSDK.h</key>
@@ -1129,28 +1183,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b8S01ofSu8ANY0Y2PWiIcAfl/BeVhTQeWlv3IcG1hEU=
+			sEmqiObTIftY1E+mU6YrgOU2vMSXIGnP1OEQxAb06aA=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pU8aoKMh9OwQUWNhEOvvAuKHCsS8nvSVaK2HlnDjZ8s=
+			96e3H+ZGDosPY9+rvf1XeZjQSgJBQeqEyi3ymnyEcNY=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b8S01ofSu8ANY0Y2PWiIcAfl/BeVhTQeWlv3IcG1hEU=
+			sEmqiObTIftY1E+mU6YrgOU2vMSXIGnP1OEQxAb06aA=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YQmYbvlzj8LX//qASz61ma5ysLLH1XVNqBaxxaTk9A0=
+			tSjTQ3uoqsgyijZS5qNidzF+7y9E8bMNRQUJw3t8wgY=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -1164,28 +1218,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6m+uJ+0ezcORDcsKBpt91rVyk1H3ut68jSYUSwzCpU4=
+			YfUUAaEnY+QwKGGy8yVo70NPe1Cjrw/EfE0RpNh2DhM=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t0zlRum8Mshx/Yz0mGR+u7bbx30BrnUEGS2BAWqmBE0=
+			OFxVWgLNOt4YcYzogF0rcgOYY3Jin5V2DR5bjwKTR+0=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6m+uJ+0ezcORDcsKBpt91rVyk1H3ut68jSYUSwzCpU4=
+			YfUUAaEnY+QwKGGy8yVo70NPe1Cjrw/EfE0RpNh2DhM=
 			</data>
 		</dict>
 		<key>Modules/IndoorsCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vLfGpvB0KyYvtrCmHYieTU/7P0MqnADQq5ma7Tevpt0=
+			ck3cYr+XYUAIbl2rayFrWi4cuvOWRlVhK9Pi7QsMLHY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1941,7 +1995,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2yyXyEjq/qqP7yhbv5Zfp4/r7gj4yHEn8i31TLLzrTc=
+			/Y5QDvShg55LHLBpRozV0miBUPTjwiw3W/03+6Fuafs=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INLogger.h</key>
@@ -2704,7 +2758,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gs6aEb/AOOtN9d5vALJzA3tNDUfARGB4ueVzs079YDA=
+			QjtxAZIFHrx1ADxEEOtj2eesMG5fczqs+WB0flUdX5E=
 			</data>
 		</dict>
 		<key>PrivateHeaders/INVector3D.h</key>
@@ -2959,11 +3013,38 @@
 			K0eINHxMnMMY1OFHY8mpLxvaMkL+s3JSBHIpd+vG/o4=
 			</data>
 		</dict>
+		<key>ar.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IZIkuwxOOnqx0z+TDZuIk/L8ZdmiGY9IHhMTNF8HKH8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EZPaMBz10LSn6XC3Pzz7ozyBIPe8LQq2LlJTy3Egs4s=
+			l5hEB/kcgeaNU8U4hdWFwR+DBLvSE4/vexhSsUhfzws=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FC/mCaeO6FtNadLBTRhtY0r6deuETWmjC6JvmWkZYlM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GUNo7RuvnEzG/6aUKXGqWuLEXCsQAsYjPKXFOKt39R4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2972,7 +3053,34 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WgYIVpDNU52w/bbRLte4IqkhlKqVmmDHpO85vafRF48=
+			ypnBWR5Oj9d3/JxAIFU/+KUhUXI/8EI7QZ/daDEAhcY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>zh-HK.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jgmv1dIuezwmcXjRdL6NKScCAWkULsWHf/jFhB6e1AE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VRtkz1Nvu3DZ8NaogJA5xCwSHkR2UkCdMUDZryXSKFE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>zh-Hant.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			x0hcjevOvtAgJAKxaRILz9Tq2Ua21Idzz4ZmLDo8/44=
 			</data>
 			<key>optional</key>
 			<true/>
